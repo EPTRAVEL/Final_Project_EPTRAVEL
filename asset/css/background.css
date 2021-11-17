@@ -8,4 +8,5 @@ body {
     background-image: url(../images/main_background_den.png);
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
   }
