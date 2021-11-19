@@ -1,137 +1,190 @@
 .header {
-    height: 140px;
-  }
-  .logo {
-    margin: -6px 10px;
-    flex: 90;
-  }
-  .top-header {
-    display: flex;
-  }
-  .main-icon {
-    flex: 3;
-    text-align: right;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-  
-  input[type="search"] {
-    width: 7px;
-    height: 30px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 4px;
-    background-color: rgba(78, 59, 59, 0.0);
-    background-image: url("../images/ICON/search.png");
-    background-size: 30px;
-    background-position: 5px 0px;
-    background-repeat: no-repeat;
-    padding: 12px 0 12px 40px;
-    float: right;
-  
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-  }
-  
-  input[type="search"]:hover {
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url("../images/ICON/search_w.png");
-    color: white;
-    border: rgb(14, 0, 95) solid 1px;
-  }
-  
-  .like-icon input {
-    width: 40px;
-    height: 35px;
-    background-image: url("../images/ICON/heart.png");
-    background-color: rgba(127, 255, 212, 0);
-    border: none;
-    background-size: 30px;
-    background-position: 4px 0px;
-    background-repeat: no-repeat;
-    margin-left: 5px;
-  }
-  .like-icon input:hover{
-    background-image: url("../images/ICON/heart_w.png");
-    cursor: pointer;
-  }
-  .user-icon input {
-    width: 40px;
-    height: 35px;
-    background-image: url("../images/ICON/user.png");
-    background-color: rgba(127, 255, 212, 0);
-    border: none;
-    background-size: 30px;
-    background-position: 4px 0px;
-    background-repeat: no-repeat;
-    
-  }
-  .user-icon input:hover{
-    background-image: url("../images/ICON/user_w.png");
-    cursor: pointer;
-  }
-  
-  .nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  
-    width: 900px;
-    margin-top: -90px;
-    margin-left: 22vw;
-    margin-bottom: 30px;
-    text-indent: 0px;
-  }
-  ul {
-  }
-  .nav > ul {
-    height: 33px;
-    width: 800px;
-  }
-  .nav ul {
-    text-align: center;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    border-radius: 5px;
-    background-color: var(--nav_background-color);
-  
-    list-style: none;
-  }
-  
-  .nav ul li {
-    position: relative;
-    float: left;
-    padding: 0 5px;
-  
-    border-radius: 5px;
-  }
-  
-  .nav ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 0.3em 6px;
-    margin-left: 40px;
-    
-  }
-  
-  .nav li a:hover {
-    background: #86a3a7;
-    color: rgb(46, 0, 83);
-  }
-  
-  .nav li ul {
-    position: absolute;
-    display: none;
-    width: 10em;
-  }
-  
-  .nav li:hover ul {
-    display: block;
-  }
-  
-  .nav ul li ul li {
-    margin-left: -50px;
-    margin-top: 8px;
-  }
-  
+  height: 140px;
+}
+.logo {
+  margin: -6px 10px;
+  flex: 90;
+}
+.top-header {
+  display: flex;
+}
+.main-icon {
+  flex: 3;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+input[type="search"] {
+  width: 7px;
+  height: 30px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(78, 59, 59, 0);
+  background-image: url("../images/ICON/search.png");
+  background-size: 30px;
+  background-position: 5px 0px;
+  background-repeat: no-repeat;
+  padding: 12px 0 12px 40px;
+  float: right;
+
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="search"]:hover {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/ICON/search_w.png");
+  color: white;
+  border: rgb(14, 0, 95) solid 1px;
+}
+
+.like-icon input {
+  width: 40px;
+  height: 35px;
+  background-image: url("../images/ICON/heart.png");
+  background-color: rgba(127, 255, 212, 0);
+  border: none;
+  background-size: 30px;
+  background-position: 4px 0px;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.like-icon input:hover {
+  background-image: url("../images/ICON/heart_w.png");
+  cursor: pointer;
+}
+.user-icon #user-icon {
+  width: 40px;
+  height: 35px;
+  background-image: url("../images/ICON/user.png");
+  background-color: rgba(127, 255, 212, 0);
+  border: none;
+  background-size: 30px;
+  background-position: 4px 0px;
+  background-repeat: no-repeat;
+}
+.user-icon ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  position: relative;
+  list-style: none;
+  font-family: Montserrat;
+}
+#user-block {
+  display: none;
+}
+.select {
+  width: 130px;
+  height: 60px;
+  position: absolute;
+  left: -90px;
+  background-color: rgba(255, 0, 0,0);
+  z-index: 0;
+}
+.user-icon ul #user-block li {
+  float: left;
+  position: absolute;
+  left: -90px;
+  width: 120px;
+  height: 25px;
+  padding: 0 5px;
+  border-radius: 5px;
+  background-color: var(--title_background-color);
+  color: white;
+  z-index: 1;
+}
+
+.user-icon ul #user-block #dangnhap {
+  top: 40px;
+  float: left;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.user-icon ul #user-block #dangnhap:hover,
+.user-icon ul #user-block #dangki:hover {
+  background: #86a3a7;
+  color: rgb(46, 0, 83);
+  cursor: pointer;
+}
+.user-icon ul #user-block #dangki {
+  top: 70px;
+  float: left;
+  padding: 0 5px;
+
+  border-radius: 5px;
+}
+.user-icon ul #user-block #dangki a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+}
+.user-icon #user-icon:hover {
+  background-image: url("../images/ICON/user_w.png");
+  cursor: pointer;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  width: 900px;
+  margin-top: -90px;
+  margin-left: 22vw;
+  margin-bottom: 30px;
+  text-indent: 0px;
+}
+ul {
+}
+.nav > ul {
+  height: 33px;
+  width: 800px;
+}
+.nav ul {
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border-radius: 5px;
+  background-color: var(--nav_background-color);
+
+  list-style: none;
+}
+
+.nav ul li {
+  position: relative;
+  float: left;
+  padding: 0 5px;
+
+  border-radius: 5px;
+}
+
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.3em 6px;
+  margin-left: 40px;
+}
+
+.nav li a:hover {
+  background: #86a3a7;
+  color: rgb(46, 0, 83);
+}
+
+.nav li ul {
+  position: absolute;
+  display: none;
+  width: 10em;
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.nav ul li ul li {
+  margin-left: -50px;
+  margin-top: 8px;
+}

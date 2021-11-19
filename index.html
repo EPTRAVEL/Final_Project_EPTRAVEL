@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="asset/css/header.css">
     <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="asset/css/footer.css">
-
+    <link rel="stylesheet" href="asset/css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="asset/javascrip/header.js"></script>
 </head>
 
 <body>
@@ -32,10 +34,22 @@
                     </form>
                 </div>
                 <div class="like-icon main-icon">
-                    <input type="button">
+                    <input type="button" >
                 </div>
                 <div class="user-icon main-icon">
-                    <input type="button">
+                    <ul list-style="none"><input type="button" id="user-icon" onmouseover="user_block_open()"  onclick="user_block_close()">
+                        <div  class=""  id="user-block">
+                            <li  id="dangnhap" onmouseover="user_block_open()"  onclick="document.getElementById('modal__container').style.display='flex'">
+                               <span>Đăng nhập</span>
+                               <i class="fas fa-sign-in-alt"></i>                       
+                            </li>
+                            <li onmouseover="user_block_open()" id="dangki">
+                                <a href="">Đăng ký</a>
+                                <i class="fas fa-users"></i>
+                            </li>
+                            <div class="select" onmouseout="user_block_close()"></div>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -173,6 +187,21 @@
                 </div>
             </div>
         </div>
+
+        <!-- modal layout -->
+        <div class="modal" id="modal__container">
+            <div class="modal__overlay" onclick="document.getElementById('modal__container').style.display='none'">
+
+            </div>
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <input type="button" value="X"
+                        onclick="document.getElementById('modal__container').style.display='none'" id="close">
+                    <!-- login  -->
+                </div>
+            </div>
+        </div>
+
 
 
 
