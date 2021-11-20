@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPTRAVEL</title>
+    <!-- Chèn font -->
+    <link rel="stylesheet" href="asset/css/font.css">
+    <link rel="stylesheet" href="asset/css/color.css">
+    <link rel="stylesheet" href="asset/css/text_style.css">
+    <link rel="stylesheet" href="asset/css/header.css">
+    <link rel="stylesheet" href="asset/css/background.css">
+    <link rel="stylesheet" href="asset/css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="asset/javascrip/header.js"></script>
+</head>
+
+<body>
+    <div class="container"   style="position: fixed; top: 0;box-shadow: 0px 1px 20px rgba(39, 39, 39,0.6); z-index: 10; ">
+       
+        <div class="header">
+            <div class="top-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="asset/images/logo/logo.png" alt="Error" width="200px">
+                    </a>
+                </div>
+                <div class=" search-icon main-icon">
+                    <form>
+                        <input class="search-bar_text-style" type="search" name="search" placeholder="Search..">
+                    </form>
+                </div>
+                <div class="like-icon main-icon">
+                    <input type="button">
+                </div>
+                <div class="user-icon main-icon">
+                    <ul list-style="none"><input type="button" id="user-icon" onmouseover="user_block_open()"
+                            onclick="user_block()">
+                        <div class="" id="user-block">
+                            <li id="dangnhap" onmouseover="user_block_open()"
+                                onclick="document.getElementById('modal__container').style.display='flex'">
+                                <span>Đăng nhập</span>
+                                <i class="fas fa-sign-in-alt"></i>
+                            </li>
+                            <li onmouseenter="document.getElementById('dk_a').style.color ='rgb(46, 0, 83);'"
+                                onmouseover="user_block_open()" id="dangki">
+                                <a id="dk_a" href="">Đăng ký</a>
+                                <i class="fas fa-users"></i>
+                            </li>
+                            <div class="select" onmouseout="user_block_close()"></div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav ">
+            <ul>
+                <li> <a class="nav_text-style" href="#">Trang chủ</a></li>
+                <li> <a class="nav_text-style" href="#">Tour du lịch</a>
+                    <ul>
+                        <li> <a class="nav_text-style" href="#">Tour trong nước</a>
+                        <li> <a class="nav_text-style" href="#">Tour ngoài nước</a>
+                    </ul>
+                </li>
+                <li> <a class="nav_text-style" href="#">Khuyến mãi</a></li>
+                <li> <a class="nav_text-style" href="#">Tin tức</a></li>
+                <li> <a class="nav_text-style" href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+
+
+        <!-- modal layout -->
+        <div class="modal" id="modal__container">
+            <div class="modal__overlay" onclick="document.getElementById('modal__container').style.display='none'">
+
+            </div>
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <input type="button" value="X"
+                        onclick="document.getElementById('modal__container').style.display='none'" id="close">
+                    <!-- login  -->
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
