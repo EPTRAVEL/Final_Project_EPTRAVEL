@@ -25,10 +25,34 @@
   --growth-from: 0.6;
   --growth-to: 1;
   margin: 10vh auto;
-  width: 500px;
+  width: 420px;
   height: 600px;
   background-color: rgb(255, 255, 255);
   animation: growth linear 0.2s;
   border-radius: 5px;
   z-index: 2;
+  box-shadow: 0px 1px 20px rgba(39, 39, 39,0.6);
+}
+.login {
+  text-align: center;
+}
+.login>input{
+  float: right
+}
+.login h3{
+   margin-block-start: 0; 
+   margin-top: -20px;
+}
+.login form{
+  
+  padding: 15px 50px;
+}
+#taikhoan,#matkhau, .lbl_login{
+  float: left;
+}
+#linktoQuenmk, #linktoHelp{
+  float: right;
+}
+#btnDangnhap, #linktoDangki, .hoac, #gg_link-icon, #fb_link-icon, #tw_link-icon{
+  
 }

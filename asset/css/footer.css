@@ -1,13 +1,14 @@
 .footer{
     display: flex;
     
-    height: 300px;
+    
     background-color:var(--footer_background-color);
     float: bottom;
     padding: 10px 20px 0 20px;
+    
 }
 .footer__flex--item{
-    flex: 1;
+    flex:1;
     margin-left: 20px;
 }
 .mxhlogo{
@@ -15,4 +16,9 @@
 }
 .mxhlogo > div:last-child{
     margin-left: 20px;
+}
+@media screen  and (max-width: 800px) {
+    .footer{
+        flex-wrap: wrap;
+    }
 }

@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <div class="container"   style="position: fixed; top: 0;box-shadow: 0px 1px 20px rgba(39, 39, 39,0.6); z-index: 10; ">
-       
+    <div class="container" style="position: fixed; top: 0;box-shadow: 0px 1px 20px rgba(39, 39, 39,0.6); z-index: 10; ">
+
         <div class="header">
             <div class="top-header">
                 <div class="logo">
@@ -40,7 +40,7 @@
                             onclick="user_block()">
                         <div class="" id="user-block">
                             <li id="dangnhap" onmouseover="user_block_open()"
-                                onclick="document.getElementById('modal__container').style.display='flex'">
+                                onclick="document.getElementById('modal__container').style.display='flex';user_block_close()">
                                 <span>Đăng nhập</span>
                                 <i class="fas fa-sign-in-alt"></i>
                             </li>
@@ -79,10 +79,43 @@
             </div>
             <div class="modal__body">
                 <div class="modal__inner">
-                    <input type="button" value="X"
-                        onclick="document.getElementById('modal__container').style.display='none'" id="close">
                     <!-- login  -->
-                   
+                    <div class="login">
+                        <input type="button" value="X"
+                            onclick="document.getElementById('modal__container').style.display='none'" id="close">
+                        <div style="text-align: center;"><img  src="asset/images/logo/logo.png" width="250px" alt="
+                            error"></div>
+                        <h3>Đăng nhập</h3>
+                        <form action="">
+                            <label class="lbl_login" for="taikhoan">Tài khoản <span style="color:red">*</span></label>
+                            
+                            <br>
+                            <input type="text" id="taikhoan">
+                            <br>
+                            <br>
+                            
+                            <label class="lbl_login" for="matkhau">Mật khẩu <span style="color:red">*</span></label>
+                            
+                            <br>
+                            <input type="text" id="matkhau">
+                            <br>
+                            <br>
+                            <label for=""><a id="linktoQuenmk" href="">Quên mật khẩu</a></label>
+                            <br>
+                            <input type="button" value="Đăng nhập" id="btnDangnhap">
+                            <br>
+                            <label for=""><a id="linktoDangki" href="Dangki.html">Tạo tài khoản mới</a></label>
+                            <br>
+                            <label for="" class="hoac" >Hoặc</label>
+                            <br>
+                            <input type="button" value="FB" id="fb_link-icon">
+                            <input type="button" value="FB" id="fb_link-icon">
+                            <input type="button" value="FB" id="fb_link-icon">
+                            <br>
+                            <label for=""><a id="linktoHelp" href="">help</a></label>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
