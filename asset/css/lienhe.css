@@ -1,0 +1,75 @@
+.lienhe-content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 ;
+}
+.lienhe--title{
+    background-color: var( --title_background-color);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    height: 30px; 
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    font-family: Fester_Bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.lienhe--admin-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.lienhe--admin{
+    background-color: var(  --item_background-color);
+    height: 250px;
+    width: 190px;
+    margin: 10px;
+}
+.lienhe--contact-box{
+    background-color: var(  --item_background-color);
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px 0;
+}
+.lienhe__form-layout{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.lienhe--item-left{
+    flex: 1;
+    text-align: left;
+    margin: 5px ;
+}
+.lienhe--item-right{
+    flex: 2;
+    text-align: left;
+    margin: 5px;
+}
+.lienhe__label{
+    font-family: Montserrat;
+    font-size: 17px;
+}
+.lienhe__label span{
+    color: red;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.lienhe__input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+.lienhe__button-box{
+    text-align: right;
+    margin: 20px 10px;
+}
+.lienhe__button{
+    font-family: Fester_Bold;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
