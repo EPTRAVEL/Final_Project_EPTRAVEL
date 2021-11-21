@@ -83,9 +83,9 @@
                     <div class="login">
                         <input type="button" value="X"
                             onclick="document.getElementById('modal__container').style.display='none'" id="close">
-                        <div style="text-align: center;"><img  src="asset/images/logo/logo.png" width="250px" alt="
+                        <div style="text-align: center;padding-left: 50px;"><img style="" src="asset/images/logo/logo.png" width="250px" alt="
                             error"></div>
-                        <h3>Đăng nhập</h3>
+                        <h3 style="font-family: Fester_Bold; font-size: 25px;">Đăng nhập</h3>
                         <form action="">
                             <label class="lbl_login" for="taikhoan">Tài khoản <span style="color:red">*</span></label>
                             
@@ -93,24 +93,32 @@
                             <input type="text" id="taikhoan">
                             <br>
                             <br>
+                            <br>
+                            
                             
                             <label class="lbl_login" for="matkhau">Mật khẩu <span style="color:red">*</span></label>
                             
                             <br>
-                            <input type="text" id="matkhau">
+                            <input type="password" id="matkhau">
+                            <br>
                             <br>
                             <br>
                             <label for=""><a id="linktoQuenmk" href="">Quên mật khẩu</a></label>
                             <br>
-                            <input type="button" value="Đăng nhập" id="btnDangnhap">
+                            <br>
+                            <input type="button" style="font-family: sans-serif; font-weight: normal;" value="Đăng nhập" id="btnDangnhap">
+                            <br>
                             <br>
                             <label for=""><a id="linktoDangki" href="Dangki.html">Tạo tài khoản mới</a></label>
                             <br>
-                            <label for="" class="hoac" >Hoặc</label>
                             <br>
-                            <input type="button" value="FB" id="fb_link-icon">
-                            <input type="button" value="FB" id="fb_link-icon">
-                            <input type="button" value="FB" id="fb_link-icon">
+                            <label for="" class="hoac" style="font-size: 14px; color: rgb(102, 102, 102)" >Hoặc</label>
+                            <br>
+                            <br>
+                            <input type="button" id="gg_link-icon">
+                            <input type="button" id="fb_link-icon">
+                            <input type="button" id="tw_link-icon">
+                            <br>
                             <br>
                             <label for=""><a id="linktoHelp" href="">help</a></label>
                         </form>

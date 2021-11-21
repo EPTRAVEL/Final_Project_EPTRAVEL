@@ -1,7 +1,5 @@
 .header {
   height: 130px;
-  
-  
 }
 .logo {
   margin: -6px 10px;
@@ -155,7 +153,6 @@ ul {
   margin-block-end: 0;
   border-radius: 5px;
   background-color: var(--nav_background-color);
-  
   list-style: none;
 }
 
@@ -163,7 +160,6 @@ ul {
   position: relative;
   float: left;
   padding: 0 5px;
-
   border-radius: 5px;
 }
 
