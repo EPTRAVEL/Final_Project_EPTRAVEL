@@ -58,16 +58,28 @@
 
         <div class="nav ">
             <ul>
-                <li> <a class="nav_text-style" href="#">Trang chủ</a></li>
-                <li> <a class="nav_text-style" href="#">Tour du lịch</a>
+                <li> <a class="nav_text-style" href="index.html">Trang chủ</a></li>
+                <li> <a class="nav_text-style" href="tourdulich.html">Tour du lịch</a>
                     <ul>
-                        <li> <a class="nav_text-style" href="#">Tour trong nước</a>
-                        <li> <a class="nav_text-style" href="#">Tour ngoài nước</a>
+                        <li onmouseenter="document.getElementById('nav_trongnuoc').style.display='block';" onmouseleave="document.getElementById('nav_trongnuoc').style.display='none';"> <a class="nav_text-style" href="#">Tour trong nước</a>
+                            <ul id="nav_trongnuoc">
+                                <li><a href="">Miền Bắc</a> </li>
+                                <li><a href="">Miền Trung</a> </li>
+                                <li><a href="">Miền Nam</a> </li>
+                            </ul>
+                        </li>
+                        <li onmouseenter="document.getElementById('nav_ngoainuoc').style.display='block';" onmouseleave="document.getElementById('nav_ngoainuoc').style.display='none';"> <a class="nav_text-style" href="#">Tour ngoài nước</a>
+                            <ul id="nav_ngoainuoc">
+                                <li><a href="">Châu Á</a> </li>
+                                <li><a href="">Châu Âu</a> </li>
+                                <li><a href="">Châu Mỹ</a> </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
-                <li> <a class="nav_text-style" href="#">Khuyến mãi</a></li>
-                <li> <a class="nav_text-style" href="#">Tin tức</a></li>
-                <li> <a class="nav_text-style" href="#">Liên hệ</a></li>
+                <li> <a class="nav_text-style" href="khuyenmai.html">Khuyến mãi</a></li>
+                <li> <a class="nav_text-style" href="tintuc.html">Tin tức</a></li>
+                <li> <a class="nav_text-style" href="lienhe.html">Liên hệ</a></li>
             </ul>
         </div>
 
@@ -119,7 +131,7 @@
                             <input type="button" id="fb_link-icon">
                             <input type="button" id="tw_link-icon">
                             <br>
-                            <br>
+                            
                             <label for=""><a id="linktoHelp" href="">help</a></label>
                         </form>
                     </div>

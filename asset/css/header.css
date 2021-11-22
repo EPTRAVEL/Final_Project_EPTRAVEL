@@ -1,5 +1,5 @@
 .header {
-  height: 130px;
+  height: 140px;
 }
 .logo {
   margin: -6px 10px;
@@ -189,4 +189,41 @@ ul {
 .nav ul li ul li {
   margin-left: -50px;
   margin-top: 8px;
+}
+.nav ul li ul li ul{
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border-radius: 5px;
+  background-color: var(--nav_background-color);
+  list-style: none;
+  position: absolute;
+  
+ 
+}
+.nav ul li ul li #nav_trongnuoc{
+  left: 230px;
+  top: 0px;
+  width: 100px;
+  display: none;
+}
+.nav ul li ul li #nav_ngoainuoc{
+  left: 230px;
+  top: 10px;
+  width: 85px;
+  display: none;
+}
+.nav ul li ul li ul li{
+  position: relative;
+  float: left;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.nav ul li ul li ul li a{
+  display: block;
+  text-decoration: none;
+  padding: 0.3em 6px;
+  margin-left: 50px;
+  font-family: Fester_Bold;
+  color: white;
 }
