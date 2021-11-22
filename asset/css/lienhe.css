@@ -66,10 +66,17 @@
 .lienhe__button-box{
     text-align: right;
     margin: 20px 10px;
+    
 }
 .lienhe__button{
     font-family: Fester_Bold;
     font-size: 20px;
     width: 100px;
     height: 40px;
+    background-color: var(--login-button);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    line-height: 46px;
+    text-align: center;
 }
