@@ -1,0 +1,30 @@
+.khuyenmai-content{
+    height: 100%;
+}
+.khuyenmai_row{
+display: flex;
+justify-content: center;
+}
+.khuyenmai_tour--item{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: -20px;
+    justify-content: center;
+}
+.kmtour_SP{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 450px;
+    display: flex;
+}
+.tour--background{
+    background-color: var(--item_background-color);
+    height: 30px;
+}
