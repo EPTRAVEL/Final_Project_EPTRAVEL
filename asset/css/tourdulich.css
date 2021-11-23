@@ -49,6 +49,9 @@
     height: 400px;
 
 }
+.tour-item{
+    transform: scale(1.2);
+}
 .tour-item__image{
     height: 180px;
 }

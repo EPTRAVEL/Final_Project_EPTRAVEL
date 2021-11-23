@@ -1,0 +1,42 @@
+.chitiettour-content{
+    margin: 0 6%;
+}
+.container-x1, .tour--detail, .row--lichtrinh{
+    background-color: var(--item_background-color);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row--lichtrinh>h3{
+    text-align: center;
+    margin-top: 0;
+}
+.row--tour{
+    display: flex;
+    justify-content: space-between;
+}
+.short-rating{
+    display: flex;
+}
+.rating{
+    border-radius: 5px;
+    border: white;
+    background-color: red;
+    padding: 8px;
+    margin-right: 10px;
+}
+.row--tour__right{
+    display: flex;
+}
+.tour-item__price--addcart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn-book, .btn-block{
+    transform: scale(1.1);
+}
+.btn:hover{
+    cursor: pointer;
+}
