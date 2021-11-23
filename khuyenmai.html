@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPTRAVEL_................................................................</title>
+    <title>EPTRAVEL_KHUYENMAI</title>
     <!-- Chèn font -->
     <link rel="stylesheet" href="asset/css/font.css">
     <link rel="stylesheet" href="asset/css/color.css">
     <link rel="stylesheet" href="asset/css/text_style.css">
-    <link rel="stylesheet" href="asset/css/background.css"> 
+    <link rel="stylesheet" href="asset/css/background.css">
+    <link rel="stylesheet" href="./asset/css/khuyenmai.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
 
@@ -17,32 +19,96 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!-- Link css -->
-
+<script>
+   
+</script>
 </head>
 
 <body>
     <div class="container">
-       <!--load header -->
-       <div w3-include-html="header.html"></div>
+        <!--load header -->
+        <div w3-include-html="header.html"></div>
+        <div class="khuyenmai-content" style="margin-top: 10px;">
+            <!-- Bỏ nội dung vô đây -->
+            <div class="slider-one">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="" alt="error">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="error">
+                    </div>
+                    <div class="slide">
+                        <img src="" alt="error">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 3) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+            <div class="khuyenmai_row">
+                <div class="khuyenmai_tour--item">
+                        <div class="home--title--item">TOUR TRONG NƯỚC</div>
+                </div>
+            </div>
+            <div class="khuyenmai_row" >
+                <div class="kmtour_SP">
+                    </div>
+            </div>
+            <div class="khuyenmai_row">
+                <div class="khuyenmai_tour--item">
+                    <div class="home--title--item">TOUR QUỐC TẾ</div>
+                </div>
+            </div>
+            <div class="khuyenmai_row">
+                <div class="kmtour_SP">
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- load footer -->
+            <div w3-include-html="footer.html"></div>
+
+            <!-- gọi thư viện -->
+            <script>
+                w3.includeHTML();
+            </script>
 
 
-        <div class="...-content" style="margin-top: 10px;">
-           <!-- Bỏ nội dung vô đây -->
+
 
         </div>
-        
-        <!-- load footer -->
-        <div w3-include-html="footer.html"></div>
-
-        <!-- gọi thư viện -->
-        <script>
-            w3.includeHTML();
-        </script>
-    
-
-
-
-    </div>
 </body>
 
 </html>
