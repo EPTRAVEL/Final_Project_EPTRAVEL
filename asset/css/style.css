@@ -1,9 +1,10 @@
 .home-content{
  height: 2600px;
+ margin-bottom: 20px;
 }
 
 .slider-one, .slider-three,.home__tintuc, .home__tour, .home__hot-tour{
-    width: 90%;
+    width: 95vw;
     margin: 0 auto 30px ;
 }
 
@@ -185,7 +186,8 @@
 .home__hot-tour--title{
     text-align: center;
     line-height: 36px;
-    
+    font-family: Fester_Bold;
+    color: white;
     height: 30px;
     margin: 20px 0;
     background-color: var(--title_background-color);
