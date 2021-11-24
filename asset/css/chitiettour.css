@@ -25,7 +25,7 @@
     padding: 8px;
     margin-right: 10px;
 }
-.row--tour__right{
+.row--tour__right, .overviewtour--content {
     display: flex;
 }
 .tour-item__price--addcart{
@@ -39,4 +39,50 @@
 }
 .btn:hover{
     cursor: pointer;
+}
+.tour--img__first{
+    flex: 1.5;
+    height: 400px;
+    margin-right: 10px;
+}
+.tour--img__last{
+    flex: 1;
+    height: 400px;
+}
+.tour--img{
+    display: flex;
+    height: 48.7%;
+}
+.img{
+    flex: 1;
+}
+#img-tour{
+    width: 100%;
+    height: 100%;
+}
+.motatour--content{
+    padding: 10px 0;
+}
+.box-order{
+    flex: 1.8;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.calendar-box{
+    background-color: rgb(107, 107, 245);
+    width: fit-content;
+    padding: 5px;
+    margin: 12px;
+    border-radius: 5px;
+}
+.calendar-box>label>a{
+    color: white;
+}
+.box-diemthamquan{
+    flex: 1;
+    padding-right: 10px;
+}
+.row--tour img{
+    border-radius: 5px;
 }

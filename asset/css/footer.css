@@ -22,3 +22,9 @@
         flex-wrap: wrap;
     }
 }
+.logo_cntt{
+    display: flex;
+}
+.logo_cntt img{
+    margin: 0 5px 10px 5px;
+}
