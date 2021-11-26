@@ -198,7 +198,7 @@
   border-radius: 5px;
 }
 .ttqt--item-right{
-  
+  position: relative;
 }
 .ttqt--item-right .title{
   margin-block-start: 0;
@@ -207,7 +207,10 @@
 .ttqt--item-right .date{
   margin-block-start: 0;
   margin-block-end: 0;
-  float: right;
+  /* position: absolute;
+  top: 50px; */
+  
+  
   
 }
 .home__tour{
