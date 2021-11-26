@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/color.css">
     <link rel="stylesheet" href="asset/css/text_style.css">
-    <link rel="stylesheet" href="asset/css/background.css"> 
+    <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
 
@@ -20,8 +21,8 @@
 
 <body>
     <div class="container">
-       <!--load header -->
-       <div w3-include-html="header.html"></div>
+        <!--load header -->
+        <div w3-include-html="header.html"></div>
 
 
         <div class="home-content" style="margin-top: 10px;">
@@ -90,8 +91,23 @@
 
                     </div>
                 </div>
-                <div class="home__tintuc-quantam">
-
+                <div class="home__tintuc-quantam" id="idneee">
+                    <h3>Tin tức được quan tâm nhiều nhất</h3>
+<!-- 
+                    <div class="tintuc-quantam__body" id="">
+                        <div class="ttqt--row">
+                            <div class="ttqt--item ttqt--item-left">
+                                <div style="text-align:left"><img
+                                        src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg"
+                                        alt="Error" width="150px"></div>
+                            </div>
+                            <div class="ttqt--item ttqt--item-right">
+                                <h4 class="title">ABBYZ</h4>
+                                <h4 class="date">20/11</h4>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div id="idneee"></div> -->
                 </div>
             </div>
 
@@ -101,7 +117,7 @@
 
             <div class="home__hot-tour">
                 <div class="home__hot-tour--title">
-                    <p >Các tour hot nhất hiện nay</p>
+                    <p>Các tour hot nhất hiện nay</p>
                 </div>
                 <div class="home__hot-tour--item">
 
@@ -109,15 +125,43 @@
             </div>
 
         </div>
-        
+
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
         <!-- gọi thư viện -->
         <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "asset/data/tour.json";
+
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    myFunction(myArr);
+                }
+            }
+            xmlhttp.open("GET", url, true);//ra lệnh
+            xmlhttp.send();//thực hiênn
+
+            function myFunction(arr) {
+                // var div = "<div class='tintuc-quantam__body'>";
+                var div = " <h3>Tin tức được quan tâm nhiều nhất</h3><div class='tintuc-quantam__body'> akhoa";
+                var i;
+
+                for (i = 0; i < arr.length; i++) {
+                    div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='" + arr[i].link_img1 + "' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].ten_tour + "</h4><h4 class='date'>" + arr[i].ngayviettin + "</h4></div></div>";
+                }
+                div += '</div>';
+
+                document.getElementById("idneee").innerHTML = div;
+
+            }
+
+
+
             w3.includeHTML();
         </script>
-    
+
 
 
 
