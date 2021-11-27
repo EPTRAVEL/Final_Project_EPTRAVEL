@@ -15,7 +15,7 @@
 .btn-book{
     background-color: red;
 }
-.btn-book>a>label{
+.btn-book a{
     color: white;
 }
 .btn-block{
@@ -27,6 +27,8 @@
     height: 12px;
 }
 .yeuthich{
+    background-color: none;
+    border: none;
     margin-top: 10px;
 }
 a{

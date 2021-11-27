@@ -25,6 +25,9 @@
     padding: 8px;
     margin-right: 10px;
 }
+.rating>label{
+    color: white;
+}
 .row--tour__right, .overviewtour--content {
     display: flex;
 }
@@ -37,7 +40,7 @@
 .btn-book, .btn-block{
     transform: scale(1.1);
 }
-.btn:hover{
+.btn:hover, label:hover{
     cursor: pointer;
 }
 .tour--img__first{
