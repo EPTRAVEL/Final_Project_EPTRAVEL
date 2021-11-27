@@ -1,0 +1,103 @@
+.tintuc-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.tintuc-title {
+    background-color: var(--title_background-color);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    height: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    font-family: Fester_Bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.tintuc-main-box {
+    background-color: var(--item_background-color);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tintuc-main-box__left {
+    width: 55%;
+    margin: 20px;
+}
+
+.tintuc-main-box__right {
+    width: 45%;
+    margin: 20px;
+}
+
+.tintuc-left-img {
+    border-radius: 10px;
+    height: 450px;
+    width: 700px;
+}
+
+.tintuc-font-big-header {
+    font-family: Fester_Bold;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #0C4A6D;
+}
+
+.tintuc-box {
+    background-color: var(--item_background-color);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tintuc-main-box-right__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.tintuc-right-img {
+    border-radius: 10px;
+    height: 134px;
+    width: 250px;
+}
+
+.tintuc-font-medium-header {
+    font-family: Fester_Bold;
+    font-size: 20px;
+    color: #0C4A6D;
+}
+
+.tintuc-style-day-written {
+    font-family: Fester_bold;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.tintuc-bottom-img {
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+}
+
+.tintuc-box-item__left {
+    margin: 20px;
+}
+
+.tintuc-box-item__right {
+    margin: 20px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: x-large;
+}
