@@ -3,8 +3,51 @@
     margin: 0 auto;
     padding: 10px 0 ;
 }
-.yeuthich__chucnang{
+.yeuthich__chucnang1{
     display: flex;
-    width: 30px;
+    height: 80px;
+    margin: 20px 0 ;
+    background-color: lightblue;
 }
-.yeuthich--sapxep-box
+.yeuthich-sapxep{
+    flex: 1;
+    margin:  15px 10px 15px 0;
+    background-color:chartreuse;
+    
+}
+.yeuthich-timkiem{
+    flex: 3;
+    width: 50%;
+    margin: 15px 0 15px 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+.yeuthich-search{
+    color: black;
+    font-family: Montserrat;
+    font-size: 17px;
+    width: 94%;
+    height: 20px;
+    background-image: url("../images/ICON/search.png");
+    background-size: 30px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    float: right;
+    border: none;
+    margin: 3px;
+}
+.yeuthich-tourbox{
+    height: 500px;
+    margin: 10px 0 ;
+    background-color: lightblue;
+}
+.yeuthich__chucnang2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    float: bottom;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
