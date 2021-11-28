@@ -1,0 +1,169 @@
+html,
+body {
+    font-family: text-regular;
+}
+
+.thanhtoan-content {
+    height: 650px;
+    width: 700px;
+    margin: 0px auto;
+    padding: 20px 40px;
+    background-color: var( --item_background-color);
+}
+
+.thanhtoan-content__thongtintour {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.thanhtoan-content__thongtintour--image {
+    background-image: url(../images/IMAGE/dai-duong-trong-xanh-hinh-nen-1920x1080_48.jpg );
+    width: 50%;
+    height: 100%;
+}
+
+.thanhtoan-content__thongtintour--noidung {
+    width: 50%;
+    margin-left: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.space {
+    height: 40px;
+}
+
+#thanhtoan-tieude {
+    text-align: center;
+    font-family: Fester_Bold;
+    src: url(../font/Fester_Bold.otf);
+}
+
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 10px;
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: #333;
+    flex-grow: 1;
+}
+
+.text-divider::before {
+    width: 10px;
+}
+
+.text-divider::after {
+    width: 500px;
+}
+
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+}
+
+.thanhtoan-content__hanhkhach {
+    border: 1px solid black;
+    border-top: none;
+    margin-top: -52px;
+}
+
+.thanhtoan-content__hanhkhach--thongtin {
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.loaihanhkhach {
+    min-width: 570px;
+}
+
+.nguoilon {
+    margin-top: 20px;
+}
+
+.soluongxgia {
+    margin-right: 20px;
+}
+
+.phuthu {
+    min-width: 620px;
+}
+
+.magiamgia {
+    min-width: 490px;
+}
+
+.button-apdung {
+    background-color: #5DA9DD;
+    color: white;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 5px;
+}
+
+.hr {
+    border: 1px solid rgb(61, 60, 60);
+    width: 600px;
+    margin: 20px auto;
+}
+
+.thanhtoan-content__hanhkhach--phuongthucthanhtoan {
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.phuongthucthanhtoan {
+    min-width: 500px;
+}
+
+.chonphuongthuc {
+    background-color: #5DA9DD;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.tongcong {
+    margin-left: 20px;
+}
+
+.thanhtoan-content__button-datngay {
+    align-items: center;
+    display: flex;
+}
+
+.button-datngay {
+    background-color: #D74848;
+    color: white;
+    font-family: Fester_Bold;
+    src: url(../font/Fester_Bold.otf);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 20px auto;
+}

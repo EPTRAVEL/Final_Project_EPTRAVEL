@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPTRAVEL_................................................................</title>
+    <title>EPTRAVEL_THANHTOAN</title>
     <!-- Chèn font -->
     <link rel="stylesheet" href="asset/css/font.css">
     <link rel="stylesheet" href="asset/css/color.css">
     <link rel="stylesheet" href="asset/css/text_style.css">
-    <link rel="stylesheet" href="asset/css/background.css"> 
+    <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
 
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-
+    <link rel="stylesheet" href="./asset/css/thanhtoan.css">
     <!-- Link css -->
 
 </head>
 
 <body>
     <div class="container">
-       <!--load header -->
-       <div w3-include-html="header.html"></div>
+        <!--load header -->
+        <div w3-include-html="header.html"></div>
+        <div class="space"></div>
 
+        <div class="thanhtoan-content" style="margin-top: 100px;">
 
-        <div class="...-content" style="margin-top: 10px;">
-           <!-- Bỏ nội dung vô đây -->
+            <div class="thanhtoan-content__thongtintour">
+                <div class="thanhtoan-content__thongtintour--image">
+                </div>
+                <div class="thanhtoan-content__thongtintour--noidung">
+                    <div><a href="https://www.google.com.vn/?hl=vi">Đánh giá KH</a> </div>
+                    <br>
+                    <div><a href="https://www.google.com.vn/?hl=vi">Liên Tuyến Brunei - Nhật Bản</a></div>
+                    <br>
+                    <div>
+                        <label>Mã tour:</label>
+                        <a href="https://www.google.com.vn/?hl=vi">FFFFFF</a>
+                        <br>
+                        <label>Thời gian:</label>
+                        <a href="https://www.google.com.vn/?hl=vi">4 ngày 3 đêm</a>
+                        <br>
+                        <label>Nơi khởi hành:</label>
+                        <a href="https://www.google.com.vn/?hl=vi">TP Hồ Chí Minh</a>
+                        <br>
+                        <label>Ngày khởi hành:</label>
+                        <a href="https://www.google.com.vn/?hl=vi">12/2/2022</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-divider">
+                <h3 id="thanhtoan-tieude">Hành khách</h3>
+            </div>
+            <div class="thanhtoan-content__hanhkhach">
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="loaihanhkhach nguoilon">Người lớn:</label>
+                    <div class="soluongxgia nguoilon">
+                        <span class="soluong">0000</span>
+                        <span>x</span>
+                        <span class="gia">0000</span>
+                    </div>
+                </div>
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="loaihanhkhach">Trẻ em:</label>
+                    <div class="soluongxgia">
+                        <span class="soluong">0000</span>
+                        <span>x</span>
+                        <span class="gia">0000</span>
+                    </div>
+                </div>
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="loaihanhkhach">Trẻ nhỏ:</label>
+                    <div class="soluongxgia">
+                        <span class="soluong">0000</span>
+                        <span>x</span>
+                        <span class="gia">0000</span>
+                    </div>
+                </div>
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="loaihanhkhach">Em bé:</label>
+                    <div class="soluongxgia">
+                        <span class="soluong">0000</span>
+                        <span>x</span>
+                        <span class="gia">0000</span>
+                    </div>
+                </div>
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="phuthu">Phụ thu phòng riêng:</label>
+                    <div class="giathuphong">
+                        <span class="gia">0000</span>
+                    </div>
+                </div>
+                <div class="thanhtoan-content__hanhkhach--thongtin">
+                    <label class="magiamgia">Mã giảm giá:</label>
+                    <div class="apdungmagiamgia">
+                        <label>Thêm mã</label>
+                        <button class="button-apdung">Áp dụng</button>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <p class="tongcong">Tổng cộng</p>
+                <div class="thanhtoan-content__hanhkhach--phuongthucthanhtoan">
+                    <label class="phuongthucthanhtoan">Phương thức thanh toán:</label>
+                    <div>
+                        <select class="chonphuongthuc" id="phuongthuc">
+                        <option value="" hidden>Chọn phương thức</option>
+                        <option value="thenganhang">Thẻ ngân hàng</option>
+                        <option  value="momo">Momo</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
 
+            <div class="thanhtoan-content__button-datngay">
+                <button class="button-datngay">Đặt ngay</button>
+            </div>
         </div>
-        
+        <div class="space"></div>
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
@@ -38,7 +127,7 @@
         <script>
             w3.includeHTML();
         </script>
-    
+
 
 
 

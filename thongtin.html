@@ -25,11 +25,10 @@
     <div class="container">
         <!--load header -->
         <div w3-include-html="header.html"></div>
-        <div style="height: 40px;"></div>
-        <div class="thongtin-content" style="margin-top: 40px;">
+        <div class="space"> </div>
+        <div class="thongtin-content" style="margin-top: 100px;">
             <div class="thongtin-content__thongtintour">
-                <div class="thongtin-content__thongtintour--image">
-                </div>
+                <div class="thongtin-content__thongtintour--image"></div>
                 <div class="thongtin-content__thongtintour--noidung">
                     <div><a href="https://www.google.com.vn/?hl=vi">Đánh giá KH</a> </div>
                     <br>
@@ -76,15 +75,62 @@
                     </div>
                 </div>
                 <h4 id="thongtin-tieude">Hành khách</h4>
-                <div class="hanhkhach">
-                    <div class="hanhkhach__title">
-                        <h4>Người lớn</h4>
-                        <p>>= 16 tuổi</p>
+                <div class="form-hanhkhach">
+                    <div class="hanhkhach">
+                        <div class="hanhkhach__title">
+                            <h4>Người lớn</h4>
+                            <p>>= 16 tuổi</p>
+                        </div>
+                        <div class="buttons-soluong">
+                            <button class="tangsl is-form"><span class="tru">-</span></button>
+                            <input class="sl" value="1"></input>
+                            <button class="giamsl is-form"> <span class="cong">+</span></button>
+                        </div>
+                    </div>
+                    <div class="hanhkhach">
+                        <div class="hanhkhach__title">
+                            <h4>Trẻ em</h4>
+                            <p>11 - 15 tuổi</p>
+                        </div>
+                        <div class="buttons-soluong">
+                            <button class="tangsl"><span class="tru">-</span></button>
+                            <input class="sl" value="1"></input>
+                            <button class="giamsl"> <span class="cong">+</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-hanhkhach">
+                    <div class="hanhkhach">
+                        <div class="hanhkhach__title">
+                            <h4>Trẻ nhỏ</h4>
+                            <p>5 - 10 tuổi</p>
+                        </div>
+                        <div class="buttons-soluong">
+                            <button class="tangsl"><span class="tru">-</span></button>
+                            <input class="sl" value="1"></input>
+                            <button class="giamsl"> <span class="cong">+</span></button>
+                        </div>
+                    </div>
+                    <div class="hanhkhach">
+                        <div class="hanhkhach__title">
+                            <h4>Em bé</h4>
+                            <p>Dưới 5 tuổi</p>
+                        </div>
+                        <div class="buttons-soluong">
+                            <button class="tangsl"><span class="tru">-</span></button>
+                            <input class="sl" value="1"></input>
+                            <button class="giamsl"> <span class="cong">+</span></button>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <div class="thongtin-content__button">
+                <button class="button-trove">Trở về</button>
+                <button class="button-tieptheo">Tiếp theo</button>
+            </div>
         </div>
+        <div class="space"></div>
+
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 

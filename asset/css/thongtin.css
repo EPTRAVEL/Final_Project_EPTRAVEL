@@ -1,96 +1,185 @@
-          html,
-          body {
-              font-family: Montserrat;
-          }
-          
-          .thongtin-content {
-              height: 800px;
-              width: 700px;
-              margin: 20px auto;
-              padding: 40px;
-              background-color: var( --item_background-color);
-          }
-          
-          #thongtin-tieude {
-              text-align: center;
-              font-family: Fester_Bold;
-              src: url(../font/Fester_Bold.otf);
-          }
-          
-          .thongtin-content__thongtintour {
-              width: 100%;
-              display: flex;
-              margin-top: 50px;
-          }
-          
-          .thongtin-content__thongtintour--image {
-              width: 350px;
-              height: 200px;
-              background-image: url(../images/IMAGE/anh-dep-cau-rong-da-nang-viet-nam_055418962.jpg);
-          }
-          
-          .thongtin-content__thongtintour--noidung {
-              width: 400px;
-              margin-left: 40px;
-          }
-          
-          a {
-              color: black;
-              text-decoration: none;
-          }
-          
-          .thongtin-content__thongtinlienlac {
-              border: 1px solid black;
-              border-top: none;
-              margin-top: -31px;
-          }
-          
-          .text-divider {
-              display: flex;
-              align-items: center;
-              --text-divider-gap: 1rem;
-          }
-          
-          .text-divider::before,
-          .text-divider::after {
-              content: '';
-              height: 1px;
-              background-color: #333;
-              flex-grow: 1;
-          }
-          
-          .text-divider::before {
-              margin-right: var(--text-divider-gap);
-          }
-          
-          .text-divider::after {
-              margin-left: var(--text-divider-gap);
-          }
-          
-          .form {
-              display: flex;
-          }
-          
-          .form__row {
-              display: flex;
-              flex-direction: column;
-              margin: 12px auto;
-          }
-          
-          input {
-              width: 250px;
-              height: 25px;
-              border-radius: 10px;
-          }
-          
-          .hanhkhach {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              width: 48%;
-              margin-left: 40px;
-              height: 35px;
-              border: 1px solid black;
-              border-radius: 10px;
-              padding: 10px 15px;
-          }
+              html,
+              body {
+                  font-family: text-regular;
+              }
+              
+              .thongtin-content {
+                  height: 650px;
+                  width: 700px;
+                  margin: 0px auto;
+                  padding: 20px 40px;
+                  background-color: var( --item_background-color);
+              }
+              
+              .thongtin-content__thongtintour {
+                  width: 100%;
+                  display: flex;
+                  margin-top: 20px;
+              }
+              
+              .thongtin-content__thongtintour--image {
+                  background-image: url(../images/IMAGE/anh-dep-cau-rong-da-nang-viet-nam_055418962.jpg);
+                  width: 50%;
+                  height: 100%;
+              }
+              
+              .thongtin-content__thongtintour--noidung {
+                  width: 50%;
+                  margin-left: 40px;
+              }
+              
+              a {
+                  color: black;
+                  text-decoration: none;
+              }
+              
+              #thongtin-tieude {
+                  text-align: center;
+                  font-family: Fester_Bold;
+                  src: url(../font/Fester_Bold.otf);
+              }
+              
+              .text-divider {
+                  display: flex;
+                  align-items: center;
+                  --text-divider-gap: 1rem;
+              }
+              
+              .text-divider::before,
+              .text-divider::after {
+                  content: '';
+                  height: 1px;
+                  background-color: #333;
+                  flex-grow: 1;
+              }
+              
+              .text-divider::before {
+                  margin-right: var(--text-divider-gap);
+              }
+              
+              .text-divider::after {
+                  margin-left: var(--text-divider-gap);
+              }
+              
+              .thongtin-content__thongtinlienlac {
+                  border: 1px solid black;
+                  border-top: none;
+                  margin-top: -31px;
+              }
+              
+              .form {
+                  display: flex;
+              }
+              
+              .form__row {
+                  display: flex;
+                  flex-direction: column;
+                  margin: 12px auto;
+              }
+              
+              input {
+                  width: 250px;
+                  height: 25px;
+                  border-radius: 10px;
+              }
+              
+              .form-hanhkhach {
+                  display: flex;
+              }
+              
+              .hanhkhach {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  width: 230px;
+                  margin-left: 40px;
+                  margin-bottom: 10px;
+                  margin-right: 50px;
+                  height: 35px;
+                  border: 1px solid black;
+                  border-radius: 10px;
+                  padding: 10px 15px;
+                  background-color: white;
+              }
+              
+              .hanhkhach__title {
+                  width: 100px;
+                  height: 20px;
+                  padding-top: 0%;
+                  margin-top: -20px;
+              }
+              
+              .hanhkhach__title>h4 {
+                  margin: 0%;
+              }
+              
+              .hanhkhach__title>p {
+                  margin: 0%;
+              }
+              
+              .buttons-soluong {
+                  position: relative;
+              }
+              
+              .tangsl,
+              .giamsl {
+                  width: 25px;
+                  height: 25px;
+                  border-radius: 15px;
+                  background-color: #FFCC66;
+                  font-size: 25px;
+              }
+              
+              .tru {
+                  position: absolute;
+                  text-align: center;
+                  line-height: 25px;
+                  right: 56px;
+                  top: 3px;
+              }
+              
+              .cong {
+                  position: absolute;
+                  text-align: center;
+                  line-height: 25px;
+                  right: 5px;
+                  top: 5px;
+              }
+              
+              .sl {
+                  font-size: 25px;
+                  width: 15px;
+                  background-color: #fff;
+                  text-align: center;
+                  display: inline-block;
+                  vertical-align: top;
+                  border: none;
+                  margin-top: 5%;
+                  padding: 0;
+              }
+              
+              .button-trove,
+              .button-tieptheo {
+                  background-color: #5DA9DD;
+                  color: white;
+                  font-family: Fester_Bold;
+                  src: url(../font/Fester_Bold.otf);
+                  width: 130px;
+                  height: 40px;
+                  text-align: center;
+                  line-height: 40px;
+                  font-size: large;
+                  border-radius: 10px;
+                  border: none;
+                  border-right: 1px solid grey;
+                  border-bottom: 1px solid grey;
+                  margin-top: 20px;
+              }
+              
+              .button-tieptheo {
+                  float: right;
+              }
+              
+              .space {
+                  height: 40px;
+              }
