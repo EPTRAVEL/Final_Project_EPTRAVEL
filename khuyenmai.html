@@ -19,70 +19,73 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!-- Link css -->
-<script>
-   
-</script>
+    <script>
+
+    </script>
 </head>
 
 <body>
     <div class="container">
         <!--load header -->
         <div w3-include-html="header.html"></div>
-        <div class="khuyenmai-content" style="margin-top: 10px;">
+        <div class="khuyenmai-content" style="margin-top: 88px;">
             <!-- Bỏ nội dung vô đây -->
-            <div class="slider-one">
-                <div class="slides">
-                    <!--radio buttons start-->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-                    <!--radio buttons end-->
-                    <!--slide images start-->
-                    <div class="slide first">
-                        <img src="" alt="error">
+            <div class="khuyenmai_row">
+                <!-- image slider start -->
+                <div class="kmslider">
+                    <div class="kmslides">
+                        <!-- radio button start -->
+                        <input type="radio" name="radio-btn" id="kmradio1">
+                        <input type="radio" name="radio-btn" id="kmradio2">
+                        <input type="radio" name="radio-btn" id="kmradio3">
+                        <!-- radio button end -->
+                        <!-- slide image start -->
+                        <div class="km_slide km_first">
+                            <img src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg" alt="">
+                        </div>
+                        <div class="km_slide ">
+                            <img src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan4.jpg" alt="">
+                        </div>
+                        <div class="km_slide ">
+                            <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" alt="">
+                        </div>
+                        <!-- slide image end -->
+                        <!-- automatic navigation start -->
+                        <div class="km_navigation-auto">
+                            <div class="km_auto-btn1"></div>
+                            <div class="km_auto-btn2"></div>
+                            <div class="km_auto-btn3"></div>
+                        </div>
+                        <!-- automatic navigation end -->
                     </div>
-                    <div class="slide">
-                        <img src="" alt="error">
+                    <!-- manual navigation start -->
+                    <div class="km_navigation-manual">
+                        <label for="kmradio1" class="km_manual-btn"></label>
+                        <label for="kmradio2" class="km_manual-btn"></label>
+                        <label for="kmradio3" class="km_manual-btn"></label>
                     </div>
-                    <div class="slide">
-                        <img src="" alt="error">
-                    </div>
-                    <!--slide images end-->
-                    <!--automatic navigation start-->
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                    </div>
-                    <!--automatic navigation end-->
+                    <!-- manual navigation end -->
                 </div>
-                <!--manual navigation start-->
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                </div>
-                <!--manual navigation end-->
+                <!-- image slider end -->
+                <script type="text/javascript">
+                    var counter =  1;
+                    setInterval(function(){
+                        document.getElementById('kmradio' + counter).checked = true;
+                        counter++;
+                        if (counter >3){
+                            counter=1;
+                        }
+                    },5000);
+                </script>
             </div>
-            <script type="text/javascript">
-                var counter = 1;
-                setInterval(function () {
-                    document.getElementById('radio' + counter).checked = true;
-                    counter++;
-                    if (counter > 3) {
-                        counter = 1;
-                    }
-                }, 5000);
-            </script>
             <div class="khuyenmai_row">
                 <div class="khuyenmai_tour--item">
-                        <div class="home--title--item">TOUR TRONG NƯỚC</div>
+                    <div class="home--title--item">TOUR TRONG NƯỚC</div>
                 </div>
             </div>
-            <div class="khuyenmai_row" >
-                <div class="kmtour_SP">
-                    </div>
+            <div class="khuyenmai_row">
+                
+                </div>
             </div>
             <div class="khuyenmai_row">
                 <div class="khuyenmai_tour--item">
@@ -94,6 +97,8 @@
                     <div>
 
                     </div>
+                    <a class="prep" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
 
