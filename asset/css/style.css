@@ -11,16 +11,19 @@
   width: 95vw;
   margin: 0 auto 30px;
 }
-
+:root{
+  --height-slider-one: 370px;
+}
 .slider-one {
-  height: 370px;
+  height: var(--height-slider-one);
   background-color: var(--title_background-color);
   border-radius: 10px;
   overflow: hidden;
 }
 
 .slider-one .img img{
-  width: 100%;
+  height: var(--height-slider-one);
+  width: auto;
 }
 
 .slider-one .slick-dots {
