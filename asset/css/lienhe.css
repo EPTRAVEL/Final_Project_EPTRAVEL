@@ -24,20 +24,17 @@
 .lienhe--admin{
     background-color: var(  --item_background-color);
     height: 290px;
-    width: 230px;
-    height: 290px;
-    width: 230px;
+    width: 220px;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
 }
 .lienhe--admin img{
-    height: 200px;
-    width: 165px;
-    margin: 15px 0 5px 0;
+    width: 160px;
+    margin: 10px 0 5px 0;
 }
 .lienhe--admin p{
-    font-family: Montserrat;
+    font-family: text-regular;
     font-size: 17px;
     margin: 5px auto;
 }
@@ -59,13 +56,13 @@
     margin: 5px ;
 }
 .lienhe--item-right{
-    flex: 2;
+    flex: 3;
     text-align: left;
     margin: 5px;
 }
 .lienhe__label{
-    font-family: Montserrat;
-    font-size: 17px;
+    font-family: text-regular;
+    font-size: 20px;
 }
 .lienhe__label span{
     color: red;

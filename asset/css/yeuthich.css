@@ -3,51 +3,173 @@
     margin: 0 auto;
     padding: 10px 0 ;
 }
-.yeuthich__chucnang1{
+.yeuthich__chucnang-header{
     display: flex;
     height: 80px;
     margin: 20px 0 ;
-    background-color: lightblue;
 }
 .yeuthich-sapxep{
     flex: 1;
     margin:  15px 10px 15px 0;
-    background-color:chartreuse;
-    
+    position: relative;
+}
+.yeuthich-btnsapxep{ 
+    position: absolute; 
+    right:  0px;
+    left: 0px;
+    border-radius: 10px;
+    border: none;
+    font-family: text-regular;
+    font-size: 17px;
+    text-align: center;
+    min-height: 40px;
+    width: 95%;  
+    margin:5px 0;
 }
 .yeuthich-timkiem{
     flex: 3;
-    width: 50%;
-    margin: 15px 0 15px 10px;
-    border-radius: 10px;
-    background-color: red;
+    margin:  15px 0px 15px 0; 
+    position: relative;
 }
-.yeuthich-search{
+.yeuthich-btnsearch{
+    position: absolute; 
+    right:  0px;
+    border-radius: 10px;
     color: black;
-    font-family: Montserrat;
+    font-family: text-regular;
     font-size: 17px;
-    width: 94%;
-    height: 20px;
+    min-height: 40px;
+    width: 92%;
     background-image: url("../images/ICON/search.png");
     background-size: 30px;
-    background-position: 5px;
+    background-position: 2px;
     background-repeat: no-repeat;
-    padding: 12px 0 12px 50px;
+    padding: 0 0 0 40px;
     float: right;
     border: none;
-    margin: 3px;
+    margin: 5px 0;
 }
 .yeuthich-tourbox{
-    height: 500px;
-    margin: 10px 0 ;
-    background-color: lightblue;
+    margin: 10px 0;
+    display: flex;
+    background-color: var(  --item_background-color);
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 0 ;
+    position: relative;
 }
-.yeuthich__chucnang2{
+.yeuthich-tour-checkbox{
+    flex: 1;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+
+}
+#btnchon{
+    width: 30px;
+    height: 30px;
+}
+.yeuthich-tour-img{
+    flex: 5;
+    margin: 10px;
+} 
+.yeuthich-tour-img img{
+    width: 100%;
+}
+.yeuthich-tour-thongtin{
+    flex: 8;
+    font-family: text-regular;
+    font-size: 17px;
+    margin: 10px 20px;
+}
+.yeuthich-tour-thongtin p{
+    margin: 5px 0;
+}
+#yeuthich-tentour{
+    margin: 0;
+    font-family: Fester_Bold;
+    font-size: 25px;
+    color: #064682;
+}
+#yeuthich-chitiet{
+    color: #064682;
+}
+#yeuthich-gia{
+    font-family: Fester_Bold;
+    font-size: 25px;
+    color: red;
+}
+.yeuthich-tour-button{
+    flex: 3;
+    margin: 10px;
+}
+.yeuthich-datngay{
+    border-radius: 10px;
+    background-color: #D74848;
+    font-family: text-regular;
+    font-size: 17px;
+    color: white;
+    width: 90%;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    border: none;
+    margin: 20px 0;
+}
+.yeuthich-datngay img{
+    width: 25px;
+    vertical-align: middle;
+}
+.yeuthich-xem{
+    border-radius: 10px;
+    font-family: text-regular;
+    font-size: 17px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin: 20px 0;
+}
+.yeuthich-phuongtien{
+    text-align: right;
+}
+.yeuthich-phuongtien input{
+    margin: 0px 5px;
+}
+.yeuthich__chucnang-footer{
+    float: bottom;
+    margin: 20px 0;
+}
+.yeuthich__button-footer-layout{
+    height: 80px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 80px;
-    float: bottom;
-    width: 80%;
-    margin: 0 auto;
-    background-color: lightblue;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Fester_Bold;
+    color: white;
+}
+.yeuthich-button{  
+    min-width: 200px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 30px;
+    font-family: Fester_Bold;
+    font-size: 20px;
+    color: white;
+    background-color: #5DA9DD;
+    border: none;
+}
+.yeuthich_btnchontatca{
+    display: inline;
+    margin: 0 30px;
+}
+.yeuthich_btnchontatca #btnchontatca{
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 10px 0;
+    vertical-align: middle;
 }

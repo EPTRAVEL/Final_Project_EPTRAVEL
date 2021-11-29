@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="asset/css/font.css">
     <link rel="stylesheet" href="asset/css/color.css">
     <link rel="stylesheet" href="asset/css/text_style.css">
-    <link rel="stylesheet" href="asset/css/background.css"> 
+    <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
 
@@ -22,42 +23,84 @@
 
 <body>
     <div class="container">
-       <!--load header -->
-       <div w3-include-html="header.html"></div>
+        <!--load header -->
+        <div w3-include-html="header.html"></div>
 
 
         <div class="yeuthich-content" style="margin-top: 88px;">
-          <div class="yeuthich__chucnang1">
-            <div class="yeuthich-sapxep">
-
-            </div>
-            <div class="yeuthich-timkiem">
+            <div class="yeuthich__chucnang-header">
+                <div class="yeuthich-sapxep">
+                    <select name="Sắp xếp" class="yeuthich-btnsapxep">
+                        <option value="sapxep">Sắp xếp theo</option>
+                        <option value="thap_cao">Theo giá thấp đến cao</option>
+                        <option value="cao_thap">Theo giá cao đến thấp</option>
+                        <option value="giamnhat">Giảm giá nhiều nhất</option>
+                    </select>
+                </div>
+                <div class="yeuthich-timkiem">
                     <form>
-                        <input class="yeuthich-search"  name="search" placeholder="Tìm kiếm theo tên tour">
+                        <input class="yeuthich-btnsearch" name="search" placeholder="Tìm kiếm theo tên tour">
                     </form>
+                </div>
             </div>
-          </div>
 
-          <div class="yeuthich-tourbox">
+            <form>
+                <div class="yeuthich-tourbox">
+                    <div class="yeuthich-tour-checkbox">
+                        <input type="checkbox" id="btnchon" value="chon">
+                    </div>
+                    <div class="yeuthich-tour-img">
+                        <img src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg"
+                            alt="Liên Tuyến Brunei - Nhật Bản">
+                    </div>
 
-          </div>
-          
+                    <div class="yeuthich-tour-thongtin">
+                        <p id="yeuthich-tentour"> Liên Tuyến Brunei - Nhật Bản</p>
+                        <p><span id="yeuthich-chitiet">Mã tour:</span> NNCANB001</p>
+                        <p><span id="yeuthich-chitiet">Thời gian:</span> 4 ngày 3 đêm</p>
+                        <p><span id="yeuthich-chitiet"> Nơi khởi hành</span>: TP. Hồ Chí Minh</p>
+                        <p> <span id="yeuthich-chitiet">Ngày khởi hành:</span> 20/1/2022</p>
+                        <p id="yeuthich-gia">24.500.000đ</p>
+                    </div>
+
+                    <div class="yeuthich-tour-button">
+                        <div class="yeuthich-phuongtien">
+                            <input type="image" src="./asset/images/ICON/bus.png" alt="bus" id="btnbus">
+                            <input type="image" src="./asset/images/ICON/plane.png" alt="plane" id="btnplane">
+                        </div>
+                       
+                        <button class="yeuthich-datngay" id="btndatngay">
+                            <span>
+                                <img src="./asset/images/ICON/cart.png" alt="cart">
+                            </span>
+                            Đặt ngay
+                        </button>
+                        <button class="yeuthich-xem" id="btnxem">Xem chi tiết</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        
+
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
-        <div class="yeuthich__chucnang2">
-
+        
+        <div class="yeuthich__chucnang-footer">
+            <form class="yeuthich__button-footer-layout">
+                <div class="yeuthich_btnchontatca ">
+                    <input type="checkbox" name="chontatca" id="btnchontatca" value="chontatca"> Chọn tất cả
+                </div>
+                <input class="yeuthich-button" type="button" id="btnxoatatca" value="Xóa tất cả">
+                <input class="yeuthich-button" type="button" id="btnxoa" value="Xóa ">
+                <input class="yeuthich-button" type="button" id="btnchonvoucher" value="Chọn voucher">
+                <input class="yeuthich-button" type="button" id="btnthanhtoan" value="Thanh toán ngay">
+            </form>
         </div>
 
         <!-- gọi thư viện -->
         <script>
             w3.includeHTML();
         </script>
-    
-
-
 
     </div>
 </body>
