@@ -111,9 +111,7 @@ input[type="search"]:hover {
   color: rgb(46, 0, 83);
   cursor: pointer;
 }
-#dk_a{
-  color: red;
-}
+
 .user-icon ul #user-block #dangki {
   top: 70px;
   float: left;
