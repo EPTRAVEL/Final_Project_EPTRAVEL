@@ -79,7 +79,7 @@ p{
     
 }
 .khuyenmai_imagecard{
-    width: 45px;
+    width: 20px;
     height: 30px;
     border: 0px;
     background-color: #D74848;
@@ -95,18 +95,21 @@ p{
     padding: 12px 0 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    font-family: Fester_Bold;
+      font-size: 0; 
+      
     
   }
-  .khuyenmai_imagecard::placeholder{
-      font-family: Fester_Bold;
-      font-size: 15px; 
-    }
+  
     .khuyenmai_imagecard:hover{
         width: 110px;
         background-color: #D74848;
         background-image: url("../images/ICON/cart.png");
         color: white;
         cursor: pointer;  
+        font-size: 15px; 
+        margin-top: 20px;
+        line-height: 12px;
     }
 .phuongtien_item1{
     width: 20px;
