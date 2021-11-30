@@ -82,9 +82,9 @@
                             <p>>= 16 tuổi</p>
                         </div>
                         <div class="buttons-soluong">
-                            <button class="tangsl is-form"><span class="tru">-</span></button>
-                            <input class="sl" value="1"></input>
-                            <button class="giamsl is-form"> <span class="cong">+</span></button>
+                            <button class="giamsl is-form" onclick="tru1()"><span class="tru">-</span></button>
+                            <input class="sl" value="1" id="textbox1"></input>
+                            <button class="tangsl is-form" onclick="cong1()"> <span class="cong">+</span></button>
                         </div>
                     </div>
                     <div class="hanhkhach">
@@ -93,9 +93,9 @@
                             <p>11 - 15 tuổi</p>
                         </div>
                         <div class="buttons-soluong">
-                            <button class="tangsl"><span class="tru">-</span></button>
-                            <input class="sl" value="1"></input>
-                            <button class="giamsl"> <span class="cong">+</span></button>
+                            <button class="giamsl" onclick="tru2()"><span class="tru">-</span></button>
+                            <input class="sl" value="1" id="textbox2"></input>
+                            <button class="tangsl" onclick="cong2()"> <span class="cong">+</span></button>
                         </div>
                     </div>
                 </div>
@@ -106,9 +106,9 @@
                             <p>5 - 10 tuổi</p>
                         </div>
                         <div class="buttons-soluong">
-                            <button class="tangsl"><span class="tru">-</span></button>
-                            <input class="sl" value="1"></input>
-                            <button class="giamsl"> <span class="cong">+</span></button>
+                            <button class="giamsl" onclick="tru3()"><span class="tru">-</span></button>
+                            <input class="sl" value="1" id="textbox3"></input>
+                            <button class="tangsl" onclick="cong3()"> <span class="cong">+</span></button>
                         </div>
                     </div>
                     <div class="hanhkhach">
@@ -117,16 +117,16 @@
                             <p>Dưới 5 tuổi</p>
                         </div>
                         <div class="buttons-soluong">
-                            <button class="tangsl"><span class="tru">-</span></button>
-                            <input class="sl" value="1"></input>
-                            <button class="giamsl"> <span class="cong">+</span></button>
+                            <button class="giamsl" onclick="tru4()"><span class="tru">-</span></button>
+                            <input class="sl" value="1" id="textbox4"></input>
+                            <button class="tangsl" onclick="cong4()"> <span class="cong">+</span></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="thongtin-content__button">
-                <button class="button-trove">Trở về</button>
-                <button class="button-tieptheo">Tiếp theo</button>
+                <button class="button-trove" onclick="trove()">Trở về</button>
+                <a href="thanhtoan.html"> <button class="button-tieptheo">Tiếp theo</button></a>
             </div>
         </div>
         <div class="space"></div>
@@ -137,6 +137,60 @@
         <!-- gọi thư viện -->
         <script>
             w3.includeHTML();
+
+            function cong1() {
+                //lấy giá trị của text box
+                var t = document.getElementById("textbox1").value;
+                //cộng thêm 1đvi rồi gán trở lại cho textbox
+                document.getElementById("textbox1").value = parseInt(t) + 1;
+            }
+
+            function cong2() {
+                var t = document.getElementById("textbox2").value;
+                document.getElementById("textbox2").value = parseInt(t) + 1;
+            }
+
+            function cong3() {
+                var t = document.getElementById("textbox3").value;
+                document.getElementById("textbox3").value = parseInt(t) + 1;
+            }
+
+            function cong4() {
+                var t = document.getElementById("textbox4").value;
+                document.getElementById("textbox4").value = parseInt(t) + 1;
+            }
+
+            function tru1() {
+                var t = document.getElementById("textbox1").value;
+                if (parseInt(t) > 0) {
+                    document.getElementById("textbox1").value = parseInt(t) - 1;
+                }
+            }
+
+            function tru2() {
+                var t = document.getElementById("textbox2").value;
+                if (parseInt(t) > 0) {
+                    document.getElementById("textbox2").value = parseInt(t) - 1;
+                }
+            }
+
+            function tru3() {
+                var t = document.getElementById("textbox3").value;
+                if (parseInt(t) > 0) {
+                    document.getElementById("textbox3").value = parseInt(t) - 1;
+                }
+            }
+
+            function tru4() {
+                var t = document.getElementById("textbox4").value;
+                if (parseInt(t) > 0) {
+                    document.getElementById("textbox4").value = parseInt(t) - 1;
+                }
+            }
+
+            function trove() {
+                history.back();
+            }
         </script>
     </div>
 </body>
