@@ -83,10 +83,9 @@
                     <div class="home--title--item">TOUR TRONG NƯỚC</div>
                 </div>
             </div>
-            <div class="khuyenmai_row">
-                <div class="khuyenmai_row">
+                <!-- <div class="khuyenmai_row">
                     <div class="khuyenmai_column">
-                       <a href=""><div class="khuyenmai_sp">
+                       <div class="khuyenmai_sp">
                                 <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
                                 <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
                                 <p>Mã tour: TNMTDN001</p>
@@ -98,9 +97,12 @@
                                 <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
                                 <input type="button" class="khuyenmai_imagecard" value="Đặt ngay" >
                                 
-                        </div></a> 
+                        </div>
                     </div>
-                </div>
+                </div> -->
+                
+                <div id="khuyenmai_category_trongnuoc">
+
                 </div>
             </div>
             <div class="khuyenmai_row">
@@ -108,13 +110,13 @@
                     <div class="home--title--item">TOUR QUỐC TẾ</div>
                 </div>
             </div>
-            <div class="khuyenmai_row">
-                <div class="kmtour_SP">
-                    <div>
+            <!-- <div class="khuyenmai_row">
 
-                    </div>
-                   
-                </div>
+                
+            </div> -->
+            <div id="khuyenmai_category_nuocngoai">
+
+            </div>
             </div>
 
             <!-- load footer -->
@@ -122,6 +124,40 @@
 
             <!-- gọi thư viện -->
             <script>
+                var xmlhttp = new XMLHttpRequest();
+                var url ="../asset/data/tour.json";
+
+                xmlhttp.onreadystatechange = function(){
+                    if (this.readyState ==4 && this.status==200){
+                        var myArr = JSON.parse(this.responseText);
+                        myFunction(myArr);
+                    }
+                }
+                xmlhttp.open("GET",url, true);// Ra lệnh chứ chưa thực hiện
+                xmlhttp.send();//Thực hiên thực sự
+
+
+                function myFunction(arr){
+                    var div1 = "<div class='khuyenmai_row'>";
+                    var div2 = "<div class='khuyenmai_row'>";
+
+                        var i;
+                        
+                        for ( i = 0 ; i <arr.length; i++){
+                            if (arr[i].giamgia !=0 && arr[i].quocgia == "Tour du lịch trong nước"){
+                                div1 +="<div class='khuyenmai_column'><div class='khuyenmai_sp'><a href=''><img src='"+ arr[i].images+"'><h3>"+arr[i].ten_tour+"</h3><p>Mã tour: "+arr[i].ma_tour+"</p><p>Thời gian: "+arr[i].thoigian+"</p><p>Địa điểm khởi hành: "+arr[i].noikhoihanh+"</p><div class='khuyenmai_gia'>"+arr[i].giatiennguoilon+"<span>đ</span></div><div class='khuyenmai_giacu'>"+arr[i].giatiennguoilon+"<span>đ</span></div></div></div>";
+                            }
+                            else if (arr[i].giamgia !=0 && arr[i].quocgia == "Tour du lịch nước ngoài"){
+                                div2 +="<div class='khuyenmai_column'><div class='khuyenmai_sp'><a href=''><img src='"+ arr[i].images+"'><h3>"+arr[i].ten_tour+"</h3><p>Mã tour: "+arr[i].ma_tour+"</p><p>Thời gian: "+arr[i].thoigian+"</p><p>Địa điểm khởi hành: "+arr[i].noikhoihanh+"</p><div class='khuyenmai_gia'>"+arr[i].giatiennguoilon+"<span>đ</span></div><div class='khuyenmai_giacu'>"+arr[i].giatiennguoilon+"<span>đ</span></div></div></div>";
+  
+                            }
+                        }
+
+                        div1 +="</div>";
+                        div2 +="</div>";
+                        document.getElementById("khuyenmai_category_trongnuoc").innerHTML=div1;
+                        document.getElementById("khuyenmai_category_nuocngoai").innerHTML=div2;
+                }
                 w3.includeHTML();
             </script>
 
