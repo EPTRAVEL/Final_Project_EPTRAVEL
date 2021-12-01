@@ -56,17 +56,17 @@
     border-radius: 10px;
     width: 100%;
     margin: 20px 0 ;
-    position: relative;
+    
 }
 .yeuthich-tour-checkbox{
     flex: 1;
     margin: 10px;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(-50%);
-
+    position: relative;
 }
 #btnchon{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-400%);
     width: 30px;
     height: 30px;
 }
@@ -103,6 +103,7 @@
 .yeuthich-tour-button{
     flex: 3;
     margin: 10px;
+    position: relative;
 }
 .yeuthich-datngay{
     border-radius: 10px;
@@ -116,6 +117,9 @@
     text-align: center;
     border: none;
     margin: 20px 0;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-180%);
 }
 .yeuthich-datngay img{
     width: 25px;
@@ -129,6 +133,17 @@
     height: 40px;
     border: none;
     margin: 20px 0;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+#btnxoaitem{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-10%);
+    right: 0;
 }
 .yeuthich-phuongtien{
     text-align: right;

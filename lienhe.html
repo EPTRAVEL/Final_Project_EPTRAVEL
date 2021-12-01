@@ -19,6 +19,9 @@
 
     <!-- Link css -->
     <link rel="stylesheet" href="asset/css/lienhe.css">
+
+    <!--  backtop1 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 </head>
 
 <body>
@@ -34,37 +37,37 @@
             <div class="lienhe--admin-box">
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Gam.jpg"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Gam.jpg">
                     <p>Nguyễn Phan Diệu Gấm</p>
                     <p>K194060846</p>
                 </div>
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Hien.PNG"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Hien.PNG">
                     <p>Phan Thị Lê Hiền</p>
                     <p>K194060846</p>
                 </div>
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Khoa.PNG"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Khoa.PNG">
                     <p>Nguyễn Đăng Khoa</p>
                     <p>K194060850</p>
                 </div>
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Long.PNG"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Long.PNG">
                     <p>Trương Thanh Long</p>
                     <p>K194060853</p>
                 </div>
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Thi.png"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Thi.png">
                     <p>Nguyễn Thị Phương Thi</p>
                     <p>K194060872</p>
                 </div>
                 <div class="lienhe--admin">
 
-                    <img src="asset/images/IMAGE/ThanhVien/Thy.PNG"> 
+                    <img src="asset/images/IMAGE/ThanhVien/Thy.PNG">
                     <p>Lê Mai Ngọc Thy</p>
                     <p>K194060875</p>
                 </div>
@@ -77,44 +80,44 @@
 
             <div class="lienhe--contact-box">
                 <form>
-                  <div class="lienhe__form-layout">
-                    <div class="lienhe--item-left">
-                        <label class="lienhe__label" for="ten"> Tên <span>*</span></label>
+                    <div class="lienhe__form-layout">
+                        <div class="lienhe--item-left">
+                            <label class="lienhe__label" for="ten"> Tên <span>*</span></label>
+                        </div>
+                        <div class="lienhe--item-right">
+                            <input class="lienhe__input" id="ten">
+                        </div>
                     </div>
-                    <div class="lienhe--item-right">
-                        <input class="lienhe__input" id="ten">
-                    </div>
-                  </div>
 
-                  <div class="lienhe__form-layout">
-                    <div class="lienhe--item-left">
-                        <label class="lienhe__label" for="email"> Email <span>*</span></label>
+                    <div class="lienhe__form-layout">
+                        <div class="lienhe--item-left">
+                            <label class="lienhe__label" for="email"> Email <span>*</span></label>
+                        </div>
+                        <div class="lienhe--item-right">
+                            <input class="lienhe__input" id="email">
+                        </div>
                     </div>
-                    <div class="lienhe--item-right">
-                        <input class="lienhe__input" id="email" >
-                    </div>
-                  </div> 
 
-                  <div class="lienhe__form-layout">
-                    <div class="lienhe--item-left">
-                        <label class="lienhe__label" for="sdt">Số điện thoại <span>*</span> </label>
+                    <div class="lienhe__form-layout">
+                        <div class="lienhe--item-left">
+                            <label class="lienhe__label" for="sdt">Số điện thoại <span>*</span> </label>
+                        </div>
+                        <div class="lienhe--item-right">
+                            <input class="lienhe__input" id="sdt">
+                        </div>
                     </div>
-                    <div class="lienhe--item-right">
-                        <input class="lienhe__input" id="sdt">
-                    </div>
-                  </div> 
 
-                  <div class="lienhe__form-layout">
-                    <div class="lienhe--item-left">
-                        <label class="lienhe__label" for="noidung">Nội dung<span>*</span> </label>
+                    <div class="lienhe__form-layout">
+                        <div class="lienhe--item-left">
+                            <label class="lienhe__label" for="noidung">Nội dung<span>*</span> </label>
+                        </div>
+                        <div class="lienhe--item-right">
+                            <input class="lienhe__input" id="noidung" style="height: 150px;">
+                        </div>
                     </div>
-                    <div class="lienhe--item-right">
-                        <input class="lienhe__input" id="noidung" style="height: 150px;">
+                    <div class="lienhe__button-box">
+                        <input class="lienhe__button" type="submit" id="gui" value="Gửi">
                     </div>
-                  </div>
-                  <div class="lienhe__button-box">
-                    <input class="lienhe__button" type="submit" id="gui" value="Gửi">
-                  </div>
                 </form>
             </div>
 
@@ -127,8 +130,30 @@
         <script>
             w3.includeHTML();
         </script>
-        
     </div>
+    <!--  backtop2 -->
+    <style>
+        #backtop{
+            width: 50px;
+            height: 50px;
+            color: white;
+            background-color: var(--login-button);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 40px;
+            right: 20px;
+            cursor: pointer;
+        }
+    </style>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
 </body>
+<!-- backtop3 -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./asset/javascrip/backtop.js"></script>
 
 </html>
