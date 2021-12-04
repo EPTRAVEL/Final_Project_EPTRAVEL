@@ -132,7 +132,7 @@
 
 
             <div class="home__tintuc">
-                <div class="home__tintuc-dulich">
+                <div class="home__tintuc-dulich" id="id_tintucDuLich">
                     <div class="home__tintuc-dulich--title">
                         <p class="home--title--item">Tin tức du lịch</p>
                     </div>
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="home__tintuc-quantam" id="idneee">
+                <div class="home__tintuc-quantam" id="id_tintucQuanTam">
                     <h3>Tin tức được quan tâm nhiều nhất</h3>
                     <!-- 
                     <div class="tintuc-quantam__body" id="">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div id="idneee"></div> -->
+                    <!-- <div id="id_tintucQuanTam"></div> -->
                 </div>
             </div>
 
@@ -298,17 +298,21 @@
     <script>
         var xmlhttp = new XMLHttpRequest();
         var url = "asset/data/tour.json";
+        var url_tintucDuLich = "asset/data/tintuc.json";
 
         xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr = JSON.parse(this.responseText);
-                myFunction(myArr);
+                tinticQuanTam(myArr);
+                tinticDuLich(myArr);
             }
         }
+        xmlhttp.open("GET", url_tintucDuLich, true);//ra lệnh
         xmlhttp.open("GET", url, true);//ra lệnh
+
         xmlhttp.send();//thực hiênn
 
-        function myFunction(arr) {
+        function tinticQuanTam(arr) {
             // var div = "<div class='tintuc-quantam__body'>";
             var div = " <h3>Tin tức được quan tâm nhiều nhất</h3><div class='tintuc-quantam__body'>";
             var i;
@@ -316,12 +320,24 @@
             for (i = 0; i < arr.length; i++) {
                 div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='asset/images/IMAGE/img_temp_500x350.png' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].ten_tour + "</h4><h4 class='date'>" + arr[i].ngayviettin + "</h4></div></div>";
             }
-            // for (i = 0; i < arr.length; i++) {
-            //     div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='" + arr[i].link_img1 + "' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].ten_tour + "</h4><h4 class='date'>" + arr[i].ngayviettin + "</h4></div></div>";
-            // }
+           
             div += '</div>';
 
-            document.getElementById("idneee").innerHTML = div;
+            document.getElementById("id_tintucQuanTam").innerHTML = div;
+
+        }
+        function tinticDuLich(arr) {
+          
+            var div = '<div class="home__tintuc-dulich--title"><p class="home--title--item">Tin tức du lịch</p></div><div class="home__tintuc-dulich--item">';
+            var i;
+
+            for (i = 0; i < arr.length; i + 2) {
+                div += '<div class="ttdl--row"><div class="ttdl--row_item ttdl--row-left"><div class="img"><img src="' + arr[i].main - img + '" width="200px"alt="Error"></div><h3>' + arr[i].header + '</h3></div><div class="ttdl--row_item ttdl--row-right">< div class="img" ><img src="' + arr[i + 1].main - img + '" width="200px"alt="Error"></><h3>' + arr[i + 1].header + '</h3></div ></div> ';
+            }
+
+            div += '</div>';
+
+            document.getElementById("id_tintucDuLich").innerHTML = div;
 
         }
 

@@ -76,6 +76,7 @@
 .home__tintuc {
   height: 100px;
   display: flex;
+  
 }
 .home__tintuc-dulich {
   flex: 7;
@@ -342,4 +343,11 @@
 .home__hot-tour--item .slider-item {
   width: 30vw;
   margin: 55px 0 auto 10px;
+}
+
+
+@media only screen and (max-width: 1100) {
+  .home__tintuc {
+    flex-direction: column;
+  }
 }
