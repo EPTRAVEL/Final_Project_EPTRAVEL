@@ -34,12 +34,15 @@ input[type="search"] {
   transition: width 0.4s ease-in-out;
 }
 
-input[type="search"]:hover {
+input[type="search"]:focus {
   width: 300px;
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url("../images/ICON/search_w.png");
   color: white;
   border: rgb(14, 0, 95) solid 1px;
+}
+input[type="search"]:hover{
+  cursor: pointer;
 }
 
 .like-icon input {
@@ -128,24 +131,39 @@ input[type="search"]:hover {
   background-image: url("../images/ICON/user_w.png");
   cursor: pointer;
 }
+.hamburger-icon{
+    display: none;
+}
 
+.hamburger-icon button{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  font-size: 30px;
+  margin-top: -2px;
+}
+.hamburger-icon button:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
 .nav {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0; */
 
-  width: 900px;
+  /* width: 900px; */
   margin-top: -90px;
-  margin-left: 22vw;
+  margin-left: 0;
   margin-bottom: 15px;
   text-indent: 0px;
+  
 }
 ul {
 }
 .nav > ul {
   height: 33px;
-  width: 800px;
-  
+  /* width: 800px; */
+  margin: 0 auto;
+  background-color: var(--nav_background-color);
 }
 .nav ul {
   text-align: center;
@@ -154,6 +172,7 @@ ul {
   border-radius: 5px;
   background-color: var(--nav_background-color);
   list-style: none;
+  width: 860px;
 }
 
 .nav ul li {
@@ -161,6 +180,7 @@ ul {
   float: left;
   padding: 0 5px;
   border-radius: 5px;
+  
 }
 
 .nav ul li a {
@@ -226,4 +246,52 @@ ul {
   margin-left: 50px;
   font-family: Fester_Bold;
   color: white;
+}
+
+
+@media only screen and (max-width: 1340px) {
+  .nav {
+    
+    margin-top: -70px;
+  
+    
+  }
+}
+
+/* humberger */
+@media only screen and (max-width: 935px) {
+  .nav {
+    
+    /* display: none; */
+    margin-top: 0px;
+    
+  }
+  .logo img{
+    width: 170px;
+    margin-top: -5px;
+  }
+  .header {
+    height: 60px;
+    
+  }
+  
+  .nav ul li {
+   
+    margin-left: -30px;
+  }
+  .nav ul {
+    
+    width: 685px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .nav {  
+    display: none;
+  }
+  .hamburger-icon{
+    display: block;
+}
+input[type="search"]:focus {
+  width: 150px;
+}
 }
