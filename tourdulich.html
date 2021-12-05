@@ -20,6 +20,13 @@
     <!-- Link css -->
     <link rel="stylesheet" href="asset/css/tourdulich.css">
     <link rel="stylesheet" href="./asset/css/tour-thi.css">
+
+    <script>
+        function goThongTin(matour){
+            window.location.href = "detail.html?matour=" + matour;
+        }
+    </script>
+
 </head>
 
 <body>
@@ -164,9 +171,11 @@
                             arr[i].ten_tour + "</a></h3></div><p class='tour-item__code'> Mã Tour: " +
                             arr[i].ma_tour + "</p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
                             arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-                            arr[i].giatiennguoilon + "</span>/Khách</div><div class='tour-item__price--current'><button class='btn btn-book'><a href=''class='btn-primary'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='" +
+                            arr[i].giatiennguoilon + "</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour="+ arr[i].ma_tour +"'class='btn-primary'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='" +
                             arr[i].url_tour + "'title='" +
                             arr[i].ten_tour + "'class='btn product-item__summary__btn-login'>Xem chi tiết</a></button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></div>"
+
+                            // onclick='goThongTin("+arr[i].ma_tour+")'
                 }
                 div += "</div>";
                 document.getElementById("category").innerHTML = div;

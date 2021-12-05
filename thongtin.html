@@ -21,14 +21,27 @@
 
     <link rel="stylesheet" href="./asset/css/thongtin.css">
 
+    <script>
+        function getUrlParams() {
+            var params = {};
+            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                params[key] = value;
+            });
+            return params;
+        }
+        var matour = unescape(getUrlParams().matour);
+
+    </script>
+
 </head>
 
 <body>
     <div class="container">
         <!--load header -->
         <div w3-include-html="header.html"></div>
+
         <div class="space"> </div>
-        <div class="thongtin-content" style="margin-top: 100px;">
+        <div class="thongtin-content" style="margin-top: 100px;" id="id_thongtin_content">
             <div class="thongtin-content__thongtintour">
                 <div class="thongtin-content__thongtintour--image">
                     <img src="./asset/images/IMAGE/dai-duong-trong-xanh-hinh-nen-1920x1080_48.jpg" alt="Image">
@@ -140,7 +153,33 @@
 
         <!-- gọi thư viện -->
         <script>
-            w3.includeHTML();
+
+            var xmlhttp = new XMLHttpRequest();
+            var url = "asset/data/tour.json";
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    myFunction(myArr);
+                }
+            }
+
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function myFunction(arr) {
+                var div = '';
+                var i;
+                for (i = 0; i < arr.length; i++) {
+                    if (arr[i].ma_tour == matour) {
+                        div += '<div class="thongtin-content__thongtintour"><div class="thongtin-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thongtin-content__thongtintour--noidung"><div><a href="https://www.google.com.vn/?hl=vi">Đánh giá KH</a> </div><br><div><a href="https://www.google.com.vn/?hl=vi">' + arr[i].ten_tour + '</a></div><br><div><label>Mã tour:</label><a href="https://www.google.com.vn/?hl=vi">' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a href="https://www.google.com.vn/?hl=vi">' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label><a href="https://www.google.com.vn/?hl=vi">' + arr[i].noikhoihanh + '</a><br><label>Ngày khởi hành:</label><a href="https://www.google.com.vn/?hl=vi">' + arr[i].ngaykhoihanh + '</a></div></div></div><div class="text-divider"><h3 id="thongtin-tieude">Thông tin liên lạc</h3></div><div class="thongtin-content__thongtinlienlac"><h3 id="thongtin-tieude__mobile">Thông tin liên lạc</h3><div class="form"><div class="form__row"><div><label>Họ tên:</label></div><div><input type="text"></div></div><div class="form__row"><div><label>Email:</label></div><div> <input type="email"></div></div></div><div class="form"><div class="form__row"><div><label>Số điện thoại:</label></div><div><input type="tel"></div></div><div class="form__row"><div><label>Địa chỉ:</label></div><div><input type="text"></div></div></div><h4 id="thongtin-tieude">Hành khách</h4><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Người lớn</h4><p>>= 16 tuổi</p></div><div class="buttons-soluong"><button class="giamsl is-form" onclick="tru1()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox1"></input><button class="tangsl is-form" onclick="cong1()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ em</h4><p>11 - 15 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru2()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox2"></input><button class="tangsl" onclick="cong2()"> <span class="cong">+</span></button></div></div></div><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ nhỏ</h4><p>5 - 10 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru3()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox3"></input><button class="tangsl" onclick="cong3()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Em bé</h4><p>Dưới 5 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru4()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox4"></input><button class="tangsl" onclick="cong4()"> <span class="cong">+</span></button></div></div></div></div><div class="thongtin-content__button"><button class="button-trove" onclick="trove()">Trở về</button><a href="thanhtoan.html"> <button class="button-tieptheo">Tiếp theo</button></a></div>';
+                        break;
+                    }
+                }
+                div += "</div>";
+                document.getElementById("id_thongtin_content").innerHTML = div;
+
+                w3.includeHTML();
+            }
         </script>
     </div>
 </body>
