@@ -18,15 +18,13 @@
                   margin-top: 20px;
               }
               
-              .thongtin-content__thongtintour--image {
-                  background-image: url(../images/IMAGE/anh-dep-cau-rong-da-nang-viet-nam_055418962.jpg);
-                  width: 50%;
-                  height: 100%;
+              .thongtin-content__thongtintour--image img {
+                  width: 90%;
               }
               
               .thongtin-content__thongtintour--noidung {
-                  width: 50%;
-                  margin-left: 40px;
+                  width: 100%;
+                  margin-left: 5px;
               }
               
               a {

@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="asset/favicon/titlelogo.png">
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="./asset/javascrip/thongtin.js"></script>
 
     <link rel="stylesheet" href="./asset/css/thongtin.css">
 
@@ -29,7 +30,9 @@
         <div class="space"> </div>
         <div class="thongtin-content" style="margin-top: 100px;">
             <div class="thongtin-content__thongtintour">
-                <div class="thongtin-content__thongtintour--image"></div>
+                <div class="thongtin-content__thongtintour--image">
+                    <img src="./asset/images/IMAGE/dai-duong-trong-xanh-hinh-nen-1920x1080_48.jpg" alt="Image">
+                </div>
                 <div class="thongtin-content__thongtintour--noidung">
                     <div><a href="https://www.google.com.vn/?hl=vi">Đánh giá KH</a> </div>
                     <br>
@@ -138,60 +141,6 @@
         <!-- gọi thư viện -->
         <script>
             w3.includeHTML();
-
-            function cong1() {
-                //lấy giá trị của text box
-                var t = document.getElementById("textbox1").value;
-                //cộng thêm 1đvi rồi gán trở lại cho textbox
-                document.getElementById("textbox1").value = parseInt(t) + 1;
-            }
-
-            function cong2() {
-                var t = document.getElementById("textbox2").value;
-                document.getElementById("textbox2").value = parseInt(t) + 1;
-            }
-
-            function cong3() {
-                var t = document.getElementById("textbox3").value;
-                document.getElementById("textbox3").value = parseInt(t) + 1;
-            }
-
-            function cong4() {
-                var t = document.getElementById("textbox4").value;
-                document.getElementById("textbox4").value = parseInt(t) + 1;
-            }
-
-            function tru1() {
-                var t = document.getElementById("textbox1").value;
-                if (parseInt(t) > 0) {
-                    document.getElementById("textbox1").value = parseInt(t) - 1;
-                }
-            }
-
-            function tru2() {
-                var t = document.getElementById("textbox2").value;
-                if (parseInt(t) > 0) {
-                    document.getElementById("textbox2").value = parseInt(t) - 1;
-                }
-            }
-
-            function tru3() {
-                var t = document.getElementById("textbox3").value;
-                if (parseInt(t) > 0) {
-                    document.getElementById("textbox3").value = parseInt(t) - 1;
-                }
-            }
-
-            function tru4() {
-                var t = document.getElementById("textbox4").value;
-                if (parseInt(t) > 0) {
-                    document.getElementById("textbox4").value = parseInt(t) - 1;
-                }
-            }
-
-            function trove() {
-                history.back();
-            }
         </script>
     </div>
 </body>
