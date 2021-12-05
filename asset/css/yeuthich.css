@@ -119,7 +119,7 @@
     margin: 20px 0;
     position: absolute;
     bottom: 0;
-    transform: translateY(-180%);
+    transform: translateY(-200%);
 }
 .yeuthich-datngay img{
     width: 25px;
@@ -135,15 +135,19 @@
     margin: 20px 0;
     position: absolute;
     bottom: 0;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
 }
-#btnxoaitem{
-    width: 30px;
-    height: 30px;
+.yeuthich-xoaitem{
+    border-radius: 10px;
+    font-family: text-regular;
+    font-size: 17px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin: 20px 0;
     position: absolute;
     bottom: 0;
-    transform: translateY(-10%);
-    right: 0;
+    transform: translateY(50%);
 }
 .yeuthich-phuongtien{
     text-align: right;
