@@ -22,9 +22,7 @@
     <link rel="stylesheet" href="./asset/css/tour-thi.css">
 
     <script>
-        function goThongTin(matour) {
-            window.location.href = "detail.html?matour=" + matour;
-        }
+
     </script>
 
 </head>
@@ -50,17 +48,20 @@
                 </select>
             </div>
             <div class="locsanpham">
-                <div class="locsanpham-select">
-                    <h2>LỌC KẾT QUẢ</h2>
+                <div class="locsanpham-select" id="locSanPham">
+                    <!-- <h2>LỌC KẾT QUẢ</h2>
+                    <div>
+                        <select name="quocgia" id="quocgia" class=" select-item">
+                            <option value="0">--Chọn quốc gia--</option>
+                            <option value="1">Tour trong nước</option>
+                            <option value="2">Tour ngoài nước</option>
+                        </select>
+                    </div>
                     <div>
                         <select name="khuvuc" id="khuvuc" class=" select-item">
                             <option value="0">--Chọn khu vực--</option>
-                            <a href="tourdulichtrongnuoc.html">
-                                <option value="1">Tour trong nước</option>
-                            </a>
-                            <a href="tourdulichnuocngoai.html">
-                                <option value="2">Tour ngoài nước</option>
-                            </a>
+                            <option value="1">Tour trong nước</option>
+                            <option value="2">Tour ngoài nước</option>
                         </select>
                     </div>
 
@@ -96,7 +97,7 @@
                             <option value="8-14">8-14 ngày</option>
                             <option value=">14">Trên 14 ngày</option>
                         </select>
-                    </div>
+                    </div> -->
 
 
                 </div>
@@ -153,17 +154,21 @@
         <div w3-include-html="footer.html"></div>
 
         <!-- gọi thư viện -->
+
         <script>
+
             var xmlhttp = new XMLHttpRequest();
             var url = "asset/data/tour.json";
             xmlhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var myArr = JSON.parse(this.responseText);
                     myFunction(myArr);
+                    myFunction_loc(myArr);
                 }
             }
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
+
             function myFunction(arr) {
                 var div = "<div class='locsanpham-tour'>";
                 var i;
@@ -188,9 +193,114 @@
                 document.getElementById("category").innerHTML = div;
             }
 
+            // Lọc 
+            function myFunction_loc(arr) {
+
+                // arrKhuVuc = [a,b];
+                // arrDiemDen = [];
+                // arrSoNgayTour = [];
+                var arrKhuVuc_tn = new Array();
+                var arrKhuVuc_nn = new Array();
+
+
+                var arrDiemDen_tn = new Array();
+                var arrDiemDen_nn = new Array();
+
+
+                var arrSoNgayTour = new Array();
 
 
 
+                // add từ data thành arr
+                // for (i = 0; i < arr.length; i++) {
+                //     arrKhuVuc.push(arr[i].khuvuc);
+                //     arrDiemDen.push(arr[i].diemden);
+                //     arrSoNgayTour.push(arr[i].thoigian);
+                // }
+                for (i = 0; i < arr.length; i++) {
+                    if (arr[i].quocgia == 'Tour du lịch trong nước') {
+                        arrKhuVuc_tn.push(arr[i].khuvuc);
+                        arrDiemDen_tn.push(arr[i].diemden);
+                    }
+                    if (arr[i].quocgia == 'Tour du lịch nước ngoài') {
+                        arrKhuVuc_nn.push(arr[i].khuvuc);
+                        arrDiemDen_nn.push(arr[i].diemden);
+                    }
+
+
+                    arrSoNgayTour.push(arr[i].thoigian);
+                }
+                arrKhuVuc_tn = arrKhuVuc_tn.filter((item, index) => arrKhuVuc_tn.indexOf(item) === index);
+                arrKhuVuc_nn = arrKhuVuc_nn.filter((item, index) => arrKhuVuc_nn.indexOf(item) === index);
+
+                arrDiemDen_tn = arrDiemDen_tn.filter((item, index) => arrDiemDen_tn.indexOf(item) === index);
+                arrDiemDen_nn = arrDiemDen_nn.filter((item, index) => arrDiemDen_nn.indexOf(item) === index);
+
+                arrSoNgayTour = arrSoNgayTour.filter((item, index) => arrSoNgayTour.indexOf(item) === index);
+                // arrDiemDen = [...new Set(arrDiemDen)];
+                // arrSoNgayTour = [...new Set(arrSoNgayTour)];
+
+                var div = '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0">--Chọn quốc gia--</option><option value="1">Tour trong nước</option><option value="2">Tour ngoài nước</option></select></div><div><select name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
+
+                for (var i = 0; i < arrKhuVuc_tn.length; i++) {
+                    div += '<option class="TrongNuoc-distinguish" value="' + arrKhuVuc_tn[i] + '">' + arrKhuVuc_tn[i] + '</option>';
+                };
+                for (var i = 0; i < arrKhuVuc_nn.length; i++) {
+                    div += '<option class="NgoaiNuoc-distinguish" value="' + arrKhuVuc_nn[i] + '">' + arrKhuVuc_nn[i] + '</option>';
+                }
+
+                div += '</select></div><div><select name="loaihinhtour" id="loaihinhtour" class=" select-item"><option value="trongnuoc">--Loại hình tour--</option><option value="trongnuoc">Tour trọn gói</option><option value="trongnuoc">Tour gia đình</option></select></div><div><select name="diemdi"id="diemdi" class=" select-item"><option value="0">--Điểm đi--</option><option value="3">Hà Nội</option><option value="4">TP. Hồ Chí Minh</option></select></div><div><select name="diemden" id="diemden" class="select-item"><option value="0">--Điểm đến--</option>'
+
+                for (var i = 0; i < arrDiemDen_tn.length; i++) {
+                    div += '<option class="TrongNuoc-distinguish" value="' + arrDiemDen_tn[i] + '">' + arrDiemDen_tn[i] + '</option>';
+                };
+                for (var i = 0; i < arrDiemDen_nn.length; i++) {
+                    div += '<option class="NgoaiNuoc-distinguish" value="' + arrDiemDen_nn[i] + '">' + arrDiemDen_nn[i] + '</option>';
+                }
+
+                div += '</select></div><div><select name="songaytour" id="songaytour" class="select-item"><option value="0">--Số ngày tour--</option>'
+
+                for (var i = 0; i < arrSoNgayTour.length; i++) {
+                    div += '<option value="' + arrSoNgayTour[i] + '">' + arrSoNgayTour[i] + '</option>';
+                }
+
+                div += '</select></div>'
+                document.getElementById("locSanPham").innerHTML = div;
+
+            }
+
+
+
+            function locQuocGia() {
+                var value = document.getElementById("quocgia").value;
+                var tn =  document.getElementsByClassName("TrongNuoc-distinguish");
+                var nn =  document.getElementsByClassName("NgoaiNuoc-distinguish");
+                if (value === '0') {
+                    for (i = 0; i < tn.length; i++) {
+                        tn[i].style.display = 'block';
+                    }
+                    for (i = 0; i < nn.length; i++) {
+                        nn[i].style.display = 'block';
+                    }
+                }
+                else if (value === '1') {
+                    for (i = 0; i < tn.length; i++) {
+                        tn[i].style.display = 'block';
+                    }
+                    for (i = 0; i < nn.length; i++) {
+                        nn[i].style.display = 'none';
+                    }
+
+                }
+                else if (value === '2') {
+                    for (i = 0; i < tn.length; i++) {
+                        tn[i].style.display = 'none';
+                    }
+                    for (i = 0; i < nn.length; i++) {
+                        nn[i].style.display = 'block';
+                    }
+                }
+            }
 
 
             w3.includeHTML();

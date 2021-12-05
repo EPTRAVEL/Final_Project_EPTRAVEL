@@ -1,86 +1,90 @@
-
-
-.tourdulich-content{
-    margin: 0 3%;
+.tourdulich-content {
+  margin: 0 3%;
 }
 
-.sapxep-select{
-    text-align: right;
-    
+.sapxep-select {
+  text-align: right;
 }
-#sapxep-select{
-    height: 20%;
-    border-radius: 5px;
-    border: 0;
-    padding: 7px;
+#sapxep-select {
+  height: 20%;
+  border-radius: 5px;
+  border: 0;
+  padding: 7px;
 }
 
-.locsanpham{
-    display: flex;
-    margin-top: 10px;
+.locsanpham {
+  display: flex;
+  margin-top: 10px;
 }
-.locsanpham-select{
-    flex: 1;
-    text-align: center;
-    background-color: var(--title_background-color);
-    height: 315px;
-    border-radius: 10px;
+.locsanpham-select {
+  flex: 1;
+  text-align: center;
+  background-color: var(--title_background-color);
+  height: 315px;
+  border-radius: 10px;
 }
-.select-item{
-    width: 80%;
-    height: 20%;
-    border-radius: 5px;
-    border: 0;
-    margin: 10px 0;
-    padding: 7px;
+.select-item {
+  width: 80%;
+  height: 20%;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px 0;
+  padding: 7px;
 }
-.locsanpham-select>h2{
-    color: white;
-    font-size: 100%;
+.locsanpham-select > h2 {
+  color: white;
+  font-size: 100%;
 }
-#category{
-    flex: 3;
+#category {
+  flex: 3;
 }
-.locsanpham-tour{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: fit-content;
-    margin-left: 4%;
+.locsanpham-tour {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: fit-content;
+  margin-left: 4%;
 }
-.tour-item{
-    width: 30%;
-    height: 450px;
-    border-radius: 5px;
+.tour-item {
+  width: 30%;
+  height: 450px;
+  border-radius: 5px;
 }
-.tour-item:hover{
-    transform: scale(1.05);
+.tour-item:hover {
+  transform: scale(1.05);
 }
-.tour-item__image{
-    height: 180px;
+.tour-item__image {
+  height: 180px;
 }
 .tour-item__image img {
-    width:100%;
-    height: 100%;
-    border-radius: 5px 5px 0 0 ;
-  }
-.card-body{
-    text-align: center;
-    background-color: var(--item_background-color);
-    padding: 10px;
-    border-radius:  0 0 5px 5px;
-    /* height: 400px; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
 }
-p{
-    margin: 5px;
+.card-body {
+  text-align: center;
+  background-color: var(--item_background-color);
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  /* height: 400px; */
 }
-.tour-item__title{
-    height: 60px;
+p {
+  margin: 5px;
 }
-.tour-item__title h3{
-    margin-top: 3px;
+.tour-item__title {
+  height: 60px;
 }
-.tour-item__price--current{
-    display: flex;
-    justify-content: space-between;
+.tour-item__title h3 {
+  margin-top: 3px;
+}
+.tour-item__price--current {
+  display: flex;
+  justify-content: space-between;
+}
+div#locSanPham {
+  height: 370px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 120px;
+  margin-bottom: 30px;
 }
