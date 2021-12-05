@@ -250,11 +250,12 @@ ul {
 
 
 @media only screen and (max-width: 1340px) {
-  .nav {
-    
-    margin-top: -70px;
-  
-    
+  .nav { 
+    margin-top: -90px;
+  }
+  .logo img{
+    width: 170px;
+    margin-top: -5px;
   }
 }
 
@@ -263,13 +264,11 @@ ul {
   .nav {
     
     /* display: none; */
-    margin-top: 0px;
+    margin-top: -10px;
     
   }
-  .logo img{
-    width: 170px;
-    margin-top: -5px;
-  }
+  
+  
   .header {
     height: 60px;
     
