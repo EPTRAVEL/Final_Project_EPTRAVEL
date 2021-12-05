@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./asset/css/khuyenmai.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
-
+    <!-- Favicon :  title off website -->
+    <link rel="shortcut icon" href="asset/favicon/titlelogo.png">
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
@@ -30,7 +31,7 @@
         <div w3-include-html="header.html"></div>
         <div class="khuyenmai-content" style="margin-top: 88px;">
             <!-- Bỏ nội dung vô đây -->
-            <div class="khuyenmai_row">
+            <div class="khuyenmai_tittle">
                 <!-- image slider start -->
                 <div class="kmslider">
                     <div class="kmslides">
@@ -68,103 +69,143 @@
                 </div>
                 <!-- image slider end -->
                 <script type="text/javascript">
-                    var counter =  1;
-                    setInterval(function(){
+                    var counter = 1;
+                    setInterval(function () {
                         document.getElementById('kmradio' + counter).checked = true;
                         counter++;
-                        if (counter >3){
-                            counter=1;
+                        if (counter > 3) {
+                            counter = 1;
                         }
-                    },5000);
+                    }, 5000);
                 </script>
             </div>
-            <div class="khuyenmai_row">
-                <div class="khuyenmai_tour--item">
-                    <div class="home--title--item">TOUR TRONG NƯỚC</div>
+            
+                <div class="khuyenmai_tittle">
+                    <div class="khuyenmai_tour--item">
+                        <div class="home--title--item">TOUR TRONG NƯỚC</div>
+                    </div>
                 </div>
-            </div>
-                <!-- <div class="khuyenmai_row">
-                    <div class="khuyenmai_column">
-                       <div class="khuyenmai_sp">
-                                <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
-                                <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
-                                <p>Mã tour: TNMTDN001</p>
-                                <p>Thời gian: 4 ngày 3 đêm</p>
-                                <p>Địa điểm khởi hành: TP Hồ Chí Minh</p>
-                                <div class="khuyenmai_gia">5.690.000<span> đ</span></div>
-                                <div class="khuyenmai_giacu">6.690.000<span> đ</span></div>
-                                <img class="phuongtien_item1" src="./asset/images/ICON/bus.png" alt="bus">
-                                <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
-                                <input type="button" class="khuyenmai_imagecard" value="Đặt ngay" >
-                                
+                <!-- <div class="khuyenmai_row"> -->
+                    <!-- <div class="khuyenmai_sp">
+                        <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
+                        <div class="khuyenmai_text">
+                            <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
+                            <p>Mã tour: TNMTDN001</p>
+                            <p>Thời gian: 4 ngày 3 đêm</p>
+                            <p>Địa điểm khởi hành: TP Hồ Chí Minh</p>
+                            <div class="khuyenmai_gia">5.690.000<span> đ</span></div>
+                            <div class="khuyenmai_giacu">6.690.000<span> đ</span></div>
+                            <img class="phuongtien_item1" src="./asset/images/ICON/bus.png" alt="bus">
+                            <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
+                            <input type="button" class="khuyenmai_imagecard" value="Đặt ngay">
+    
                         </div>
                     </div>
-                </div> -->
-                
-                <div id="khuyenmai_category_trongnuoc">
-
+                    <a href="">
+                        <div class="khuyenmai_sp">
+                        <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
+                        <div class="khuyenmai_text">
+                            <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
+                            <p>Mã tour: TNMTDN001</p>
+                            <p>Thời gian: 4 ngày 3 đêm</p>
+                            <p>Địa điểm khởi hành: TP Hồ Chí Minh</p>
+                            <input type="button" class="khuyenmai_imagecard" value="Đặt ngay">
+                            <div class="khuyenmai_gia">5.690.000<span> đ</span></div>
+                            <div class="khuyenmai_giacu">6.690.000<span> đ</span></div></a>
+                            <img class="phuongtien_item1" src="./asset/images/ICON/bus.png" alt="bus">
+                            <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
+                        </div>
+                    </div>
+                    <div class="khuyenmai_sp">
+                        <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
+                        <div class="khuyenmai_text">
+                            <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
+                            <p>Mã tour: TNMTDN001</p>
+                            <p>Thời gian: 4 ngày 3 đêm</p>
+                            <p>Địa điểm khởi hành: TP Hồ Chí Minh</p>
+                            <div class="khuyenmai_gia">5.690.000<span> đ</span></div>
+                            <div class="khuyenmai_giacu">6.690.000<span> đ</span></div>
+                            <img class="phuongtien_item1" src="./asset/images/ICON/bus.png" alt="bus">
+                            <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
+                            <input type="button" class="khuyenmai_imagecard" value="Đặt ngay">
+    
+                        </div>
+                    </div>
+                    <div class="khuyenmai_sp">
+                        <img src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg" style="width: 100%">
+                        <div class="khuyenmai_text">
+                            <h3>Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng</h3>
+                            <p>Mã tour: TNMTDN001</p>
+                            <p>Thời gian: 4 ngày 3 đêm</p>
+                            <p>Địa điểm khởi hành: TP Hồ Chí Minh</p>
+                            <div class="khuyenmai_gia">5.690.000<span> đ</span></div>
+                            <div class="khuyenmai_giacu">6.690.000<span> đ</span></div>
+                            <img class="phuongtien_item1" src="./asset/images/ICON/bus.png" alt="bus">
+                            <img class="phuongtien_item2" src="./asset/images/ICON/plane.png" alt="plane">
+                            <input type="button" class="khuyenmai_imagecard" value="Đặt ngay">
+    
+                        </div> -->
+                    <!-- </div> -->
                 </div>
-            </div>
-            <div class="khuyenmai_row">
+                <div id="khuyenmai_category_trongnuoc">
+    
+                </div>
+           
+
+            <div class="khuyenmai_tittle">
                 <div class="khuyenmai_tour--item">
                     <div class="home--title--item">TOUR QUỐC TẾ</div>
                 </div>
             </div>
             <!-- <div class="khuyenmai_row">
-
-                
-            </div> -->
+    
+                    
+                </div> -->
             <div id="khuyenmai_category_nuocngoai">
 
             </div>
-            </div>
+        <!-- load footer -->
+        <div w3-include-html="footer.html"></div>
+    </div>
 
-            <!-- load footer -->
-            <div w3-include-html="footer.html"></div>
 
-            <!-- gọi thư viện -->
-            <script>
-                var xmlhttp = new XMLHttpRequest();
-                var url ="../asset/data/tour.json";
+    <!-- gọi thư viện -->
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        var url = "../asset/data/tour.json";
 
-                xmlhttp.onreadystatechange = function(){
-                    if (this.readyState ==4 && this.status==200){
-                        var myArr = JSON.parse(this.responseText);
-                        myFunction(myArr);
-                    }
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var myArr = JSON.parse(this.responseText);
+                myFunction(myArr);
+            }
+        }
+        xmlhttp.open("GET", url, true);// Ra lệnh chứ chưa thực hiện
+        xmlhttp.send();//Thực hiên thực sự
+
+
+        function myFunction(arr) {
+            var div1 = "<div class='khuyenmai_row'>";
+            var div2 = "<div class='khuyenmai_row'>";
+
+            var i;
+
+            for (i = 0; i < arr.length; i++) {
+                if (arr[i].giamgia != 0 && arr[i].quocgia == "Tour du lịch trong nước") {
+                    div1 += "<a href=''><div class='khuyenmai_sp'><a href=''><img class='khuyenmai_img' src='" + arr[i].images[1] + "'><h3 class='khuyenmai_text'>" + arr[i].ten_tour + "</h3><p>Mã tour: " + arr[i].ma_tour + "</p><p>Thời gian: " + arr[i].thoigian + "</p><p>Địa điểm khởi hành: " + arr[i].noikhoihanh + "</p><div class='khuyenmai_gia'>" + arr[i].giatiennguoilon + "<span>đ</span></div><div class='khuyenmai_giacu'>" + arr[i].giatiennguoilon + "<span>đ</span></div><input type='button' class='khuyenmai_imagecard' value='Đặt ngay'><img class='phuongtien_item1' src='./asset/images/ICON/bus.png' alt='bus'><img class='phuongtien_item2' src='./asset/images/ICON/plane.png' alt='plane'></div></a>"              
                 }
-                xmlhttp.open("GET",url, true);// Ra lệnh chứ chưa thực hiện
-                xmlhttp.send();//Thực hiên thực sự
+                else if (arr[i].giamgia != 0 && arr[i].quocgia == "Tour du lịch nước ngoài") {
+                    div2 += "<a href=''><div class='khuyenmai_sp'><a href=''><img class='khuyenmai_img' src='" + arr[i].images[1] + "'><h3 class='khuyenmai_text'>" + arr[i].ten_tour + "</h3><p>Mã tour: " + arr[i].ma_tour + "</p><p>Thời gian: " + arr[i].thoigian + "</p><p>Địa điểm khởi hành: " + arr[i].noikhoihanh + "</p><div class='khuyenmai_gia'>" + arr[i].giatiennguoilon + "<span>đ</span></div><div class='khuyenmai_giacu'>" + arr[i].giatiennguoilon + "<span>đ</span></div><input type='button' class='khuyenmai_imagecard' value='Đặt ngay'><img class='phuongtien_item1' src='./asset/images/ICON/bus.png' alt='bus'><img class='phuongtien_item2' src='./asset/images/ICON/plane.png' alt='plane'></div></a>";
 
-
-                function myFunction(arr){
-                    var div1 = "<div class='khuyenmai_row'>";
-                    var div2 = "<div class='khuyenmai_row'>";
-
-                        var i;
-                        
-                        for ( i = 0 ; i <arr.length; i++){
-                            if (arr[i].giamgia !=0 && arr[i].quocgia == "Tour du lịch trong nước"){
-                                div1 +="<div class='khuyenmai_column'><div class='khuyenmai_sp'><a href=''><img src='"+ arr[i].images+"'><h3>"+arr[i].ten_tour+"</h3><p>Mã tour: "+arr[i].ma_tour+"</p><p>Thời gian: "+arr[i].thoigian+"</p><p>Địa điểm khởi hành: "+arr[i].noikhoihanh+"</p><div class='khuyenmai_gia'>"+arr[i].giatiennguoilon+"<span>đ</span></div><div class='khuyenmai_giacu'>"+arr[i].giatiennguoilon+"<span>đ</span></div></div></div>";
-                            }
-                            else if (arr[i].giamgia !=0 && arr[i].quocgia == "Tour du lịch nước ngoài"){
-                                div2 +="<div class='khuyenmai_column'><div class='khuyenmai_sp'><a href=''><img src='"+ arr[i].images+"'><h3>"+arr[i].ten_tour+"</h3><p>Mã tour: "+arr[i].ma_tour+"</p><p>Thời gian: "+arr[i].thoigian+"</p><p>Địa điểm khởi hành: "+arr[i].noikhoihanh+"</p><div class='khuyenmai_gia'>"+arr[i].giatiennguoilon+"<span>đ</span></div><div class='khuyenmai_giacu'>"+arr[i].giatiennguoilon+"<span>đ</span></div></div></div>";
-  
-                            }
-                        }
-
-                        div1 +="</div>";
-                        div2 +="</div>";
-                        document.getElementById("khuyenmai_category_trongnuoc").innerHTML=div1;
-                        document.getElementById("khuyenmai_category_nuocngoai").innerHTML=div2;
                 }
-                w3.includeHTML();
-            </script>
-
-
-
-
-        </div>
+            }
+            div1 += "</div>";
+            div2 += "</div>";
+            document.getElementById("khuyenmai_category_trongnuoc").innerHTML = div1;
+            document.getElementById("khuyenmai_category_nuocngoai").innerHTML = div2;
+        }
+        w3.includeHTML();
+        </script>
 </body>
 
 </html>

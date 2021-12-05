@@ -6,14 +6,10 @@ html,body
 }
 .khuyenmai-content{ 
     width: 100%;
+    height: 100%;
     margin: auto;
 }
-.khuyenmai_row{
-display: flex;
-justify-content: center;
-margin-top: 25px;
 
-}
 .khuyenmai_tour--item{
     display: flex;
     flex-direction: row;
@@ -26,25 +22,35 @@ margin-top: 25px;
     margin-top: -20px;
     justify-content: center;
 }
-.kmtour_SP{
+
+.khuyenmai_tittle{
     display: flex;
-    flex-direction: row;
-    width: fit-content;
-    height: 450px;
-    display: flex;
+    margin-top: 25px;
+    justify-content: center;
 }
-.tour--background{
-    background-color: var(--item_background-color);
-    height: 30px;
+.khuyenmai_row{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    justify-content:center;
+    margin-bottom: 80px;
+    
 }
 .khuyenmai_sp{
-    background-color: hsla(0, 0%, 100%, 0.6);
+    background-color: var(--item_background-color);
     width: 320px;
     height: 450px;
-    margin-bottom: 50px;
-    margin-left: 40px;
+    margin: auto;
     position: relative;
     
+}
+.khuyenmai_text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
 }
 a{
     text-decoration: none;
@@ -53,27 +59,26 @@ a{
 }
 h3{
     text-align: center;
-    margin: 0px 3%;
-    position: relative;
+    margin: 10px 3%;
     font-family: Fester_Bold;
     font-size: 20px;
 }
 p{
     font-family: text-regular;
     font-size: 17px;
-    margin: 8px 5%;
+    margin: 3px 5%;
 }
 .khuyenmai_gia{
     font-family: Fester_Bold;
     font-size: 23px;
-    margin: 8px 10%;
+    margin: 5px 10%;
     color: #F40000;
 }
 .khuyenmai_giacu{
     font-family: Fester_Bold;
     font-size: 20px;
-    margin: 8px 10%;
-    color: #BABABA;
+    margin: 0px 10%;
+    color: #868686;
     text-decoration:line-through;
 }
 .khuyenmai_imagecard{
@@ -103,7 +108,11 @@ p{
       
     
   }
-  
+
+  .khuyenmai_img{
+    width: 100%;
+    height: 45%;
+}
     .khuyenmai_imagecard:hover{
         width: 110px;
         background-color: #D74848;
@@ -117,29 +126,21 @@ p{
 .phuongtien_item1{
     width: 20px;
     position: absolute;
-    bottom: 33%;
-    right: 10%;
+    right:25px; 
+    top: 260px;
     opacity: 0.6;
 }
 .phuongtien_item2{
     width: 20px;
     position: absolute;
-    bottom: 33%;
-    right: 3%;
+   right: 3px; 
+   top: 260px;
     opacity: 0.6;
 }
-.khuyenmai_card{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+
+.khuyenmai_plus{
+    width: 20px;
 }
-.khuyenmai_card_row{
-    font-family: text-regular;
-    font-size: 15px;
-}
-
-
-
 
 
 
