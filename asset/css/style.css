@@ -77,6 +77,7 @@
   height: 100px;
   display: flex;
   
+  
 }
 .home__tintuc-dulich {
   flex: 7;
@@ -92,11 +93,16 @@
   background-color: var(--title_background-color);
   border-radius: 10px;
 }
-.home__tintuc-dulich--item {
+.home__tintuc-dulich--item-cont{
   border-radius: 10px;
   background-color: var(--item_background-color);
-  height: 500px;
+  height: 490px;
+  padding: 5px 10px;
+  
+}
+.home__tintuc-dulich--item {
   overflow-y: scroll;
+  height: 480px;
 }
 .ttdl--row {
   display: flex;
@@ -288,7 +294,9 @@
   transform: translateY(-50%);
   
 }
-
+.home__tour .home__tour-item .img img{
+  width: 600px;
+}
 .home__hot-tour {
   height: 100px;
 }
@@ -346,8 +354,84 @@
 }
 
 
-@media only screen and (max-width: 1100) {
+
+@media only screen and (max-width: 1242px) {
   .home__tintuc {
+    height: 300px ;
     flex-direction: column;
   }
+  .home__tintuc-quantam{
+    margin-top: 20px;
+  }
+  .home__tour {
+    margin-top: 800px;
+    flex-direction: column;
+  
+      background-color: rgba(255, 0, 0, 0);
+      
+    
+}
+.home-content {
+  height: 3500px;
+ 
+}
+.home__tintuc-dulich {
+  flex: 7 1 0%;
+  margin-right: 0px;
+}
+.home__hot-tour {
+  margin-top: 450px;
+}
+.home__tour-item .home-tour-title {
+  
+  line-height: 60px;
+  
+  
+  top: 48%;
+  left: 38%;
+  transform: translateY(-50%);
+}
+.slider-three .slider-item .img img {
+  margin: 0 auto;
+  width: 450px;
+}
+.home__hot-tour--item .slider-item .img img {
+  margin: 0 auto;
+  width: 450px;
+}
+}
+@media only screen and (max-width: 1010px) {
+  
+.slider-three .slider-item .img img {
+  margin: -30px auto 0 auto;
+  width: 450px;
+}
+.home__hot-tour--item .slider-item .img img {
+  margin: 0 auto;
+  width: 450px;
+}
+.home__tour-item .home-tour-title {
+  left: 34%;
+ 
+}
+}
+@media only screen and (max-width: 800px) {
+ 
+.home__tour-item .home-tour-title {
+  left: 28%;
+ 
+}
+}
+@media only screen and (max-width: 550px) {
+ 
+.home__tour-item .home-tour-title {
+  left: 22%;
+ 
+}
+.home__tour .home__tour-item .img img{
+  width: 500px;
+}
+.home__hot-tour {
+  margin-top: 320px;
+}
 }

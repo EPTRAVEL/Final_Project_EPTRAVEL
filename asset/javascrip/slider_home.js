@@ -16,8 +16,24 @@ $(document).ready(function () {
     slidesToScroll: 3,
     infinite: true,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 7000,
+    responsive: [
+      {
+        breakpoint: 1242,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 1010,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ],
     // arrows: false,
     prevArrow:
       '<button type="button" class="slick-prev pull-left"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>',
@@ -35,6 +51,22 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 10000,
     // arrows: false,
+    responsive: [
+      {
+        breakpoint: 1242,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1010,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ],
     prevArrow:
       '<button type="button" class="slick-prev pull-left"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>',
     nextArrow:
