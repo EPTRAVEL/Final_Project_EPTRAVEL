@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <div class="container" onmouseover="locQuocGia(); ">
+    <div class="container" >
         <!--load header -->
         <div w3-include-html="header.html"></div>
         <div style="height: 130px;"></div>
@@ -240,7 +240,7 @@
                 // arrDiemDen = [...new Set(arrDiemDen)];
                 // arrSoNgayTour = [...new Set(arrSoNgayTour)];
 
-                var div = '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0" id="op_none">--Chọn quốc gia--</option><option id="op_trongnuoc" value="1">Tour trong nước</option><option value="2" id="op_ngoainuoc">Tour ngoài nước</option></select></div><div><select name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
+                var div = '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0" id="op_none">--Chọn quốc gia--</option><option id="op_trongnuoc" value="1">Tour trong nước</option><option value="2" id="op_ngoainuoc">Tour ngoài nước</option></select></div><div><select onclick="locQuocGia()" name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
 
                 for (var i = 0; i < arrKhuVuc_tn.length; i++) {
                     div += '<option class="TrongNuoc-distinguish" value="' + arrKhuVuc_tn[i] + '">' + arrKhuVuc_tn[i] + '</option>';
@@ -249,7 +249,7 @@
                     div += '<option class="NgoaiNuoc-distinguish" value="' + arrKhuVuc_nn[i] + '">' + arrKhuVuc_nn[i] + '</option>';
                 }
 
-                div += '</select></div><div><select name="loaihinhtour" id="loaihinhtour" class=" select-item"><option value="0">--Loại hình tour--</option><option value="Tour trọn gói">Tour trọn gói</option><option value="Tour gia đình">Tour gia đình</option></select></div><div><select name="diemdi"id="diemdi" class=" select-item"><option value="0">--Điểm đi--</option><option value="Hà Nội">Hà Nội</option><option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option></select></div><div><select name="diemden" id="diemden" class="select-item"><option value="0">--Điểm đến--</option>'
+                div += '</select></div><div><select name="loaihinhtour" id="loaihinhtour" class=" select-item"><option value="0">--Loại hình tour--</option><option value="Tour trọn gói">Tour trọn gói</option><option value="Tour gia đình">Tour gia đình</option></select></div><div><select name="diemdi"id="diemdi" class=" select-item"><option value="0">--Điểm đi--</option><option value="Hà Nội">Hà Nội</option><option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option></select></div><div><select onclick="locQuocGia()" name="diemden" id="diemden" class="select-item"><option  value="0">--Điểm đến--</option>'
 
                 for (var i = 0; i < arrDiemDen_tn.length; i++) {
                     div += '<option class="TrongNuoc-distinguish" value="' + arrDiemDen_tn[i] + '">' + arrDiemDen_tn[i] + '</option>';
