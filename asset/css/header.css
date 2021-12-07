@@ -1,6 +1,6 @@
 .header {
   height: 140px;
-  top:0;
+  top: 0;
 }
 .logo {
   margin: -6px 10px;
@@ -41,7 +41,7 @@ input[type="search"]:focus {
   color: white;
   border: rgb(14, 0, 95) solid 1px;
 }
-input[type="search"]:hover{
+input[type="search"]:hover {
   cursor: pointer;
 }
 
@@ -86,7 +86,7 @@ input[type="search"]:hover{
   height: 65px;
   position: absolute;
   left: -100px;
-  background-color: rgba(255, 0, 0,0);
+  background-color: rgba(255, 0, 0, 0);
   z-index: 0;
 }
 .user-icon ul #user-block li {
@@ -131,17 +131,17 @@ input[type="search"]:hover{
   background-image: url("../images/ICON/user_w.png");
   cursor: pointer;
 }
-.hamburger-icon{
-    display: none;
+.hamburger-icon {
+  display: none;
 }
 
-.hamburger-icon button{
+.hamburger-icon button {
   background-color: rgba(255, 0, 0, 0);
   border: none;
   font-size: 30px;
   margin-top: -2px;
 }
-.hamburger-icon button:hover{
+.hamburger-icon button:hover {
   cursor: pointer;
   color: rgb(255, 255, 255);
 }
@@ -155,7 +155,6 @@ input[type="search"]:hover{
   margin-left: 0;
   margin-bottom: 15px;
   text-indent: 0px;
-  
 }
 ul {
 }
@@ -180,7 +179,6 @@ ul {
   float: left;
   padding: 0 5px;
   border-radius: 5px;
-  
 }
 
 .nav ul li a {
@@ -210,7 +208,7 @@ ul {
   margin-left: -50px;
   margin-top: 8px;
 }
-.nav ul li ul li ul{
+.nav ul li ul li ul {
   text-align: center;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -218,28 +216,26 @@ ul {
   background-color: var(--nav_background-color);
   list-style: none;
   position: absolute;
-  
- 
 }
-.nav ul li ul li #nav_trongnuoc{
+.nav ul li ul li #nav_trongnuoc {
   left: 230px;
   top: 0px;
   width: 100px;
   display: none;
 }
-.nav ul li ul li #nav_ngoainuoc{
+.nav ul li ul li #nav_ngoainuoc {
   left: 230px;
   top: 10px;
   width: 85px;
   display: none;
 }
-.nav ul li ul li ul li{
+.nav ul li ul li ul li {
   position: relative;
   float: left;
   padding: 0 5px;
   border-radius: 5px;
 }
-.nav ul li ul li ul li a{
+.nav ul li ul li ul li a {
   display: block;
   text-decoration: none;
   padding: 0.3em 6px;
@@ -248,12 +244,11 @@ ul {
   color: white;
 }
 
-
 @media only screen and (max-width: 1340px) {
-  .nav { 
+  .nav {
     margin-top: -90px;
   }
-  .logo img{
+  .logo img {
     width: 170px;
     margin-top: -5px;
   }
@@ -262,35 +257,80 @@ ul {
 /* humberger */
 @media only screen and (max-width: 935px) {
   .nav {
-    
     /* display: none; */
     margin-top: -10px;
-    
   }
-  
-  
+
   .header {
     height: 60px;
-    
   }
-  
+
   .nav ul li {
-   
     margin-left: -30px;
   }
   .nav ul {
-    
     width: 685px;
   }
 }
 @media only screen and (max-width: 750px) {
-  .nav {  
+  .nav {
     display: none;
+    position: absolute;
+    right: 20px;
+    top: 55px;
   }
-  .hamburger-icon{
+ 
+  .hamburger-icon {
     display: block;
-}
-input[type="search"]:focus {
-  width: 150px;
-}
+  }
+  input[type="search"]:focus {
+    width: 150px;
+  }
+  .nav ul li {
+
+    float: right;
+
+    border-radius: 5px;
+    
+  }
+  /* .nav ul li a {
+
+    width: 1000px;
+    
+  } */
+  .nav ul{
+   width: 100px;
+   height: 200px;
+  }
+  .nav ul li a {
+    margin-left: 0px;
+  }
+  .nav li ul {
+    position: absolute;
+    display: block;
+    left: -200px;
+    top: -5px;
+    width: 11em;
+    height: 100px;
+    padding-inline-start: 5px;
+  }
+  .nav li ul:hover {
+    display: block;
+  }
+
+  .nav ul li ul li #nav_trongnuoc {
+    left: -123px;
+    top: 0px;
+    width: 100px;
+    display: block;
+    height: 120px;
+  }
+  .nav ul li ul li #nav_ngoainuoc {
+    left: -113px;
+    top: 10px;
+    width: 85px;
+    display: block;
+    height: 120px;
+
+  }
 }

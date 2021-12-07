@@ -53,13 +53,17 @@
                         </div>
                     </ul>
                 </div>
-                <div class="hamburger-icon main-icon">
-                    <button><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <div id='hamburger-o' class="hamburger-icon main-icon">
+                    <button onclick="hamburger_o()"><i class="fa fa-bars" aria-hidden="true"></i></button>
                 </div>
+                <div id='hamburger-x' style="display: none; width: 35px;" class="hamburger-icon main-icon">
+                    <button onclick="hamburger_x()"><i class="fas fa-times" aria-hidden="true"></i></button>
+                </div>
+                
             </div>
         </div>
 
-        <div class="nav ">
+        <div class="nav" id="nav_id">
             <ul>
                 <li> <a class="nav_text-style" href="index.html">Trang chủ</a></li>
                 <li> <a class="nav_text-style" href="tourdulich.html">Tour du lịch</a>
@@ -142,8 +146,9 @@
                 </div>
             </div>
         </div>
-
+        
     </div>
+    
 </body>
 
 </html>
