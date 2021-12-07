@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="asset/css/tourdulich.css">
     <link rel="stylesheet" href="./asset/css/tour-thi.css">
 
-    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    
     <script>
 
     </script>
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-    <div class="container" >
+    <div class="container">
         <!--load header -->
         <div w3-include-html="header.html"></div>
         <div style="height: 130px;"></div>
@@ -352,22 +353,34 @@
 
 
             //Function để change sel - JQuery
+            // function changeSel_optionxx(id_sel, value_option) {
+
+            //     const $select = document.querySelector('#' + id_sel);
+            //     $select.value = value_option;
+
+
+            // }
             function changeSel_option(id_sel, value_option) {
+                var val = value_option;
+                var sel = document.getElementById(id_sel);
 
-                const $select = document.querySelector('#' + id_sel);
-                $select.value = value_option;
-
-                // window.onload = function () {
-                //     const $select = document.querySelector('#' + id_sel);
-                //     $select.value = value_option;
-                // };
+                var opts = sel.options;
+                for (var opt, j = 0; opt = opts[j]; j++) {
+                    if (opt.value == val) {
+                        sel.selectedIndex = j;
+                        break;
+                    }
+                }
             }
-
+            
             if (quocgia == 'Trong Nước') {
+                // alert('Đây nè');
+                // changeSel_option('quocgia', 'Tour Trong Nước');
+                
                 window.onload = function () {
+                    // alert('Đây nè');
                     changeSel_option('quocgia', '1');
                 }
-
 
                 if (khuvuc == 'Miền Bắc') {
                     window.onload = function () {
@@ -420,11 +433,11 @@
             }
 
             //Xử lý lọc
-            
-            
+
+
         </script>
 
-        
+
 
     </div>
 </body>
