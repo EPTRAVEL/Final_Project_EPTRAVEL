@@ -27,13 +27,14 @@
         <div w3-include-html="header.html">
 
         </div>
-        <div class="tintuc-content" style="margin-top: 0;">
+        <div class="tintuc-content" style="margin-top: 88px;">
             <!-- Bỏ nội dung vô đây -->
 
             <div class="tintuc-title">
                 TIN TỨC
             </div>
             <div class="tintuc-main-box">
+
                 <div class="tintuc-main-box__left">
                     <div>
                         <a href="./noidungtintuc.html" target="_self"> <img class="tintuc-left-img " src="./asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg"></a>
@@ -46,45 +47,46 @@
                             <span>12/12/2021</span>
                         </div>
                     </div>
-
                 </div>
-                <div class="tintuc-main-box__right">
-                    <div class="tintuc-main-box-right__item">
-                        <div>
-                            <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat4.jpg">
-                        </div>
-                        <div style="margin-left: 20px;">
+                <div id="sub-new">
+                    <div class="tintuc-main-box__right">
+                        <div class="tintuc-main-box-right__item">
                             <div>
-                                <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Gọi tên những co dốc ở Đà Lạt được check in nhiều nhất</a></span>
+                                <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat4.jpg">
                             </div>
-                            <div class="tintuc-style-day-written">
-                                <span>10/12/2021</span>
+                            <div style="margin-left: 20px;">
+                                <div>
+                                    <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Gọi tên những co dốc ở Đà Lạt được check in nhiều nhất</a></span>
+                                </div>
+                                <div class="tintuc-style-day-written">
+                                    <span>10/12/2021</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tintuc-main-box-right__item">
-                        <div>
-                            <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan4.jpg">
-                        </div>
-                        <div style="margin-left: 20px;">
+                        <div class="tintuc-main-box-right__item">
                             <div>
-                                <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Hành trình du lịch Nhật Bản mùa lá đỏ quyến rũ</a></span>
+                                <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan4.jpg">
                             </div>
-                            <div class="tintuc-style-day-written">
-                                <span>5/12/2021</span>
+                            <div style="margin-left: 20px;">
+                                <div>
+                                    <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Hành trình du lịch Nhật Bản mùa lá đỏ quyến rũ</a></span>
+                                </div>
+                                <div class="tintuc-style-day-written">
+                                    <span>5/12/2021</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tintuc-main-box-right__item">
-                        <div>
-                            <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg">
-                        </div>
-                        <div style="margin-left: 20px;">
+                        <div class="tintuc-main-box-right__item">
                             <div>
-                                <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Những kiến trúc độc đáo thu hút khách du lịch ở Mỹ</a></span>
+                                <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg">
                             </div>
-                            <div class="tintuc-style-day-written">
-                                <span>1/12/2021</span>
+                            <div style="margin-left: 20px;">
+                                <div>
+                                    <span class="tintuc-font-medium-header"><a  href="./noidungtintuc.html" target="_self">Những kiến trúc độc đáo thu hút khách du lịch ở Mỹ</a></span>
+                                </div>
+                                <div class="tintuc-style-day-written">
+                                    <span>1/12/2021</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -150,12 +152,43 @@
         <!-- load footer -->
         <div w3-include-html="footer.html "></div>
 
+        <!--Load data tin tức-->
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "/asset/data/tintuc.json";
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    myFunction(myArr);
+                }
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function myFunction(arr) {
+                // var div = "<div class='tintuc-main-box__left'>";
+                // div += "<div> <a href ='./noidungtintuc.html' target ='_self' > <img class = 'tintuc-left-img 'src ='" +
+                //     arr[0].main_img + "'></a> </div> ";
+                // div += "<div style='margin-top: 10 px;' class = 'tintuc-main-box-left__contentanday'> <div> <span class = 'tintuc-font-big-header'> < a href = './noidungtintuc.html'target ='_self' > " +
+                //     arr[0].header + "</a></span > </div> <div class = 'tintuc-style-day-written' > <span > " +
+                //     arr[0].date + "</span></div></div>";
+                // div += "</div>";
+                // document.getElementById("1st-new").innerHTML = div;
+
+                var div = "<div class='tintuc-main-box__right'>";
+                var i;
+                for (i = 1; i < arr.length - 1; i++) {
+                    div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div>"
+                }
+                div += "</div>";
+                document.getElementById("sub-new").innerHTML = div;
+            }
+        </script>
+
         <!-- gọi thư viện -->
         <script>
             w3.includeHTML();
         </script>
-
-
 
 
     </div>
