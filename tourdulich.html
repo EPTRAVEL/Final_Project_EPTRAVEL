@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
+    <script src="asset/javascrip/formatnumber.js"></script>
 
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -21,16 +22,17 @@
     <link rel="stylesheet" href="asset/css/tourdulich.css">
     <link rel="stylesheet" href="./asset/css/tour-thi.css">
 
-
-    
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>
-
+        function goThongTin(matour) {
+            window.location.href = "detail.html?matour=" + matour;
+        }
     </script>
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" >
         <!--load header -->
         <div w3-include-html="header.html"></div>
         <div style="height: 130px;"></div>
@@ -175,8 +177,8 @@
                 var div = "<div class='locsanpham-tour'>";
                 var i;
                 for (i = 0; i < arr.length; i++) {
-                    div += "<div class='tour-item'><div class='tour-item__image'><a href='" +
-                        arr[i].url_tour + "' title='" +
+                    div += "<div class='tour-item'><div class='tour-item__image'><a href='chitiettour.html?matour=" + 
+                        arr[i].ma_tour + "' title='" +
                         arr[i].ten_tour + "'><img src='" +
                         arr[i].images[1] + "'alt='" +
                         arr[i].ten_tour + "'></a></div><div class='card-body'><div  class='tour-item__title'><h3><a href='" +
@@ -185,7 +187,8 @@
                         arr[i].ten_tour + "</a></h3></div><p class='tour-item__code'> Mã Tour: " +
                         arr[i].ma_tour + "</p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
                         arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-                        arr[i].giatiennguoilon + "</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour=" + arr[i].ma_tour + "'class='btn-primary'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='" +
+                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour=" + 
+                        arr[i].ma_tour + "'class='btn-primary'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='" +
                         arr[i].url_tour + "'title='" +
                         arr[i].ten_tour + "'class='btn product-item__summary__btn-login'>Xem chi tiết</a></button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></div>"
 
@@ -353,34 +356,22 @@
 
 
             //Function để change sel - JQuery
-            // function changeSel_optionxx(id_sel, value_option) {
-
-            //     const $select = document.querySelector('#' + id_sel);
-            //     $select.value = value_option;
-
-
-            // }
             function changeSel_option(id_sel, value_option) {
-                var val = value_option;
-                var sel = document.getElementById(id_sel);
 
-                var opts = sel.options;
-                for (var opt, j = 0; opt = opts[j]; j++) {
-                    if (opt.value == val) {
-                        sel.selectedIndex = j;
-                        break;
-                    }
-                }
+                const $select = document.querySelector('#' + id_sel);
+                $select.value = value_option;
+
+                // window.onload = function () {
+                //     const $select = document.querySelector('#' + id_sel);
+                //     $select.value = value_option;
+                // };
             }
-            
+
             if (quocgia == 'Trong Nước') {
-                // alert('Đây nè');
-                // changeSel_option('quocgia', 'Tour Trong Nước');
-                
                 window.onload = function () {
-                    // alert('Đây nè');
                     changeSel_option('quocgia', '1');
                 }
+
 
                 if (khuvuc == 'Miền Bắc') {
                     window.onload = function () {
@@ -433,11 +424,11 @@
             }
 
             //Xử lý lọc
-
-
+            
+            w3.includeHTML();
         </script>
 
-
+        
 
     </div>
 </body>
