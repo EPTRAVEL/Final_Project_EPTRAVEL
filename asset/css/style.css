@@ -1,5 +1,5 @@
 .home-content {
-  height: 2650px;
+  height: 2550px;
   margin-bottom: 20px;
 }
 
@@ -320,6 +320,11 @@
 .home__hot-tour--item .slider-item {
   position: relative;
 }
+.home__hot-tour--item .slider-item p {
+  text-align: center;
+  font-family: text-regular;
+  font-size: 20px;
+}
 
 .home__hot-tour--item .slick-arrow {
   position: absolute;
@@ -420,6 +425,9 @@
 .home__tour-item .home-tour-title {
   left: 28%;
  
+}
+.home__hot-tour--item .slider-item p {
+  font-size: 16px;
 }
 }
 @media only screen and (max-width: 550px) {

@@ -216,10 +216,10 @@
                     </div>
 
                 </div>
-                <div class="home__tintuc-quantam" id="id_tintucQuanTam">
+                <div class="home__tintuc-quantam">
                     <h3>Tin tức được quan tâm nhiều nhất</h3>
-                    <!-- 
-                    <div class="tintuc-quantam__body" id="">
+
+                    <div class="tintuc-quantam__body" id="id_tintucQuanTam">
                         <div class="ttqt--row">
                             <div class="ttqt--item ttqt--item-left">
                                 <div style="text-align:left"><img
@@ -231,7 +231,7 @@
                                 <h4 class="date">20/11</h4>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- <div id="id_tintucQuanTam"></div> -->
                 </div>
             </div>
@@ -261,9 +261,11 @@
                 <div class="home__hot-tour--title">
                     <p>Các tour hot nhất hiện nay</p>
                 </div>
-                <div class="home__hot-tour--item">
+                <div class="home__hot-tour--item" id="id_home__hot-tour--item">
                     <div class="slider-item">
                         <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" alt="Error"></div>
+                        <p>Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử
+                        </p>
                     </div>
                     <div class="slider-item">
                         <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" alt="Error"></div>
@@ -299,76 +301,105 @@
     <script>
         var xmlhttp = new XMLHttpRequest();
         var url = "asset/data/tour.json";
+        // var url_tt = "asset/data/tintuc.json";
 
 
         xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr = JSON.parse(this.responseText);
-                tintucQuanTam(myArr);
-                // tintucDuLich(myArr);
                 threeFamous(myArr);
+                home__hot_tour(myArr);
+                tintucQuanTam(myArr);
+                tintucDuLich(myArr);
             }
         }
-
 
         xmlhttp.open("GET", url, true);//ra lệnh
         xmlhttp.send();//thực hiênn
+        // xmlhttp.open("GET", url_tt, true);//ra lệnh
+        // xmlhttp.send();//thực hiênn
 
 
-        function tintucQuanTam(arr) {
-            // var div = "<div class='tintuc-quantam__body'>";
-            var div = " <h3>Tin tức được quan tâm nhiều nhất</h3><div class='tintuc-quantam__body'>";
-            var i;
 
-            for (i = 0; i < arr.length; i++) {
-                div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='asset/images/IMAGE/img_temp_500x350.png' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].ten_tour + "</h4><h4 class='date'>" + arr[i].ngayviettin + "</h4></div></div>";
-            }
-
-            div += '</div>';
-
-            document.getElementById("id_tintucQuanTam").innerHTML = div;
-
-        }
         function threeFamous(arr) {
             var i;
             var div = '<div class="slider-three">';
             for (i = 0; i < arr.length; i++) {
-                div += '<div class="slider-item"><div class="img"><img src="' + arr[i].images[1] + '" alt="Error"></div><div class="img-title"><h4>' + arr[i].ten_tour + '</h4></div></div>';
+                div += '<div class="slider-item"><div class="img"><img src="' + arr[i].images[3] + '" alt="Error"></div><div class="img-title"><h4>' + arr[i].ten_tour + '</h4></div></div>';
             }
 
             div += '</div>'
             document.getElementById("slider-three-famous").innerHTML = div;
-           
+
+        }
+        function home__hot_tour(arr) {
+            var i;
+            var div = '';
+            for (i = 0; i < arr.length; i++) {
+                div += '<div class="slider-item"><div class="img"><img src="' + arr[i].images[4] + '" alt="Error"></div><p>' + arr[i].ten_tour + '</p></div>';
+            }
+
+            document.getElementById("id_home__hot-tour--item").innerHTML = div;
+
         }
 
+        function tintucDuLich(arr) {
+            var div = "";
+            var i;
+            var j;
 
-        // function tintucDuLich(arr) {
+            for (i=arr.length-1; i > 0;) {
+                j = i-1;
+                div += '<div class="ttdl--row"><div class="ttdl--row_item ttdl--row-left"><div class="img"><img src="' + arr[i].main_img + '" width="200px"alt="Error"></div><h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch' + arr[i].header + '</h3></div><div class="ttdl--row_item ttdl--row-right"><div class="img"><img src="' + arr[j].main_img + '" width="200px"alt="Error"></div><h3>' + arr[j].header + '</h3></div></div>';
+                i = i + 2;
+            }
 
-        //     var div = '';
-        //     var i;
+            document.getElementById("id_tintucDuLich").innerHTML = div;
 
-        //     for (i = 0; i < arr.length; cacl(i+2)) {
-        //         div += '<div class="ttdl--row"><div class="ttdl--row_item ttdl--row-left"><div class="img"><img src="'+ arr[i].images[1] +'" width="200px"alt="Error"></div><h3>'+ arr[i].ten_tour +'</h3></div><div class="ttdl--row_item ttdl--row-right"><div class="img"><img src="'+ arr[i+1].images[1] +'" width="200px"alt="Error"></div><h3>'+ arr[i+1].ten_tour +'</h3></div></div>';
-        //     }
+        }
 
-        //     div += '';
+        function tintucQuanTam(arr){
+            var div = "";
+            var i;
 
-        //     document.getElementById("id_tintucDuLich").innerHTML = div;
+            for (i = 0; i < arr.length; i++) {
+                div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='" + arr[i].main_img + "' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].header + "</h4><h4 class='date'>" + arr[i].date + "</h4></div></div>";
+            }
 
-        // }
+            document.getElementById("id_tintucQuanTam").innerHTML = div;
 
-
-
+        }
         w3.includeHTML();
     </script>
+
+    <!-- Get data from tintuc.json -->
+    <script>
+        // var http = new XMLHttpRequest();
+        // var url_tt = "asset/data/tintuc.json";
+
+
+        // http.onreadystatechange = function () {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         var my_Arr = JSON.parse(this.responseText);
+        //         tintucQuanTam(my_Arr);
+        //         tintucDuLich(my_Arr);
+
+        //     }
+        // }
+
+        // http.open("GET", url_tt, true);//ra lệnh
+        // http.send();//thực hiênn
+
+
+
+    </script>
+
 
     <!-- Gọi thư viện slick-slider -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="asset/javascrip/slider_home.js">
-        
-    </script>
+    <script src="asset/javascrip/slider_home.js"></script>
 
 
     </div>
