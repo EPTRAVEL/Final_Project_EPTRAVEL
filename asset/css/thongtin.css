@@ -4,7 +4,7 @@
               }
               
               .thongtin-content {
-                  height: 650px;
+                  height: 750px;
                   width: 700px;
                   margin: 0px auto;
                   padding: 20px 40px;
@@ -19,12 +19,12 @@
               }
               
               .thongtin-content__thongtintour--image img {
-                  width: 90%;
+                  width: 400px;
               }
               
               .thongtin-content__thongtintour--noidung {
                   width: 100%;
-                  margin-left: 5px;
+                  margin-left: 15px;
               }
               
               a {
@@ -120,8 +120,6 @@
                   margin: 0%;
               }
               
-              .buttons-soluong {}
-              
               .tangsl,
               .giamsl {
                   position: relative;
@@ -188,12 +186,16 @@
               
               @media screen and (max-width:700px) {
                   .thongtin-content {
-                      height: 980px;
+                      height: 1250px;
                       width: 500px;
                       margin: 0px auto;
                       padding: 10px 20px;
                       background-color: var( --item_background-color);
                       border-radius: 10px;
+                  }
+                  .thongtin-content__thongtintour--image {
+                      width: 100%;
+                      text-align: center;
                   }
                   .thongtin-content__thongtintour {
                       flex-direction: column;
@@ -227,5 +229,8 @@
                       margin-left: 10px;
                       text-align: left;
                       font-family: Fester_Bold;
+                  }
+                  .space {
+                      height: 20px;
                   }
               }
