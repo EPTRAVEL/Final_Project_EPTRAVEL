@@ -107,7 +107,16 @@ a {
 }
 
 .magiamgia {
-    min-width: 490px;
+    min-width: 452px;
+}
+
+.apdungmagiamgia {
+    display: flex;
+}
+
+.input-themma {
+    width: 100px;
+    height: 20px;
 }
 
 .button-apdung {
