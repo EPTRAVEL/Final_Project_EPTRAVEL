@@ -115,14 +115,14 @@ a {
 }
 
 .input-themma {
-    width: 100px;
+    width: 90px;
     height: 20px;
 }
 
 .button-apdung {
     background-color: #5DA9DD;
     color: white;
-    width: 90px;
+    width: 100px;
     height: 25px;
     text-align: center;
     line-height: 25px;
@@ -184,14 +184,14 @@ a {
 
 @media screen and (max-width:700px) {
     .thanhtoan-content {
-        height: 730px;
-        width: 500px;
+        height: 990px;
+        width: 80%;
         margin: 0px auto;
         padding: 10px 20px;
     }
     .hr {
         border: 1px solid rgb(61, 60, 60);
-        width: 400px;
+        width: 80%;
         margin: 20px auto;
     }
     .text-divider {
@@ -199,17 +199,21 @@ a {
     }
     .thanhtoan-content__hanhkhach {
         border: 1px solid black;
-        margin-top: 10px;
+        margin-top: 5px;
+    }
+    .thanhtoan-content__thongtintour {
+        flex-direction: column;
     }
     .thanhtoan-content__hanhkhach--thongtin {
-        padding-left: 90px;
+        padding-left: 15%;
         display: flex;
+        margin-top: 5%;
     }
     .loaihanhkhach {
         min-width: 180px;
     }
     .nguoilon {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .soluongxgia {
         margin-right: 20px;
@@ -222,23 +226,49 @@ a {
     }
     #thanhtoan-tieude__mobile {
         display: flex;
-        margin-left: 60px;
+        margin-left: 15%;
         text-align: left;
     }
     .tongcong {
-        margin-left: 60px;
+        margin-left: 15%;
     }
     .phuongthucthanhtoan {
-        margin-left: 70px;
+        margin-left: 10%;
         min-width: 180px;
     }
     .apdungmagiamgia {
         flex-direction: column;
     }
     .button-apdung {
-        width: 110px;
-        height: 25px;
         margin-top: 10px;
         margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .thanhtoan-content {
+        height: 990px;
+        width: 85%;
+        margin: 0px auto;
+        padding: 10px 20px;
+    }
+    .thanhtoan-content__thongtintour {
+        flex-direction: column;
+    }
+    #thanhtoan-tieude__mobile {
+        margin-left: 10%;
+    }
+    .button-apdung {
+        width: 100px;
+        margin-left: 0%;
+    }
+    .thanhtoan-content__hanhkhach--thongtin {
+        padding-left: 10%;
+    }
+    .tongcong {
+        margin-left: 10%;
+    }
+    .phuongthucthanhtoan {
+        margin-left: 5%;
     }
 }
