@@ -27,14 +27,13 @@
         <div w3-include-html="header.html">
 
         </div>
-        <div class="tintuc-content" style="margin-top: 88px;">
+        <div class="tintuc-content">
             <!-- Bỏ nội dung vô đây -->
 
             <div class="tintuc-title">
                 TIN TỨC
             </div>
             <div class="tintuc-main-box">
-
                 <div class="tintuc-main-box__left">
                     <div>
                         <a href="./noidungtintuc.html" target="_self"> <img class="tintuc-left-img " src="./asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg"></a>
@@ -48,8 +47,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div id="sub-new">
-                    <div class="tintuc-main-box__right">
+                    <!-- <div class="tintuc-main-box__right">
                         <div class="tintuc-main-box-right__item">
                             <div>
                                 <img class="tintuc-right-img" src="./asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat4.jpg">
@@ -89,8 +89,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
+
             </div>
             <hr>
             <div class="tintuc-box">
@@ -178,7 +179,7 @@
                 var div = "<div class='tintuc-main-box__right'>";
                 var i;
                 for (i = 1; i < arr.length - 1; i++) {
-                    div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div>"
+                    div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div></div>"
                 }
                 div += "</div>";
                 document.getElementById("sub-new").innerHTML = div;
