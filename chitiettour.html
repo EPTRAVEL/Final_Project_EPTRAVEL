@@ -32,6 +32,7 @@
 
     </script>
 </head>
+
 <body>
     <div class="container">
         <!--load header -->
@@ -247,7 +248,7 @@
                         div += "<div class='container-x1'><div class='row--tour'><div class='row--tour__left'><p class='tour-item__code'>Mã tour: <b>" +
                             arr[i].ma_tour + "</b></p><h3 class='tour-item__title'>" +
                             arr[i].ten_tour + "</h3><div class='short-rating'><div class='rating'><span id='icon'><img src='./asset/images/ICON/heart_w.png' alt='tym'></span><label>100</label></div><div class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt=''></span> Thêm vàoyêu thích</a></div></div></div><div class='row--tour__right'><div class='tour-item__price--current__number'><span id='tour-item__price--current__number'>" +
-                            formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--addcart'><button class='btn btn-book'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span>Đặt ngay</button><button class='btn btn-block'>Liên hệ tư vấn</button></div></div></div></div><div class='tour--detail'><div class='row--tour'><div class='tour--img__first'><img id='img-tour' src='" +
+                            formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--addcart'><button class='btn btn-book'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span>Đặt ngay</button><button class='btn btn-block'>Liên hệ tư vấn</button></div></div></div></div><div class='tour--detail'><div class='row--tour--img'><div class='tour--img__first'><img id='img-tour' src='" +
                             arr[i].images[2] + "' alt='YT'></div><div class='tour--img__last'><div class='tour--img'><div class='img margin-img' style='margin-right: 10px;'><img id='img-tour' src='" +
                             arr[i].images[3] + "' alt='BD'></div><div class='img'><img id='img-tour' src='" +
                             arr[i].images[4] + "' alt='VHL'></div></div><div class='tour--img' style='margin-top:10px'><img id='img-tour' src='" +
@@ -274,6 +275,7 @@
             w3.includeHTML();
         </script>
 
+<script src="asset/javascrip/formatnumber.js"></script>
 
 
 

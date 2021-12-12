@@ -5,7 +5,7 @@
         [
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc3.jpg",
+          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc3.png",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc4.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc5.jpg"
         ],
@@ -178,7 +178,7 @@
         "images": 
         [
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.jpg",
+          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.png",
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap3.jpg",
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"

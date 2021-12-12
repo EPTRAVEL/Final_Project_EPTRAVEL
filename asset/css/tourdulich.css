@@ -10,11 +10,15 @@
   border-radius: 5px;
   border: 0;
   padding: 7px;
+  margin-bottom: 10px;
 }
 
 .locsanpham {
   display: flex;
   margin-top: 10px;
+}
+.locsanpham-right{
+  flex: 3;
 }
 .locsanpham-select {
   flex: 1;
@@ -22,6 +26,7 @@
   background-color: var(--title_background-color);
   height: 315px;
   border-radius: 10px;
+  margin-top: 40px;
 }
 .select-item {
   width: 80%;
@@ -49,6 +54,8 @@
   width: 30%;
   height: 450px;
   border-radius: 5px;
+  min-width: 250px;
+  margin: 10px;
 }
 .tour-item:hover {
   transform: scale(1.05);
@@ -87,6 +94,9 @@ div#locSanPham {
   position: sticky;
   top: 120px;
   margin-bottom: 30px;
+}
+.select{
+  display: inline; 
 }
 @media screen and (max-width:1200px){
   .locsanpham-tour{
@@ -131,6 +141,10 @@ div#locSanPham {
       min-width: 250px;
       height: 500px;
       border-radius: 5px;
+      
+  }
+  .locsanpham-tour {
+    margin-left: 0;
   }
 }
 @media screen and (max-width:480px){

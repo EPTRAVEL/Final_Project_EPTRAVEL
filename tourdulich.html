@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <div class="container" >
+    <div class="container">
         <!--load header -->
         <div w3-include-html="header.html"></div>
         <div style="height: 130px;"></div>
@@ -43,14 +43,7 @@
             <div class="home__tintuc-dulich--title">
                 <p class="home--title--item"> DU LỊCH MIỀN BẮC </p>
             </div>
-            <div class="sapxep-select">
-                <select name="Sắp xếp" id="sapxep-select">
-                    <option value="sapxep">--Sắp xếp theo--</option>
-                    <option value="thap-cao">Theo giá thấp đến cao</option>
-                    <option value="thap-cao">Theo giá cao đến thấp</option>
-                    <option value="thap-cao">Giảm giá nhiều nhất</option>
-                </select>
-            </div>
+
             <div class="locsanpham">
                 <div class="locsanpham-select" id="locSanPham">
                     <!-- <h2>LỌC KẾT QUẢ</h2>
@@ -103,11 +96,25 @@
                         </select>
                     </div> -->
 
-
+                    <div id='hien-o' class="hamburger-icon main-icon">
+                        <button onclick="hien_o()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    </div>
+                    <div id='an-x' style="display: none; width: 35px;" class="hamburger-icon main-icon">
+                        <button onclick="an_x()"><i class="fas fa-times" aria-hidden="true"></i></button>
+                    </div>
                 </div>
-                <div id="category">
+                <div class="locsanpham-right">
+                    <div class="sapxep-select">
+                        <select name="Sắp xếp" id="sapxep-select">
+                            <option value="sapxep">--Sắp xếp theo--</option>
+                            <option value="thap-cao">Theo giá thấp đến cao</option>
+                            <option value="thap-cao">Theo giá cao đến thấp</option>
+                            <option value="thap-cao">Giảm giá nhiều nhất</option>
+                        </select>
+                    </div>
+                    <div id="category">
 
-                    <!-- <div class="tour-item">
+                        <!-- <div class="tour-item">
                         <div class="tour-item__image">
                             <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
                                 <img src="asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg"
@@ -151,6 +158,7 @@
                                     yêu thích</a></div>
                         </div>
                     </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,7 +185,7 @@
                 var div = "<div class='locsanpham-tour'>";
                 var i;
                 for (i = 0; i < arr.length; i++) {
-                    div += "<div class='tour-item'><div class='tour-item__image'><a href='chitiettour.html?matour=" + 
+                    div += "<div class='tour-item'><div class='tour-item__image'><a href='chitiettour.html?matour=" +
                         arr[i].ma_tour + "' title='" +
                         arr[i].ten_tour + "'><img src='" +
                         arr[i].images[1] + "'alt='" +
@@ -187,7 +195,7 @@
                         arr[i].ten_tour + "</a></h3></div><p class='tour-item__code'> Mã Tour: " +
                         arr[i].ma_tour + "</p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
                         arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour=" + 
+                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour=" +
                         arr[i].ma_tour + "'class='btn-primary'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='" +
                         arr[i].url_tour + "'title='" +
                         arr[i].ten_tour + "'class='btn product-item__summary__btn-login'>Xem chi tiết</a></button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></div>"
@@ -245,7 +253,7 @@
                 // arrDiemDen = [...new Set(arrDiemDen)];
                 // arrSoNgayTour = [...new Set(arrSoNgayTour)];
 
-                var div = '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0" id="op_none">--Chọn quốc gia--</option><option id="op_trongnuoc" value="1">Tour trong nước</option><option value="2" id="op_ngoainuoc">Tour ngoài nước</option></select></div><div><select onclick="locQuocGia()" name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
+                var div = '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0" id="op_none">--Chọn quốc gia--</option><option id="op_trongnuoc" value="1">Tour trong nước</option><option value="2" id="op_ngoainuoc">Tour ngoài nước</option></select></div><div ><select onclick="locQuocGia()" name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
 
                 for (var i = 0; i < arrKhuVuc_tn.length; i++) {
                     div += '<option class="TrongNuoc-distinguish" value="' + arrKhuVuc_tn[i] + '">' + arrKhuVuc_tn[i] + '</option>';
@@ -254,7 +262,7 @@
                     div += '<option class="NgoaiNuoc-distinguish" value="' + arrKhuVuc_nn[i] + '">' + arrKhuVuc_nn[i] + '</option>';
                 }
 
-                div += '</select></div><div><select name="loaihinhtour" id="loaihinhtour" class=" select-item"><option value="0">--Loại hình tour--</option><option value="Tour trọn gói">Tour trọn gói</option><option value="Tour gia đình">Tour gia đình</option></select></div><div><select name="diemdi"id="diemdi" class=" select-item"><option value="0">--Điểm đi--</option><option value="Hà Nội">Hà Nội</option><option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option></select></div><div><select onclick="locQuocGia()" name="diemden" id="diemden" class="select-item"><option  value="0">--Điểm đến--</option>'
+                div += '</select></div><div><select name="diemdi"id="diemdi" class=" select-item"><option value="0">--Điểm đi--</option><option value="Hà Nội">Hà Nội</option><option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option></select></div><div><select onclick="locQuocGia()" name="diemden" id="diemden" class="select-item"><option  value="0">--Điểm đến--</option>'
 
                 for (var i = 0; i < arrDiemDen_tn.length; i++) {
                     div += '<option class="TrongNuoc-distinguish" value="' + arrDiemDen_tn[i] + '">' + arrDiemDen_tn[i] + '</option>';
@@ -424,11 +432,12 @@
             }
 
             //Xử lý lọc
-            
+
             w3.includeHTML();
         </script>
+    <script src="asset/javascrip/tourdulich.js"></script>
 
-        
+
 
     </div>
 </body>
