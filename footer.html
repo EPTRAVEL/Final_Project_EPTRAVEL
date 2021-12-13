@@ -21,11 +21,7 @@
     <script src="asset/javascrip/header.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
-    <!-- backtop -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
+    
 </head>
 
 <body>
@@ -69,46 +65,7 @@
             </div>
         </div>
     </div>
-    <!--  backtop -->
-    <style>
-        #backtop {
-            width: 50px;
-            height: 50px;
-            color: white;
-            background-color: blue;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            bottom: 40px;
-            right: 20px;
-            cursor: pointer;
-        }
-    </style>
-
-    <div id="backtop">
-        <i class="fas fa-chevron-up"></i>
-    </div>
-
-    <script>
-        window.onload = function () {
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop()) {
-                        $('#backtop').fadeIn();
-                    } else {
-                        $('#backtop').fadeOut();
-                    }
-                });
-                $("#backtop").click(function () {
-                    $('html,body').animate({
-                        scrollTop: 0
-                    }, 500);
-                });
-            });
-            alert('hello9')
-        }
-    </script>
+    
 </body>
 
 </html>
