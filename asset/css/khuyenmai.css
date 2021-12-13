@@ -101,18 +101,18 @@ h3{
 p{
     font-family: text-regular;
     font-size: 17px;
-    margin: 3px 5%;
+    margin: 15px 5%;
 }
 .khuyenmai_gia{
     font-family: Fester_Bold;
     font-size: 23px;
-    margin: 5px 10%;
+    margin: 15px 10%;
     color: #F40000;
 }
 .khuyenmai_giacu{
     font-family: Fester_Bold;
     font-size: 20px;
-    margin: 0px 10%;
+    margin: 10px 10%;
     color: #868686;
     text-decoration:line-through;
 }
