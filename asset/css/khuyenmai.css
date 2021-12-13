@@ -5,9 +5,9 @@ html,body
     overflow-x: hidden; 
 }
 .khuyenmai-content{ 
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 ;
 }
 
 .khuyenmai_tour--item{
@@ -22,27 +22,62 @@ html,body
     margin-top: -20px;
     justify-content: center;
 }
+.khuyenmai_tour--show{
+    display: flex;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 0px;
+    font-size: 18px;
+    font-family: text-italic;
 
+    
+}
+
+ a:hover{
+text-decoration: underline;
+color: #ffffff;
+}
+ a{
+    color: black ;
+}
 .khuyenmai_tittle{
     display: flex;
-    margin-top: 25px;
+    margin-top: 88px;
+    justify-content: center;
+}
+.khuyenmai_tittle1{
+    display: flex;
+    margin-top: 30px;
     justify-content: center;
 }
 .khuyenmai_row{
     display: flex;
-    width: 100%;
-    margin-top: 25px;
-    justify-content:center;
-    margin-bottom: 80px;
+    justify-content: center;
+   flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 50px;
     
 }
 .khuyenmai_sp{
     background-color: var(--item_background-color);
-    width: 320px;
-    height: 450px;
-    margin: auto;
+    width: 400px;
+    height:560px;
     position: relative;
-    
+    margin-left: 25px;
+    margin-right: 25px;    
+    display: flex;
+    flex-direction: column;
+}
+.khuyenmai_item--img{
+width: 400px;
+height: 250px;
+}
+.khuyenmai_img{
+    width: 100%;
+    height: 100%;
+}
+.khuyenmai_sp--content{
+    width: 100%;
 }
 .khuyenmai_text{
     display: flex;
@@ -52,7 +87,7 @@ html,body
     text-align: center;
     line-height: 25px;
 }
-a{
+.km_sp a{
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -108,11 +143,23 @@ p{
       
     
   }
-
-  .khuyenmai_img{
-    width: 100%;
-    height: 45%;
+.khuyenmai_percent{ 
+    position: absolute;
+    right: 50px;
+    bottom: 10%;
 }
+.khuyenmai_percent--tag{
+    width: 50px;
+}
+.khuyenmai_percent--text{
+    position: absolute;
+    right: 3px;
+    bottom: 25%;
+    font-family: Fester_Bold;
+    font-size: 20px; 
+    color: #ffffff;
+}
+
     .khuyenmai_imagecard:hover{
         width: 110px;
         background-color: #D74848;
@@ -126,58 +173,32 @@ p{
 .phuongtien_item1{
     width: 20px;
     position: absolute;
-    right:25px; 
-    top: 260px;
+    right:30px; 
+    top: 60%;
     opacity: 0.6;
 }
 .phuongtien_item2{
     width: 20px;
     position: absolute;
-   right: 3px; 
-   top: 260px;
+   right: 5px; 
+   top: 60%;
     opacity: 0.6;
 }
-
-.khuyenmai_plus{
-    width: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 .kmslider{
-height: 360px;
+height: 400px;
 border-radius: 10px;
 margin-left: 0px;
 margin-right: 0px;
 overflow: hidden;
 margin-top:20px;
-width: 90%;
+width: 100%;
 }
 .kmslides{
 width: 500%;
-height: 360px;
+height: 400px;
 display: flex;
 
 }
@@ -190,7 +211,7 @@ display: flex;
 }
 .km_slide img{
     width: 100%;
-    height: 360px;
+    height: 400px;
 }
 /*css for manual slide navigation*/
 .km_navigation-manual{
@@ -228,7 +249,7 @@ display: flex;
     display: flex;
     width: 90%;
     justify-content: center;
-    margin-top: 320px;
+    margin-top: 360px;
     }
     .km_navigation-auto div{
         background-color: #ffffff;
@@ -248,4 +269,179 @@ display: flex;
     #kmradio3:checked ~ .km_navigation-auto .km_auto-btn3 {
         background: #00A3FF;
     }
-    
+    @media screen and (max-width:1800px){
+        .khuyenmai_sp{
+            margin-left: 2%;
+            margin-right: 2%;    
+        }
+      }
+      @media screen and (max-width:1450px){
+        .khuyenmai_sp{
+            margin-left: 1%;
+            margin-right: 1%;    
+        }
+      }
+      @media screen and (max-width:1250px){
+          .khuyenmai_row{
+              flex-direction: column;
+          }
+        .khuyenmai_sp{
+            margin: auto;
+            margin-top: 20px;
+            flex-direction: row;
+            height: 300px;
+            width: 90%;
+            border-radius: 10px;
+      }
+      .khuyenmai_item--img{
+          width: 400px;
+          height: 280px;
+      }
+      .khuyenmai_sp--content{
+          margin-left: 20px;
+      }
+      .khuyenmai_img{
+          margin-left: 5%;
+          margin-top: 3%;
+          height: 270px;
+          width: 400px;
+      }
+      .khuyenmai_text{
+          text-align: left;
+          margin-left: 25px;
+          height: 30px;
+          margin-top: 30px;
+      }
+.khuyenmai_matour{
+    margin-top: 25px;
+}
+.khuyenmai_time{
+    margin-top: 10px; 
+}
+.khuyenmai_diadiem{
+    margin-top: 10px;
+}
+.khuyenmai_gia{
+    margin: 5% 10% 0;
+}
+.khuyenmai_giacu{
+    margin: 5px 12%;
+}
+.khuyenmai_percent{ 
+    right: 10%;
+    bottom: 20%;
+}
+.khuyenmai_percent--tag{
+    width: 40px;
+}
+.khuyenmai_percent--text{
+    right: -2px;
+    bottom: 20%;
+}
+.phuongtien_item1{
+    right:50px; 
+    top: 30%;
+}
+.phuongtien_item2{
+   right: 20px; 
+   top: 30%;
+}
+    }
+    @media screen and (max-width:1060px){
+.khuyenmai_tour--item{
+    width: 75%;
+}
+    }
+@media screen and (max-width:1000px){
+    .khuyenmai_item--img{
+        width: 50%;
+    }
+   .khuyenmai_img{
+       width: 320px;
+   }
+    }
+    @media screen and (max-width:800px){
+        .khuyenmai_img{
+            width: 280px;
+        }
+    }
+    @media screen and (max-width:750px){
+        .kmslider{
+            display: none;
+        }
+        .khuyenmai_tour--item{
+            Width: 68%;
+           
+         }
+        .khuyenmai_tour--show{
+            font-size: 15px;
+        }
+        .khuyenmai_sp{
+            width: 90%;
+            height: 480px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           flex-direction: column;
+        }
+        .khuyenmai_item--img{
+            width: 100%;
+            height: 65%;
+        }
+        .khuyenmai_img{
+            width: 95%;
+            height: 300px;
+            margin: 15px;
+        }
+        .khuyenmai-sp--content{
+            width: 100%;
+        }
+        .khuyenmai_text{
+        font-size: 18px;
+        height: 22px;
+        margin-top: 20px;
+        text-align: center;
+        }
+.khuyenmai_matour{
+    font-family: text-regular;
+    font-size: 15px;
+    margin: 3% 8% 0px;
+}
+    .khuyenmai_gia{
+        font-size: 20px;
+        margin: 2% 8% 0;
+    }
+    .khuyenmai_giacu{
+        font-size: 18px;
+        margin: 0 9%;
+    }
+      .khuyenmai_imagecard:hover{
+        display: none;
+    }
+    .khuyenmai_percent{ 
+        right: 80px;
+        bottom: 10%;
+    }
+    .khuyenmai_percent--tag{
+        width: 40px;
+    }
+    .khuyenmai_percent--text{
+        right: 1px;
+        bottom: 20%;
+        font-size: 20px; 
+      
+    }
+    .phuongtien_item1{
+        right:45px; 
+        top: 80%;
+    }
+    .phuongtien_item2{
+       right: 20px; 
+       top: 80%;
+    }
+    .khuyenmai_time{
+        display: none;
+    }
+    .khuyenmai_diadiem{
+        display: none;
+    }
+}
