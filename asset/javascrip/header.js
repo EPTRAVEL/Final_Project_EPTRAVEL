@@ -19,20 +19,22 @@ function user_block_close(){
     // }, 5000);
 }
 
-function hamburger_o(){
-    document.getElementById('nav_id').style.display = 'block';
-    document.getElementById('hamburger-o').style.display = 'none';
-    document.getElementById('hamburger-x').style.display = 'block';
+function hamburger_o() {
+    var n = document.getElementById("nav_id");
+    if (n.style.display === 'none') {
+        n.style.display = 'block'
+        document.getElementById("hamburger-o_i").className = 'fa fa-times'
+    } else {
+        if(window.innerWidth<750){
+            n.style.display = 'none';
+            document.getElementById("hamburger-o_i").className = 'fa fa-bars'
+        }
+       
+    }
+  }
 
-    
+function close_narHover(id){
+    if(window.innerWidth>750){
+        document.getElementById(id).style.display='none';
+    }
 }
-function hamburger_x(){
-    document.getElementById('nav_id').style.display = 'none';
-    document.getElementById('hamburger-o').style.display = 'block';
-    document.getElementById('hamburger-x').style.display = 'none';
-
-    
-}
-
-
-  
