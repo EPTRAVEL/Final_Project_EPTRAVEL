@@ -86,6 +86,7 @@ p {
 }
 .tour-item__price--current {
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 div#locSanPham {
@@ -95,9 +96,9 @@ div#locSanPham {
   top: 120px;
   margin-bottom: 30px;
 }
-.select{
+/* .select{
   display: inline; 
-}
+} */
 @media screen and (max-width:1200px){
   .locsanpham-tour{
       display: flex;
@@ -162,6 +163,12 @@ div#locSanPham {
   }
   #category{
       margin: 0;
+  }
+  div#locSanPham {
+    height: 370px;
+    position: relative;
+    top: 0;
+    margin-bottom: 30px;
   }
 }
 

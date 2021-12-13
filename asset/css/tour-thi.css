@@ -1,3 +1,12 @@
+.heigh-top{
+    height: 130px;
+}
+p, label, div{
+    font-family: text-regular;
+}
+h1, h3, h2{
+    font-family: Fester_Bold;
+}
 .tour-item__price--current__number{
     font-size: larger;
     margin: 10px;
