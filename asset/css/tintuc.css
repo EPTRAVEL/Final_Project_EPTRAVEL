@@ -29,7 +29,7 @@
 }
 
 .tintuc-main-box__left {
-    width: 55%;
+    width: 700px;
     margin: 20px;
 }
 
@@ -123,7 +123,7 @@ a:hover {
     }
     .tintuc-main-box__left {
         width: 100%;
-        margin: 20px;
+        margin: 2%;
     }
     .tintuc-left-img {
         border-radius: 10px;
@@ -209,6 +209,12 @@ a:hover {
     }
 }
 
+@media screen and (max-width:850px) {
+    .tintuc-content {
+        margin-top: 0px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .tintuc-content {
         margin-top: 0px;
@@ -227,7 +233,7 @@ a:hover {
         border-radius: 10px;
         height: 50%;
         width: 90%;
-        margin: 20px;
+        margin: 5%;
     }
     .tintuc-main-box {
         background-color: transparent;

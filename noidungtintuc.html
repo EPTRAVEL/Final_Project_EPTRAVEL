@@ -19,10 +19,16 @@
 
     <!-- Link css -->
     <link rel="stylesheet" href="asset/css/noidungtintuc.css">
-
-    <!--  backtop1 -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="asset/css/backtop.css">
+    <script>
+        function getUrlParams() {
+            var params = {};
+            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+                params[key] = value;
+            });
+            return params;
+        }
+        var tintucid = unescape(getUrlParams().tintucid);
+    </script>
 </head>
 
 <body>
@@ -39,7 +45,10 @@
             <div class="noidungtintuc-container">
                 <div class="noidungtintuc-container-left">
                     <div style="margin: 30px">
-                        <!--Phú Quốc-->
+                        <div id="Load_Content">
+
+                        </div>
+                        <!--Phú Quốc
                         <h1>Bí kíp du lịch Phú Quốc những ngày cuối năm</h1>
                         <p>Du lịch Phú Quốc được ví như thiên đường dành cho những ai muốn chạy trốn khỏi phố phường chật hẹp. Với nhiều bãi biển hoang sơ đẹp mê hồn, Phú Quốc mang đến cho bạn một vùng trời yên bình đến lạ.
                         </p>
@@ -93,7 +102,7 @@
 
 
 
-                        <!--Đà Lạt-->
+                        <!--Đà Lạt
                         <h1>Gọi tên những con dốc ở Đà Lạt được check in nhiều nhất</h1>
                         <p>Đà Lạt lâu nay vẫn là địa điểm du lịch níu chân giới trẻ nhất không chỉ bởi khung cảnh trữ tình thơ mộng với bầu không khí se lạnh đặc trưng, những đồi thông bạt ngàn mà còn gây ấn tượng bởi những con dốc dựng đứng.
                         </p>
@@ -133,7 +142,7 @@
                             lỡ của nhiều du khách.
                         </p>
 
-                        <!--Nhật Bản-->
+                        <!--Nhật Bản
                         <h1>Hành trình du lịch Nhật Bản mùa lá đỏ quyến rũ
                         </h1>
                         <p>Cùng vẻ đẹp cổ kính của những di sản văn hóa lừng danh, du lịch Nhật Bản mùa thu còn khiến người lữ khách rung động bởi sự thay đổi diệu kỳ của thiên nhiên với những tán lá xanh bắt đầu chuyển sang sắc đỏ, sắc vàng làm mê đắm lòng
@@ -167,7 +176,7 @@
                             sắc vàng rực rỡ tạo nên bức tranh như truyện cổ tích. Người dân địa phương còn háo hức tham dự Lễ hội lá phong (Momiji Matsuri) tổ chức hàng năm vào thời điểm rừng cây thay lá.
                         </p>
 
-                        <!--Mỹ-->
+                        <!--Mỹ
                         <h1>Những kiến trúc độc đáo thu hút khách du lịch ở Mỹ</h1>
                         <p>Tượng Nữ Thần Tự Do, Cầu Cổng Vàng, Nhà thờ Baptist Abyssinian... không chỉ là những biểu tượng nổi tiếng của Mỹ, mà còn là địa điểm du lịch Mỹ rất thu hút khách tham quan</p>
                         <h2>Tượng Nữ thần Tự Do</h2>
@@ -196,7 +205,7 @@
                             sớm mai, trao nhau những lời yêu đương tình tứ hay nụ hôn ngọt ngào. Hơn thế nữa, Cây Golden Gate còn hàng trăm lần góp mặt trong phim ảnh Hollywood, mà nổi bật nhất phải kể đến tập phim 007 A View To Kill.
                         </p>
 
-                        <!--Nước ngoài-->
+                        <!--Nước ngoài
                         <h1>Du lịch nước ngoài và những trải nghiệm độc đáo bạn nên thử</h1>
                         <p>Chưa thể đi du lịch nước ngoài ngay được thì mình du lịch qua hình ảnh đỡ vậy. Note ngay những trải nghiệm độc đáo này để chuẩn bị hành trang cho chuyến vi vu khám phá Thụy Điển, Thổ Nhĩ Kỳ, Nam Phi hay các nước Địa Trung Hải xinh
                             đẹp sắp tới nhé.</p>
@@ -223,7 +232,7 @@
                         <p>Được ra mắt vào năm 1997, The Blue Train là chuyến tàu hạng sang cao cấp đáng mơ ước được 1 lần trải nghiệm của rất nhiều người trên thế giới mỗi khi có dịp du lịch Nam Phi. Con tàu này có tông màu chủ yếu là màu kem - xanh dương
                             với các khoang tàu được trang trí không khác gì một khách sạn sang trọng, đưa du khách đến gần hơn với trải nghiệm du lịch quý tộc thời xưa.</p>
                         <p>Chuyến tàu phục vụ 8 hành trình bao gồm: Pretoria đến Cape Town và ngược lại, Pretoria đến Durban và ngược lại, Pretoria đến Hoedspruit và ngược lại, Pretoria vào Vườn quốc gia Kruger, và Pretoria đến Circle Route. Tùy mỗi hành
-                            trình, những đoàn tàu hỏa của The Blue Train được bố trí điểm dừng phù hợp tại các danh lam thắng cảnh, sân golf hay chuyến du ngoạn với hướng dẫn viên giàu kinh nghiệm.</p>
+                            trình, những đoàn tàu hỏa của The Blue Train được bố trí điểm dừng phù hợp tại các danh lam thắng cảnh, sân golf hay chuyến du ngoạn với hướng dẫn viên giàu kinh nghiệm.</p>-->
                     </div>
                 </div>
                 <div class="noidungtintuc-container-right">
@@ -258,6 +267,28 @@
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "/asset/data/tintuc.json";
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    myFuction(myArr);
+                }
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function myFunction(arr) {
+                var div = "<div>";
+                if (arr.tintuc_id == tintucid) {
+                    div += arr[0].content;
+                }
+                div += "</div>"
+                document.getElementById("Load_Content").innerHTML = div;
+
+            }
+        </script>
         <!-- gọi thư viện -->
         <script>
             w3.includeHTML();
@@ -267,13 +298,6 @@
 
 
     </div>
-    <!--  backtop2 -->
-    <div id="backtop">
-        <i class="fas fa-chevron-up"></i>
-    </div>
 </body>
-<!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="./asset/javascrip/backtop.js">
-</script>
+
 </html>

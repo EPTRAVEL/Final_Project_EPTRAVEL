@@ -19,6 +19,11 @@
 
     <!-- Link css -->
     <link rel="stylesheet" href="asset/css/tintuc.css">
+    <script>
+        function goNoiDungTinTuc(tintucid) {
+            window.location.href = "detail.html?tintucid=" + tintucid;
+        }
+    </script>
 </head>
 
 <body>
@@ -34,8 +39,8 @@
                 TIN TỨC
             </div>
             <div class="tintuc-main-box">
-                <div class="tintuc-main-box__left">
-                    <div>
+                <div class="tintuc-main-box__left" id="latest-news">
+                    <!-- <div>
                         <a href="./noidungtintuc.html" target="_self"> <img class="tintuc-left-img " src="./asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg"></a>
                     </div>
                     <div style="margin-top: 10px;" class="tintuc-main-box-left__contentanday">
@@ -45,10 +50,10 @@
                         <div class="tintuc-style-day-written">
                             <span>12/12/2021</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
-                <div id="sub-new">
+                <div id="sub-news">
                     <!-- <div class="tintuc-main-box__right">
                         <div class="tintuc-main-box-right__item">
                             <div>
@@ -93,7 +98,10 @@
                 </div>
 
             </div>
-            <hr>
+            <div id="bottom-news">
+
+            </div>
+            <!-- <hr>
             <div class="tintuc-box">
                 <div class="tintuc-box-item__left">
                     <img class="tintuc-bottom-img" src="./asset/images/IMAGE/Island-Aerial-WMaldives.jpg">
@@ -148,7 +156,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- load footer -->
         <div w3-include-html="footer.html "></div>
@@ -167,22 +175,25 @@
             xmlhttp.send();
 
             function myFunction(arr) {
-                // var div = "<div class='tintuc-main-box__left'>";
-                // div += "<div> <a href ='./noidungtintuc.html' target ='_self' > <img class = 'tintuc-left-img 'src ='" +
-                //     arr[0].main_img + "'></a> </div> ";
-                // div += "<div style='margin-top: 10 px;' class = 'tintuc-main-box-left__contentanday'> <div> <span class = 'tintuc-font-big-header'> < a href = './noidungtintuc.html'target ='_self' > " +
-                //     arr[0].header + "</a></span > </div> <div class = 'tintuc-style-day-written' > <span > " +
-                //     arr[0].date + "</span></div></div>";
-                // div += "</div>";
-                // document.getElementById("1st-new").innerHTML = div;
-
+                //thẻ div to bên trái
+                var main_div = "";
+                main_div += "<div><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self'><img class ='tintuc-left-img' src=" + arr[0].main_img + "> </a></div><div style = 'margin-top: 10px;' class ='tintuc-main-box-left__contentanday'><div><span class='tintuc-font-big-header'><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self' >" + arr[0].header + "</a></span></div><div class ='tintuc-style-day-written'><span>" + arr[0].date + "</span></div></div>";
+                //3 thẻ div bên phải
                 var div = "<div class='tintuc-main-box__right'>";
                 var i;
                 for (i = 1; i < arr.length - 1; i++) {
                     div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div></div>"
                 }
                 div += "</div>";
-                document.getElementById("sub-new").innerHTML = div;
+                // Các thẻ div bên dưới
+                var bottom_div = "";
+                var j;
+                for (j = 4; j < arr.length; j++) {
+                    bottom_div += "<hr><div class='tintuc-box'><div class='tintuc-box-item__left'><img class='tintuc-bottom-img' src =" + arr[j].main_img + "></div><div class ='tintuc-box-item__right'><span class ='tintuc-font-big-header'><a href ='./noidungtintuc.html' target ='_self' >" + arr[j].header + "</a></span><div><p>Chưa thể đi du lịch nước ngoài ngay được thì mình du lịch qua hình ảnh đỡ vậy.Note ngay những trải nghiệm độc đáo này để chuẩn bị hành trang cho chuyến vi vu khám phá Thụy Điển, Thổ Nhĩ Kỳ, Nam Phi hay các nước Địa Trung Hải xinh đẹp sắp tới nhé.</p></div></div></div>"
+                }
+                document.getElementById("latest-news").innerHTML = main_div;
+                document.getElementById("sub-news").innerHTML = div;
+                document.getElementById("bottom-news").innerHTML = bottom_div;
             }
         </script>
 
