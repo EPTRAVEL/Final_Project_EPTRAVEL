@@ -1,8 +1,8 @@
 #backtop {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     color: white;
-    background-color: var(--login-button);
+    background-color: #00CCFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,4 +10,8 @@
     bottom: 40px;
     right: 20px;
     cursor: pointer;
+    border-radius: 2px;
+}
+#backtop:hover{
+    background-color: var(--login-button);
 }
