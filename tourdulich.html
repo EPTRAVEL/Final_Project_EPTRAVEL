@@ -179,21 +179,32 @@
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
 
+            function goThongtin(id){
+                window.location.href = 'thongtin.html?matour=' + id;
+            }
             function myFunction(arr) {
                 var div = "<div class='locsanpham-tour'>";
                 var i;
                 for (i = 0; i < arr.length; i++) {
-                    div += "<div class='tour-item'><a href='chitiettour.html?matour=" +
-                        arr[i].ma_tour + "' title='" +
-                        arr[i].ten_tour + "'><div class='tour-item__image'><img src='" +
+                    div += "<div class='tour-item'><div class='tour-item__image'><img src='" +
                         arr[i].images[1] + "'alt='" +
                         arr[i].ten_tour + "'></div><div class='card-body'><div  class='tour-item__title'><h3>" +
-                        arr[i].ten_tour + "</h3></div><p class='tour-item__code'> Mã Tour: " +
-                        arr[i].ma_tour + "</p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
+                        arr[i].ten_tour + "</h3></div><p class='tour-item__code'> Mã Tour: <span>" +
+                        arr[i].ma_tour + "</span></p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
                         arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book' onclick='window.location.href='chitiettour.html?matour='" +
-                        arr[i].ma_tour + "'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</button><button class='btn btn-block' onclick='window.location.href='chitiettour.html?matour='" +
-                        arr[i].ma_tour + "'>Xem chi tiết</button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></a></div>"
+                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book' onclick=" + 'goThongtin(' + "'"+  arr[i].ma_tour + "'" + ')' + "><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</button><button class='btn btn-block' onclick='window.location.href='chitiettour.html?matour='" +
+                        arr[i].ma_tour + "'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themvaoyeuthich(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></div>"
+                    // div += "<div class='tour-item'><a href='chitiettour.html?matour=" +
+                    //     arr[i].ma_tour + "' title='" +
+                    //     arr[i].ten_tour + "'><div class='tour-item__image'><img src='" +
+                    //     arr[i].images[1] + "'alt='" +
+                    //     arr[i].ten_tour + "'></div><div class='card-body'><div  class='tour-item__title'><h3>" +
+                    //     arr[i].ten_tour + "</h3></div><p class='tour-item__code'> Mã Tour: <span>" +
+                    //     arr[i].ma_tour + "</span></p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
+                    //     arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
+                    //     formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book' onclick='window.location.href='chitiettour.html?matour='" +
+                    //     arr[i].ma_tour + "'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</button><button class='btn btn-block' onclick='window.location.href='chitiettour.html?matour='" +
+                    //     arr[i].ma_tour + "'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themvaoyeuthich(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></a></div>"
 
                     // onclick='goThongTin("+arr[i].ma_tour+")'
                 }
@@ -431,7 +442,7 @@
             w3.includeHTML();
         </script>
         <script src="asset/javascrip/tourdulich.js"></script>
-
+        <script src="asset/javascrip/yeuthich.js"></script>
 
 
     </div>
