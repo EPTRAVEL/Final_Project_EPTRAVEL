@@ -98,69 +98,63 @@
                             <option value=">14">Trên 14 ngày</option>
                         </select>
                     </div> -->
-
-                    <div id='hien-o' class="hamburger-icon main-icon">
-                        <button onclick="hien_o()"><i class="fa fa-bars" aria-hidden="true"></i></button>
-                    </div>
-                    <div id='an-x' style="display: none; width: 35px;" class="hamburger-icon main-icon">
-                        <button onclick="an_x()"><i class="fas fa-times" aria-hidden="true"></i></button>
-                    </div>
                 </div>
                 <div class="locsanpham-right">
                     <div class="sapxep-select">
                         <select name="Sắp xếp" id="sapxep-select">
                             <option value="sapxep">--Sắp xếp theo--</option>
                             <option value="thap-cao">Theo giá thấp đến cao</option>
-                            <option value="thap-cao">Theo giá cao đến thấp</option>
-                            <option value="thap-cao">Giảm giá nhiều nhất</option>
+                            <option value="cao-thap">Theo giá cao đến thấp</option>
+                            <option value="theogiamgia">Giảm giá nhiều nhất</option>
                         </select>
                     </div>
                     <div id="category">
 
                         <!-- <div class="tour-item">
-                        <div class="tour-item__image">
-                            <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
-                                <img src="asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg"
-                                    alt="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="tour-item__title">
-                                <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử ">Hà Nội - Bái Đính -
-                                    Tràng An - Hạ Long - Yên Tử </a>
-                            </h3>
-                            <p class="tour-item__code">
-                                Mã tour: abc1234
-                            </p>
-                            <p class="tour-item__departure">Nơi khởi hành: <span>TP. Hồ Chí Minh</span></p>
-                            <div class="tour-item__price--current__number">
-                                Giá <span id="tour-item__price--current__number">8,390,000₫</span>/Khách
+                            <div class="tour-item__image">
+                                <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
+                                    <img src="asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg"
+                                        alt="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
+                                </a>
                             </div>
-                            <div class="tour-item__price--current">
-                                <div class="btn btn-book">
-                                    <a href="/Booking/TourBooking?tourId=801000d1-2dff-40ab-b45d-101e7bb3a2e6"
-                                        class="btn-primary">
-                                        <span id="icon"><img src="./asset/images/ICON/cart.png" alt=""></span>
-                                        <label>
-                                            Đặt ngay
-                                        </label>
-                                    </a>
+                            <div class="card-body">
+                                <h3 class="tour-item__title">
+                                    <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử ">Hà Nội - Bái
+                                        Đính -
+                                        Tràng An - Hạ Long - Yên Tử </a>
+                                </h3>
+                                <p class="tour-item__code">
+                                    Mã tour: abc1234
+                                </p>
+                                <p class="tour-item__departure">Nơi khởi hành: <span>TP. Hồ Chí Minh</span></p>
+                                <div class="tour-item__price--current__number">
+                                    Giá <span id="tour-item__price--current__number">8,390,000₫</span>/Khách
                                 </div>
-                                <div class="btn btn-block">
-                                    <a href="/tourNDSGN106-085-041221VN-V/ha-noi-bai-dinh-trang-an-ha-long-yen-tu-.aspx"
-                                        title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử "
-                                        class="btn product-item__summary__btn-login">
-                                        <label>
-                                            Xem chi tiết
-                                        </label>
-                                    </a>
+                                <div class="tour-item__price--current">
+                                    <div class="btn btn-book">
+                                        <a href="/Booking/TourBooking?tourId=801000d1-2dff-40ab-b45d-101e7bb3a2e6"
+                                            class="btn-primary">
+                                            <span id="icon"><img src="./asset/images/ICON/cart.png" alt=""></span>
+                                            <label>
+                                                Đặt ngay
+                                            </label>
+                                        </a>
+                                    </div>
+                                    <div class="btn btn-block">
+                                        <a href="/tourNDSGN106-085-041221VN-V/ha-noi-bai-dinh-trang-an-ha-long-yen-tu-.aspx"
+                                            title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử "
+                                            class="btn product-item__summary__btn-login">
+                                            <label>
+                                                Xem chi tiết
+                                            </label>
+                                        </a>
+                                    </div>
                                 </div>
+                                <div class="yeuthich"><a href=""><span id="icon"><img src="./asset/images/ICON/plus.png"
+                                                alt=""></span> Thêm vào
+                                        yêu thích</a></div>
                             </div>
-                            <div class="yeuthich"><a href=""><span id="icon"><img src="./asset/images/ICON/plus.png"
-                                            alt=""></span> Thêm vào
-                                    yêu thích</a></div>
-                        </div>
-                    </div> -->
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -171,6 +165,7 @@
         <!-- gọi thư viện -->
 
         <script>
+
 
             var xmlhttp = new XMLHttpRequest();
             var url = "asset/data/tour.json";
@@ -196,10 +191,9 @@
                         arr[i].ten_tour + "</h3></div><p class='tour-item__code'> Mã Tour: " +
                         arr[i].ma_tour + "</p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
                         arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book'><a href='thongtin.html?matour=" +
-                        arr[i].ma_tour + "'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</a></button><button class='btn btn-block'><a href='chitiettour.html?matour=" +
-                        arr[i].ma_tour + "' title='" +
-                        arr[i].ten_tour + "'>Xem chi tiết</a></button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></a></div>"
+                        formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book' onclick='window.location.href='chitiettour.html?matour='" +
+                        arr[i].ma_tour + "'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</button><button class='btn btn-block' onclick='window.location.href='chitiettour.html?matour='" +
+                        arr[i].ma_tour + "'>Xem chi tiết</button></div><button class='yeuthich'><a href=''><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</a></button></div></a></div>"
 
                     // onclick='goThongTin("+arr[i].ma_tour+")'
                 }
