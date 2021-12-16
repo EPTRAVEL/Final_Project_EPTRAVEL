@@ -287,3 +287,25 @@ opacity: 0.6;
     }
 
 }
+@media screen and (max-width:480px){
+    .chitietkhuyenmai_text{
+        text-align: center;
+        width: 90%;
+        margin-top: 4%;
+        font-size: 18px;
+    }
+    .chitietkhuyenmai_button_yeuthich{
+        left: 10%;
+        font-size: 15px;
+    }
+    .chitietkhuyenmai_percent{
+        right: 20%;
+    }
+    .chitietkhuyenmai_percent--tag{
+        width: 30px;
+    }
+    .chitietkhuyenmai_percent--text{
+        top: 20%;
+        font-size: 14px;
+    }
+  }

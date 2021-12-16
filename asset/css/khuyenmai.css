@@ -389,7 +389,7 @@ display: flex;
             width: 280px;
         }
     }
-    @media screen and (max-width:750px){
+    @media screen and (max-width:770px){
         .kmslider{
             display: none;
         }
@@ -476,3 +476,49 @@ display: flex;
         display: none;
     }
 }
+@media screen and (max-width:624px){
+    .khuyenmai_img{
+        width: 91%;
+    }
+    .khuyenmai_button_yeuthich{
+       bottom: 1%;
+        left: 35%;
+    }
+    .khuyenmai_text{
+        text-align: center;
+        width: 80%;
+        margin-top: 2%;
+    }
+    .khuyenmai_matour{
+        font-size: 15px;
+        margin: 8% 4% 0px;
+    }
+    .khuyenmai_percent{
+        right: 20%;
+    }
+    .khuyenmai_percent--text{
+        top: 19%;
+        font-size: 18px;
+    }
+  }
+@media screen and (max-width:480px){
+    .khuyenmai_text{
+        text-align: center;
+        width: 80%;
+        margin-top: 4%;
+    }
+    .khuyenmai_button_yeuthich{
+        left: 30%;
+        font-size: 15px;
+    }
+    .khuyenmai_percent{
+        right: 20%;
+    }
+    .khuyenmai_percent--tag{
+        width: 30px;
+    }
+    .khuyenmai_percent--text{
+        top: 20%;
+        font-size: 12px;
+    }
+  }
