@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="asset/css/tintuc.css">
     <script>
         function goNoiDungTinTuc(tintucid) {
-            window.location.href = "detail.html?tintucid=" + tintucid;
+            window.location.href = "noidungtintuc.html?tintucid=" + tintucid;
         }
     </script>
 </head>
@@ -177,11 +177,12 @@
             function myFunction(arr) {
                 //thẻ div to bên trái
                 var main_div = "";
-                main_div += "<div><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self'><img class ='tintuc-left-img' src=" + arr[0].main_img + "> </a></div><div style = 'margin-top: 10px;' class ='tintuc-main-box-left__contentanday'><div><span class='tintuc-font-big-header'><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self' >" + arr[0].header + "</a></span></div><div class ='tintuc-style-day-written'><span>" + arr[0].date + "</span></div></div>";
+                main_div += "<div><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self'><img class ='tintuc-left-img' src=" + arr[0].main_img + "> </a></div><div style = 'margin-top: 10px;' class ='tintuc-main-box-left__contentanday'><div><button  class='btn btn-book' onclick=" + 'goNoiDungTinTuc(' + "'" + arr[0].tintuc_id + "'" + ')' + "><span class='tintuc-font-big-header'><a  target ='_self' >" + arr[0].header + "</a></span></button></div><div class ='tintuc-style-day-written'><span>" + arr[0].date + "</span></div></div>";
                 //3 thẻ div bên phải
                 var div = "<div class='tintuc-main-box__right'>";
                 var i;
-                for (i = 1; i < arr.length - 1; i++) {
+                var sltintuc = arr.length - 4;
+                for (i = 1; i < arr.length - sltintuc; i++) {
                     div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div></div>"
                 }
                 div += "</div>";
@@ -189,7 +190,7 @@
                 var bottom_div = "";
                 var j;
                 for (j = 4; j < arr.length; j++) {
-                    bottom_div += "<hr><div class='tintuc-box'><div class='tintuc-box-item__left'><img class='tintuc-bottom-img' src =" + arr[j].main_img + "></div><div class ='tintuc-box-item__right'><span class ='tintuc-font-big-header'><a href ='./noidungtintuc.html' target ='_self' >" + arr[j].header + "</a></span><div><p>Chưa thể đi du lịch nước ngoài ngay được thì mình du lịch qua hình ảnh đỡ vậy.Note ngay những trải nghiệm độc đáo này để chuẩn bị hành trang cho chuyến vi vu khám phá Thụy Điển, Thổ Nhĩ Kỳ, Nam Phi hay các nước Địa Trung Hải xinh đẹp sắp tới nhé.</p></div></div></div>"
+                    bottom_div += "<hr><div class='tintuc-box'><div class='tintuc-box-item__left'><img class='tintuc-bottom-img' src =" + arr[j].main_img + "></div><div class ='tintuc-box-item__right'><span class ='tintuc-font-big-header'><a href ='./noidungtintuc.html' target ='_self' >" + arr[j].header + "</a></span><div><p>" + arr[j].news_intro + "</p></div></div></div>"
                 }
                 document.getElementById("latest-news").innerHTML = main_div;
                 document.getElementById("sub-news").innerHTML = div;
