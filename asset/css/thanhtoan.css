@@ -18,15 +18,22 @@ body {
     margin-top: 20px;
 }
 
+
+/*
 .thanhtoan-content__thongtintour--image {
     background-image: url(../images/IMAGE/dai-duong-trong-xanh-hinh-nen-1920x1080_48.jpg );
     width: 50%;
     height: 100%;
 }
+*/
+
+.thanhtoan-content__thongtintour--image img {
+    width: 400px;
+}
 
 .thanhtoan-content__thongtintour--noidung {
-    width: 50%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: 15px;
 }
 
 a {

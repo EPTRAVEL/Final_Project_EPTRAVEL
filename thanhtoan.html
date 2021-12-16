@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
-
+    <!-- Favicon :  title off website -->
+    <link rel="shortcut icon" href="asset/favicon/titlelogo.png">
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="./asset/css/thanhtoan.css">
@@ -22,6 +23,16 @@
     <!--  backtop1 -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="asset/css/backtop.css">
+    <script>
+        function getUrlParams() {
+            var params = {};
+            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+                params[key] = value;
+            });
+            return params;
+        }
+        var matour = unescape(getUrlParams().matour);
+    </script>
 </head>
 
 <body>
@@ -30,28 +41,31 @@
         <div w3-include-html="header.html"></div>
         <div class="space"></div>
 
-        <div class="thanhtoan-content" style="margin-top: 80px;">
+        <div class="thanhtoan-content" style="margin-top: 80px;" id="id_thanhtoan_content">
 
             <div class="thanhtoan-content__thongtintour">
                 <div class="thanhtoan-content__thongtintour--image">
+                    <img src="'+ arr[i].ten_tour +'" alt="Image">
                 </div>
                 <div class="thanhtoan-content__thongtintour--noidung">
-                    <div><a>Đánh giá KH</a> </div>
+                    <div>Đánh giá KH</div>
                     <br>
-                    <div><a>Liên Tuyến Brunei - Nhật Bản</a></div>
+                    <div>
+                        <b><a>' + arr[i].ten_tour + '</a></b>
+                    </div>
                     <br>
                     <div>
                         <label>Mã tour:</label>
-                        <a>FFFFFF</a>
+                        <a>' + arr[i].ma_tour + '</a>
                         <br>
                         <label>Thời gian:</label>
-                        <a>4 ngày 3 đêm</a>
+                        <a>' + arr[i].thoigian + '</a>
                         <br>
                         <label>Nơi khởi hành:</label>
-                        <a>TP Hồ Chí Minh</a>
+                        <a>' + arr[i].noikhoihanh + '</a>
                         <br>
                         <label>Ngày khởi hành:</label>
-                        <a>12/2/2022</a>
+                        <a>' + arr[i].ngaykhoihanh + '</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +79,7 @@
                     <div class="soluongxgia nguoilon">
                         <span class="soluong">0000</span>
                         <span>x</span>
-                        <span class="gia">0000</span>
+                        <span class="gia">' + arr[i].giatiennguoilon + '</span>
                     </div>
                 </div>
                 <div class="thanhtoan-content__hanhkhach--thongtin">
@@ -73,7 +87,7 @@
                     <div class="soluongxgia">
                         <span class="soluong">0000</span>
                         <span>x</span>
-                        <span class="gia">0000</span>
+                        <span class="gia">' + arr[i].giatientreem + '</span>
                     </div>
                 </div>
                 <div class="thanhtoan-content__hanhkhach--thongtin">
@@ -81,7 +95,7 @@
                     <div class="soluongxgia">
                         <span class="soluong">0000</span>
                         <span>x</span>
-                        <span class="gia">0000</span>
+                        <span class="gia">' + arr[i].giatientrenho + '</span>
                     </div>
                 </div>
                 <div class="thanhtoan-content__hanhkhach--thongtin">
@@ -89,13 +103,13 @@
                     <div class="soluongxgia">
                         <span class="soluong">0000</span>
                         <span>x</span>
-                        <span class="gia">0000</span>
+                        <span class="gia">' + arr[i].giatienembe + '</span>
                     </div>
                 </div>
                 <div class="thanhtoan-content__hanhkhach--thongtin">
                     <label class="phuthu">Phụ thu phòng riêng:</label>
                     <div class="giathuphong">
-                        <span class="gia">0000</span>
+                        <span class="gia">' + arr[i].phuthu + '</span>
                     </div>
                 </div>
                 <div class="thanhtoan-content__hanhkhach--thongtin">
@@ -129,6 +143,41 @@
 
         <!-- gọi thư viện -->
         <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "asset/data/tour.json";
+
+
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myArr = JSON.parse(this.responseText);
+                    threeFamous(myArr);
+
+                }
+            }
+            xmlhttp.open("GET", url, true); //ra lệnh
+            xmlhttp.send();
+
+            /*   function showwww() {
+                var yt = sessionStorage.getItem("yeuthich");
+                var yeuthich = JSON.parse(yt);
+                alert(yeuthich)
+            }
+            */
+            function myFunction(arr) {
+                var div = '';
+                var i;
+                for (i = 0; i < arr.length; i++) {
+                    if (arr[i].ma_tour == matour) {
+                        {
+                            div += '<div class="thanhtoan-content" style="margin-top: 80px;" id="id_thanhtoan_content"><div class="thanhtoan-content__thongtintour"><div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div></div>'
+                            break;
+                        }
+                    }
+                }
+                document.getElementById("id_thanhtoan_content").innerHTML = div;
+            }
+
+
             w3.includeHTML();
         </script>
 
@@ -146,4 +195,5 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
+
 </html>
