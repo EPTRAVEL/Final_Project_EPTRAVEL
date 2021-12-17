@@ -28,7 +28,12 @@
             return params;
         }
         var tintucid = unescape(getUrlParams().tintucid);
+
+        // alert(tintucid)
     </script>
+    <!--  backtop1 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="asset/css/backtop.css">
 </head>
 
 <body>
@@ -37,7 +42,7 @@
         <div w3-include-html="header.html"></div>
 
 
-        <div class="noidungtintuc-content" style="margin-top: 88px;">
+        <div class="noidungtintuc-content">
             <!-- Bỏ nội dung vô đây -->
             <div class="noidungtintuc-title">
                 TIN TỨC DU LỊCH
@@ -297,10 +302,8 @@
                             <h2>TIN TỨC MỚI</h2>
                         </div>
                         <div>
-                            <ul class="noidungtintuc-ul">
-                                <li>Du lịch nước ngoài và những trải nghiệm độc đáo bạn nên thử</li>
-                                <li>Gọi tên những con dốc ở Đà Lạt được check in nhiều nhất</li>
-                                <li>Hành trình du lịch Nhật Bản mùa lá đỏ quyến rũ</li>
+                            <ul class="noidungtintuc-ul" id="tintucmoi">
+
                             </ul>
                         </div>
                     </div>
@@ -309,10 +312,8 @@
                             <h2>TIN TỨC PHỔ BIẾN</h2>
                         </div>
                         <div>
-                            <ul class="noidungtintuc-ul">
-                                <li>Du lịch nước ngoài và những trải nghiệm độc đáo bạn nên thử</li>
-                                <li>Gọi tên những con dốc ở Đà Lạt được check in nhiều nhất</li>
-                                <li>Hành trình du lịch Nhật Bản mùa lá đỏ quyến rũ</li>
+                            <ul class="noidungtintuc-ul" id="tintucphobien">
+
                             </ul>
                         </div>
                     </div>
@@ -324,42 +325,57 @@
         <div w3-include-html="footer.html"></div>
 
         <script>
+        </script>
+        <!-- gọi thư viện -->
+        <script>
             var xmlhttp = new XMLHttpRequest();
             var url = "/asset/data/tintuc.json";
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     var myArr = JSON.parse(this.responseText);
-                    myFuction(myArr);
+                    myFunction(myArr);
                 }
             }
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
 
             function myFunction(arr) {
-                var div = '<div>';
+                var div = ""; //1. hai báo biến div(tintuc)
                 var i;
-                for (i = 0; i <
-                    arr.length; i++) {
+
+                var div_ttmoi = ""; //2. div tin tức mới
+                var j;
+                for (j = 0; j < 4; j++) {
+                    div_ttmoi += "<li><a href='noidungtintuc.html?tintucid=" + arr[j].tintuc_id + "' target='_self'>" + arr[j].header + "</a></li>"
+                }
+
+                var div_ttphobien = ""; //3. tin tức phổ biến
+                var k;
+                for (k = 4; k < arr.length; k++) {
+                    div_ttphobien += "<li><a href='noidungtintuc.html?tintucid=" + arr[k].tintuc_id + "' target='_self'>" + arr[k].header + "</a></li>"
+                }
+
+                for (i = 0; i < arr.length; i++) {
                     if (arr[i].tintuc_id == tintucid) {
-                        div += "" + arr[i].content + "";
+                        div += arr[i].content;
                         break;
                     }
                 }
-                div += "</div>"
+                document.getElementById("tintucmoi").innerHTML = div_ttmoi;
+                document.getElementById("tintucphobien").innerHTML = div_ttphobien;
                 document.getElementById("Load_Content").innerHTML = div;
             }
-        </script>
-        <!-- gọi thư viện -->
-        <script>
             w3.includeHTML();
         </script>
-
-
-
-
+        <!--  backtop2 -->
+        <div id="backtop">
+            <i class="fas fa-chevron-up"></i>
+        </div>
     </div>
 </body>
-
-</html>
+<!-- backtop3 -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./asset/javascrip/backtop.js">
+</script>
 
 </html>

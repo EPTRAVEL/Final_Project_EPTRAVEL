@@ -24,6 +24,9 @@
             window.location.href = "noidungtintuc.html?tintucid=" + tintucid;
         }
     </script>
+    <!--  backtop1 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="asset/css/backtop.css">
 </head>
 
 <body>
@@ -177,20 +180,20 @@
             function myFunction(arr) {
                 //thẻ div to bên trái
                 var main_div = "";
-                main_div += "<div><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self'><img class ='tintuc-left-img' src=" + arr[0].main_img + "> </a></div><div style = 'margin-top: 10px;' class ='tintuc-main-box-left__contentanday'><div><button  class='btn btn-book' onclick=" + 'goNoiDungTinTuc(' + "'" + arr[0].tintuc_id + "'" + ')' + "><span class='tintuc-font-big-header'><a  target ='_self' >" + arr[0].header + "</a></span></button></div><div class ='tintuc-style-day-written'><span>" + arr[0].date + "</span></div></div>";
+                main_div += "<div><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "' target ='_self'><img class ='tintuc-left-img' src=" + arr[0].main_img + "> </a></div><div style = 'margin-top: 10px;' class ='tintuc-main-box-left__contentanday'><div><span class='tintuc-font-big-header'><a href ='noidungtintuc.html?tintucid=" + arr[0].tintuc_id + "'  target ='_self' >" + arr[0].header + "</a></span></div><div class ='tintuc-style-day-written'><span>" + arr[0].date + "</span></div></div>";
                 //3 thẻ div bên phải
                 var div = "<div class='tintuc-main-box__right'>";
                 var i;
                 var sltintuc = arr.length - 4;
                 for (i = 1; i < arr.length - sltintuc; i++) {
-                    div += "<div class='tintuc-main-box-right__item'> <div><img class='tintuc-right-img' src =" + arr[i].main_img + "></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href = 'noidungtintuc.html' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div></div>"
+                    div += "<div class='tintuc-main-box-right__item'> <div><a href ='noidungtintuc.html?tintucid=" + arr[i].tintuc_id + "' target ='_self'><img class='tintuc-right-img' src =" + arr[i].main_img + "></a></div><div style='margin-left: 20px;'><div><span class ='tintuc-font-medium-header'><a href ='noidungtintuc.html?tintucid=" + arr[i].tintuc_id + "' target ='_self'>" + arr[i].header + "</a></span></div><div class='tintuc-style-day-written'><span>" + arr[i].date + "</span></div></div></div>"
                 }
                 div += "</div>";
                 // Các thẻ div bên dưới
                 var bottom_div = "";
                 var j;
                 for (j = 4; j < arr.length; j++) {
-                    bottom_div += "<hr><div class='tintuc-box'><div class='tintuc-box-item__left'><img class='tintuc-bottom-img' src =" + arr[j].main_img + "></div><div class ='tintuc-box-item__right'><span class ='tintuc-font-big-header'><a href ='./noidungtintuc.html' target ='_self' >" + arr[j].header + "</a></span><div><p>" + arr[j].news_intro + "</p></div></div></div>"
+                    bottom_div += "<hr><div class='tintuc-box'><div class='tintuc-box-item__left'><a href ='noidungtintuc.html?tintucid=" + arr[j].tintuc_id + "' target ='_self'><img class='tintuc-bottom-img' src =" + arr[j].main_img + "></a></div><div class ='tintuc-box-item__right'><span class='tintuc-font-big-header'><a href ='noidungtintuc.html?tintucid=" + arr[j].tintuc_id + " 'target ='_self' >" + arr[j].header + "</a></span><div><p>" + arr[j].news_intro + "</p></div></div></div>"
                 }
                 document.getElementById("latest-news").innerHTML = main_div;
                 document.getElementById("sub-news").innerHTML = div;
@@ -202,11 +205,16 @@
         <script>
             w3.includeHTML();
         </script>
-
-
+    </div>
+    <!--  backtop2 -->
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
     </div>
 </body>
 
-</html>
+<!-- backtop3 -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./asset/javascrip/backtop.js">
+</script>
 
 </html>

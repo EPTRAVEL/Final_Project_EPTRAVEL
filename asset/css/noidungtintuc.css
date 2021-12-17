@@ -3,6 +3,7 @@
             margin: 0 auto;
             padding: 10px 0;
             align-items: center;
+            margin-top: 88px;
         }
         
         .noidungtintuc-title {
@@ -63,17 +64,28 @@
         
         h2 {
             font-family: Fester_Bold;
-            font-size: 25px;
+            font-size: 24px;
         }
         
         p {
             font-family: text-regular;
-            font-size: 20px;
+            font-size: 18px;
         }
         
         .noidungtintuc-ul li {
             font-family: text-regular;
             margin: 15px 10px;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        a:hover {
+            color: blue;
+            text-decoration: none;
         }
         /*Độ lớn khi màn hình 1000px*/
         
@@ -82,18 +94,25 @@
                 flex-direction: column;
             }
             .noidungtintuc-container-left {
-                width: 800px;
+                width: 100%;
             }
             .noidungtintuc-container-right {
-                width: 800px;
+                width: 100%;
             }
             .noidungtintuc-container-right-tintucmoi {
-                width: 800px;
+                width: 100%;
                 margin: 20px 20px 20px 0;
             }
             .noidungtintuc-container-right-tintucphobien {
-                width: 800px;
+                width: 100%;
                 margin: 20px 20px 20px 0;
+            }
+        }
+        /**/
+        
+        @media screen and (max-width:750px) {
+            .noidungtintuc-content {
+                margin-top: 0px;
             }
         }
         /*Độ lớn khi màn hình 600px*/
@@ -103,17 +122,17 @@
                 flex-direction: column;
             }
             .noidungtintuc-container-left {
-                width: 430px;
+                width: 100%;
             }
             .noidungtintuc-container-right {
-                width: 430px;
+                width: 100%;
             }
             .noidungtintuc-container-right-tintucmoi {
-                width: 430px;
+                width: 100%;
                 margin: 20px 20px 20px 0;
             }
             .noidungtintuc-container-right-tintucphobien {
-                width: 430px;
+                width: 100%;
                 margin: 20px 20px 20px 0;
             }
         }
