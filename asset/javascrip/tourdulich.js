@@ -1,12 +1,26 @@
-function hamburger_o(){
-    document.getElementById('select').style.display = 'block';
-    document.getElementById('hien-o').style.display = 'none';
-    document.getElementById('an-x').style.display = 'block';
 
-    
+$(document).on("change", ".sapxep[0]", function () {
+
+    var sortingMethod = $(this).val();
+
+    if (sortingMethod == 'thap-cao') {
+        tangdan();
+    }
+    else if (sortingMethod == 'cao-thap') {
+        giamdan();
+    }
+
+});
+function tangdan() {
+    var touritem = $('.tour-item');
+    touritem.sort(function (a, b) {
+        return $(a).data("giatiennguoilon") - $(b).data("giatiennguoilon")
+    });
+    $(".locsanpham-tour").html(touritem);
 }
-function hamburger_x(){
-    document.getElementById('select').style.display = 'none';
-    document.getElementById('hien-o').style.display = 'block';
-    document.getElementById('an-x').style.display = 'none';
+
+function giamdan() {
+    var touritem = $('.tour-item');
+    touritem.sort(function (a, b) { return $(b).data("giatiennguoilon") - $(a).data("giatiennguoilon") });
+    $(".locsanpham-tour").html(touritem);
 }

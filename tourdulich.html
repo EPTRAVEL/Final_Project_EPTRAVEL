@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
     <script src="asset/javascrip/formatnumber.js"></script>
+    <script src="asset/javascrip/tourdulich.js"></script>
 
     <!-- Thư viện w3.js -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -101,7 +102,7 @@
                 </div>
                 <div class="locsanpham-right">
                     <div class="sapxep-select">
-                        <select name="Sắp xếp" id="sapxep-select">
+                        <select name="Sắp xếp" class="sapxep" id="sapxep-select">
                             <option value="sapxep">--Sắp xếp theo--</option>
                             <option value="thap-cao">Theo giá thấp đến cao</option>
                             <option value="cao-thap">Theo giá cao đến thấp</option>
@@ -186,6 +187,7 @@
                 var div = "<div class='locsanpham-tour'>";
                 var i;
                 for (i = 0; i < arr.length; i++) {
+                    
                     div += "<div class='tour-item'><div class='tour-item__image'><img src='" +
                         arr[i].images[1] + "'alt='" +
                         arr[i].ten_tour + "'></div><div class='card-body'><div  class='tour-item__title'><h3>" +
