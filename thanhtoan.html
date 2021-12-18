@@ -43,12 +43,12 @@
 
         <div class="thanhtoan-content" style="margin-top: 80px;" id="id_thanhtoan_content">
 
-            <div class="thanhtoan-content__thongtintour">
+            <div class="thanhtoan-content__thongtintour" id="id_thanhtoan-content__thongtintour">
                 <div class="thanhtoan-content__thongtintour--image">
                     <img src="'+ arr[i].ten_tour +'" alt="Image">
                 </div>
                 <div class="thanhtoan-content__thongtintour--noidung">
-                    <div>Đánh giá KH</div>
+                    <div>Đánh giá KHhhhhhhhhKSDSKSKASD</div>
                     <br>
                     <div>
                         <b><a>' + arr[i].ten_tour + '</a></b>
@@ -146,43 +146,36 @@
             var xmlhttp = new XMLHttpRequest();
             var url = "asset/data/tour.json";
 
-
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     var myArr = JSON.parse(this.responseText);
-                    threeFamous(myArr);
+                    renderData(myArr);
 
                 }
             }
             xmlhttp.open("GET", url, true); //ra lệnh
             xmlhttp.send();
 
-            /*   function showwww() {
-                var yt = sessionStorage.getItem("yeuthich");
-                var yeuthich = JSON.parse(yt);
-                alert(yeuthich)
-            }
-            */
-            function myFunction(arr) {
+            function renderData(arr) {
+                var tt = sessionStorage.getItem("thongtin");
+                var thongtin = JSON.parse(tt);
                 var div = '';
                 var i;
                 for (i = 0; i < arr.length; i++) {
-                    if (arr[i].ma_tour == matour) {
+                    if (arr[i].ma_tour == thongtin[0][0]) {
                         {
-                            div += '<div class="thanhtoan-content" style="margin-top: 80px;" id="id_thanhtoan_content"><div class="thanhtoan-content__thongtintour"><div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div></div>'
+                            div += '<div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div></div>'
                             break;
                         }
                     }
                 }
-                document.getElementById("id_thanhtoan_content").innerHTML = div;
+                // document.getElementById("id_thanhtoan-content__thongtintour").innerHTML = div;
+                alert('khao')
             }
 
 
             w3.includeHTML();
         </script>
-
-
-
 
     </div>
     <!--  backtop2 -->

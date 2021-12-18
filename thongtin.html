@@ -77,7 +77,7 @@
                 <div class="form">
                     <div class="form__row">
                         <div><label>Họ tên:</label></div>
-                        <div><input type="text"></div>
+                        <div><input id="test" type="text"></div>
                     </div>
                     <div class="form__row">
                         <div><label>Email:</label></div>
@@ -173,15 +173,23 @@
                 var i;
                 for (i = 0; i < arr.length; i++) {
                     if (arr[i].ma_tour == matour) {
-                        div += '<div class="thongtin-content__thongtintour"><div class="thongtin-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"> </div><div class="thongtin-content__thongtintour--noidung"><div><a>Đánh giá KH</a></div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a >' + arr[i].ma_tour + '</a><br><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><br><label>Nơi khởi hành:</label><a>' + arr[i].noikhoihanh + '</a><br><br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div><div class="text-divider"><h3 id="thongtin-tieude">Thông tin liên lạc</h3></div><div class="thongtin-content__thongtinlienlac"><h3 id="thongtin-tieude__mobile">Thông tin liên lạc</h3><div class="form"><div class="form__row"><div><label>Họ tên:</label></div><div><input type="text"></div></div><div class="form__row"><div><label>Email:</label></div><div> <input type="email"></div></div></div><div class="form"><div class="form__row"><div><label>Số điện thoại:</label></div><div><input type="tel"></div></div><div class="form__row"><div><label>Địa chỉ:</label></div><div><input type="text"></div></div></div><h4 id="thongtin-tieude">Hành khách</h4><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Người lớn</h4><p>>= 16 tuổi</p></div><div class="buttons-soluong"><button class="giamsl is-form" onclick="tru1()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox1" readonly></input><button class="tangsl is-form" onclick="cong1()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ em</h4><p>11 - 15 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru2()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox2" readonly></input><button class="tangsl" onclick="cong2()"> <span class="cong">+</span></button></div></div></div><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ nhỏ</h4><p>5 - 10 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru3()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox3" readonly></input><button class="tangsl" onclick="cong3()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Em bé</h4><p>Dưới 5 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru4()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox4" readonly></input><button class="tangsl" onclick="cong4()"> <span class="cong">+</span></button></div></div></div></div><div class="thongtin-content__button"><button class="button-trove" onclick="trove()">Trở về</button><a href="thanhtoan.html"> <button class="button-tieptheo" type="submit">Tiếp theo</button></a></div>';
+                        div += '<div class="thongtin-content__thongtintour"><div class="thongtin-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"> </div><div class="thongtin-content__thongtintour--noidung"><div><a>Đánh giá KH</a></div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a >' + arr[i].ma_tour + '</a><br><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><br><label>Nơi khởi hành:</label><a>' + arr[i].noikhoihanh + '</a><br><br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div><div class="text-divider"><h3 id="thongtin-tieude">Thông tin liên lạc</h3></div><div class="thongtin-content__thongtinlienlac"><h3 id="thongtin-tieude__mobile">Thông tin liên lạc</h3><div class="form"><div class="form__row"><div><label>Họ tên:</label></div><div><input type="text"></div></div><div class="form__row"><div><label>Email:</label></div><div> <input type="email"></div></div></div><div class="form"><div class="form__row"><div><label>Số điện thoại:</label></div><div><input type="tel"></div></div><div class="form__row"><div><label>Địa chỉ:</label></div><div><input type="text"></div></div></div><h4 id="thongtin-tieude">Hành khách</h4><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Người lớn</h4><p>>= 16 tuổi</p></div><div class="buttons-soluong"><button class="giamsl is-form" onclick="tru1()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox1" readonly></input><button class="tangsl is-form" onclick="cong1()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ em</h4><p>11 - 15 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru2()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox2" readonly></input><button class="tangsl" onclick="cong2()"> <span class="cong">+</span></button></div></div></div><div class="form-hanhkhach"><div class="hanhkhach"><div class="hanhkhach__title"><h4>Trẻ nhỏ</h4><p>5 - 10 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru3()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox3" readonly></input><button class="tangsl" onclick="cong3()"> <span class="cong">+</span></button></div></div><div class="hanhkhach"><div class="hanhkhach__title"><h4>Em bé</h4><p>Dưới 5 tuổi</p></div><div class="buttons-soluong"><button class="giamsl" onclick="tru4()"><span class="tru">-</span></button><input class="sl" value="1" id="textbox4" readonly></input><button class="tangsl" onclick="cong4()"> <span class="cong">+</span></button></div></div></div></div><div class="thongtin-content__button"><button class="button-trove" onclick="trove()">Trở về</button> <button class="button-tieptheo" onclick="themvaothanhtoan(this);gotoThanhToan(' + "'" + arr[i].ma_tour + "'" + ') " >Tiếp theo</button></div>';
                         break;
+                        //datngay(' + "'" + arr[i].ma_tour + "'" + ')
                     }
                 }
                 div += "</div>";
                 document.getElementById("id_thongtin_content").innerHTML = div;
 
-                w3.includeHTML();
+
             }
+
+
+            function datngay(id) {
+                window.location.href = ""
+            }
+
+            w3.includeHTML();
         </script>
     </div>
     <!--  backtop2 -->
@@ -189,9 +197,11 @@
         <i class="fas fa-chevron-up"></i>
     </div>
 
+
 </body>
 <!-- backtop3 -->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
+
 </html>

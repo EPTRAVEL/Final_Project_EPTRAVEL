@@ -51,3 +51,38 @@ function tru4() {
 function trove() {
     history.back();
 }
+
+
+//Xử lý thanh toán
+var thanhtoan = new Array();
+
+function themvaothanhtoan(x) {
+    //ppc2c1c0c1c0
+    var getHoTen = x.parentElement.parentElement.children[2].children[1].children[0].children[1].children[0].value;
+    var getEmail = x.parentElement.parentElement.children[2].children[1].children[1].children[1].children[0].value;
+    var getSDT = x.parentElement.parentElement.children[2].children[2].children[0].children[1].children[0].value;
+    var getDiaChi = x.parentElement.parentElement.children[2].children[2].children[1].children[1].children[0].value;
+
+
+    //ppc2c2c4c0c1c1
+    var getSLNguoiLon = x.parentElement.parentElement.children[2].children[4].children[0].children[1].children[1].value;
+    var getSLTreEm = x.parentElement.parentElement.children[2].children[4].children[1].children[1].children[1].value;
+
+    var getSLTreNho = x.parentElement.parentElement.children[2].children[5].children[0].children[1].children[1].value;
+    var getSLEmBe = x.parentElement.parentElement.children[2].children[5].children[1].children[1].children[1].value;
+
+
+    var matour = unescape(getUrlParams().matour);
+
+    var tt = new Array(matour, getHoTen, getEmail, getSDT, getDiaChi, getSLNguoiLon, getSLTreEm, getSLTreNho, getSLEmBe)
+
+    thanhtoan.push(tt);
+
+    sessionStorage.setItem("thanhtoan", JSON.stringify(thanhtoan));
+
+
+}
+
+function gotoThanhToan(id) {
+    window.location.href = 'thanhtoan.html?id=' + id;
+}
