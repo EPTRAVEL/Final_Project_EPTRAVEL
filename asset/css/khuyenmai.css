@@ -159,7 +159,24 @@ a:hover{
     font-size: 20px; 
     color: #ffffff;
 }
-
+.khuyenmai_lbl--chitiet{
+    position: absolute;
+    background-color: inherit;
+    border: 0;
+    font-family: Fester_Bold;
+    font-size: 18px; 
+    top: 40%;
+    right: 2%;
+    color: #ffffff;
+    z-index: 0;
+}
+.khuyenmai_sp:hover{
+    transform: scale(1.03);
+}
+.khuyenmai_lbl--chitiet:hover{
+    cursor: pointer;
+    font-size: 22px;
+}
     .khuyenmai_imagecard:hover{
         width: 110px;
         background-color: #D74848;
@@ -203,6 +220,12 @@ a:hover{
 .khuyenmai_button_yeuthich:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+.khuyenmai_tour--show:hover{
+    transform: scale(1.05);
+    color: #ffffff;
+    text-decoration: underline;
 }
 .kmslider{
 height: 400px;
@@ -404,6 +427,7 @@ display: flex;
         .khuyenmai_tour--show{
             font-size: 15px;
         }
+
         .khuyenmai_sp{
             width: 90%;
             height: 480px;
