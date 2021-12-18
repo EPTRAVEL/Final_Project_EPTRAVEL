@@ -241,9 +241,10 @@ opacity: 0.6;
     .chitietkhuyenmai_text{
         text-align: center;
         height: 10px;
-        
+        font-size: 15px;
     }
     p{
+        font-size: 13px;
         margin-top: 25px;
     }
  .chitietkhuyenmai_gia{
@@ -292,11 +293,27 @@ opacity: 0.6;
         text-align: center;
         width: 90%;
         margin-top: 4%;
-        font-size: 18px;
+        font-size: 13px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .chitietkhuyenmai_gia{
+        font-size: 12px;
+    }
+    .chitietkhuyenmai_giacu{
+        font-size: 12px;
+    }
+    .chitietphuongtien_item1{
+        width: 15px;
+        right: 13%;
+    }
+    .chitietphuongtien_item2{
+        width: 15px;
     }
     .chitietkhuyenmai_button_yeuthich{
         left: 10%;
-        font-size: 15px;
+        font-size: 12px;
     }
     .chitietkhuyenmai_percent{
         right: 20%;
