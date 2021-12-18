@@ -20,6 +20,9 @@
     <!-- Link css -->
     <link rel="stylesheet" href="asset/css/lienhe.css">
 
+    <!-- Favicon :  title off website -->
+    <link rel="shortcut icon" href="asset/favicon/titlelogo.png">
+
     <!--  backtop1 -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="asset/css/backtop.css">
@@ -31,6 +34,7 @@
         <div w3-include-html="header.html"></div>
 
         <div class="lienhe-content" style="margin-top: 0px;">
+
             <div class="lienhe--title">
                 Đội ngũ Admin
             </div>
@@ -110,12 +114,15 @@
                         </div>
                     </div>
                     <div class="lienhe__button-box">
-                        <input class="lienhe__button" type="submit" id="gui" value="Gửi">
+                        <input class="lienhe__button" type="submit" id="gui" onclick="themvaolienhe(this)" value="Gửi">
                     </div>
+
                 </form>
             </div>
 
         </div>
+
+        <script src="asset/javascrip/lienhe.js"></script>
 
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
@@ -129,10 +136,12 @@
     <div id="backtop">
         <i class="fas fa-chevron-up"></i>
     </div>
-    
+
 </body>
 <!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
+
 </html>

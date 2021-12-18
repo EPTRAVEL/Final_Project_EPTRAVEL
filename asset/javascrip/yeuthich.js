@@ -15,8 +15,6 @@ function themvaoyeuthich(x) {
       }
     }
     yeuthich.push(yt);
-    
-
    
     alert(title + " đã được thêm vào yêu thích");
   
@@ -27,6 +25,7 @@ function themvaoyeuthich(x) {
   function xoayeuthich_store(x) {
     var mt = x.parentElement;
     var matour = mt.parentElement.children[1].children[1].children[1].innerText;
+
     // mt.remove();
     alert(matour);
   

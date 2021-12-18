@@ -106,7 +106,7 @@
 .yeuthich-datngay{
     border-radius: 10px;
     background-color: #D74848;
-    font-family: text-regular;
+    font-family: Fester_Bold;
     font-size: 17px;
     color: white;
     width: 90%;
@@ -121,6 +121,7 @@
 }
 .yeuthich-datngay img{
     width: 25px;
+    margin-right: 5px;
     vertical-align: middle;
 }
 .yeuthich-xem{
