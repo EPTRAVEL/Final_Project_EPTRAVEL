@@ -26,7 +26,7 @@
     <script>
         function getUrlParams() {
             var params = {};
-            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
                 params[key] = value;
             });
             return params;
@@ -74,49 +74,51 @@
             </div>
             <div class="thanhtoan-content__hanhkhach">
                 <h4 id="thanhtoan-tieude__mobile">Hành khách</h4>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="loaihanhkhach nguoilon">Người lớn:</label>
-                    <div class="soluongxgia nguoilon">
-                        <span class="soluong">0000</span>
-                        <span>x</span>
-                        <span class="gia">' + arr[i].giatiennguoilon + '</span>
+                <div id="thongtinhanhkhach">
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="loaihanhkhach nguoilon">Người lớn:</label>
+                        <div class="soluongxgia nguoilon">
+                            <span class="soluong">0000</span>
+                            <span>x</span>
+                            <span class="gia">' + arr[i].giatiennguoilon + '</span>
+                        </div>
                     </div>
-                </div>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="loaihanhkhach">Trẻ em:</label>
-                    <div class="soluongxgia">
-                        <span class="soluong">0000</span>
-                        <span>x</span>
-                        <span class="gia">' + arr[i].giatientreem + '</span>
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="loaihanhkhach">Trẻ em:</label>
+                        <div class="soluongxgia">
+                            <span class="soluong">0000</span>
+                            <span>x</span>
+                            <span class="gia">' + arr[i].giatientreem + '</span>
+                        </div>
                     </div>
-                </div>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="loaihanhkhach">Trẻ nhỏ:</label>
-                    <div class="soluongxgia">
-                        <span class="soluong">0000</span>
-                        <span>x</span>
-                        <span class="gia">' + arr[i].giatientrenho + '</span>
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="loaihanhkhach">Trẻ nhỏ:</label>
+                        <div class="soluongxgia">
+                            <span class="soluong">0000</span>
+                            <span>x</span>
+                            <span class="gia">' + arr[i].giatientrenho + '</span>
+                        </div>
                     </div>
-                </div>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="loaihanhkhach">Em bé:</label>
-                    <div class="soluongxgia">
-                        <span class="soluong">0000</span>
-                        <span>x</span>
-                        <span class="gia">' + arr[i].giatienembe + '</span>
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="loaihanhkhach">Em bé:</label>
+                        <div class="soluongxgia">
+                            <span class="soluong">0000</span>
+                            <span>x</span>
+                            <span class="gia">' + arr[i].giatienembe + '</span>
+                        </div>
                     </div>
-                </div>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="phuthu">Phụ thu phòng riêng:</label>
-                    <div class="giathuphong">
-                        <span class="gia">' + arr[i].phuthu + '</span>
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="phuthu">Phụ thu phòng riêng:</label>
+                        <div class="giathuphong">
+                            <span class="gia">' + arr[i].phuthu + '</span>
+                        </div>
                     </div>
-                </div>
-                <div class="thanhtoan-content__hanhkhach--thongtin">
-                    <label class="magiamgia">Mã giảm giá:</label>
-                    <div class="apdungmagiamgia">
-                        <input class="input-themma" type="text" placeholder="Thêm mã"></input>
-                        <button class="button-apdung">Áp dụng</button>
+                    <div class="thanhtoan-content__hanhkhach--thongtin">
+                        <label class="magiamgia">Mã giảm giá:</label>
+                        <div class="apdungmagiamgia">
+                            <input class="input-themma" type="text" placeholder="Thêm mã"></input>
+                            <button class="button-apdung">Áp dụng</button>
+                        </div>
                     </div>
                 </div>
                 <div class="hr"></div>
@@ -125,10 +127,10 @@
                     <label class="phuongthucthanhtoan">Phương thức thanh toán:</label>
                     <div>
                         <select class="chonphuongthuc" id="phuongthuc">
-                        <option value="" hidden>Chọn phương thức</option>
-                        <option value="thenganhang">Thẻ ngân hàng</option>
-                        <option  value="momo">Momo</option>
-                    </select>
+                            <option value="" hidden>Chọn phương thức</option>
+                            <option value="thenganhang">Thẻ ngân hàng</option>
+                            <option value="momo">Momo</option>
+                        </select>
                     </div>
                 </div>
             </div>
@@ -146,10 +148,11 @@
             var xmlhttp = new XMLHttpRequest();
             var url = "asset/data/tour.json";
 
-            xmlhttp.onreadystatechange = function() {
+            xmlhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var myArr = JSON.parse(this.responseText);
                     renderData(myArr);
+                   
 
                 }
             }
@@ -158,21 +161,31 @@
 
             function renderData(arr) {
                 var tt = sessionStorage.getItem("thongtin");
-                var thongtin = JSON.parse(tt);
+                var thongtinKH = JSON.parse(tt);
                 var div = '';
+                var divTTKH = '';
                 var i;
                 for (i = 0; i < arr.length; i++) {
-                    if (arr[i].ma_tour == thongtin[0][0]) {
+                    if (arr[i].ma_tour == thongtinKH[0][0]) {
                         {
-                            div += '<div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div></div>'
+                            div += '<div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div>'
+
+                            divTTKH='<div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach nguoilon">Người lớn:</label><div class="soluongxgia nguoilon"><span class="soluong">'+ arr[i].giatiennguoilon +'</span><span>x</span><span class="gia">' + thongtinKH[0][5] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ em:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatientreem +'</span><span>x</span><span class="gia">' + thongtinKH[0][6] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ nhỏ:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatientrenho +'</span><span>x</span><span class="gia">' + thongtinKH[0][7] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Em bé:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatienembe +'</span><span>x</span><span class="gia">' + thongtinKH[0][8] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="phuthu">Phụ thu phòng riêng:</label><div class="giathuphong"><span class="gia">' + arr[i].phuthu + 'đ</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="magiamgia">Mã giảm giá:</label><div class="apdungmagiamgia"><input class="input-themma" type="text" placeholder="Thêm mã"></input><button class="button-apdung">Áp dụng</button></div></div>';
+
                             break;
                         }
                     }
                 }
-                // document.getElementById("id_thanhtoan-content__thongtintour").innerHTML = div;
-                alert('khao')
+                document.getElementById("id_thanhtoan-content__thongtintour").innerHTML = div;
+                alert(thongtinKH)
+
+                 
+                document.getElementById("thongtinhanhkhach").innerHTML = divTTKH;
+                alert('fn')
+
             }
 
+          
 
             w3.includeHTML();
         </script>
@@ -185,7 +198,8 @@
 
 </body>
 <!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
 

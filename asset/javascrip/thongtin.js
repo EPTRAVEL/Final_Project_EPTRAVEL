@@ -54,7 +54,7 @@ function trove() {
 
 
 //Xử lý thanh toán
-var thanhtoan = new Array();
+var thongtin = new Array();
 
 function themvaothanhtoan(x) {
     //ppc2c1c0c1c0
@@ -76,9 +76,9 @@ function themvaothanhtoan(x) {
 
     var tt = new Array(matour, getHoTen, getEmail, getSDT, getDiaChi, getSLNguoiLon, getSLTreEm, getSLTreNho, getSLEmBe)
 
-    thanhtoan.push(tt);
+    thongtin.push(tt);
 
-    sessionStorage.setItem("thanhtoan", JSON.stringify(thanhtoan));
+    sessionStorage.setItem("thongtin", JSON.stringify(thongtin));
 
 
 }
