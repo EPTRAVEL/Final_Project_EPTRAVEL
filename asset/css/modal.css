@@ -27,7 +27,7 @@
   margin: 10vh auto;
   width: 420px;
   height: 600px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0.8);
   animation: growth linear 0.2s;
   border-radius: 5px;
   z-index: 2;
