@@ -277,14 +277,30 @@ ul {
   .nav {
     /* display: none; */
     position: absolute;
-    right: 20px;
+    right: 20px ;
     top: 55px;
   }
   #nav_id{
     display: none;
   }
   
+  .nav > ul {
+    /* background-color: var(--nav_background-color); */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+  }
+  .nav ul {
+
+    /* background-color: var(--nav_background-color); */
+    background-color: rgba(0, 0, 0, 0.4);
  
+  }
+  .nav ul li ul li ul {
+
+    /* background-color: var(--nav_background-color); */
+    background-color: rgba(0, 0, 0, 0.4);
+
+
+  }
 
   #hamburger-o{
     display: block;
