@@ -18,7 +18,6 @@ body {
     margin-top: 20px;
 }
 
-
 .thanhtoan-content__thongtintour--image img {
     width: 400px;
 }
@@ -89,8 +88,13 @@ a {
     display: flex;
 }
 
+.x {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .loaihanhkhach {
-    min-width: 570px;
+    min-width: 550px;
 }
 
 .nguoilon {
@@ -102,7 +106,7 @@ a {
 }
 
 .phuthu {
-    min-width: 620px;
+    min-width: 550px;
 }
 
 .magiamgia {
@@ -145,6 +149,23 @@ a {
     margin-bottom: 20px;
 }
 
+.thanhtoantongcong {
+    display: flex;
+    width: 100%;
+}
+
+.tongcong {
+    margin-left: 20px;
+    margin-top: 0px;
+    flex: 1;
+}
+
+.tongtien {
+    align-items: flex-end;
+    flex: 1;
+    margin-left: 450px;
+}
+
 .phuongthucthanhtoan {
     min-width: 500px;
 }
@@ -153,10 +174,6 @@ a {
     background-color: #5DA9DD;
     height: 25px;
     border-radius: 5px;
-}
-
-.tongcong {
-    margin-left: 20px;
 }
 
 .thanhtoan-content__button-datngay {
@@ -231,6 +248,9 @@ a {
     .tongcong {
         margin-left: 15%;
     }
+    .tongtien {
+        margin-left: 0px;
+    }
     .phuongthucthanhtoan {
         margin-left: 10%;
         min-width: 180px;
@@ -246,7 +266,7 @@ a {
 
 @media screen and (max-width:480px) {
     .thanhtoan-content {
-        height: 990px;
+        height: 930px;
         width: 85%;
         margin: 0px auto;
         padding: 10px 20px;
@@ -254,8 +274,11 @@ a {
     .thanhtoan-content__thongtintour {
         flex-direction: column;
     }
+    .thanhtoan-content__thongtintour--image img {
+        width: 350px;
+    }
     #thanhtoan-tieude__mobile {
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .button-apdung {
         width: 100px;
@@ -265,9 +288,12 @@ a {
         padding-left: 10%;
     }
     .tongcong {
-        margin-left: 10%;
+        margin-left: 5%;
+    }
+    .tongtien {
+        margin-left: 0px;
     }
     .phuongthucthanhtoan {
-        margin-left: 5%;
+        margin-left: 0%;
     }
 }
