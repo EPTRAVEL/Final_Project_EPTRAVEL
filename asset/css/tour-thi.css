@@ -12,7 +12,7 @@ h1, h3, h2{
     margin: 10px;
 }
 #tour-item__price--current__number{
-    color: red;
+    color: #D74848;
     font-weight: bold;
 }
 .btn{
@@ -22,7 +22,12 @@ h1, h3, h2{
     cursor: pointer;
 }
 .btn-book{
-    background-color: red;
+    background-color: #D74848;
+    color: white;
+    border: 0;
+}
+.btn-block, .btn-book{
+    font-family: Fester_Bold;
 }
 .btn-book a{
     color: white;
@@ -30,6 +35,7 @@ h1, h3, h2{
 .btn-block{
     background-color: white;
     border: 1px solid black;
+    
 }
 #icon>img{
     width: 12px;
