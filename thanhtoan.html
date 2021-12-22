@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="asset/css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
+    <script src="asset/javascrip/formatnumber.js"></script>
     <!-- Favicon :  title off website -->
     <link rel="shortcut icon" href="asset/favicon/titlelogo.png">
     <!-- Thư viện w3.js -->
@@ -26,7 +27,7 @@
     <script>
         function getUrlParams() {
             var params = {};
-            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            var queryString = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
                 params[key] = value;
             });
             return params;
@@ -45,27 +46,27 @@
 
             <div class="thanhtoan-content__thongtintour" id="id_thanhtoan-content__thongtintour">
                 <div class="thanhtoan-content__thongtintour--image">
-                    <img src="'+ arr[i].ten_tour +'" alt="Image">
+                    <img src="" alt="Image">
                 </div>
                 <div class="thanhtoan-content__thongtintour--noidung">
                     <div>Đánh giá KHhhhhhhhhKSDSKSKASD</div>
                     <br>
                     <div>
-                        <b><a>' + arr[i].ten_tour + '</a></b>
+                        <b><a></a></b>
                     </div>
                     <br>
                     <div>
                         <label>Mã tour:</label>
-                        <a>' + arr[i].ma_tour + '</a>
+                        <a></a>
                         <br>
                         <label>Thời gian:</label>
-                        <a>' + arr[i].thoigian + '</a>
+                        <a></a>
                         <br>
                         <label>Nơi khởi hành:</label>
-                        <a>' + arr[i].noikhoihanh + '</a>
+                        <a></a>
                         <br>
                         <label>Ngày khởi hành:</label>
-                        <a>' + arr[i].ngaykhoihanh + '</a>
+                        <a></a>
                     </div>
                 </div>
             </div>
@@ -122,7 +123,11 @@
                     </div>
                 </div>
                 <div class="hr"></div>
-                <h4 class="tongcong">Tổng cộng</h4>
+                <div class="thanhtoantongcong">
+                    <h4 class="tongcong">Tổng cộng</h4>
+                    <span class="tongtien" id="tongcong">12000000</span>
+                </div>
+
                 <div class="thanhtoan-content__hanhkhach--phuongthucthanhtoan">
                     <label class="phuongthucthanhtoan">Phương thức thanh toán:</label>
                     <div>
@@ -148,12 +153,10 @@
             var xmlhttp = new XMLHttpRequest();
             var url = "asset/data/tour.json";
 
-            xmlhttp.onreadystatechange = function () {
+            xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     var myArr = JSON.parse(this.responseText);
                     renderData(myArr);
-                   
-
                 }
             }
             xmlhttp.open("GET", url, true); //ra lệnh
@@ -164,13 +167,24 @@
                 var thongtinKH = JSON.parse(tt);
                 var div = '';
                 var divTTKH = '';
+                var gia_NL = 0;
+                var gia_TE = 0;
+                var gia_TN = 0;
+                var gia_EB = 0;
+                var phuThu = 0;
                 var i;
                 for (i = 0; i < arr.length; i++) {
                     if (arr[i].ma_tour == thongtinKH[0][0]) {
                         {
-                            div += '<div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><br><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div>'
+                            div += '<div class="thanhtoan-content__thongtintour--image"><img src="' + arr[i].images[1] + '" alt="Image"></div><div class="thanhtoan-content__thongtintour--noidung"><div>Đánh giá KH</div><div><b><a>' + arr[i].ten_tour + '</a></b></div><br><div><label>Mã tour:</label><a>' + arr[i].ma_tour + '</a><br><br><label>Thời gian:</label><a>' + arr[i].thoigian + '</a><br><br><label>Nơi khởi hành:</label> <a>' + arr[i].noikhoihanh + '</a> <br><br><label>Ngày khởi hành:</label><a>' + arr[i].ngaykhoihanh + '</a></div></div></div>'
 
-                            divTTKH='<div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach nguoilon">Người lớn:</label><div class="soluongxgia nguoilon"><span class="soluong">'+ arr[i].giatiennguoilon +'</span><span>x</span><span class="gia">' + thongtinKH[0][5] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ em:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatientreem +'</span><span>x</span><span class="gia">' + thongtinKH[0][6] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ nhỏ:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatientrenho +'</span><span>x</span><span class="gia">' + thongtinKH[0][7] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Em bé:</label><div class="soluongxgia"><span class="soluong">'+ arr[i].giatienembe +'</span><span>x</span><span class="gia">' + thongtinKH[0][8] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="phuthu">Phụ thu phòng riêng:</label><div class="giathuphong"><span class="gia">' + arr[i].phuthu + 'đ</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="magiamgia">Mã giảm giá:</label><div class="apdungmagiamgia"><input class="input-themma" type="text" placeholder="Thêm mã"></input><button class="button-apdung">Áp dụng</button></div></div>';
+                            divTTKH = '<div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach nguoilon">Người lớn:</label><div class="soluongxgia nguoilon"><span class="soluong">' + formatNumber(arr[i].giatiennguoilon) + '</span><span class="x">x</span><span class="gia">' + thongtinKH[0][5] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ em:</label><div class="soluongxgia"><span class="soluong">' + formatNumber(arr[i].giatientreem) + '</span><span class="x">x</span><span class="gia">' + thongtinKH[0][6] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Trẻ nhỏ:</label><div class="soluongxgia"><span class="soluong">' + formatNumber(arr[i].giatientrenho) + '</span><span class="x">x</span><span class="gia">' + thongtinKH[0][7] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="loaihanhkhach">Em bé:</label><div class="soluongxgia"><span class="soluong">' + forrmatNumber(arr[i].giatienembe) + '</span><span class="x">x</span><span class="gia">' + thongtinKH[0][8] + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="phuthu">Phụ thu phòng riêng:</label><div class="giathuphong"><span class="gia">' + formatNumber(arr[i].phuthu) + '</span></div></div><div class="thanhtoan-content__hanhkhach--thongtin"><label class="magiamgia">Mã giảm giá:</label><div class="apdungmagiamgia"><input class="input-themma" type="text" placeholder="Thêm mã"></input><button class="button-apdung">Áp dụng</button></div></div>';
+
+                            gia_NL = arr[i].giatiennguoilon;
+                            gia_TE = arr[i].giatientreem;
+                            gia_TN = arr[i].giatientrenho;
+                            gia_EB = arr[i].giatienembe;
+                            phuThu = arr[i].phuthu;
 
                             break;
                         }
@@ -179,13 +193,15 @@
                 document.getElementById("id_thanhtoan-content__thongtintour").innerHTML = div;
                 // alert(thongtinKH)
 
-                 
+
                 document.getElementById("thongtinhanhkhach").innerHTML = divTTKH;
                 // alert('fn')
 
+                var tongCong = gia_NL * thongtinKH[0][5] + gia_TE * thongtinKH[0][6] + gia_TN * thongtinKH[0][7] + gia_EB * thongtinKH[0][8] + phuThu;
+                document.getElementById("tongcong").innerHTML = formatNumber(tongCong) + ' đ';
             }
 
-          
+
 
             w3.includeHTML();
         </script>
@@ -198,8 +214,7 @@
 
 </body>
 <!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
 

@@ -155,66 +155,7 @@
                                     <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
                                 </div>
                             </div>
-                            <div class="ttdl--row">
-                                <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                                <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                            </div>
-                            <div class="ttdl--row">
-                                <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                                <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                            </div>
-                            <div class="ttdl--row">
-                                <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                                <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                            </div>
-                            <div class="ttdl--row">
-                                <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                                <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                            </div>
-                            <div class="ttdl--row">
-                                <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                                <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
-                                    <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -242,13 +183,13 @@
 
             <div class="home__tour">
                 <div class="home__tour-item home__tour-left"
-                    onclick='window.location.href = "tourdulichtrongnuoc.html"'>
+                    onclick='window.location.href = "tourdulich.html?quocgia=Trong%20Nước"'>
                     <div class="img"><img src="asset/images/IMAGE/home-trongnuoc.png" alt="Error"></div>
                     <div class="home-tour-title">
                         tour trong nước
                     </div>
                 </div>
-                <div class="home__tour-item home__tour-right" onclick='window.location.href = ""'>
+                <div class="home__tour-item home__tour-right" onclick='window.location.href = "tourdulich.html?quocgia=NgoaiNuoc"'>
                     <div class="img">
                         <img src="asset/images/IMAGE/home-ngoainuoc.png" alt="Error">
                     </div>
@@ -312,12 +253,12 @@
                 var myArr = JSON.parse(this.responseText);
                 threeFamous(myArr);
                 home__hot_tour(myArr);
-                tintucQuanTam(myArr);
-                tintucDuLich(myArr);
+                // tintucQuanTam(myArr);
+                // tintucDuLich(myArr);
             }
         }
 
-        xmlhttp.open("GET", url, true);//ra lệnh
+        xmlhttp.open("GET", url, true);//ra lệnh 
         xmlhttp.send();//thực hiênn
         // xmlhttp.open("GET", url_tt, true);//ra lệnh
         // xmlhttp.send();//thực hiênn
@@ -328,7 +269,7 @@
             var i;
             var div = '<div class="slider-three">';
             for (i = 0; i < arr.length; i++) {
-                div += '<div class="slider-item"><div class="img"><img src="' + arr[i].images[3] + '" alt="Error"></div><div class="img-title"><h4>' + arr[i].ten_tour + '</h4></div></div>';
+                div += '<div class="slider-item"><div onclick="gotoChitiettour('+ "'" +arr[i].ma_tour + "'" +')" class="img"><img src="' + arr[i].images[3] + '" alt="Error"></div><div class="img-title"><h4 onclick="gotoChitiettour('+ "'" +arr[i].ma_tour + "'" +')">' + arr[i].ten_tour + '</h4></div></div>';
             }
 
             div += '</div>'
@@ -339,34 +280,74 @@
             var i;
             var div = '';
             for (i = 0; i < arr.length; i++) {
-                div += '<div class="slider-item"><div class="img"><img src="' + arr[i].images[4] + '" alt="Error"></div><p>' + arr[i].ten_tour + '</p></div>';
+                div += '<div class="slider-item"><div onclick="gotoChitiettour('+ "'" +arr[i].ma_tour + "'" +')" class="img"><img src="' + arr[i].images[4] + '" alt="Error"></div><p onclick="gotoChitiettour('+ "'" +arr[i].ma_tour + "'" +')">' + arr[i].ten_tour + '</p></div>';
             }
 
             document.getElementById("id_home__hot-tour--item").innerHTML = div;
 
         }
 
+
+
+
+        // Get data từ file tintuc.json
+        var xmlhttp_tt = new XMLHttpRequest();
+        var url_tt = "asset/data/tintuc.json";
+
+        xmlhttp_tt.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var myArr_tt = JSON.parse(this.responseText);           
+                tintucQuanTam(myArr_tt);
+                tintucDuLich(myArr_tt);
+            }
+        }
+
+        xmlhttp_tt.open("GET", url_tt, true);//ra lệnh 
+        xmlhttp_tt.send();//thực hiênn
+
+
         function tintucDuLich(arr) {
             var div = "";
-            var i;
-            var j;
+            var i = 0;
+            var j=0;
 
-            for (i=arr.length-1; i > 0;) {
-                j = i-1;
-                div += '<div class="ttdl--row"><div class="ttdl--row_item ttdl--row-left"><div class="img"><img src="' + arr[i].main_img + '" width="200px"alt="Error"></div><h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch' + arr[i].header + '</h3></div><div class="ttdl--row_item ttdl--row-right"><div class="img"><img src="' + arr[j].main_img + '" width="200px"alt="Error"></div><h3>' + arr[j].header + '</h3></div></div>';
-                i = i + 2;
+            for (i=0; i < arr.length;) {
+                
+                div += '<div class="ttdl--row"><div class="ttdl--row_item ttdl--row-left"><div class="img"><img onclick="gotoTinTuc('+ "'" +arr[i].tintuc_id + "'" +')" src="' + arr[i].main_img + '" width="200px"alt="Error"></div><h3  onclick="gotoTinTuc('+ "'" +arr[i].tintuc_id + "'" +')">' + arr[i].header + '</h3></div>'
+                
+
+                i=i+1
+                
+                if(i == arr.length){
+                    document.getElementById("id_tintucDuLich").innerHTML = div;
+                    break;
+                }
+
+                div+='<div class="ttdl--row_item ttdl--row-right"><div class="img"><img  onclick="gotoTinTuc('+ "'" +arr[i].tintuc_id + "'" +')" src="' + arr[i].main_img + '" width="200px"alt="Error"></div><h3  onclick="gotoTinTuc('+ "'" +arr[i].tintuc_id + "'" +')">' + arr[i].header + '</h3></div></div>';
+                i = i + 1;
+            
+                if(i == arr.length){
+                    document.getElementById("id_tintucDuLich").innerHTML = div;
+                    break;
+                }
             }
+          
 
-            document.getElementById("id_tintucDuLich").innerHTML = div;
+        }
 
+        function gotoTinTuc(id){
+            window.location.href = "noidungtintuc.html??tintucid=" + id
+        }
+        function gotoChitiettour(id){
+            window.location.href = "chitiettour.html?matour=" + id
         }
 
         function tintucQuanTam(arr){
             var div = "";
             var i;
-
+            
             for (i = 0; i < arr.length; i++) {
-                div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img src='" + arr[i].main_img + "' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 class='title'>" + arr[i].header + "</h4><h4 class='date'>" + arr[i].date + "</h4></div></div>";
+                div += "<div class='ttqt--row'><div class='ttqt--item ttqt--item-left'><div style='text-align:left'><img onclick='gotoTinTuc("+ '"' +arr[i].tintuc_id + '"' +")' src='" + arr[i].main_img + "' alt='Error' width='150px'></div></div><div class='ttqt--item ttqt--item-right'><h4 onclick='gotoTinTuc("+ '"' +arr[i].tintuc_id + '"' +")' class='title'>" + arr[i].header + "</h4><h4 onclick='gotoTinTuc("+ '"' +arr[i].tintuc_id + '"' +")' class='date'>" + arr[i].date + "</h4></div></div>";
             }
 
             document.getElementById("id_tintucQuanTam").innerHTML = div;
@@ -375,27 +356,7 @@
         w3.includeHTML();
     </script>
 
-    <!-- Get data from tintuc.json -->
-    <script>
-        // var http = new XMLHttpRequest();
-        // var url_tt = "asset/data/tintuc.json";
-
-
-        // http.onreadystatechange = function () {
-        //     if (this.readyState == 4 && this.status == 200) {
-        //         var my_Arr = JSON.parse(this.responseText);
-        //         tintucQuanTam(my_Arr);
-        //         tintucDuLich(my_Arr);
-
-        //     }
-        // }
-
-        // http.open("GET", url_tt, true);//ra lệnh
-        // http.send();//thực hiênn
-
-
-
-    </script>
+    
 
 
     <!-- Gọi thư viện slick-slider -->

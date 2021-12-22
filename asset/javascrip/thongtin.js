@@ -81,6 +81,8 @@ function themvaothanhtoan(x) {
     sessionStorage.setItem("thongtin", JSON.stringify(thongtin));
 
 
+
+
 }
 
 function gotoThanhToan(id) {
