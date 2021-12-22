@@ -1,0 +1,17 @@
+[
+    {
+        "userID": "1",
+        "userType": "admin",
+        "hoTen": "Nguyễn Đăng Khoa",
+        "gioiTinh": "0",
+        "ngSinh": "10/10/2001",
+        "diDong": "0326123397",
+        "CMND/CCCD": "12333234",
+        "ngayCap": "10/12/2016",
+        "eMail": "khoakhoa@gmail.com",
+        "diaChi": "Châu Thành, An Giang",
+        "tinh_TP": "An Giang",
+        "huyen_Quan": "Châu Thành",
+        "matKhau": "12345"
+    }
+]

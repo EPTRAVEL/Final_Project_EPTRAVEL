@@ -29,8 +29,27 @@
                 </div>
                 <div class=" search-icon main-icon">
                     <form>
-                        <input class="search-bar_text-style" type="search" name="search" placeholder="Search..">
+                        <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search" name="search" placeholder="Search..">
+                        <ul id="search__list">
+                            <!-- <li class="menu__item">
+                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
+                                <span>mot</span>
+                            </li>
+                            <li class="menu__item">
+                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
+                                <span>hai</span>
+                            </li>
+                            <li class="menu__item">
+                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
+                                <span>Ba</span>
+                            </li>
+                            <li class="menu__item">
+                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
+                                <span>Bốn</span>
+                            </li> -->
+                        </ul>
                     </form>
+                    <script src="./asset/javascrip/search.js"></script>
                 </div>
                 <div class="like-icon main-icon">
                     <input type="button" onclick='window.location.href = "yeuthich.html"'>
@@ -113,11 +132,11 @@
                                 src="asset/images/logo/logo.png" width="250px" alt="
                             error"></div>
                         <h3 style="font-family: Fester_Bold; font-size: 25px;">Đăng nhập</h3>
-                        <form action="">
+                        <form action="" method="get">
                             <label class="lbl_login" for="taikhoan">Tài khoản <span style="color:red">*</span></label>
 
                             <br>
-                            <input autofocus type="text" id="taikhoan">
+                            <input autofocus type="text" id="taikhoan" required>
                             <br>
                             <br>
                             <br>
@@ -126,14 +145,15 @@
                             <label class="lbl_login" for="matkhau">Mật khẩu <span style="color:red">*</span></label>
 
                             <br>
-                            <input type="password" id="matkhau">
+                            <input type="password" id="matkhau" required>
                             <br>
                             <br>
                             <br>
                             <label for=""><a id="linktoQuenmk" href="">Quên mật khẩu</a></label>
                             <br>
                             <br>
-                            <input type="button" style="font-family: sans-serif; font-weight: normal;" value="Đăng nhập"
+                            <input onclick="login(this)" type="button"
+                                style="font-family: sans-serif; font-weight: normal;" value="Đăng nhập"
                                 id="btnDangnhap">
                             <br>
                             <br>
@@ -172,6 +192,59 @@
             
                 document.getElementById("result_t").innerHTML = window.onresize;
         </script> -->
+
+
+        <!-- Lấy User infor -->
+        <script>
+            function login(x) {
+                var xmlhttp_u = new XMLHttpRequest();
+                var url_u = "asset/data/user.json";
+
+                xmlhttp_u.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        var myArr_u = JSON.parse(this.responseText);
+                        user(myArr_u);
+
+                    }
+                }
+
+                xmlhttp_u.open("GET", url_u, true);//ra lệnh 
+                xmlhttp_u.send();//thực hiênn
+
+                // var getuid = sessionStorage.getItem("User_login");
+                //     var getUserID = JSON.parse(getuid);
+                function user(arr) {
+                    var div = "";
+                    var i;
+                    var eMail = x.parentElement.children[2].value
+                    var mk = x.parentElement.children[8].value
+
+                    
+                        // alert(getUserID);
+
+                    for (i = 0; i < arr.length; i++) {
+                        if (arr[i].eMail == eMail && arr[i].matKhau == mk) {
+                            alert("Đăng nhập thành công :v")
+                            document.getElementsByClassName('modal')[0].style.display = 'none';
+
+                            var user = new Array();
+                            var u = new Array(arr[i].userID, arr[i].hoTen);
+
+                            user.push(u);
+
+                            localStorage.setItem("User_login", JSON.stringify(user));
+                            break;
+
+                        } else {
+                            alert('Tài khoản hoặc mật khẩu không đúng')
+                        }
+                    }
+                }
+            }
+
+
+        </script>
+        
     </div>
 
 
