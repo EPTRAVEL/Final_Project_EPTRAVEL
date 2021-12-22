@@ -397,9 +397,9 @@
         "ten_tour": "Vũng Tàu - Biển Hát - 2 ngày 1 đêm ",
         "images": 
         [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau3.jpg",
+          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
+          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
         ],
