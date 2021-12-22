@@ -94,7 +94,7 @@ a {
 }
 
 .loaihanhkhach {
-    min-width: 550px;
+    min-width: 500px;
 }
 
 .nguoilon {
@@ -103,14 +103,19 @@ a {
 
 .soluongxgia {
     margin-right: 20px;
+    display: flex;
+}
+
+.gia {
+    min-width: 90px;
 }
 
 .phuthu {
-    min-width: 550px;
+    min-width: 500px;
 }
 
 .magiamgia {
-    min-width: 452px;
+    min-width: 400px;
 }
 
 .apdungmagiamgia {
@@ -163,7 +168,10 @@ a {
 .tongtien {
     align-items: flex-end;
     flex: 1;
-    margin-left: 450px;
+    margin-left: 320px;
+    color: #F40000;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 .phuongthucthanhtoan {
@@ -242,11 +250,11 @@ a {
     }
     #thanhtoan-tieude__mobile {
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         text-align: left;
     }
     .tongcong {
-        margin-left: 15%;
+        margin-left: 5%;
     }
     .tongtien {
         margin-left: 0px;
@@ -291,7 +299,7 @@ a {
         margin-left: 5%;
     }
     .tongtien {
-        margin-left: 0px;
+        margin-left: 60px;
     }
     .phuongthucthanhtoan {
         margin-left: 0%;
