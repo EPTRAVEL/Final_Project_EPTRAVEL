@@ -1,13 +1,14 @@
-.lienhe-content{
+.lienhe-content {
     width: 90%;
     margin: 0 auto;
-    padding: 10px 0 ;
+    padding: 10px 0;
 }
-.lienhe--title{
+
+.lienhe--title {
     background-color: var( --title_background-color);
     border-radius: 10px;
     /* overflow: hidden; */
-    height: 30px; 
+    height: 30px;
     line-height: 36px;
     text-align: center;
     color: white;
@@ -15,7 +16,8 @@
     font-size: 20px;
     margin: 20px 0;
 }
-.lienhe--admin-box{
+
+.lienhe--admin-box {
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
@@ -23,66 +25,77 @@
     width: 100%;
     margin: 50px 0 10px 0;
 }
-.lienhe--admin{
-    background-color: var(  --item_background-color);
+
+.lienhe--admin {
+    background-color: var( --item_background-color);
     height: 250px;
     width: 180px;
     text-align: center;
     border-radius: 10px;
     margin: 10px;
 }
-.lienhe--admin img{
+
+.lienhe--admin img {
     width: 120px;
     margin: 10px 0 5px 0;
 }
-.lienhe--admin p{
+
+.lienhe--admin p {
     font-family: text-regular;
     font-size: 17px;
     margin: 5px auto;
 }
-.lienhe--contact-box{
-    background-color: var(  --item_background-color);
+
+.lienhe--contact-box {
+    background-color: var( --item_background-color);
     border-radius: 10px;
     margin: 10px 0;
     width: 100%;
     padding: 20px 0;
 }
-.lienhe__form-layout{
+
+.lienhe__form-layout {
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.lienhe--item-left{
+
+.lienhe--item-left {
     flex: 1;
     text-align: left;
-    margin: 5px ;
+    margin: 5px;
 }
-.lienhe--item-right{
+
+.lienhe--item-right {
     flex: 3;
     text-align: left;
     margin: 5px;
 }
-.lienhe__label{
+
+.lienhe__label {
     font-family: text-regular;
     font-size: 20px;
 }
-.lienhe__label span{
+
+.lienhe__label span {
     color: red;
     margin-left: 5px;
     font-size: 30px;
 }
-.lienhe__input{
+
+.lienhe__input {
     width: 100%;
     height: 40px;
     border-radius: 10px;
     border: none;
 }
-.lienhe__button-box{
+
+.lienhe__button-box {
     text-align: right;
     margin: 20px 10px;
-    
 }
-.lienhe__button{
+
+.lienhe__button {
     font-family: Fester_Bold;
     font-size: 20px;
     width: 100px;
@@ -94,96 +107,144 @@
     line-height: 46px;
     text-align: center;
 }
+
+
+/*Phần intro*/
+
+.lienhe--introduction {
+    display: block;
+    width: 100%;
+}
+
+.drop-down {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.drop-down__button {
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 0px;
+}
+
+.drop-down__img {
+    width: 100%;
+    transform: rotate(-180deg);
+}
+
+.drop-down__img:hover {
+    width: 100%;
+    transform: rotate(-180);
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.drop-down__content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.drop-down--content__img {
+    width: 300px;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 750px) {
-    .lienhe--title{
+    .lienhe--title {
         border-radius: 5px;
         margin: 10px 0;
     }
-    .lienhe--admin{
+    .lienhe--admin {
         height: 180px;
         width: 160px;
         border-radius: 5px;
         margin: 5px;
     }
-    .lienhe--admin img{
+    .lienhe--admin img {
         width: 83px;
-        margin: 5px 0 ;
+        margin: 5px 0;
     }
-    .lienhe--admin p{
+    .lienhe--admin p {
         font-family: text-regular;
         font-size: 15px;
         margin: 5px auto;
     }
-    .lienhe--contact-box{
+    .lienhe--contact-box {
         border-radius: 5px;
         padding: 10px 0;
     }
-    .lienhe__form-layout{
+    .lienhe__form-layout {
         width: 90%;
     }
-    .lienhe--item-left{
+    .lienhe--item-left {
         flex: 1;
-        margin: 10px ;
+        margin: 10px;
     }
-    .lienhe--item-right{
+    .lienhe--item-right {
         flex: 4;
     }
-    .lienhe__label{
+    .lienhe__label {
         font-size: 15px;
     }
-    .lienhe__label span{
+    .lienhe__label span {
         font-size: 20px;
     }
-    .lienhe__input{
+    .lienhe__input {
         width: 100%;
         height: 30px;
         border-radius: 5px;
         border: none;
     }
-    .lienhe__button{
+    .lienhe__button {
         border-radius: 5px;
     }
 }
+
 @media only screen and (max-width: 900px) {
-    .lienhe--title{
+    .lienhe--title {
         border-radius: 5px;
         margin: 10px 0;
     }
-    .lienhe--admin{
+    .lienhe--admin {
         height: 200px;
         width: 180px;
         border-radius: 5px;
         margin: 10px;
     }
-    .lienhe--admin img{
+    .lienhe--admin img {
         width: 100px;
-        margin: 5px 0 ;
+        margin: 5px 0;
     }
-    .lienhe--admin p{
+    .lienhe--admin p {
         font-family: text-regular;
         font-size: 15px;
         margin: 5px auto;
     }
-    .lienhe--contact-box{
+    .lienhe--contact-box {
         border-radius: 5px;
         padding: 10px 0;
     }
-    .lienhe__form-layout{
+    .lienhe__form-layout {
         width: 90%;
     }
-    .lienhe__label{
+    .lienhe__label {
         font-size: 17px;
     }
-    .lienhe__label span{
+    .lienhe__label span {
         font-size: 20px;
     }
-    .lienhe__input{
+    .lienhe__input {
         width: 100%;
         height: 30px;
         border-radius: 5px;
         border: none;
     }
-    .lienhe__button{
+    .lienhe__button {
         border-radius: 5px;
     }
 }
