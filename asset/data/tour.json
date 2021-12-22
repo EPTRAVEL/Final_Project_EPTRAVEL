@@ -222,7 +222,7 @@
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"
         ],
-         "ma_tour": "NNCAUP004",
+         "ma_tour": "NNCAUP005",
         "noikhoihanh": "TP. Hà Nội",
         "sochoconnhan":"20",
         "diemden":"Pháp",    
@@ -345,9 +345,9 @@
         ],
         "ma_tour": "NNCACA003",
         "noikhoihanh": "TP Hồ Chí Minh",
-
-"sochoconnhan":"30",
-        "diemden":"Canada",        "ngaykhoihanh": "20/12/2021",
+        "sochoconnhan":"30",
+        "diemden":"Canada",       
+        "ngaykhoihanh": "20/12/2021",
         "thoigian": "7 Ngày 7 Đêm",
         "noidungchitiet": "Du lịch Canada mùa Đông đến thăm đất nước có khí hậu ôn đới rộng lớn thứ hai thế giới nằm ở Bắc Mỹ. Nếu có một lần đặt chân lên mảnh đất Canada rộng lớn và kỳ vĩ này, bạn sẽ không khỏi choáng ngợp và bị hớp hồn bởi thiên nhiên quyến rũ. Cảnh sắc lộng lẫy của những hàng cây phong trong mùa thay lá đã trở thành nét đặc trưng, cuốn hút bao du khách. Bạn không thể nào thờ ơ trước một thành phố Vancouver, thành phố được mệnh danh là “Thành phố của thiên nhiên”, hội tụ của nhiều điểm du lịch với các danh lam thắng cảnh đặc sắc, các hoạt động văn hóa, vui chơi, giải trí được tổ chức quanh năm. Đến đất nước này, du khách sẽ có cảm giác thanh bình như sống trong ngôi nhà nhỏ. Đó chính là điều làm bạn không khỏi ngỡ ngàng ở một đất nước năng động, hiện đại vào loại bậc nhất thế giới.  ",
         "diadiemthamquan": "Thành phố Vancouver < br > Cảng Inner < br > Khách sạn cổ Fairmont Empress < br > Lâu đài Craigdarroch < br > Bảo tàng Royal Bristish Columbia < br > Thủy cung Vancouver < br > Capilano Suspension Bridge < br > Lulu Island Winery < br > Stanley Park < br > Trang trại cá hồi Salmon Hatchery < br > Biểu tượng ngọn đuốc Olympic Cauldron < br > Làng du lịch Whistler < br > Phố Robson ",
@@ -403,7 +403,7 @@
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
           "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
         ],
-        "ma_tour": "TNMNVT002",
+        "ma_tour": "TNMNVT003",
         "noikhoihanh": "TP. Hồ Chí Minh",
         "sochoconnhan":"30",
         "diemden":"Bà Rịa - Vũng Tàu",
@@ -433,7 +433,7 @@
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My4.jpg",
           "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My5.jpg"
         ],
-        "ma_tour": "NNCAM005",
+        "ma_tour": "NNCAM006",
         "noikhoihanh": "TP. Hồ Chí Minh",
         "sochoconnhan":"27",
         "diemden":"Mỹ",

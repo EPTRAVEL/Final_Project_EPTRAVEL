@@ -67,6 +67,17 @@ height: 250px;
 .khuyenmai_img{
     width: 100%;
     height: 100%;
+    position: relative;
+}
+.khuyenmai_lbl--chitiet{
+    position: absolute;
+    background-color: inherit;
+    border: 0;
+    font-family: Fester_Bold;
+    font-size: 18px; 
+    top: 40%;
+    right: 2%;
+    color: #ffffff;
 }
 .khuyenmai_sp--content{
     width: 100%;
@@ -165,17 +176,7 @@ a:hover{
     font-size: 20px; 
     color: #ffffff;
 }
-.khuyenmai_lbl--chitiet{
-    position: absolute;
-    background-color: inherit;
-    border: 0;
-    font-family: Fester_Bold;
-    font-size: 18px; 
-    top: 40%;
-    right: 2%;
-    color: #ffffff;
-    z-index: 0;
-}
+
 .khuyenmai_sp:hover{
     transform: scale(1.03);
 }
