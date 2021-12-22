@@ -48,6 +48,22 @@
   border: 1px solid rgb(73, 73, 73);
   font-size: 17px;
 }
+.gtinh_s>span{
+  color: red;
+  /* line-height: 50px */
+  /* font-size: 10px */
+  position:absolute;
+}
+input[type="radio"]{
+  width: 20px;
+  vertical-align: middle;
+}
+input[type="radio"]:first-child{
+  margin: 10px 0 0 0px;
+}
+input[type="radio"]:last-child{
+  margin: 10px 0 0 40px;
+}
 .line {
   height: 1px;
   width: 100%;
