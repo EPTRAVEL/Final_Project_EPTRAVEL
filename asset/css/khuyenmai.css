@@ -71,6 +71,12 @@ height: 250px;
 .khuyenmai_sp--content{
     width: 100%;
 }
+.khuyenmai_xemchitiet{
+    border: 0px;
+    background-color: inherit;
+    height: 250px;
+    width: 400px;
+}
 .khuyenmai_text{
     display: flex;
     flex-direction: column;
