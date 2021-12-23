@@ -49,8 +49,7 @@
                     <img src="" alt="Image">
                 </div>
                 <div class="thanhtoan-content__thongtintour--noidung">
-                    <div>Đánh giá KHhhhhhhhhKSDSKSKASD</div>
-                    <br>
+
                     <div>
                         <b><a></a></b>
                     </div>
@@ -191,12 +190,10 @@
                     }
                 }
                 document.getElementById("id_thanhtoan-content__thongtintour").innerHTML = div;
-                // alert(thongtinKH)
 
 
                 document.getElementById("thongtinhanhkhach").innerHTML = divTTKH;
-                // alert('fn')
-                alert(phuThu)
+
                 var tongCong = gia_NL * thongtinKH[0][5] + gia_TE * thongtinKH[0][6] + gia_TN * thongtinKH[0][7] + gia_EB * thongtinKH[0][8] + parseInt(phuThu);
                 document.getElementById("tongcong").innerHTML = formatNumber(tongCong) + ' đ';
             }
@@ -212,6 +209,7 @@
 
 </body>
 <!-- backtop3 -->
+<script src="./asset/javascrip/search.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>

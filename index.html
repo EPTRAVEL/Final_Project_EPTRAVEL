@@ -41,10 +41,10 @@
             <div style=" height: 100px; width: 0px;"></div>
             <div class="slider-one">
                 <div class="slider-item">
-                    <div class="img"><img src="asset/images/IMAGE/img_temp_banner.png" alt="Error"></div>
+                    <div class="img"><img src="./asset/images/banner/banner1.jpg" alt="Error"></div>
                 </div>
                 <div class="slider-item">
-                    <div class="img"><img src="asset/images/IMAGE/img_temp_banner.png" alt="Error"></div>
+                    <div class="img"><img src="./asset/images/banner/banner2.jpg" alt="Error"></div>
                 </div>
                 <div class="slider-item">
                     <div class="img"><img src="asset/images/IMAGE/img_temp_banner.png" alt="Error"></div>
@@ -146,13 +146,11 @@
                         <div class="home__tintuc-dulich--item" id="id_tintucDuLich">
                             <div class="ttdl--row">
                                 <div class="ttdl--row_item ttdl--row-left">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
+                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px" alt="Error"></div>
                                     <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
                                 </div>
                                 <div class="ttdl--row_item ttdl--row-right">
-                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px"
-                                            alt="Error"></div>
+                                    <div class="img"><img src="asset/images/IMAGE/img_temp_500x350.png" width="200px" alt="Error"></div>
                                     <h3>hello Tin tức du lịch Tin tức du lịch Tin tức du lịch</h3>
                                 </div>
                             </div>
@@ -167,9 +165,7 @@
                     <div class="tintuc-quantam__body" id="id_tintucQuanTam">
                         <div class="ttqt--row">
                             <div class="ttqt--item ttqt--item-left">
-                                <div style="text-align:left"><img
-                                        src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg"
-                                        alt="Error" width="150px"></div>
+                                <div style="text-align:left"><img src="./asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg" alt="Error" width="150px"></div>
                             </div>
                             <div class="ttqt--item ttqt--item-right">
                                 <h4 class="title">ABBYZ</h4>
@@ -183,15 +179,13 @@
 
 
             <div class="home__tour">
-                <div class="home__tour-item home__tour-left"
-                    onclick='window.location.href = "tourdulich.html?quocgia=Trong%20Nước"'>
+                <div class="home__tour-item home__tour-left" onclick='window.location.href = "tourdulich.html?quocgia=Trong%20Nước"'>
                     <div class="img"><img src="asset/images/IMAGE/home-trongnuoc.png" alt="Error"></div>
                     <div class="home-tour-title">
                         tour trong nước
                     </div>
                 </div>
-                <div class="home__tour-item home__tour-right"
-                    onclick='window.location.href = "tourdulich.html?quocgia=NgoaiNuoc"'>
+                <div class="home__tour-item home__tour-right" onclick='window.location.href = "tourdulich.html?quocgia=NgoaiNuoc"'>
                     <div class="img">
                         <img src="asset/images/IMAGE/home-ngoainuoc.png" alt="Error">
                     </div>
@@ -250,7 +244,7 @@
         // var url_tt = "asset/data/tintuc.json";
 
 
-        xmlhttp.onreadystatechange = function () {
+        xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr = JSON.parse(this.responseText);
                 threeFamous(myArr);
@@ -260,8 +254,8 @@
             }
         }
 
-        xmlhttp.open("GET", url, true);//ra lệnh 
-        xmlhttp.send();//thực hiênn
+        xmlhttp.open("GET", url, true); //ra lệnh 
+        xmlhttp.send(); //thực hiênn
         // xmlhttp.open("GET", url_tt, true);//ra lệnh
         // xmlhttp.send();//thực hiênn
 
@@ -278,6 +272,7 @@
             document.getElementById("slider-three-famous").innerHTML = div;
 
         }
+
         function home__hot_tour(arr) {
             var i;
             var div = '';
@@ -296,7 +291,7 @@
         var xmlhttp_tt = new XMLHttpRequest();
         var url_tt = "asset/data/tintuc.json";
 
-        xmlhttp_tt.onreadystatechange = function () {
+        xmlhttp_tt.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr_tt = JSON.parse(this.responseText);
                 tintucQuanTam(myArr_tt);
@@ -304,8 +299,8 @@
             }
         }
 
-        xmlhttp_tt.open("GET", url_tt, true);//ra lệnh 
-        xmlhttp_tt.send();//thực hiênn
+        xmlhttp_tt.open("GET", url_tt, true); //ra lệnh 
+        xmlhttp_tt.send(); //thực hiênn
 
 
         function tintucDuLich(arr) {
@@ -340,6 +335,7 @@
         function gotoTinTuc(id) {
             window.location.href = "noidungtintuc.html??tintucid=" + id
         }
+
         function gotoChitiettour(id) {
             window.location.href = "chitiettour.html?matour=" + id
         }
@@ -358,8 +354,6 @@
 
 
         w3.includeHTML();
-
-
     </script>
     <script src="./asset/javascrip/search.js"></script>
 
