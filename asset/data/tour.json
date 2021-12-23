@@ -1,18 +1,16 @@
-[
-      {
+[{
         "ten_tour": "Phú Quốc - 3 ngày 2 đêm",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/PhuQuoc/PhuQuoc5.jpg"
         ],
         "ma_tour": "TNMNPQ001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"13",
-        "diemden":"Phú Quốc",
+        "sochoconnhan": "13",
+        "diemden": "Phú Quốc",
         "ngaykhoihanh": "18/01/2022",
         "thoigian": "3 ngày 2 đêm",
         "noidungchitiet": "Tọa lạc tại Bãi Khem, phía Nam đảo ngọc Phú Quốc, một bãi biển tuyệt đẹp với cát trắng mịn như kem và nước trong màu ngọc bích, cách sân bay quốc tế Phú Quốc chỉ 15 phút lái xe, JW Marriott Phú Quốc Emerald Bay không chỉ là một kiệt tác nghỉ dưỡng đẳng cấp 5 sao độc đáo và tinh tế mà còn là một câu chuyện huyền thoại về Lamarck Universitys - một trường đại học danh tiếng hàng đầu Việt Nam tại thị trấn thương mại Bãi Kem những năm đầu thế kỷ 20. Khu nghỉ dưỡng với 244 phòng, suite, căn hộ và villas là sự kết hợp tuyệt diệu của cả hai thế giới: tri thức và nghỉ dưỡng. Khu nghỉ dưỡng có kiến trúc Pháp điển hình và những gam màu nổi bật tôn vinh từng đường nét tinh tế. Những phòng nghỉ tiện nghi thoải mái nhất, ẩm thực ngon nhất, dịch vụ thân thiện kết hợp với môi trường nghỉ dưỡng có một không hai được đặt trong một ngôi trường thuần túy với phấn trắng bảng đen, dụng cụ giảng dạy, bộ sưu tập cúp chiến thắng mà các đội thể thao đã mang về được giữ nguyên, trở thành những vật dụng trang trí vô cùng độc đáo. Với 18 khoa của trường đại học khoa học tự nhiên Lamarck University, Quý du khách có những trải nghiệm hoàn toàn khác biệt trong cùng Khu nghỉ dưỡng. Sự thú vị mà JW Marriott Phú Quốc Emerald Bay đem đến cho du khách là những tháng ngày nghỉ dưỡng trong vai trò một sinh viên đại học, ở một ngôi trường nghỉ dưỡng có một không hai. Một ngày là hoàn toàn không đủ với JW Marriott Phú Quốc Emerald Bay… khi mà khu nghỉ dưỡng biến từng phút từng giây của du khách ở nơi đây trở thành những phút giây trải nghiệm vô cùng đáng giá. Bởi mỗi chi tiết, dù là nhỏ nhất trong khuôn viên khu nghỉ dưỡng đều ẩn chứa trong nó một câu chuyện thú vị khiến cho “học viên” thỏa sức khám phá.",
@@ -26,23 +24,22 @@
         "giatienembe": "800000",
         "giamgia": "0",
         "phuthu": "200000",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Nam"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Nam"
+    },
+    {
         "ten_tour": "Vũng Tàu - Biển Hát - 2 ngày 1 đêm ",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
         ],
         "ma_tour": "TNMNVT002",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"30",
-        "diemden":"Bà Rịa - Vũng Tàu",
+        "sochoconnhan": "30",
+        "diemden": "Bà Rịa - Vũng Tàu",
         "ngaykhoihanh": "13/2/2021",
         "thoigian": "2 ngày 1 đêm ",
         "noidungchitiet": "Vũng Tàu luôn là một điểm đến đặc sắc dành cho du khách bốn phương với phong cảnh trữ tình cùng nhiều công trình kiến trúc tôn giáo tầm cỡ và sự nhộn nhịp, hiện đại đến khó tả. Không chỉ thỏa thích hòa mình vào làn nước biển mát lạnh, mà chuyến đi còn mang đến cho du khách những cung bậc cảm xúc khác nhau và những bộ ảnh sống ảo tuyệt đẹp nhờ vào những địa điểm check-in hấp dẫn: Tham quan Nhà Úp Ngược với nhiều góc chụp hình vui nhộn Ngắm ánh hoàng hôn đang dần buông xuống ôm trọn cả bầu trời và mặt biển Vũng Tàu. Bảo tàng Bà Rịa - Vũng Tàu: gồm nhiều chuyên đề với hàng ngàn tư liệu hình ảnh và hiện vật tiêu biểu, phản ánh khái quát về lịch sử thiên nhiên và con người Bà Rịa - Vũng Tàu từ thời Tiền - Sơ sử đến ngày nay.",
@@ -56,24 +53,23 @@
         "giatienembe": "0",
         "giamgia": "15",
         "phuthu": "0",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Nam",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Nam",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Sapa - Bản Cát Cát - Fansipan",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/SaPa/SP5.jpg"
         ],
-       "ma_tour": "TNMBSP001",
+        "ma_tour": "TNMBSP001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"27",
-        "diemden":"Sapa",
+        "sochoconnhan": "27",
+        "diemden": "Sapa",
         "ngaykhoihanh": "24/12/2021",
         "thoigian": " 3 ngày 2 đêm",
         "noidungchitiet": " “Bồng bềnh, bồng bềnh mây trắng, thấp thoáng lô nhô rừng cây, <br> Long lanh trong xanh dòng suối, dập dìu sắc màu chợ phiên <br> Ngọt ngào cành lê em hái, đào xuân chúm chím anh say <br> Ngọt ngào sương giăng lối phố, xốn xang nhịp váy đung đưa”",
@@ -87,53 +83,51 @@
         "giatienembe": "180000",
         "giamgia": "0",
         "phuthu": "100000",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Bắc"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Bắc"
+    },
+    {
         "ten_tour": "Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN5.jpg"
         ],
         "ma_tour": "TNMBHN001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"35",
-        "diemden":"Hà Nội",
+        "sochoconnhan": "35",
+        "diemden": "Hà Nội",
         "ngaykhoihanh": "18/12/2021",
         "thoigian": "4 ngày 3 đêm",
         "noidungchitiet": "Còn gì đáng nhớ hơn khi bạn được ngắm bình minh trên Vịnh Hạ Long, những kỳ quan thiên nhiên với làn nước xanh như ngọc, những ngọn núi đá vôi hùng vĩ và những khu rừng nhiệt đới tươi tốt",
         "diadiemthamquan": "Di chuyển trên xe đầy đủ tiện nghi, giờ đi hợp lý. <br> HDV kinh nghiệm hỗ trợ suốt tuyến. <br>Tham quan KDL Tràng An nổi tiếng ở Ninh Bình. <br> Đến chùa Bái Đính lớn nhất miền Bắc.<br>Khám phá Vịnh Hạ Long – di sản thiên nhiên thế giới được UNESCO công nhận. <br>Tham quan khu danh thắng đất Phật Yên Tử.",
         "phuongtiendichuyen": "Máy bay, Xe khách",
         "khachsan": "Thường",
-        "lichtrinh": "<h3>Ngày 1 - TP.HỒ CHÍ MINH – SÂN BAY NỘI BÀI (HÀ NỘI) – NINH BÌNH (Ăn trưa, tối)</3><br>Quý khách tập trung tại sân bay Tân Sơn Nhất (ga nội địa), hướng dẫn viên hỗ trợ khách làm thủ tục đáp chuyến bay đi Hà Nội. Đến nơi, đoàn khởi hành đi Ninh Bình, đến nơi tham quan:<br>- Chùa Bái Đính: là một quần thể chùa với nhiều kỷ lục Việt Nam như chùa có diện tích lớn nhất, tượng phật bằng đồng lớn nhất, nhiều tượng Phật La Hán nhất.<br>Nghỉ đêm tại Ninh Bình.<br><h3>Ngày 2 - NINH BÌNH – HÀ NỘI (Ăn sáng, trưa, tối)</h3> <br> Ăn sáng, Xe đưa quý khách tham quan:<br>- Khu Du Lịch Tràng An: du khách lên thuyền truyền thống đi tham quan thắng cảnh hệ thống núi đá vôi hùng vĩ và các thung lũng ngập nước, thông với nhau bởi các dòng suối tạo nên các hang động ngập nước quanh năm. Điểm xuyến trong không gian hoang sơ, tĩnh lặng là hình ảnh rêu phong, cổ kính của các mái đình, đền, phủ nằm nép mình dưới chân các dãy núi cao.<br>Đoàn khởi hành về Hà Nội, tham quan: <br>- Văn Miếu: nơi thờ Khổng Tử và các bậc hiền triết của Nho Giáo, Quốc Tử Giám - trường đại học đầu tiên của Việt Nam, tìm về cội nguồn lịch sử của các vị Nho học.<br>- Xe đưa quý khách dạo 1 vòng Hồ Hoàn Kiếm ngắm Tháp Rùa, Đền Ngọc Sơn, Cầu Thê Húc.<br>Nghỉ đêm tại Hà Nội.<br><h3>Ngày 3 - HÀ NỘI – HẠ LONG (Ăn sáng, trưa, tối)</h3><br>Ăn sáng và trả phòng khách sạn. Quý khách khởi hành đi tham quan:<br>- Lăng Hồ Chủ Tịch (không viếng vào thứ 2, thứ 6 hàng tuần và giai đoạn bảo trì định kỳ hàng năm 15/6 – 15/8): tham quan và tìm hiểu cuộc đời và sự nghiệp của vị cha già dân tộc tại Nhà Sàn Bác Hồ, Bảo Tàng Hồ Chí Minh, Chùa Một Cột. <br>Đoàn khởi hành đi Hạ Long theo đường cao tốc, đến bến tàu xuống thuyền tham quan:<br>- Vịnh Hạ Long: thắng cảnh thiên nhiên tuyệt đẹp và vô cùng sống động, được UNESCO công nhận là di sản thiên nhiên Thế giới năm 1994.<br>- Động Thiên Cung: chốn thiên đường dưới hạ giới bởi vẻ đẹp lộng lẫy bởi những lớp thạch nhũ và những luồng ánh sáng lung linh.<br>- Từ trên tàu ngắm nhìn các hòn đảo lớn nhỏ trong Vịnh Hạ Long: Hòn Gà Chọi, Hòn Lư Hương...<br>Nghỉ đêm tại Hạ Long.<br>Một số lựa chọn dành cho Quý khách muốn khám phá thêm Hạ Long (chi phí tự túc)<br><h4>- Lựa chọn 1:<h4> Tham quan Sun World Ha Long Park trên Núi Ba Đèo bằng cáp treo Nữ Hoàng, trải nghiệm vòng quay mặt trời, tham quan vườn Nhật, khu trưng bày tượng sáp, khu vui chơi trẻ em.<br><h4>- Lựa chọn 2:</h4>Suối Khoáng Nóng Yoko Onsen Quang Hanh với 25 bể tắm onsen & 18 bể tắm chum độc đáo dành cho nam và nữ, mang đến trải nghiệm thư giãn và trị liệu cả trong nhà và ngoài trời. Tại đây, Quý khách sẽ được trải nghiệm trở về với thiên nhiên - tái sinh năng lượng và nhận thêm nguồn cảm hứng mới với các hoạt động mà du khách có thể thoải mái trải nghiệm như Ngâm mình trong dòng nước khoáng, Xông hơi nóng bằng xông thường hoặc đá muối Himalaya, Xông hơi lạnh, “Check in” những góc ảnh đẹp đậm chất Nhật,…<br><h3>Ngày 4 - HẠ LONG – YÊN TỬ – S N BAY NỘI BÀI – TP.HỒ CHÍ MINH (Ăn sáng, trưa)</h3><br>Quý khách tham quan:<br>- Cầu Bãi Cháy: kiến trúc thanh mảnh, hiện đại, cầu Bãi Cháy đem lại một nét kiến trúc mới và lãng mạn góp phần tô điểm và tôn thêm vẻ đẹp cho Vịnh Hạ Long.<br>- Bảo tàng Quảng Ninh (tham quan và chụp ảnh bên ngoài bảo tàng): một trong những điểm tham quan ấn tượng trong du khách với lối kiến trúc độc đáo và những hiện vật được trưng bày trong đây.<br>- Núi Yên Tử: thắng cảnh thiên nhiên còn lưu giữ nhiều di tích lịch sử với mệnh danh “đất tổ Phật giáo Việt Nam”. Tham quan Chùa Hoa Yên (chi phí cáp treo tự túc), Tháp Tổ. <br>Khởi hành về Hà Nội, trên đường ghé Hải Dương mua đặc sản: bánh đậu xanh, bánh khảo. Xe đưa đoàn ra sân bay Nội Bài đáp chuyến bay về Tp.Hồ Chí Minh.<br> Chia tay Quý khách và kết thúc chương trình du lịch tại sân bay Tân Sơn Nhất. <br>            ",
+        "lichtrinh": "<h3>Ngày 1 - TP.HỒ CHÍ MINH – SÂN BAY NỘI BÀI (HÀ NỘI) – NINH BÌNH (Ăn trưa, tối)</h3><br>Quý khách tập trung tại sân bay Tân Sơn Nhất (ga nội địa), hướng dẫn viên hỗ trợ khách làm thủ tục đáp chuyến bay đi Hà Nội. Đến nơi, đoàn khởi hành đi Ninh Bình, đến nơi tham quan:<br>- Chùa Bái Đính: là một quần thể chùa với nhiều kỷ lục Việt Nam như chùa có diện tích lớn nhất, tượng phật bằng đồng lớn nhất, nhiều tượng Phật La Hán nhất.<br>Nghỉ đêm tại Ninh Bình.<br><h3>Ngày 2 - NINH BÌNH – HÀ NỘI (Ăn sáng, trưa, tối)</h3> <br> Ăn sáng, Xe đưa quý khách tham quan:<br>- Khu Du Lịch Tràng An: du khách lên thuyền truyền thống đi tham quan thắng cảnh hệ thống núi đá vôi hùng vĩ và các thung lũng ngập nước, thông với nhau bởi các dòng suối tạo nên các hang động ngập nước quanh năm. Điểm xuyến trong không gian hoang sơ, tĩnh lặng là hình ảnh rêu phong, cổ kính của các mái đình, đền, phủ nằm nép mình dưới chân các dãy núi cao.<br>Đoàn khởi hành về Hà Nội, tham quan: <br>- Văn Miếu: nơi thờ Khổng Tử và các bậc hiền triết của Nho Giáo, Quốc Tử Giám - trường đại học đầu tiên của Việt Nam, tìm về cội nguồn lịch sử của các vị Nho học.<br>- Xe đưa quý khách dạo 1 vòng Hồ Hoàn Kiếm ngắm Tháp Rùa, Đền Ngọc Sơn, Cầu Thê Húc.<br>Nghỉ đêm tại Hà Nội.<br><h3>Ngày 3 - HÀ NỘI – HẠ LONG (Ăn sáng, trưa, tối)</h3><br>Ăn sáng và trả phòng khách sạn. Quý khách khởi hành đi tham quan:<br>- Lăng Hồ Chủ Tịch (không viếng vào thứ 2, thứ 6 hàng tuần và giai đoạn bảo trì định kỳ hàng năm 15/6 – 15/8): tham quan và tìm hiểu cuộc đời và sự nghiệp của vị cha già dân tộc tại Nhà Sàn Bác Hồ, Bảo Tàng Hồ Chí Minh, Chùa Một Cột. <br>Đoàn khởi hành đi Hạ Long theo đường cao tốc, đến bến tàu xuống thuyền tham quan:<br>- Vịnh Hạ Long: thắng cảnh thiên nhiên tuyệt đẹp và vô cùng sống động, được UNESCO công nhận là di sản thiên nhiên Thế giới năm 1994.<br>- Động Thiên Cung: chốn thiên đường dưới hạ giới bởi vẻ đẹp lộng lẫy bởi những lớp thạch nhũ và những luồng ánh sáng lung linh.<br>- Từ trên tàu ngắm nhìn các hòn đảo lớn nhỏ trong Vịnh Hạ Long: Hòn Gà Chọi, Hòn Lư Hương...<br>Nghỉ đêm tại Hạ Long.<br>Một số lựa chọn dành cho Quý khách muốn khám phá thêm Hạ Long (chi phí tự túc)<br><h4>- Lựa chọn 1:<h4> Tham quan Sun World Ha Long Park trên Núi Ba Đèo bằng cáp treo Nữ Hoàng, trải nghiệm vòng quay mặt trời, tham quan vườn Nhật, khu trưng bày tượng sáp, khu vui chơi trẻ em.<br><h4>- Lựa chọn 2:</h4>Suối Khoáng Nóng Yoko Onsen Quang Hanh với 25 bể tắm onsen & 18 bể tắm chum độc đáo dành cho nam và nữ, mang đến trải nghiệm thư giãn và trị liệu cả trong nhà và ngoài trời. Tại đây, Quý khách sẽ được trải nghiệm trở về với thiên nhiên - tái sinh năng lượng và nhận thêm nguồn cảm hứng mới với các hoạt động mà du khách có thể thoải mái trải nghiệm như Ngâm mình trong dòng nước khoáng, Xông hơi nóng bằng xông thường hoặc đá muối Himalaya, Xông hơi lạnh, “Check in” những góc ảnh đẹp đậm chất Nhật,…<br><h3>Ngày 4 - HẠ LONG – YÊN TỬ – S N BAY NỘI BÀI – TP.HỒ CHÍ MINH (Ăn sáng, trưa)</h3><br>Quý khách tham quan:<br>- Cầu Bãi Cháy: kiến trúc thanh mảnh, hiện đại, cầu Bãi Cháy đem lại một nét kiến trúc mới và lãng mạn góp phần tô điểm và tôn thêm vẻ đẹp cho Vịnh Hạ Long.<br>- Bảo tàng Quảng Ninh (tham quan và chụp ảnh bên ngoài bảo tàng): một trong những điểm tham quan ấn tượng trong du khách với lối kiến trúc độc đáo và những hiện vật được trưng bày trong đây.<br>- Núi Yên Tử: thắng cảnh thiên nhiên còn lưu giữ nhiều di tích lịch sử với mệnh danh “đất tổ Phật giáo Việt Nam”. Tham quan Chùa Hoa Yên (chi phí cáp treo tự túc), Tháp Tổ. <br>Khởi hành về Hà Nội, trên đường ghé Hải Dương mua đặc sản: bánh đậu xanh, bánh khảo. Xe đưa đoàn ra sân bay Nội Bài đáp chuyến bay về Tp.Hồ Chí Minh.<br> Chia tay Quý khách và kết thúc chương trình du lịch tại sân bay Tân Sơn Nhất. <br>            ",
         "giatiennguoilon": "5390000",
         "giatientreem": "4290000",
         "giatientrenho": "2145000",
         "giatienembe": "220000",
         "giamgia": "0",
         "phuthu": "400000",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Bắc"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Bắc"
+    },
+    {
         "ten_tour": "Đà Lạt- Đam’bri-Kim ngân Hill- Quê Garden",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaLat/DaLat5.jpg"
         ],
-       "ma_tour": "TNMTDL001",
+        "ma_tour": "TNMTDL001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"33",
-        "diemden":"Đà Lạt",
+        "sochoconnhan": "33",
+        "diemden": "Đà Lạt",
         "ngaykhoihanh": "12/12/2021",
         "thoigian": "3 ngày 2 đêm",
         "noidungchitiet": "Đà Lạt mộng mơ nơi mimosa và ngàn hoa khoe sắc, từ đồi Robin ngắm Hồ Tuyền Lâm, núi Voi, viếng Thiền Viện Trúc Lâm, thăm Dinh Bảo Đại, tản bộ dưới những tán thông, ngắm biệt thự cổ, nhấm nháp ly café ấm áp trong thời tiết se lạnh. Những chuyến xe ngựa thổ mộ chạy quanh Hồ Xuân Hương cũng là nét duyên của Đà Lạt mờ sương. <br > Đăng ký tour Đà Lạt cùng Vietravel,Quý khách có thể đến khám phá các điểm đến nổi bật sau: Hồ Xuân Hương,Langbiang,Thác Đambri,Kim Ngân Hills,Đồi chè Cầu Đất,Trang trại Rau và Hoa Vạn Thành,Dinh I,Đường Hầm Đất Sét,Phân Viện Sinh Học,Mê Linh Coffee,Quê Garden,Chùa Linh Phước,Ga xe lửa Đà Lạt, v.v < br > ",
@@ -147,55 +141,53 @@
         "giatienembe": "600000",
         "giamgia": "12",
         "phuthu": "120000",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Trung",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Trung",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Đà Nẵng - Bà Nà - Cầu Vàng - Hội An - Huế - Đà Nẵng",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienTrung/DaNang/DaNang5.jpg"
         ],
         "ma_tour": "TNMTDN001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"19",
-        "diemden":"Đà Nẵng",
+        "sochoconnhan": "19",
+        "diemden": "Đà Nẵng",
         "ngaykhoihanh": "20/12/2021",
         "thoigian": "4 ngày 3 đêm",
         "noidungchitiet": "Đà Nẵng nằm giữa ba di sản thế giới: cố đô Huế, phố cổ Hội An và thánh địa Mỹ Sơn. Đà Nẵng còn có nhiều danh thắng tuyệt đẹp say lòng du khách như Ngũ Hành Sơn, Bà Nà, bán đảo Sơn Trà, đèo Hải Vân, sông Hàn thơ mộng và cầu quay Sông Hàn – niềm tự hào của thành phố, và biển Mỹ Khê đẹp nhất hành tinh. < br > Đăng ký tour Đà Nẵng cùng Vietravel,Quý khách có thể đến khám phá các điểm đến nổi bật sau: Bà Nà Hills,Ngũ Hành Sơn,Bán đảo Sơn Trà,Công viên Châu Á - Asian Park,Biển Mỹ Khê ",
         "diadiemthamquan": "Du ngoạn Vịnh Nha Trang - một trong 29 vịnh biển đẹp nhất hành tinh với các danh thắng Hòn Tằm, Hòn Chồng độc đáo <br > Tham quan công trình Chăm nổi bật Tháp Bà Ponagar tại Nha Trang <br > Vui chơi thỏa thích tại VinPearl Land Nha Trang,khám phá Đảo Hòn Tre xinh đẹp ",
         "phuongtiendichuyen": "Máy bay, Xe khách",
         "khachsan": "Vip và Thường",
-        "lichtrinh": "<h3>Ngày 1 - TP.HỒ CHÍ MINH - ĐÀ NẴNG - HỘI AN Số bữa ăn: 02 (Ăn trưa, chiều) </h3>Quý khách tập trung tại Ga đi trong nước, sân bay Tân Sơn Nhất,hướng dẫn viên Vietravel hỗ trợ làm thủ tục cho đoàn đáp chuyến bay đi Đà Nẵng,tại sân bay Đà Nẵng xe và HDV đón đoàn đi tham quan:<br> -Bán đảo Sơn Trà và Viếng Chùa Linh Ứng: Nơi đây có tượng Phật Quan Thế m cao nhất Việt Nam,đứng nơi đây,Quý khách sẽ được chiêm ngưỡng toàn cảnh thành phố,núi rừng và biển đảo Sơn Trà một cách hoàn hảo nhất.Về khách sạn nhận phòng,tự do nghỉ ngơi.Buổi chiều xe đưa đoàn đi tham quan. <br> -Phố Cổ Hội An: Chùa Cầu,Nhà Cõ,Hội Quán,dạo phố đèn lồng cảm nhận sự yên bình,cổ kính,lãng mạn Hội An,tự túc chi phí thả hoa đăng cầu bình an,may mắn trên Sông Hoài,thưởng thức đặc sản nổi tiếng địa phương Cao Lầu,Mỳ Quảng,Cơm Gà,Bánh Mì Phượng,…Buổi tối Quý khách tự do đi dạo phố thưởng ngoạn cảnh đẹp của Đà Nẵng về đêm,ngắm nhìn Cầu Rồng,Cầu Tình Yêu,Cầu Trần Thị Lý,Trung Tâm Thương Mại,Khu phố ẩm thực,Café - Bar - Disco….Nghỉ đêm tại Đà Nẵng<h3> Ngày 2 - ĐÀ NẴNG– KDL BÀ NÀ - CẦU VÀNG Số bữa ăn: 02(Ăn sáng, chiều) </h3>Dùng bữa sáng tại khách sạn.Xe và Hướng dẫn viên đưa Quý khách đi tham quan:<br> -Khu du lịch Bà Nà Suối Mơ(chi phí cáp treo & ăn trưa tự túc): Trải nghiệm tuyến cáp treo một dây dài nhất thế giới.Trên đỉnh núi Quý khách tận hưởng không khí se lạnh của“ Đà Lạt tại miền Trung”,tham quan Chùa Linh Ứng,vườn hoa Le Jardin D’ Amour,khu tâm linh mới của Bà Nà viếng Đền Lĩnh Chúa Linh Từ,khu vui chơi Fantasy Park với nhiều trò chơi hấp dẫn,đi dạo và chụp hình tại Cầu Vàng điểm tham mới siêu hot tại Bà Nà,…Ăn trưa tại Bà Nà tự túc.Tự do tham quan vui chơi đền giờ xuống cáp đi ăn chiều.Hoặc Quý khách ở lại khách sạn nghỉ ngơi,tự do đi tham quan danh thắng khác Đà Nẵng. <br> -Bãi biển Mỹ Khê: Một trong những bãi biển quyến rũ nhất hành tinh.Quý khách tự do dạo biển, chụp hình....Buổi tối Quý khách tự do nghỉ ngơi tham quan.Nghỉ đêm tại Đà Nẵng<h3> Ngày 3 - ĐÀ NẴNG– HUẾ Số bữa ăn: 3(Ăn sáng, trưa, chiều) < /h3>Dùng bữa sáng tại khách sạn,xe đưa Quý khách đi tham quan:<br> -Ngũ Hành Sơn: Cảnh quan hùng vĩ với những ngọn đá rêu phong cổ kính cùng nhiều công trình kiến trúc văn hoá và lịch sử đặc sắc. <br> Sau bữa trưa,quý khách khởi hành đi Huế,trên đường đi tham quan:<br> -Đầm Lập An: Ngắm cảnh mây bồng bềnh trên những chóp núi bao bọc quanh đầm,.. <br> -Đại Nội: Hoàng cung xưa của 13 vị vua triều Nguyễn,tham quan Ngọ Môn,Điện Thái Hòa,Tử Cấm Thành,Thế Miếu,Hiển Lâm Các,Cửu Đình,Bảo tàng Cổ Vật Cung Đình Huế,…Đoàn quay về khách sạn,nhận phòng tự do nghỉ ngơi.Nghỉ đêm tại Huế<h3> Ngày 4 - HUẾ - ĐÀ NẴNG - TP.HỒ CHÍ MINH Số bữa ăn: 2(Ăn sáng, trưa) < /h3>Dùng bữa sáng tại khách sạn,xe đưa Quý khách đi tham quan:<br> -Lăng Khải Định: Công trình kiến trúc cuối cùng của triều Nguyễn và cũng là công trình nổi bật nhất trong tất cả những lăng tẩm khác,nhờ những vật liệu xây dựng tân thời và ảnh hưởng của nhiều trường phái kiến trúc ngoại quốc. <br> Đoàn quay về lại Đà Nẵng.Ăn trưa.Sau đó đưa đoàn ra sân bay Đà Nẵng đón chuyến bay trở về Tp.Hồ Chí Minh.Chia tay Quý khách và kết thúc chương trình tại sân bay Tân Sơn Nhất.",
+        "lichtrinh": "<h3>Ngày 1 - TP.HỒ CHÍ MINH - ĐÀ NẴNG - HỘI AN Số bữa ăn: 02 (Ăn trưa, chiều) </h3>Quý khách tập trung tại Ga đi trong nước, sân bay Tân Sơn Nhất,hướng dẫn viên Vietravel hỗ trợ làm thủ tục cho đoàn đáp chuyến bay đi Đà Nẵng,tại sân bay Đà Nẵng xe và HDV đón đoàn đi tham quan:<br> -Bán đảo Sơn Trà và Viếng Chùa Linh Ứng: Nơi đây có tượng Phật Quan Thế m cao nhất Việt Nam,đứng nơi đây,Quý khách sẽ được chiêm ngưỡng toàn cảnh thành phố,núi rừng và biển đảo Sơn Trà một cách hoàn hảo nhất.Về khách sạn nhận phòng,tự do nghỉ ngơi.Buổi chiều xe đưa đoàn đi tham quan. <br> -Phố Cổ Hội An: Chùa Cầu,Nhà Cõ,Hội Quán,dạo phố đèn lồng cảm nhận sự yên bình,cổ kính,lãng mạn Hội An,tự túc chi phí thả hoa đăng cầu bình an,may mắn trên Sông Hoài,thưởng thức đặc sản nổi tiếng địa phương Cao Lầu,Mỳ Quảng,Cơm Gà,Bánh Mì Phượng,…Buổi tối Quý khách tự do đi dạo phố thưởng ngoạn cảnh đẹp của Đà Nẵng về đêm,ngắm nhìn Cầu Rồng,Cầu Tình Yêu,Cầu Trần Thị Lý,Trung Tâm Thương Mại,Khu phố ẩm thực,Café - Bar - Disco….Nghỉ đêm tại Đà Nẵng<h3> Ngày 2 - ĐÀ NẴNG– KDL BÀ NÀ - CẦU VÀNG Số bữa ăn: 02(Ăn sáng, chiều) </h3>Dùng bữa sáng tại khách sạn.Xe và Hướng dẫn viên đưa Quý khách đi tham quan:<br> -Khu du lịch Bà Nà Suối Mơ(chi phí cáp treo & ăn trưa tự túc): Trải nghiệm tuyến cáp treo một dây dài nhất thế giới.Trên đỉnh núi Quý khách tận hưởng không khí se lạnh của“ Đà Lạt tại miền Trung”,tham quan Chùa Linh Ứng,vườn hoa Le Jardin D’ Amour,khu tâm linh mới của Bà Nà viếng Đền Lĩnh Chúa Linh Từ,khu vui chơi Fantasy Park với nhiều trò chơi hấp dẫn,đi dạo và chụp hình tại Cầu Vàng điểm tham mới siêu hot tại Bà Nà,…Ăn trưa tại Bà Nà tự túc.Tự do tham quan vui chơi đền giờ xuống cáp đi ăn chiều.Hoặc Quý khách ở lại khách sạn nghỉ ngơi,tự do đi tham quan danh thắng khác Đà Nẵng. <br> -Bãi biển Mỹ Khê: Một trong những bãi biển quyến rũ nhất hành tinh.Quý khách tự do dạo biển, chụp hình....Buổi tối Quý khách tự do nghỉ ngơi tham quan.Nghỉ đêm tại Đà Nẵng<h3> Ngày 3 - ĐÀ NẴNG– HUẾ Số bữa ăn: 3(Ăn sáng, trưa, chiều) </h3>Dùng bữa sáng tại khách sạn,xe đưa Quý khách đi tham quan:<br> -Ngũ Hành Sơn: Cảnh quan hùng vĩ với những ngọn đá rêu phong cổ kính cùng nhiều công trình kiến trúc văn hoá và lịch sử đặc sắc. <br> Sau bữa trưa,quý khách khởi hành đi Huế,trên đường đi tham quan:<br> -Đầm Lập An: Ngắm cảnh mây bồng bềnh trên những chóp núi bao bọc quanh đầm,.. <br> -Đại Nội: Hoàng cung xưa của 13 vị vua triều Nguyễn,tham quan Ngọ Môn,Điện Thái Hòa,Tử Cấm Thành,Thế Miếu,Hiển Lâm Các,Cửu Đình,Bảo tàng Cổ Vật Cung Đình Huế,…Đoàn quay về khách sạn,nhận phòng tự do nghỉ ngơi.Nghỉ đêm tại Huế<h3> Ngày 4 - HUẾ - ĐÀ NẴNG - TP.HỒ CHÍ MINH Số bữa ăn: 2(Ăn sáng, trưa) </h3>Dùng bữa sáng tại khách sạn,xe đưa Quý khách đi tham quan:<br> -Lăng Khải Định: Công trình kiến trúc cuối cùng của triều Nguyễn và cũng là công trình nổi bật nhất trong tất cả những lăng tẩm khác,nhờ những vật liệu xây dựng tân thời và ảnh hưởng của nhiều trường phái kiến trúc ngoại quốc. <br> Đoàn quay về lại Đà Nẵng.Ăn trưa.Sau đó đưa đoàn ra sân bay Đà Nẵng đón chuyến bay trở về Tp.Hồ Chí Minh.Chia tay Quý khách và kết thúc chương trình tại sân bay Tân Sơn Nhất.",
         "giatiennguoilon": "6690000",
         "giatientreem": "6245000",
         "giatientrenho": "3090000",
         "giatienembe": "1500000",
         "giamgia": "14",
         "phuthu": "0",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Trung",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Trung",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Du Lịch Pháp: Thung Lũng Loire – Cung Điện Versailles – Đảo Mont Saint Michel",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.png",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.png",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"
         ],
-         "ma_tour": "NNCAUP004",
+        "ma_tour": "NNCAUP004",
         "noikhoihanh": "TP. Hà Nội",
-        "sochoconnhan":"20",
-        "diemden":"Pháp",    
+        "sochoconnhan": "20",
+        "diemden": "Pháp",
         "ngaykhoihanh": "20/12/2021",
         "thoigian": "7 ngày 6 đêm",
         "noidungchitiet": "Từ rất lâu rồi, cứ hễ nhắc đến thiên đường tình yêu người ta lại nói đến Pháp. Tiếng Pháp được xem như ngôn ngữ tình yêu, đàn ông Pháp được yêu mến bởi sự nhẹ nhàng và lãng mạn. Các mẫu quảng cáo nước hoa, sữa tắm không ít lần thể hiện hình ảnh người phụ nữ Pháp che nghiêng vành nón, du thuyền trên sông Seine thơ mộng. Và rồi vào cuối năm 2011, bộ phim hoạt hình 3D lấy bối cảnh tại Paris vào năm 1910 với tên gọi “A Monster in Paris” đã mang đến một cảm giác rất Pháp với giọng ca nhẹ nhàng, da diết đánh động biết bao con tim hướng về bản tình ca “La Seine” huyền thoại. Cuộc phiêu lưu kỳ ảo và nhân văn Pháp giữa con quái vật sống trong khu vườn và một ca sĩ trẻ xinh đẹp ấy, đã mang đến cho người xem những trải nghiệm tuyệt vời trong tình yêu và niềm say mê âm nhạc, nghệ thuật.",
@@ -209,23 +201,22 @@
         "giatienembe": "2700000",
         "giamgia": "0",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Âu"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Âu"
+    },
+    {
         "ten_tour": "Du Lịch Pháp: Thung Lũng Loire – Cung Điện Versailles – Đảo Mont Saint Michel",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.png",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap2.png",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/Phap/Phap5.jpg"
         ],
-         "ma_tour": "NNCAUP001",
+        "ma_tour": "NNCAUP001",
         "noikhoihanh": "TP. Hà Nội",
-        "sochoconnhan":"20",
-        "diemden":"Pháp",    
+        "sochoconnhan": "20",
+        "diemden": "Pháp",
         "ngaykhoihanh": "20/12/2021",
         "thoigian": "7 ngày 6 đêm",
         "noidungchitiet": "Từ rất lâu rồi, cứ hễ nhắc đến thiên đường tình yêu người ta lại nói đến Pháp. Tiếng Pháp được xem như ngôn ngữ tình yêu, đàn ông Pháp được yêu mến bởi sự nhẹ nhàng và lãng mạn. Các mẫu quảng cáo nước hoa, sữa tắm không ít lần thể hiện hình ảnh người phụ nữ Pháp che nghiêng vành nón, du thuyền trên sông Seine thơ mộng. Và rồi vào cuối năm 2011, bộ phim hoạt hình 3D lấy bối cảnh tại Paris vào năm 1910 với tên gọi “A Monster in Paris” đã mang đến một cảm giác rất Pháp với giọng ca nhẹ nhàng, da diết đánh động biết bao con tim hướng về bản tình ca “La Seine” huyền thoại. Cuộc phiêu lưu kỳ ảo và nhân văn Pháp giữa con quái vật sống trong khu vườn và một ca sĩ trẻ xinh đẹp ấy, đã mang đến cho người xem những trải nghiệm tuyệt vời trong tình yêu và niềm say mê âm nhạc, nghệ thuật.",
@@ -239,24 +230,23 @@
         "giatienembe": "2700000",
         "giamgia": "0",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Âu"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Âu"
+    },
+    {
         "ten_tour": "Du lịch Châu Âu - Pháp - Thụy Sĩ - Ý 8 ngày mùa Xuân",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauAu/ThuySi/ThuySi5.jpg"
         ],
-         "ma_tour": "NNCAUTS001",
-        "noikhoihanh": "TP. Hà Nội",    
-        "sochoconnhan":"11",
-        "diemden":"Thụy Sĩ",   
-       "ngaykhoihanh": "20/1/2022",
+        "ma_tour": "NNCAUTS001",
+        "noikhoihanh": "TP. Hà Nội",
+        "sochoconnhan": "11",
+        "diemden": "Thụy Sĩ",
+        "ngaykhoihanh": "20/1/2022",
         "thoigian": "8 ngày 7 đêm",
         "noidungchitiet": "Mùa xuân là mùa giao hòa của đất trời, thời tiết ấm áp, mây trời lồng lộng. Tất cả là sự khởi đầu cho một năm mới nhiều may mắn và tài lộc. Những chuyến du lịch Châu  u mùa xuân cũng bắt đầu khởi động. Hành trình đến với những quốc gia đáng sống nhất thế giới Pháp - Thụy Sĩ - Ý. Khám phá những nền văn hóa độc đáo sẽ là trải nghiệm tuyệt vời trong mùa xuân này dành cho bạn.",
         "diadiemthamquan": "Du lịch Pháp đắm mình vào nét lãng mạn, tinh tế của nước Pháp với thủ đô Paris hoa lệ và nổi tiếng với những thắng cảnh tuyệt vời như Tháp Eiffel, Sông Seine. <br> Du lịch Thụy Sĩ trải nghiệm bầu không khí mát mẻ, trong lành của cảnh sắc đầy tươi mát của phong cảnh thiên nhiên xanh mướt ở Thụy Sĩ, đất nước xinh đẹp với con sông Limmat & Hồ Zurich và tham quan Phố Augustine – Con phố nhỏ hẹp quanh co với các ô cửa sổ nhiều màu sắc. <br> Du lịch Ý mùa xuân thăm quan những thành phố đẹp nhất Ý, phải đến ít nhất 1 lần trong đời. Ghé thăm kinh đô thời trang Milan. Trải nghiệm không khí linh thiêng ở tòa thánh Vatican cái nôi của Hội thánh Công giáo. Trải nghiệm 1 ngày đáng nhớ tại Thủ Đô Vĩnh Hằng – Rome “thành phố của sự bất tử” ",
@@ -269,23 +259,22 @@
         "giatienembe": "12297000",
         "giamgia": "0",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Âu"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Âu"
+    },
+    {
         "ten_tour": "Liên Tuyến Brunei - Nhật Bản",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/NhatBan/NhatBan5.jpg"
         ],
         "ma_tour": "NNCANB001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"18",
-        "diemden":"Nhật Bản",
+        "sochoconnhan": "18",
+        "diemden": "Nhật Bản",
         "ngaykhoihanh": "20/1/2022",
         "thoigian": "4 ngày 3 đêm",
         "noidungchitiet": "Nhật Bản có khí hậu với bốn mùa khá rõ rệt, đó là xuân, hạ, thu, đông. Mùa xuân và mùa thu chính là hai mùa có thời tiết thích hợp nhất để bạn du lịch. Lý do là bởi lúc này trời khá ấm áp, không quá nóng hay quá lạnh. Đặc biệt mùa xuân chính là mùa hoa anh đào nở rộ, tạo nên một khung cảnh hết sức lãng mạn và xinh đẹp. Trong khi đó vào mùa thu, trời mát mẻ và rất trong lành.",
@@ -299,116 +288,112 @@
         "giatienembe": "7000000",
         "giamgia": "0",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Á"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Á"
+    },
+    {
         "ten_tour": "Trung Quốc - Bắc Kinh - Thượng Hải - Hàng Châu - Tô Châu ",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauA/TrungQuoc/TrungQuoc5.jpg"
         ],
         "ma_tour": "NNCATQ001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"29",
-        "diemden":"Trung Quốc",
+        "sochoconnhan": "29",
+        "diemden": "Trung Quốc",
         "ngaykhoihanh": "15/01/2022",
         "thoigian": "7 Ngày 6 Đêm",
         "noidungchitiet": "Chuyến du lịch Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu - Tô Châu sẽ đưa du khách đến thăm các di sản thế giới mang đậm nét văn hoá, lịch sử của đất nước Trung Hoa rực rỡ.Thượng Hải còn là một trung tâm kinh tế lớn nhất của Trung Quốc, là một đô thị hiện đại được quốc tế hóa thu hút nhiều khách du lịch hàng năm.Dịch vụ kèm theo: Bảo hiểm, Bữa ăn, Hướng dẫn viên, Vé tham quan,",
         "diadiemthamquan": "Điểm tham quan: <br>Cầu Nam Phố, Bến Thượng Hải.  <br> Du thuyền trên sông Hoàng Phố <br> Chùa Phật Ngọc <br> Tháp truyền hình Đông Phương Minh Châu <br> Tây Hồ <br > Hàn Sơn Tự <br> Sư Tử Viên <br > Vạn Lý Trường Thành <br> Thập Tam Lăng, <br> Trường Lăng <br> Quảng Trường Thiên An Môn <br > Cố Cung <br> Di Hoà Viên <br> Trung tâm thương mại như Nhạc Tú hoặc Vương Phủ Tỉnh.",
         "phuongtiendichuyen": "Máy bay, Xe khách",
         "khachsan": "Vip/Thường",
-        "lichtrinh": "<h3>NGÀY 01: TP. HỒ CHÍ MINH - THƯỢNG HẢI (ĂN TRƯA MB/ ĂN TỐI)</h3>Trưa 10 g25 Trưởng đoàn đón khách tại sân bay Tân Sơn Nhất để làm thủ tục đáp chuyến bay CZ6078 13: 25 đi Thượng Hải.HDV đón đoàn,trên đường về đoàn ngắm cảnh cầu Nam Phố, Bến Thượng Hải.Xe đưa đoàn dùng bữa tối tại nhà hàng.Về khách sạn nhận phòng nghỉ đêm. < br > Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Bến Thượng Hải Nếu còn thời gian, Quý khách có thể tham gia Chương trình du thuyền trên sông Hoàng Phố ngắm cảnh đẹp hai bờ Tây - Đông thành phố Thượng Hải dưới những ánh đèn đủ màu sắc của các toà nhà cao tầng hoặc đi tàu điện ngầm khám phá thành phố Thượng Hải về đêm(chi phí tự túc) < br > <h3 > NGÀY 02: THƯỢNG HẢI - HÀNG CHU(ĂN SÁNG, TRƯA, TỐI) < /h3>Sau khi ăn sáng, tham quan chùa Phật Ngọc, tìm hiểu công nghệ sản xuất và mua sắm đồ gia dụng làm bếp tại Công ty Hillman nổi tiếng Thượng Hải.Tham quan tháp truyền hình Đông Phương Minh Châu cao nhất Châu Á(Quý khách có thể tự mua vé lên tầng 2 ở độ cao 263 m để ngắm toàn cảnh thành phố), Miếu Thành Hoàng.Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Tháp truyền hình Minh Châu.Xe đưa quý khách đi thành phố Hàng Châu, dọc đường thưởng thức hương vị trà Bạch Cúc nổi tiếng của Trung Quốc.Ăn tối và nghỉ đêm tại khách sạn. < br ><h3 > NGÀY 03: HÀNG CH U - TÔ CHU(ĂN SÁNG, TRƯA, TỐI) < /h3>Quý khách ăn sáng tại khách sạn,ngồi thuyền thưởng ngoạn Tây Hồ - được xem là đẹp và nên thơ nhất trong hơn 36 hồ có cùng tên ở Trung Quốc,nhìn ngắm Quả sơn,Đoạn kiều,Trường kiều,Tô Đê Bạch Đê,Tam Đàn Ấn Nguyệt và Hoa Cảng gắn liền với những truyền thuyết về Lương Sơn Bá - Chúc Anh Đài nhà thơ Lý Bạch, Thanh xà - Bạch xà, Trà Hoa Viên, Miếu Nhạc Phi.Ô - tô đưa quý khách đi thành phố Tô Châu - tham quan Hàn Sơn Tự - một ngôi chùa cổ nổi tiếng của Trung Quốc.Nghỉ đêm tại khách sạn. < br ><h3 > NGÀY 04: HÀNG CH U - BẮC KINH(ĂN SÁNG, TRƯA, TỐI) < /h3>Ăn sáng,tham quan Sư Tử Viên một lâm viên điển hình của vùng Giang Nam,tìm hiểu văn hoá tơ lụa.Đoàn lên tàu cao tốc đi Bắc Kinh.Đến ga,đoàn dùng bữa tối và nghỉ đêm tại khách sạn. < br ><h3 > NGÀY 05: BẮC KINH(ĂN SÁNG, TRƯA, TỐI) < /h3>Sau bữa sáng tại khách sạn,Quý khách tham quan Vạn Lý Trường Thành - một kỳ quan duy nhất có thể nhìn thấy từ vệ tinh,kiểm tra sức khoẻ miễn phí tại nhà thuốc Đồng Nhân Đường.Buổi chiều đoàn tham quan Thập Tam Lăng,Trường Lăng - lăng tẩm của các vua chúa,tham quan và chụp ảnh lưu niệm tại sân vận động Tổ Chim - nơi diễn ra lễ khai mạc và bế mạc Olympic Bắc Kinh 2008. Quý khách thưởng thức các sản phẩm làm bằng cao su...Quý khách đi xem chương trình biểu diễn xiếc đặc sắc của các nghệ sỹ Trung Hoa.Tour Trung Quốc 7 ngày từ Hồ Chí Minh China SouthernVạn Lý Trường Thành Bữa tối Đoàn thưởng thức đặc sản vịt quay Bắc Kinh.Nghỉ đêm tại khách sạn. < br ><h3 > NGÀY 06: BẮC KINH(ĂN SÁNG, TRƯA, TỐI) < /h3>Sau bữa sáng, đoàn tham quan Quảng Trường Thiên An Môn - trung tâm chính trị của Bắc Kinh với Đại Lễ Đường, Lăng Mao Chủ Tịch,Tượng đài anh hùng liệt sỹ.Thăm Cố Cung(Tử Cấm Thành) với 9999 gian điện nguy nga tráng lệ lớn nhất thế giới.Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Cố cung Bắc Kinh <br > Chiều: Đoàn tham quan Di Hoà Viên - cung điện mùa hè của các vua chúa đời Minh,Thanh với Cung Từ Hy,Tháp Dâng Hương,Hồ Côn Minh,Vạn Thọ Đường.Thưởng thức ngọc trai Bắc kinh.Xe và HDV đưa đoàn mua sắm tại các Trung tâm thương mại như Nhạc Tú hoặc Vương Phủ Tỉnh.Tới 22: 30 Xe đưa đoàn ra sân bay. < br ><h3 > NGÀY 07: BẮC KINH - TPHCM < /h3>Quý khách đáp chuyến bay CZ6041 00: 50 của hãng hàng không China Southern về lại TP.HCM.Kết thúc hành trình tốt đẹp ",
+        "lichtrinh": "<h3>NGÀY 01: TP. HỒ CHÍ MINH - THƯỢNG HẢI (ĂN TRƯA MB/ ĂN TỐI)</h3>Trưa 10 g25 Trưởng đoàn đón khách tại sân bay Tân Sơn Nhất để làm thủ tục đáp chuyến bay CZ6078 13: 25 đi Thượng Hải.HDV đón đoàn,trên đường về đoàn ngắm cảnh cầu Nam Phố, Bến Thượng Hải.Xe đưa đoàn dùng bữa tối tại nhà hàng.Về khách sạn nhận phòng nghỉ đêm. <br> Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Bến Thượng Hải Nếu còn thời gian, Quý khách có thể tham gia Chương trình du thuyền trên sông Hoàng Phố ngắm cảnh đẹp hai bờ Tây - Đông thành phố Thượng Hải dưới những ánh đèn đủ màu sắc của các toà nhà cao tầng hoặc đi tàu điện ngầm khám phá thành phố Thượng Hải về đêm(chi phí tự túc) <br> <h3> NGÀY 02: THƯỢNG HẢI - HÀNG CHU(ĂN SÁNG, TRƯA, TỐI) </h3>Sau khi ăn sáng, tham quan chùa Phật Ngọc, tìm hiểu công nghệ sản xuất và mua sắm đồ gia dụng làm bếp tại Công ty Hillman nổi tiếng Thượng Hải.Tham quan tháp truyền hình Đông Phương Minh Châu cao nhất Châu Á(Quý khách có thể tự mua vé lên tầng 2 ở độ cao 263 m để ngắm toàn cảnh thành phố), Miếu Thành Hoàng.Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Tháp truyền hình Minh Châu.Xe đưa quý khách đi thành phố Hàng Châu, dọc đường thưởng thức hương vị trà Bạch Cúc nổi tiếng của Trung Quốc.Ăn tối và nghỉ đêm tại khách sạn. <br><h3> NGÀY 03: HÀNG CHÂU - TÔ CHÂU (ĂN SÁNG, TRƯA, TỐI) </h3>Quý khách ăn sáng tại khách sạn,ngồi thuyền thưởng ngoạn Tây Hồ - được xem là đẹp và nên thơ nhất trong hơn 36 hồ có cùng tên ở Trung Quốc,nhìn ngắm Quả sơn,Đoạn kiều,Trường kiều,Tô Đê Bạch Đê,Tam Đàn Ấn Nguyệt và Hoa Cảng gắn liền với những truyền thuyết về Lương Sơn Bá - Chúc Anh Đài nhà thơ Lý Bạch, Thanh xà - Bạch xà, Trà Hoa Viên, Miếu Nhạc Phi.Ô - tô đưa quý khách đi thành phố Tô Châu - tham quan Hàn Sơn Tự - một ngôi chùa cổ nổi tiếng của Trung Quốc.Nghỉ đêm tại khách sạn. <br><h3> NGÀY 04: HÀNG CHÂU - BẮC KINH(ĂN SÁNG, TRƯA, TỐI) </h3>Ăn sáng,tham quan Sư Tử Viên một lâm viên điển hình của vùng Giang Nam,tìm hiểu văn hoá tơ lụa.Đoàn lên tàu cao tốc đi Bắc Kinh.Đến ga,đoàn dùng bữa tối và nghỉ đêm tại khách sạn. <br><h3> NGÀY 05: BẮC KINH(ĂN SÁNG, TRƯA, TỐI) </h3>Sau bữa sáng tại khách sạn,Quý khách tham quan Vạn Lý Trường Thành - một kỳ quan duy nhất có thể nhìn thấy từ vệ tinh,kiểm tra sức khoẻ miễn phí tại nhà thuốc Đồng Nhân Đường.Buổi chiều đoàn tham quan Thập Tam Lăng,Trường Lăng - lăng tẩm của các vua chúa,tham quan và chụp ảnh lưu niệm tại sân vận động Tổ Chim - nơi diễn ra lễ khai mạc và bế mạc Olympic Bắc Kinh 2008. Quý khách thưởng thức các sản phẩm làm bằng cao su...Quý khách đi xem chương trình biểu diễn xiếc đặc sắc của các nghệ sỹ Trung Hoa. Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Vạn Lý Trường Thành Bữa tối Đoàn thưởng thức đặc sản vịt quay Bắc Kinh.Nghỉ đêm tại khách sạn. <br><h3> NGÀY 06: BẮC KINH(ĂN SÁNG, TRƯA, TỐI) </h3>Sau bữa sáng, đoàn tham quan Quảng Trường Thiên An Môn - trung tâm chính trị của Bắc Kinh với Đại Lễ Đường, Lăng Mao Chủ Tịch,Tượng đài anh hùng liệt sỹ.Thăm Cố Cung(Tử Cấm Thành) với 9999 gian điện nguy nga tráng lệ lớn nhất thế giới.Tour Trung Quốc 7 ngày từ Hồ Chí Minh China Southern Cố cung Bắc Kinh <br> Chiều: Đoàn tham quan Di Hoà Viên - cung điện mùa hè của các vua chúa đời Minh,Thanh với Cung Từ Hy,Tháp Dâng Hương,Hồ Côn Minh,Vạn Thọ Đường.Thưởng thức ngọc trai Bắc kinh.Xe và HDV đưa đoàn mua sắm tại các Trung tâm thương mại như Nhạc Tú hoặc Vương Phủ Tỉnh.Tới 22: 30 Xe đưa đoàn ra sân bay. <br><h3> NGÀY 07: BẮC KINH - TPHCM </h3>Quý khách đáp chuyến bay CZ6041 00: 50 của hãng hàng không China Southern về lại TP.HCM.Kết thúc hành trình tốt đẹp ",
         "giatiennguoilon": "17990000",
         "giatientreem": "15990000",
         "giatientrenho": "5990000",
         "giatienembe": "5000000",
         "giamgia": "20",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Á",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Á",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Canada - Vancouver - Whistler - Victoria Island mùa Đông",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/Canada/Canada5.jpg"
         ],
         "ma_tour": "NNCACA001",
         "noikhoihanh": "TP Hồ Chí Minh",
-        "sochoconnhan":"30",
-        "diemden":"Canada",       
+        "sochoconnhan": "30",
+        "diemden": "Canada",
         "ngaykhoihanh": "20/12/2021",
         "thoigian": "7 Ngày 7 Đêm",
         "noidungchitiet": "Du lịch Canada mùa Đông đến thăm đất nước có khí hậu ôn đới rộng lớn thứ hai thế giới nằm ở Bắc Mỹ. Nếu có một lần đặt chân lên mảnh đất Canada rộng lớn và kỳ vĩ này, bạn sẽ không khỏi choáng ngợp và bị hớp hồn bởi thiên nhiên quyến rũ. Cảnh sắc lộng lẫy của những hàng cây phong trong mùa thay lá đã trở thành nét đặc trưng, cuốn hút bao du khách. Bạn không thể nào thờ ơ trước một thành phố Vancouver, thành phố được mệnh danh là “Thành phố của thiên nhiên”, hội tụ của nhiều điểm du lịch với các danh lam thắng cảnh đặc sắc, các hoạt động văn hóa, vui chơi, giải trí được tổ chức quanh năm. Đến đất nước này, du khách sẽ có cảm giác thanh bình như sống trong ngôi nhà nhỏ. Đó chính là điều làm bạn không khỏi ngỡ ngàng ở một đất nước năng động, hiện đại vào loại bậc nhất thế giới.  ",
         "diadiemthamquan": "Thành phố Vancouver < br > Cảng Inner < br > Khách sạn cổ Fairmont Empress < br > Lâu đài Craigdarroch < br > Bảo tàng Royal Bristish Columbia < br > Thủy cung Vancouver < br > Capilano Suspension Bridge < br > Lulu Island Winery < br > Stanley Park < br > Trang trại cá hồi Salmon Hatchery < br > Biểu tượng ngọn đuốc Olympic Cauldron < br > Làng du lịch Whistler < br > Phố Robson ",
         "phuongtiendichuyen": "Máy bay, Xe khách",
         "khachsan": "Thường",
-        "lichtrinh": " <h3 > NGÀY 1: TP.HCM / HÀ NỘI - TRANSIT TAIPEI - VANCOUVER(Ăn tối) < /h3>Đoàn tập trung tại Sân bay Quốc tế Tân Sơn Nhất / Nội Bài.Hướng dẫn viên đón và hướng dẫn Quý khách làm thủ tục check - in .Đoàn đáp chuyến bay đi Taipei Đến Taipei,Đoàn tiếp tục nối chuyến bay đi Vancouver.Chuyến bay cất cánh.Quý khách ăn uống và nghỉ ngơi trên máy bay.Do vượt tuyến đổi ngày đoàn đến Vancouver vào cùng ngày khởi hành từ Việt Nam.Đoàn dùng cơm tối và nhận phòng khách sạn nghỉ ngơi.Nghỉ đêm tại thành phố Vancouver. <h3 > NGÀY 02: THAM QUAN ĐẢO VICTORIA(Ăn ba bữa) < /h3>Quý khách dùng bữa sáng tại Khách sạn.Sau khi dùng điểm tâm, đoàn khởi hành đi tham quan thủ phủ của bang British Colombia– Thành phố Victory.Đoàn sẽ đi sang đảo Victory bằng phà và tham quan: Tòa nhà quốc hội,phố người Hoa cổ nhất khu vực Bắc Mỹ. < br >Inner Habour - Cảng Inner– nơi có rất nhiều điều hấp dẫn đa dạng,với câu định nghĩa: “từ rác rưởi đến những thứ uy nghi hùng vĩ,bạn nghĩ ngay đến cảng Inner”. < br >Tham quan khu sinh sống của giới thượng lưu tại vịnh Oak.Khách sạn cổ Fairmont Empress– một trong những khách sạn lâu đời và nổi tiếng nhất của Victoria,nằm đối diện cảng Inner và được xem là biểu tượng của thành phố. < br >Lâu đài Craigdarroch được ghi danh là di tích lịch sử cấp quốc gia ở Victoria.Lâu đài được xây dựng khoảng thế kỷ 11 - 12 hòa trộn kiến trúc của Pháp,Ý và Tây Ban Nha.Điểm nhấn của kiến trúc chính là chiếc cầu thang gỗ sôid rộng rãi,đồ nội thất cầu kỳ,tinh xảo. < br >Bảo tàng Royal Bristish Columbia.Đoàn dùng cơm chiều.Sau bữa tối,quý khách nhận phòng khách sạn.Nghỉ ngơi tự do . < br ><h3 > NGÀY 3: VANCOUVER– WHISTLER - VANCOUVER(Ăn sáng, tối) < /h3>Quý khách dùng bữa sáng tại khách sạn. < br >Đoàn khởi hành đi làng du lịch Whistler - một đô thị miền núi xinh đẹp cách Vancouver khoảng 125 k.Sau khi đến Whistler,quý khách sẽ thấy ngôi nhà gỗ trên đỉnh núi cao chót vót,vào mùa đông tuyết bao ngủ toàn đỉnh núi và các ngôi nhà nơi đây.Quý khách sẽ tự do đi dạo qua các ngôi làng yên bình, mua sắm,và hòa mình vào bầu không khí trong lành của thị trấn nhỏ. < br >Quý khách tham quan hồ,đi xe đạp leo núi hoặc ziplining,hoặc trượt tuyết.Nếu quý khách may mắn lên vào hôm khu chợ mở cửa,quý khách có thể mua các mặt hàng thủ công mỹ nghệ,các tác phẩm nghệ thuật,và các loại bánh ngon(chi phí tự túc). < br >Quý khách quay trở lại Vancouver.Nếu còn thời gian,Quý khách mua sắm tại phố Robson - Khu bán hàng thời trang cao cấp sầm uất của thành phố Vancouver.<h3 > NGÀY 4: VANCOUVER CITY TOUR(Ăn ba bữa) < /h3>Đoàn ăn sáng tại nhà hàng khách sạn.Xe đón đoàn thăm quan thành phố Vancouver: Công viên thành phố rộng 500 hecta– Stanley Park.Đây là một mô hình công viên rất độc đáo với 1 / 2 là rừng nguyên sinh.Chụp ảnh bên các cột Totem với hình ảnh những con vật mà các bộ lạc nơi đây tôn thờ được điêu khắc bằng gỗ và sơn những màu sắc vô cùng tươi sáng.Thủy cung Vancouver lớn nhất Canada với diện tích khoảng 9000 m2. < br >Đoàn dùng cơm trưa.Sau bữa trưa đoàn tiếp tục chương trình tham quan: Cây cầu treo nổi tiếng với nhiều cái nhất,cổ nhất,cao nhất và dài nhất thế giới - Capilano Suspension Bridge(chi phí tự túc).Trang trại cá hồi Salmon Hatchery. < br  Đoàn ăn tối tại nhà hàng,về khách sạn nghỉ ngơi.<h3 > NGÀY 5: VANCOUVER - S N BAY(Ăn ba bữa) < /h3>Đoàn ăn sáng tại nhà hàng khách sạn. < br >Đoàn trả phòng tiếp tục tham quan Vancouver thành phố được mệnh danh là“ Hòn Ngọc Thái Bình Dương”: Bến du thuyền– Canada Place.Biểu tượng ngọn đuốc Olympic Cauldron của thế vận hội mùa đông 2010. Historic Gastown tại đây quý khách sẽ được chiêm ngưỡng chiếc đồng hồ chạy bằng hơi nước độc nhất vô nhị - Steam Clock.Nhà máy rượu tuyết Lulu Island Winery. < br >Đoàn ăn trưa,sau đó tự do mua sắm. < br >Đoàn dùng cơm tối.Xe đưa đoàn ra sân bay đón chuyến bay về Việt Nam.Quý khách nghỉ ngơi và ăn uống trên máy bay.<h3 > NGÀY 6: VANCOUVER - TRANSIT TAIPEI(Ăn trên máy bay) < /h3>Quý khách nghỉ ngơi và ăn uống trên máy bay. < h3 > NGÀY 7: TAIPEI - TP.HCM /HÀNỘIVề đến Việt Nam.Kết thúc chương trình.Chia tay và hẹn gặp lại Quý khách. < /h3>",
+        "lichtrinh": " <h3> NGÀY 1: TP.HCM / HÀ NỘI - TRANSIT TAIPEI - VANCOUVER(Ăn tối) </h3>Đoàn tập trung tại Sân bay Quốc tế Tân Sơn Nhất / Nội Bài. Hướng dẫn viên đón và hướng dẫn Quý khách làm thủ tục check - in .Đoàn đáp chuyến bay đi Taipei Đến Taipei,Đoàn tiếp tục nối chuyến bay đi Vancouver.Chuyến bay cất cánh.Quý khách ăn uống và nghỉ ngơi trên máy bay.Do vượt tuyến đổi ngày đoàn đến Vancouver vào cùng ngày khởi hành từ Việt Nam.Đoàn dùng cơm tối và nhận phòng khách sạn nghỉ ngơi.Nghỉ đêm tại thành phố Vancouver. <h3> NGÀY 02: THAM QUAN ĐẢO VICTORIA(Ăn ba bữa) </h3>Quý khách dùng bữa sáng tại Khách sạn.Sau khi dùng điểm tâm, đoàn khởi hành đi tham quan thủ phủ của bang British Colombia– Thành phố Victory.Đoàn sẽ đi sang đảo Victory bằng phà và tham quan: Tòa nhà quốc hội,phố người Hoa cổ nhất khu vực Bắc Mỹ. <br>Inner Habour - Cảng Inner– nơi có rất nhiều điều hấp dẫn đa dạng,với câu định nghĩa: “từ rác rưởi đến những thứ uy nghi hùng vĩ, bạn nghĩ ngay đến cảng Inner”. <br>Tham quan khu sinh sống của giới thượng lưu tại vịnh Oak.Khách sạn cổ Fairmont Empress– một trong những khách sạn lâu đời và nổi tiếng nhất của Victoria,nằm đối diện cảng Inner và được xem là biểu tượng của thành phố. <br>Lâu đài Craigdarroch được ghi danh là di tích lịch sử cấp quốc gia ở Victoria.Lâu đài được xây dựng khoảng thế kỷ 11 - 12 hòa trộn kiến trúc của Pháp,Ý và Tây Ban Nha.Điểm nhấn của kiến trúc chính là chiếc cầu thang gỗ sôid rộng rãi,đồ nội thất cầu kỳ,tinh xảo. <br>Bảo tàng Royal Bristish Columbia.Đoàn dùng cơm chiều.Sau bữa tối,quý khách nhận phòng khách sạn.Nghỉ ngơi tự do . <br><h3> NGÀY 3: VANCOUVER– WHISTLER - VANCOUVER(Ăn sáng, tối) </h3>Quý khách dùng bữa sáng tại khách sạn. <br>Đoàn khởi hành đi làng du lịch Whistler - một đô thị miền núi xinh đẹp cách Vancouver khoảng 125 k.Sau khi đến Whistler,quý khách sẽ thấy ngôi nhà gỗ trên đỉnh núi cao chót vót,vào mùa đông tuyết bao ngủ toàn đỉnh núi và các ngôi nhà nơi đây.Quý khách sẽ tự do đi dạo qua các ngôi làng yên bình, mua sắm,và hòa mình vào bầu không khí trong lành của thị trấn nhỏ. <br>Quý khách tham quan hồ,đi xe đạp leo núi hoặc ziplining,hoặc trượt tuyết.Nếu quý khách may mắn lên vào hôm khu chợ mở cửa,quý khách có thể mua các mặt hàng thủ công mỹ nghệ,các tác phẩm nghệ thuật,và các loại bánh ngon(chi phí tự túc). <br>Quý khách quay trở lại Vancouver.Nếu còn thời gian,Quý khách mua sắm tại phố Robson - Khu bán hàng thời trang cao cấp sầm uất của thành phố Vancouver.<h3> NGÀY 4: VANCOUVER CITY TOUR(Ăn ba bữa) </h3>Đoàn ăn sáng tại nhà hàng khách sạn.Xe đón đoàn thăm quan thành phố Vancouver: Công viên thành phố rộng 500 hecta– Stanley Park.Đây là một mô hình công viên rất độc đáo với 1 / 2 là rừng nguyên sinh.Chụp ảnh bên các cột Totem với hình ảnh những con vật mà các bộ lạc nơi đây tôn thờ được điêu khắc bằng gỗ và sơn những màu sắc vô cùng tươi sáng.Thủy cung Vancouver lớn nhất Canada với diện tích khoảng 9000 m2. <br>Đoàn dùng cơm trưa.Sau bữa trưa đoàn tiếp tục chương trình tham quan: Cây cầu treo nổi tiếng với nhiều cái nhất,cổ nhất,cao nhất và dài nhất thế giới - Capilano Suspension Bridge(chi phí tự túc).Trang trại cá hồi Salmon Hatchery. <br>  Đoàn ăn tối tại nhà hàng,về khách sạn nghỉ ngơi.<h3> NGÀY 5: VANCOUVER - S N BAY(Ăn ba bữa) </h3>Đoàn ăn sáng tại nhà hàng khách sạn. <br>Đoàn trả phòng tiếp tục tham quan Vancouver thành phố được mệnh danh là“ Hòn Ngọc Thái Bình Dương”: Bến du thuyền– Canada Place.Biểu tượng ngọn đuốc Olympic Cauldron của thế vận hội mùa đông 2010. Historic Gastown tại đây quý khách sẽ được chiêm ngưỡng chiếc đồng hồ chạy bằng hơi nước độc nhất vô nhị - Steam Clock.Nhà máy rượu tuyết Lulu Island Winery. <br>Đoàn ăn trưa, sau đó tự do mua sắm. <br>Đoàn dùng cơm tối. Xe đưa đoàn ra sân bay đón chuyến bay về Việt Nam. Quý khách nghỉ ngơi và ăn uống trên máy bay.<h3> NGÀY 6: VANCOUVER - TRANSIT TAIPEI(Ăn trên máy bay) </h3>Quý khách nghỉ ngơi và ăn uống trên máy bay. <h3> NGÀY 7: TAIPEI - TP.HCM /HÀNỘIVề đến Việt Nam.Kết thúc chương trình.Chia tay và hẹn gặp lại Quý khách. </h3>",
         "giatiennguoilon": "47900000",
         "giatientreem": "47900000",
         "giatientrenho": "38320000",
         "giatienembe": "10000000",
         "giamgia": "15",
         "phuthu": "1000000",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Mỹ",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Mỹ",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Mỹ liên tuyến Đông Tây ",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My5.jpg"
         ],
         "ma_tour": "NNCAM001",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"27",
-        "diemden":"Mỹ",
+        "sochoconnhan": "27",
+        "diemden": "Mỹ",
         "ngaykhoihanh": "15/12/2021",
         "thoigian": "10 Ngày 9 Đêm",
         "noidungchitiet": "Du lịch Mỹ: Hoa Kỳ miền đất hứa ngày nay vẫn là điểm hẹn du lịch mơ ước.Với diện tích rộng lớn từ Bờ Đông sang Bờ Tây, <br > br > Mỹ được coi là một thế giới thu nhỏ, < br > vô số kỳ quan thiên nhiên,thành phố lịch sử và khu giải trí.Vietravel thường xuyên mở các tuyến du lich Mỹ đến với đến với đất nước đa dạng về bản sắc văn hóa,là trung tâm lớn của cả thế giới,thiên đường du lịch hiện đại bậc nhất này và là địa chỉ thăm thân của người Việt.",
         "diadiemthamquan": "Thành phố New York hiện đại và năng động có Tượng nữ thần Tự do,Quảng trường thời đại, Phố Wall,Di tích Trung tâm thương mại Tháp đôi thế giới…. < br > Thành phố cố đô Philadelphia lịch sử,cổ kính và hoa lệ, <br > Thủ đô Washington D.C với Nhà trắng,Quốc hội,Lầu năm góc,các bảo tàng nổi tiếng < br > Thành phố không ngủ Las Vegas,Thủy điện Hoover Dam,tự do shopping < br > Thành phố biển San Diego,phố cổ đặc trưng Tây Ban Nha < br > Kinh đô điện ảnh thế giới Hollywood tại Los Angeles ",
         "phuongtiendichuyen": "Máy bay, Xe khách",
         "khachsan": "Thường",
-        "lichtrinh": " <h3 > NGÀY 1 | HÀ NỘI / TP.HCM - TRANSIT QUẢNG CHÂU – NEW YORK (Ăn uống và nghỉ ngơi trên máy bay) < /h3>HÀ NỘI: Đoàn tập trung tại sân bay Nội Bài và làm thủ tục hàng không đáp chuyến bay đi Quảng Châu(thời gian bay 02 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New York. < br >TP.HỒ CHÍ MINH: Đoàn đoàn tập trung tại sân bay Tân Sơn Nhất và làm thủ tục hàng không,xuất cảnh.Quý khách đáp máy bay đi Quảng Châu(thời gian bay 03 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New york. < br >Cả hai đầu đáp chuyến bay cất cánh đưa Quý khách đến với Mỹ - đất nước giàu mạnh nhất thế giới,niềm mơ ước của những cuộc đời muốn thay đổi.Do vượt tuyến đổi ngày,đoàn đến New York cùng ngày khởi hành và hoàn tất thủ tục nhập cảnh,nhận hành lí.Xe đón đoàn về nhận phòng khách sạn và nghỉ ngơi sau chặng bay dài. <h3 > NGÀY 2 | NEW YORK CITY TOUR(Ăn ba bữa) < /h3>Đoàn ăn sáng tại khách sạn.Khởi hành tham quan Thành phố New York với những địa danh nổi tiếng: Tượng Nữ Thần Tự Do– Biểu tượng của nước Mỹ bằng chương trình du thuyền ra đảo nơi đặt bức tượng khổng lồ.Đài tưởng niệm các nạn nhân trong vụ khủng bố đẫm máu & Tàn tích của Trung tâm thương mại thế giới sau sự kiện 11 tháng 9.Phố tài chính Wall Street– Nơi tọa lạc của sàn giao dịch chứng khoán New York và các trung tâm tài chính ngân hàng.Nơi đây còn được xem là trung tâm tài chính của thế giới,mỗi chuyển động của phố Wall ảnh hưởng đến tình hình tài chính toàn cầu. < br >Đoàn ăn trưa tại nhà hàng Việt Nam,sau đó tiếp tục chương trình tham quan: Trung tâm thương mại Rockerfeller– Trung tâm thương mại sầm uất,nơi đặt đại bản doanh của kênh truyền hình NBC,tập trung các shop đồ hiệu đắt tiền. < br >Đại lộ 5 Fifth avenue– Trung tâm thời trang của nước Mỹ,nơi tập trung các sàn Catwalk và các thương hiệu thời trang lớn của thế giới. < br >Quảng trường thời đại(Times Square)– Quảng trường trung tâm thành phố New York rực rỡ với những ánh đèn màu và bảng quảng cáo.Đoàn ăn tối tại nhà hàng địa phương và xe đưa đoàn về khách sạn. <h3 > NGÀY 3 | NEW YORK– PHILADELPHIA– WASHINGTON D.C(Ăn ba bữa) < /h3>Đoàn ăn sáng tại khách sạn và trả phòng.Xe đưa đoàn khởi hành đi Philadelphia(khoảng 02 h xe di chuyển).Đến Philadelphia,đoàn dừng chân tham quan chụp ảnh: Xưởng đúc tiền xu của Mỹ(nếu điều cho phép sẽ được vào trong tham quan). < br >Tham quan Chuông tự do– Libery Bell: Đây là quả chuông vang lên tiếng chuông khai sinh nước Mỹ được lưu giữ trong một bảo tàng riêng tại Philadelphia mỗi năm có hơn 10 triệu lượt khách viếng thăm trong đó có cả Nguyên thủ Quốc gia các nước.Tham quan bên ngoài Dinh Độc Lập - Independence Hall: Hiện nay tòa nhà được bảo tồn nguyên vẹn,trước đây nơi này diễn ra cuộc họp thống nhất 13 bang của nước Mỹ và là nơi diễn ra rất điều sự kiện lịch sử quan trọng của buổi đầu khai sinh Hoa Kỳ.Nơi đây cũng chính là trụ sở của Lưỡng viện Quốc hội Mỹ thời kỳ non trẻ.Ăn trưa tại nhà hàng.Sau bữa trưa,xe đưa đoàn tiếp tục đi Washington D.C.Đến Washington D.C,xe đưa đoàn đến Trung tâm Saigon Eden– Trung tâm kinh doanh,buôn bán và giao lưu văn hoá của cộng đồng Kiều bào Việt tại thủ đô. < br > Ăn tối tại nhà hàng địa phương và về khách sạn nhận phòng,nghỉ ngơi. <h3 > NGÀY 4 | WASHINGTON D.C– LAS VEGAS(Ăn ba bữa) < /h3>Sau bữa sáng,đoàn trả phòng và khởi hành tham quan Washington D.C: Tham quan Nhà Trắng(chụp ảnh bên ngoài)– Nơi làm việc của đương kim tổng thống Hoa Kỳ,nơi đón tiếp các nguyên thủ quốc gia.Điện Capitol - Tòa nhà lưỡng viện Hoa Kỳ,một thiết kế kiến trúc độc đáo.Nơi đây là đối trọng quyền lực với Nhà Trắng,cùng với Tòa án tối cao tạo thành thế chân vạc quyền lực trong thể chế chính trị“ Tam quyền phân lập” của Liên Bang Mỹ. < br >Nhà tưởng niệm Lincoln - Tổng thống tài năng nhất nước Mỹ,người đã có công xóa bỏ chế độ nô lệ và thống nhất 36 bang của Hoa Kỳ và vườn tưởng niệm chiến sĩ trận vong của Hoa Kỳ trong 2 cuộc chiến tại Việt Nam và Nam Bắc Triều Tiên.Đoàn ăn trưa tại nhà hàng địa phương.Xe đưa ra sân bay đáp chuyến bay tối sang Las Vegas(khoảng hơn 5 h bay). < br >Đoàn đến Las Vegas,xe đón và đưa đoàn về ăn tối nhẹ và về khách sạn nhận phòng,nghỉ ngơi,tự do trải nghiệm Las Vegas về đêm. <h3 > NGÀY 5 | LAS VEGAS– HOOVER DAM– SHOPPING OUTLET(Ăn sáng, tối) < /h3>Xe đưa đoàn đi ăn tại nhà hàng Việt Nam.Sau bữa sáng,đoàn khởi hành đi tham quan: Đập thủy điện Hoover lớn nhất miền tây nước Mỹ.Đây là đập thủy điện cung cấp điện cho cả bang Neveda và dẫn nước tưới tiêu cho 7 bang miền Tây Hoa Kỳ.Hồ nhân tạo lớn nhất thế giới Lake Mead. < br >Xe đưa đoàn đến Premium Outlet để thỏa mãn nhu cầu mua sắm thời gian,hàng hiệu giá rẻ(quý khách nào không có nhu cầu mua sắm, xe sẽ đưa về khách sạn tự do tham quan và thử vận may tại các sòng bài, tự túc ăn trưa).Đoàn tự túc ăn trưa tại khu vực mua sắm.Xe hẹn đón và đưa đoàn đi ăn tối tại nhà hàng địa phương và trở vế khách sạn nghỉ ngơi,tự do vui chơi,tìm kiếm vận may tại các casino hoặc tham gia vào các chương trình biểu diễn nghệ thuật đặc sắc chỉ có ở Las Vegas. <h3 > NGÀY 6 | LAS VEGAS– SHOPPING OUTLET– LITTLE SAIGON(Ăn ba bữa) < /h3>Đoàn trả phòng khách sạn,xe đưa đoàn đi ăn sáng.Đoàn khởi hành về Los Angeles bằng xe(khoảng 5 h xe),Đoàn dừng chân mua sắm tại các Outlet– điểm mua sắm hấp dẫn nhất hành trình.Quý khách có cơ hội sở hữu các món hang hiệu đẳng cấp với giá rẻ bất ngờ,nhiều chính sách khuyến mại,sale off tới 70 % . < br >Đoàn ăn trưa tại nhà hàng và khởi hành về Quận cam thuộc thành phố Los Angeles.Trung tâm thương mại Phước Lộc Thọ - đây được coi là trung tâm văn hoá và kinh doanh buôn bán của kiều bào Việt tại miền tây nước Mỹ.Xe đưa đoàn dùng cơm tối tại nhà hàng Việt Nam,nhận phòng khách sạn và nghỉ ngơi. <h3 > NGÀY 7 | LOS ANGELES– SAN DIEGO– WALMART SHOPPING(Ăn ba bữa) < /h3>Ăn sáng tại khách sạn.Đoàn khởi hành đi tham quan thành phố San Diego– thành phố lớn thứ 3 và cũng là thành phố du lịch biển nổi tiếng(khoảng 2 h xe ô tô).Tại đây,quý khách sẽ tham quan: San Diego downtown– phố cổ San Diego,nơi ghi dấu ấn của văn hoá và công trình kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico.Đoàn tham quan phố mới hiện đại và bến cảng vui nhộn.Bảo tàng chiến hạm San Diego– nơi đây từng là vị trí đóng quân chiến lược của hạm đội hải quan Hoa Kỳ,quý khách có cơ hội được ngắm nhìn các hạm đội cũng như những tàu chiến còn được lưu trữ vào bảo quản trên vịnh(vé tự túc mua tại quầy). < br >Đoàn ăn trưa tại nhà hàng địa phương,tiếp tục chương trình tham quan thành phố.Trải nghiệm văn hóa Mỹ Latin tại vùng ven Mexico: Quý khách sẽ nhập cảnh Mexico bằng visa Mỹ để thăm quan bức tường biên giới Mỹ - Mexico đang trở thành chủ đề nóng,tìm hiểu văn hóa,kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico(phụ thu 100 USD / khách, những quý khách không tham gia sẽ ở lại mua sắm hàng hóa miễn thuế ở biên giới Mỹ) và xe đưa đoàn quay trở lại Mỹ. < br >Ăn tối tại nhà hàng. < br > Sau bữa tối,xe đưa đoàn về khách sạn nghỉ ngơi,sắp xếp dọn dẹp đồ đạc,hành lí… <h3 > NGÀY 8 | HOLLYWOOD– SANTA MONICA– S N BAY(Ăn ba bữa) < /h3>Đoàn ăn sáng và trả phòng khách sạn.Sau đó khởi hành tham quan: Bãi biển Huntington Beach– một trong những bãi biển đẹp có nhiều các công trình kiến trúc mang đậm dấu ấn của văn hóa Tây Ban Nha thời kì thực dân đô hộ vùng.Mua sắm tại siêu thị Walmart với các loại thực phẩm chức năng giá rẻ,bình dân,bánh kẹo chocolate,kem đánh răng sữa tắm Mỹ… < br >Đoàn ăn trưa và khởi hành tham quan tham quan Hollywood: Đại Lộ Danh Vọng(Hollywood Walk of Fame)– nơi lưu danh những ngôi sao nổi tiếng có đóng góp lớn trong làng điện ảnh giải trí.Nhà hát Dolby– nơi diễn ra lễ trao giải Oscar danh giá hàng năm của làng điện ảnh Mỹ.Nhà hát Trung Hoa– nơi công chiếu giới thiệu những bộ phim Hollywood trước khi tung ra thị trường.Xe đón đoàn ăn tối tại nhà hàng địa phương trên đường ra sân bay.Sau bữa tối,xe đưa đoàn ra sân bay đáp chuyến bay đêm về Việt Nam.Đoàn đáp chuyến bay về Quảng Châu(Trung Quốc, thời gian bay là hơn 11 h bay) <h3 > NGÀY 9 | LOS ANGELES - TRANSIT QUẢNG CH U(Ăn uống và nghỉ ngơi trên máy bay) < /h3>Máy bay cất cánh.Ăn uống,nghỉ ngơi trên máy bay. <h3 > NGÀY 10 | QUẢNG CH U - HÀ NỘI / TP.HCM < /h3>Đến sân bay Quảng Châu,đoàn làm thủ tục nối chuyến và mua sắm hàng miễn thuế tại sân bay.",
+        "lichtrinh": " <h3> NGÀY 1 | HÀ NỘI / TP.HCM - TRANSIT QUẢNG CHÂU – NEW YORK (Ăn uống và nghỉ ngơi trên máy bay) </h3>HÀ NỘI: Đoàn tập trung tại sân bay Nội Bài và làm thủ tục hàng không đáp chuyến bay đi Quảng Châu(thời gian bay 02 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New York. <br>TP.HỒ CHÍ MINH: Đoàn đoàn tập trung tại sân bay Tân Sơn Nhất và làm thủ tục hàng không,xuất cảnh.Quý khách đáp máy bay đi Quảng Châu(thời gian bay 03 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New york. <br>Cả hai đầu đáp chuyến bay cất cánh đưa Quý khách đến với Mỹ - đất nước giàu mạnh nhất thế giới,niềm mơ ước của những cuộc đời muốn thay đổi.Do vượt tuyến đổi ngày,đoàn đến New York cùng ngày khởi hành và hoàn tất thủ tục nhập cảnh,nhận hành lí.Xe đón đoàn về nhận phòng khách sạn và nghỉ ngơi sau chặng bay dài. <h3> NGÀY 2 | NEW YORK CITY TOUR(Ăn ba bữa) </h3>Đoàn ăn sáng tại khách sạn.Khởi hành tham quan Thành phố New York với những địa danh nổi tiếng: Tượng Nữ Thần Tự Do– Biểu tượng của nước Mỹ bằng chương trình du thuyền ra đảo nơi đặt bức tượng khổng lồ.Đài tưởng niệm các nạn nhân trong vụ khủng bố đẫm máu & Tàn tích của Trung tâm thương mại thế giới sau sự kiện 11 tháng 9.Phố tài chính Wall Street– Nơi tọa lạc của sàn giao dịch chứng khoán New York và các trung tâm tài chính ngân hàng.Nơi đây còn được xem là trung tâm tài chính của thế giới,mỗi chuyển động của phố Wall ảnh hưởng đến tình hình tài chính toàn cầu. <br>Đoàn ăn trưa tại nhà hàng Việt Nam,sau đó tiếp tục chương trình tham quan: Trung tâm thương mại Rockerfeller– Trung tâm thương mại sầm uất,nơi đặt đại bản doanh của kênh truyền hình NBC,tập trung các shop đồ hiệu đắt tiền. <br>Đại lộ 5 Fifth avenue– Trung tâm thời trang của nước Mỹ,nơi tập trung các sàn Catwalk và các thương hiệu thời trang lớn của thế giới. <br>Quảng trường thời đại(Times Square)– Quảng trường trung tâm thành phố New York rực rỡ với những ánh đèn màu và bảng quảng cáo.Đoàn ăn tối tại nhà hàng địa phương và xe đưa đoàn về khách sạn. <h3> NGÀY 3 | NEW YORK– PHILADELPHIA– WASHINGTON D.C(Ăn ba bữa) </h3>Đoàn ăn sáng tại khách sạn và trả phòng.Xe đưa đoàn khởi hành đi Philadelphia(khoảng 02 h xe di chuyển).Đến Philadelphia,đoàn dừng chân tham quan chụp ảnh: Xưởng đúc tiền xu của Mỹ(nếu điều cho phép sẽ được vào trong tham quan). <br>Tham quan Chuông tự do– Libery Bell: Đây là quả chuông vang lên tiếng chuông khai sinh nước Mỹ được lưu giữ trong một bảo tàng riêng tại Philadelphia mỗi năm có hơn 10 triệu lượt khách viếng thăm trong đó có cả Nguyên thủ Quốc gia các nước.Tham quan bên ngoài Dinh Độc Lập - Independence Hall: Hiện nay tòa nhà được bảo tồn nguyên vẹn,trước đây nơi này diễn ra cuộc họp thống nhất 13 bang của nước Mỹ và là nơi diễn ra rất điều sự kiện lịch sử quan trọng của buổi đầu khai sinh Hoa Kỳ.Nơi đây cũng chính là trụ sở của Lưỡng viện Quốc hội Mỹ thời kỳ non trẻ.Ăn trưa tại nhà hàng.Sau bữa trưa,xe đưa đoàn tiếp tục đi Washington D.C.Đến Washington D.C,xe đưa đoàn đến Trung tâm Saigon Eden– Trung tâm kinh doanh,buôn bán và giao lưu văn hoá của cộng đồng Kiều bào Việt tại thủ đô. <br> Ăn tối tại nhà hàng địa phương và về khách sạn nhận phòng,nghỉ ngơi. <h3> NGÀY 4 | WASHINGTON D.C– LAS VEGAS(Ăn ba bữa) </h3>Sau bữa sáng,đoàn trả phòng và khởi hành tham quan Washington D.C: Tham quan Nhà Trắng(chụp ảnh bên ngoài)– Nơi làm việc của đương kim tổng thống Hoa Kỳ,nơi đón tiếp các nguyên thủ quốc gia.Điện Capitol - Tòa nhà lưỡng viện Hoa Kỳ,một thiết kế kiến trúc độc đáo.Nơi đây là đối trọng quyền lực với Nhà Trắng,cùng với Tòa án tối cao tạo thành thế chân vạc quyền lực trong thể chế chính trị“ Tam quyền phân lập” của Liên Bang Mỹ. <br>Nhà tưởng niệm Lincoln - Tổng thống tài năng nhất nước Mỹ,người đã có công xóa bỏ chế độ nô lệ và thống nhất 36 bang của Hoa Kỳ và vườn tưởng niệm chiến sĩ trận vong của Hoa Kỳ trong 2 cuộc chiến tại Việt Nam và Nam Bắc Triều Tiên.Đoàn ăn trưa tại nhà hàng địa phương.Xe đưa ra sân bay đáp chuyến bay tối sang Las Vegas(khoảng hơn 5 h bay). <br>Đoàn đến Las Vegas,xe đón và đưa đoàn về ăn tối nhẹ và về khách sạn nhận phòng,nghỉ ngơi,tự do trải nghiệm Las Vegas về đêm. <h3> NGÀY 5 | LAS VEGAS– HOOVER DAM– SHOPPING OUTLET(Ăn sáng, tối) </h3>Xe đưa đoàn đi ăn tại nhà hàng Việt Nam.Sau bữa sáng,đoàn khởi hành đi tham quan: Đập thủy điện Hoover lớn nhất miền tây nước Mỹ.Đây là đập thủy điện cung cấp điện cho cả bang Neveda và dẫn nước tưới tiêu cho 7 bang miền Tây Hoa Kỳ.Hồ nhân tạo lớn nhất thế giới Lake Mead. <br>Xe đưa đoàn đến Premium Outlet để thỏa mãn nhu cầu mua sắm thời gian,hàng hiệu giá rẻ(quý khách nào không có nhu cầu mua sắm, xe sẽ đưa về khách sạn tự do tham quan và thử vận may tại các sòng bài, tự túc ăn trưa).Đoàn tự túc ăn trưa tại khu vực mua sắm.Xe hẹn đón và đưa đoàn đi ăn tối tại nhà hàng địa phương và trở vế khách sạn nghỉ ngơi,tự do vui chơi,tìm kiếm vận may tại các casino hoặc tham gia vào các chương trình biểu diễn nghệ thuật đặc sắc chỉ có ở Las Vegas. <h3> NGÀY 6 | LAS VEGAS– SHOPPING OUTLET– LITTLE SAIGON(Ăn ba bữa) </h3>Đoàn trả phòng khách sạn,xe đưa đoàn đi ăn sáng.Đoàn khởi hành về Los Angeles bằng xe(khoảng 5 h xe),Đoàn dừng chân mua sắm tại các Outlet– điểm mua sắm hấp dẫn nhất hành trình.Quý khách có cơ hội sở hữu các món hang hiệu đẳng cấp với giá rẻ bất ngờ,nhiều chính sách khuyến mại,sale off tới 70 % . <br>Đoàn ăn trưa tại nhà hàng và khởi hành về Quận cam thuộc thành phố Los Angeles.Trung tâm thương mại Phước Lộc Thọ - đây được coi là trung tâm văn hoá và kinh doanh buôn bán của kiều bào Việt tại miền tây nước Mỹ.Xe đưa đoàn dùng cơm tối tại nhà hàng Việt Nam,nhận phòng khách sạn và nghỉ ngơi. <h3> NGÀY 7 | LOS ANGELES– SAN DIEGO– WALMART SHOPPING(Ăn ba bữa) </h3>Ăn sáng tại khách sạn.Đoàn khởi hành đi tham quan thành phố San Diego– thành phố lớn thứ 3 và cũng là thành phố du lịch biển nổi tiếng(khoảng 2 h xe ô tô).Tại đây,quý khách sẽ tham quan: San Diego downtown– phố cổ San Diego,nơi ghi dấu ấn của văn hoá và công trình kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico.Đoàn tham quan phố mới hiện đại và bến cảng vui nhộn.Bảo tàng chiến hạm San Diego– nơi đây từng là vị trí đóng quân chiến lược của hạm đội hải quan Hoa Kỳ,quý khách có cơ hội được ngắm nhìn các hạm đội cũng như những tàu chiến còn được lưu trữ vào bảo quản trên vịnh(vé tự túc mua tại quầy). <br>Đoàn ăn trưa tại nhà hàng địa phương,tiếp tục chương trình tham quan thành phố.Trải nghiệm văn hóa Mỹ Latin tại vùng ven Mexico: Quý khách sẽ nhập cảnh Mexico bằng visa Mỹ để thăm quan bức tường biên giới Mỹ - Mexico đang trở thành chủ đề nóng,tìm hiểu văn hóa,kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico(phụ thu 100 USD / khách, những quý khách không tham gia sẽ ở lại mua sắm hàng hóa miễn thuế ở biên giới Mỹ) và xe đưa đoàn quay trở lại Mỹ. <br>Ăn tối tại nhà hàng. <br> Sau bữa tối,xe đưa đoàn về khách sạn nghỉ ngơi,sắp xếp dọn dẹp đồ đạc,hành lí… <h3> NGÀY 8 | HOLLYWOOD– SANTA MONICA– S N BAY(Ăn ba bữa) </h3>Đoàn ăn sáng và trả phòng khách sạn.Sau đó khởi hành tham quan: Bãi biển Huntington Beach– một trong những bãi biển đẹp có nhiều các công trình kiến trúc mang đậm dấu ấn của văn hóa Tây Ban Nha thời kì thực dân đô hộ vùng.Mua sắm tại siêu thị Walmart với các loại thực phẩm chức năng giá rẻ,bình dân,bánh kẹo chocolate,kem đánh răng sữa tắm Mỹ… <br>Đoàn ăn trưa và khởi hành tham quan tham quan Hollywood: Đại Lộ Danh Vọng(Hollywood Walk of Fame)– nơi lưu danh những ngôi sao nổi tiếng có đóng góp lớn trong làng điện ảnh giải trí.Nhà hát Dolby– nơi diễn ra lễ trao giải Oscar danh giá hàng năm của làng điện ảnh Mỹ.Nhà hát Trung Hoa– nơi công chiếu giới thiệu những bộ phim Hollywood trước khi tung ra thị trường.Xe đón đoàn ăn tối tại nhà hàng địa phương trên đường ra sân bay.Sau bữa tối,xe đưa đoàn ra sân bay đáp chuyến bay đêm về Việt Nam.Đoàn đáp chuyến bay về Quảng Châu(Trung Quốc, thời gian bay là hơn 11 h bay) <h3> NGÀY 9 | LOS ANGELES - TRANSIT QUẢNG CHÂU(Ăn uống và nghỉ ngơi trên máy bay) </h3>Máy bay cất cánh. Ăn uống,nghỉ ngơi trên máy bay. <h3> NGÀY 10 | QUẢNG CHÂU - HÀ NỘI / TP.HCM </h3>Đến sân bay Quảng Châu,đoàn làm thủ tục nối chuyến và mua sắm hàng miễn thuế tại sân bay.",
         "giatiennguoilon": "49900000",
         "giatientreem": "35900000",
         "giatientrenho": "10900000",
         "giatienembe": "11000000",
         "giamgia": "15",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Mỹ",
-        "khuyenmai":"Nổi bật"
-      },
-      {
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Mỹ",
+        "khuyenmai": "Nổi bật"
+    },
+    {
         "ten_tour": "Vũng Tàu - Biển Hát - 2 ngày 1 đêm ",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau3.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
-          "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau3.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau1.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau2.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau4.jpg",
+            "asset/images/IMAGE/SanPham/TrongNuoc/MienNam/VungTau/VungTau5.jpg"
         ],
         "ma_tour": "TNMNVT003",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"30",
-        "diemden":"Bà Rịa - Vũng Tàu",
+        "sochoconnhan": "30",
+        "diemden": "Bà Rịa - Vũng Tàu",
         "ngaykhoihanh": "13/2/2021",
         "thoigian": "2 ngày 1 đêm ",
         "noidungchitiet": "Vũng Tàu luôn là một điểm đến đặc sắc dành cho du khách bốn phương với phong cảnh trữ tình cùng nhiều công trình kiến trúc tôn giáo tầm cỡ và sự nhộn nhịp, hiện đại đến khó tả. Không chỉ thỏa thích hòa mình vào làn nước biển mát lạnh, mà chuyến đi còn mang đến cho du khách những cung bậc cảm xúc khác nhau và những bộ ảnh sống ảo tuyệt đẹp nhờ vào những địa điểm check-in hấp dẫn: Tham quan Nhà Úp Ngược với nhiều góc chụp hình vui nhộn Ngắm ánh hoàng hôn đang dần buông xuống ôm trọn cả bầu trời và mặt biển Vũng Tàu. Bảo tàng Bà Rịa - Vũng Tàu: gồm nhiều chuyên đề với hàng ngàn tư liệu hình ảnh và hiện vật tiêu biểu, phản ánh khái quát về lịch sử thiên nhiên và con người Bà Rịa - Vũng Tàu từ thời Tiền - Sơ sử đến ngày nay.",
@@ -422,37 +407,36 @@
         "giatienembe": "0",
         "giamgia": "10",
         "phuthu": "0",
-        "quocgia":"Tour du lịch trong nước",
-        "khuvuc":"Miền Nam"
-      },
-      {
+        "quocgia": "Tour du lịch trong nước",
+        "khuvuc": "Miền Nam"
+    },
+    {
         "ten_tour": "Mỹ liên tuyến Đông Tây ",
-        "images": 
-        [
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My2.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My1.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My4.jpg",
-          "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My5.jpg"
+        "images": [
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My2.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My1.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My3.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My4.jpg",
+            "asset/images/IMAGE/SanPham/NgoaiNuoc/ChauMy/My/My5.jpg"
         ],
         "ma_tour": "NNCAM006",
         "noikhoihanh": "TP. Hồ Chí Minh",
-        "sochoconnhan":"27",
-        "diemden":"Mỹ",
+        "sochoconnhan": "27",
+        "diemden": "Mỹ",
         "ngaykhoihanh": "15/12/2021",
         "thoigian": "10 Ngày 9 Đêm",
         "noidungchitiet": "Du lịch Mỹ: Hoa Kỳ miền đất hứa ngày nay vẫn là điểm hẹn du lịch mơ ước.Với diện tích rộng lớn từ Bờ Đông sang Bờ Tây, <br > br > Mỹ được coi là một thế giới thu nhỏ, < br > vô số kỳ quan thiên nhiên,thành phố lịch sử và khu giải trí.Vietravel thường xuyên mở các tuyến du lich Mỹ đến với đến với đất nước đa dạng về bản sắc văn hóa,là trung tâm lớn của cả thế giới,thiên đường du lịch hiện đại bậc nhất này và là địa chỉ thăm thân của người Việt.",
         "diadiemthamquan": "Thành phố New York hiện đại và năng động có Tượng nữ thần Tự do,Quảng trường thời đại, Phố Wall,Di tích Trung tâm thương mại Tháp đôi thế giới…. < br > Thành phố cố đô Philadelphia lịch sử,cổ kính và hoa lệ, <br > Thủ đô Washington D.C với Nhà trắng,Quốc hội,Lầu năm góc,các bảo tàng nổi tiếng < br > Thành phố không ngủ Las Vegas,Thủy điện Hoover Dam,tự do shopping < br > Thành phố biển San Diego,phố cổ đặc trưng Tây Ban Nha < br > Kinh đô điện ảnh thế giới Hollywood tại Los Angeles ",
         "phuongtiendichuyen": "Máy bay, xe đưa đón",
         "khachsan": "Thường",
-        "lichtrinh": " <h3 > NGÀY 1 | HÀ NỘI / TP.HCM - TRANSIT QUẢNG CHÂU – NEW YORK (Ăn uống và nghỉ ngơi trên máy bay) < /h3>HÀ NỘI: Đoàn tập trung tại sân bay Nội Bài và làm thủ tục hàng không đáp chuyến bay đi Quảng Châu(thời gian bay 02 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New York. < br >TP.HỒ CHÍ MINH: Đoàn đoàn tập trung tại sân bay Tân Sơn Nhất và làm thủ tục hàng không,xuất cảnh.Quý khách đáp máy bay đi Quảng Châu(thời gian bay 03 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New york. < br >Cả hai đầu đáp chuyến bay cất cánh đưa Quý khách đến với Mỹ - đất nước giàu mạnh nhất thế giới,niềm mơ ước của những cuộc đời muốn thay đổi.Do vượt tuyến đổi ngày,đoàn đến New York cùng ngày khởi hành và hoàn tất thủ tục nhập cảnh,nhận hành lí.Xe đón đoàn về nhận phòng khách sạn và nghỉ ngơi sau chặng bay dài. <h3 > NGÀY 2 | NEW YORK CITY TOUR(Ăn ba bữa) < /h3>Đoàn ăn sáng tại khách sạn.Khởi hành tham quan Thành phố New York với những địa danh nổi tiếng: Tượng Nữ Thần Tự Do– Biểu tượng của nước Mỹ bằng chương trình du thuyền ra đảo nơi đặt bức tượng khổng lồ.Đài tưởng niệm các nạn nhân trong vụ khủng bố đẫm máu & Tàn tích của Trung tâm thương mại thế giới sau sự kiện 11 tháng 9.Phố tài chính Wall Street– Nơi tọa lạc của sàn giao dịch chứng khoán New York và các trung tâm tài chính ngân hàng.Nơi đây còn được xem là trung tâm tài chính của thế giới,mỗi chuyển động của phố Wall ảnh hưởng đến tình hình tài chính toàn cầu. < br >Đoàn ăn trưa tại nhà hàng Việt Nam,sau đó tiếp tục chương trình tham quan: Trung tâm thương mại Rockerfeller– Trung tâm thương mại sầm uất,nơi đặt đại bản doanh của kênh truyền hình NBC,tập trung các shop đồ hiệu đắt tiền. < br >Đại lộ 5 Fifth avenue– Trung tâm thời trang của nước Mỹ,nơi tập trung các sàn Catwalk và các thương hiệu thời trang lớn của thế giới. < br >Quảng trường thời đại(Times Square)– Quảng trường trung tâm thành phố New York rực rỡ với những ánh đèn màu và bảng quảng cáo.Đoàn ăn tối tại nhà hàng địa phương và xe đưa đoàn về khách sạn. <h3 > NGÀY 3 | NEW YORK– PHILADELPHIA– WASHINGTON D.C(Ăn ba bữa) < /h3>Đoàn ăn sáng tại khách sạn và trả phòng.Xe đưa đoàn khởi hành đi Philadelphia(khoảng 02 h xe di chuyển).Đến Philadelphia,đoàn dừng chân tham quan chụp ảnh: Xưởng đúc tiền xu của Mỹ(nếu điều cho phép sẽ được vào trong tham quan). < br >Tham quan Chuông tự do– Libery Bell: Đây là quả chuông vang lên tiếng chuông khai sinh nước Mỹ được lưu giữ trong một bảo tàng riêng tại Philadelphia mỗi năm có hơn 10 triệu lượt khách viếng thăm trong đó có cả Nguyên thủ Quốc gia các nước.Tham quan bên ngoài Dinh Độc Lập - Independence Hall: Hiện nay tòa nhà được bảo tồn nguyên vẹn,trước đây nơi này diễn ra cuộc họp thống nhất 13 bang của nước Mỹ và là nơi diễn ra rất điều sự kiện lịch sử quan trọng của buổi đầu khai sinh Hoa Kỳ.Nơi đây cũng chính là trụ sở của Lưỡng viện Quốc hội Mỹ thời kỳ non trẻ.Ăn trưa tại nhà hàng.Sau bữa trưa,xe đưa đoàn tiếp tục đi Washington D.C.Đến Washington D.C,xe đưa đoàn đến Trung tâm Saigon Eden– Trung tâm kinh doanh,buôn bán và giao lưu văn hoá của cộng đồng Kiều bào Việt tại thủ đô. < br > Ăn tối tại nhà hàng địa phương và về khách sạn nhận phòng,nghỉ ngơi. <h3 > NGÀY 4 | WASHINGTON D.C– LAS VEGAS(Ăn ba bữa) < /h3>Sau bữa sáng,đoàn trả phòng và khởi hành tham quan Washington D.C: Tham quan Nhà Trắng(chụp ảnh bên ngoài)– Nơi làm việc của đương kim tổng thống Hoa Kỳ,nơi đón tiếp các nguyên thủ quốc gia.Điện Capitol - Tòa nhà lưỡng viện Hoa Kỳ,một thiết kế kiến trúc độc đáo.Nơi đây là đối trọng quyền lực với Nhà Trắng,cùng với Tòa án tối cao tạo thành thế chân vạc quyền lực trong thể chế chính trị“ Tam quyền phân lập” của Liên Bang Mỹ. < br >Nhà tưởng niệm Lincoln - Tổng thống tài năng nhất nước Mỹ,người đã có công xóa bỏ chế độ nô lệ và thống nhất 36 bang của Hoa Kỳ và vườn tưởng niệm chiến sĩ trận vong của Hoa Kỳ trong 2 cuộc chiến tại Việt Nam và Nam Bắc Triều Tiên.Đoàn ăn trưa tại nhà hàng địa phương.Xe đưa ra sân bay đáp chuyến bay tối sang Las Vegas(khoảng hơn 5 h bay). < br >Đoàn đến Las Vegas,xe đón và đưa đoàn về ăn tối nhẹ và về khách sạn nhận phòng,nghỉ ngơi,tự do trải nghiệm Las Vegas về đêm. <h3 > NGÀY 5 | LAS VEGAS– HOOVER DAM– SHOPPING OUTLET(Ăn sáng, tối) < /h3>Xe đưa đoàn đi ăn tại nhà hàng Việt Nam.Sau bữa sáng,đoàn khởi hành đi tham quan: Đập thủy điện Hoover lớn nhất miền tây nước Mỹ.Đây là đập thủy điện cung cấp điện cho cả bang Neveda và dẫn nước tưới tiêu cho 7 bang miền Tây Hoa Kỳ.Hồ nhân tạo lớn nhất thế giới Lake Mead. < br >Xe đưa đoàn đến Premium Outlet để thỏa mãn nhu cầu mua sắm thời gian,hàng hiệu giá rẻ(quý khách nào không có nhu cầu mua sắm, xe sẽ đưa về khách sạn tự do tham quan và thử vận may tại các sòng bài, tự túc ăn trưa).Đoàn tự túc ăn trưa tại khu vực mua sắm.Xe hẹn đón và đưa đoàn đi ăn tối tại nhà hàng địa phương và trở vế khách sạn nghỉ ngơi,tự do vui chơi,tìm kiếm vận may tại các casino hoặc tham gia vào các chương trình biểu diễn nghệ thuật đặc sắc chỉ có ở Las Vegas. <h3 > NGÀY 6 | LAS VEGAS– SHOPPING OUTLET– LITTLE SAIGON(Ăn ba bữa) < /h3>Đoàn trả phòng khách sạn,xe đưa đoàn đi ăn sáng.Đoàn khởi hành về Los Angeles bằng xe(khoảng 5 h xe),Đoàn dừng chân mua sắm tại các Outlet– điểm mua sắm hấp dẫn nhất hành trình.Quý khách có cơ hội sở hữu các món hang hiệu đẳng cấp với giá rẻ bất ngờ,nhiều chính sách khuyến mại,sale off tới 70 % . < br >Đoàn ăn trưa tại nhà hàng và khởi hành về Quận cam thuộc thành phố Los Angeles.Trung tâm thương mại Phước Lộc Thọ - đây được coi là trung tâm văn hoá và kinh doanh buôn bán của kiều bào Việt tại miền tây nước Mỹ.Xe đưa đoàn dùng cơm tối tại nhà hàng Việt Nam,nhận phòng khách sạn và nghỉ ngơi. <h3 > NGÀY 7 | LOS ANGELES– SAN DIEGO– WALMART SHOPPING(Ăn ba bữa) < /h3>Ăn sáng tại khách sạn.Đoàn khởi hành đi tham quan thành phố San Diego– thành phố lớn thứ 3 và cũng là thành phố du lịch biển nổi tiếng(khoảng 2 h xe ô tô).Tại đây,quý khách sẽ tham quan: San Diego downtown– phố cổ San Diego,nơi ghi dấu ấn của văn hoá và công trình kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico.Đoàn tham quan phố mới hiện đại và bến cảng vui nhộn.Bảo tàng chiến hạm San Diego– nơi đây từng là vị trí đóng quân chiến lược của hạm đội hải quan Hoa Kỳ,quý khách có cơ hội được ngắm nhìn các hạm đội cũng như những tàu chiến còn được lưu trữ vào bảo quản trên vịnh(vé tự túc mua tại quầy). < br >Đoàn ăn trưa tại nhà hàng địa phương,tiếp tục chương trình tham quan thành phố.Trải nghiệm văn hóa Mỹ Latin tại vùng ven Mexico: Quý khách sẽ nhập cảnh Mexico bằng visa Mỹ để thăm quan bức tường biên giới Mỹ - Mexico đang trở thành chủ đề nóng,tìm hiểu văn hóa,kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico(phụ thu 100 USD / khách, những quý khách không tham gia sẽ ở lại mua sắm hàng hóa miễn thuế ở biên giới Mỹ) và xe đưa đoàn quay trở lại Mỹ. < br >Ăn tối tại nhà hàng. < br > Sau bữa tối,xe đưa đoàn về khách sạn nghỉ ngơi,sắp xếp dọn dẹp đồ đạc,hành lí… <h3 > NGÀY 8 | HOLLYWOOD– SANTA MONICA– S N BAY(Ăn ba bữa) < /h3>Đoàn ăn sáng và trả phòng khách sạn.Sau đó khởi hành tham quan: Bãi biển Huntington Beach– một trong những bãi biển đẹp có nhiều các công trình kiến trúc mang đậm dấu ấn của văn hóa Tây Ban Nha thời kì thực dân đô hộ vùng.Mua sắm tại siêu thị Walmart với các loại thực phẩm chức năng giá rẻ,bình dân,bánh kẹo chocolate,kem đánh răng sữa tắm Mỹ… < br >Đoàn ăn trưa và khởi hành tham quan tham quan Hollywood: Đại Lộ Danh Vọng(Hollywood Walk of Fame)– nơi lưu danh những ngôi sao nổi tiếng có đóng góp lớn trong làng điện ảnh giải trí.Nhà hát Dolby– nơi diễn ra lễ trao giải Oscar danh giá hàng năm của làng điện ảnh Mỹ.Nhà hát Trung Hoa– nơi công chiếu giới thiệu những bộ phim Hollywood trước khi tung ra thị trường.Xe đón đoàn ăn tối tại nhà hàng địa phương trên đường ra sân bay.Sau bữa tối,xe đưa đoàn ra sân bay đáp chuyến bay đêm về Việt Nam.Đoàn đáp chuyến bay về Quảng Châu(Trung Quốc, thời gian bay là hơn 11 h bay) <h3 > NGÀY 9 | LOS ANGELES - TRANSIT QUẢNG CH U(Ăn uống và nghỉ ngơi trên máy bay) < /h3>Máy bay cất cánh.Ăn uống,nghỉ ngơi trên máy bay. <h3 > NGÀY 10 | QUẢNG CH U - HÀ NỘI / TP.HCM < /h3>Đến sân bay Quảng Châu,đoàn làm thủ tục nối chuyến và mua sắm hàng miễn thuế tại sân bay.",
+        "lichtrinh": " <h3> NGÀY 1 | HÀ NỘI / TP.HCM - TRANSIT QUẢNG CHÂU – NEW YORK (Ăn uống và nghỉ ngơi trên máy bay) </h3>HÀ NỘI: Đoàn tập trung tại sân bay Nội Bài và làm thủ tục hàng không đáp chuyến bay đi Quảng Châu(thời gian bay 02 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New York. <br>TP.HỒ CHÍ MINH: Đoàn đoàn tập trung tại sân bay Tân Sơn Nhất và làm thủ tục hàng không,xuất cảnh.Quý khách đáp máy bay đi Quảng Châu(thời gian bay 03 h00).Đến Quảng Châu,quý khách làm thủ tục nối chuyến bay đi New york. <br>Cả hai đầu đáp chuyến bay cất cánh đưa Quý khách đến với Mỹ - đất nước giàu mạnh nhất thế giới,niềm mơ ước của những cuộc đời muốn thay đổi.Do vượt tuyến đổi ngày,đoàn đến New York cùng ngày khởi hành và hoàn tất thủ tục nhập cảnh,nhận hành lí.Xe đón đoàn về nhận phòng khách sạn và nghỉ ngơi sau chặng bay dài. <h3> NGÀY 2 | NEW YORK CITY TOUR(Ăn ba bữa) </h3>Đoàn ăn sáng tại khách sạn.Khởi hành tham quan Thành phố New York với những địa danh nổi tiếng: Tượng Nữ Thần Tự Do– Biểu tượng của nước Mỹ bằng chương trình du thuyền ra đảo nơi đặt bức tượng khổng lồ.Đài tưởng niệm các nạn nhân trong vụ khủng bố đẫm máu & Tàn tích của Trung tâm thương mại thế giới sau sự kiện 11 tháng 9.Phố tài chính Wall Street– Nơi tọa lạc của sàn giao dịch chứng khoán New York và các trung tâm tài chính ngân hàng.Nơi đây còn được xem là trung tâm tài chính của thế giới,mỗi chuyển động của phố Wall ảnh hưởng đến tình hình tài chính toàn cầu. <br>Đoàn ăn trưa tại nhà hàng Việt Nam,sau đó tiếp tục chương trình tham quan: Trung tâm thương mại Rockerfeller– Trung tâm thương mại sầm uất,nơi đặt đại bản doanh của kênh truyền hình NBC,tập trung các shop đồ hiệu đắt tiền. <br>Đại lộ 5 Fifth avenue– Trung tâm thời trang của nước Mỹ,nơi tập trung các sàn Catwalk và các thương hiệu thời trang lớn của thế giới. <br>Quảng trường thời đại(Times Square)– Quảng trường trung tâm thành phố New York rực rỡ với những ánh đèn màu và bảng quảng cáo.Đoàn ăn tối tại nhà hàng địa phương và xe đưa đoàn về khách sạn. <h3> NGÀY 3 | NEW YORK– PHILADELPHIA– WASHINGTON D.C(Ăn ba bữa) </h3>Đoàn ăn sáng tại khách sạn và trả phòng.Xe đưa đoàn khởi hành đi Philadelphia(khoảng 02 h xe di chuyển).Đến Philadelphia,đoàn dừng chân tham quan chụp ảnh: Xưởng đúc tiền xu của Mỹ(nếu điều cho phép sẽ được vào trong tham quan). <br>Tham quan Chuông tự do– Libery Bell: Đây là quả chuông vang lên tiếng chuông khai sinh nước Mỹ được lưu giữ trong một bảo tàng riêng tại Philadelphia mỗi năm có hơn 10 triệu lượt khách viếng thăm trong đó có cả Nguyên thủ Quốc gia các nước.Tham quan bên ngoài Dinh Độc Lập - Independence Hall: Hiện nay tòa nhà được bảo tồn nguyên vẹn,trước đây nơi này diễn ra cuộc họp thống nhất 13 bang của nước Mỹ và là nơi diễn ra rất điều sự kiện lịch sử quan trọng của buổi đầu khai sinh Hoa Kỳ.Nơi đây cũng chính là trụ sở của Lưỡng viện Quốc hội Mỹ thời kỳ non trẻ.Ăn trưa tại nhà hàng.Sau bữa trưa,xe đưa đoàn tiếp tục đi Washington D.C.Đến Washington D.C,xe đưa đoàn đến Trung tâm Saigon Eden– Trung tâm kinh doanh,buôn bán và giao lưu văn hoá của cộng đồng Kiều bào Việt tại thủ đô. <br> Ăn tối tại nhà hàng địa phương và về khách sạn nhận phòng,nghỉ ngơi. <h3> NGÀY 4 | WASHINGTON D.C– LAS VEGAS(Ăn ba bữa) </h3>Sau bữa sáng,đoàn trả phòng và khởi hành tham quan Washington D.C: Tham quan Nhà Trắng(chụp ảnh bên ngoài)– Nơi làm việc của đương kim tổng thống Hoa Kỳ,nơi đón tiếp các nguyên thủ quốc gia.Điện Capitol - Tòa nhà lưỡng viện Hoa Kỳ,một thiết kế kiến trúc độc đáo.Nơi đây là đối trọng quyền lực với Nhà Trắng,cùng với Tòa án tối cao tạo thành thế chân vạc quyền lực trong thể chế chính trị“ Tam quyền phân lập” của Liên Bang Mỹ. <br >Nhà tưởng niệm Lincoln - Tổng thống tài năng nhất nước Mỹ,người đã có công xóa bỏ chế độ nô lệ và thống nhất 36 bang của Hoa Kỳ và vườn tưởng niệm chiến sĩ trận vong của Hoa Kỳ trong 2 cuộc chiến tại Việt Nam và Nam Bắc Triều Tiên.Đoàn ăn trưa tại nhà hàng địa phương.Xe đưa ra sân bay đáp chuyến bay tối sang Las Vegas(khoảng hơn 5 h bay). <br>Đoàn đến Las Vegas,xe đón và đưa đoàn về ăn tối nhẹ và về khách sạn nhận phòng,nghỉ ngơi,tự do trải nghiệm Las Vegas về đêm. <h3> NGÀY 5 | LAS VEGAS– HOOVER DAM– SHOPPING OUTLET(Ăn sáng, tối) </h3>Xe đưa đoàn đi ăn tại nhà hàng Việt Nam.Sau bữa sáng,đoàn khởi hành đi tham quan: Đập thủy điện Hoover lớn nhất miền tây nước Mỹ.Đây là đập thủy điện cung cấp điện cho cả bang Neveda và dẫn nước tưới tiêu cho 7 bang miền Tây Hoa Kỳ.Hồ nhân tạo lớn nhất thế giới Lake Mead. <br>Xe đưa đoàn đến Premium Outlet để thỏa mãn nhu cầu mua sắm thời gian,hàng hiệu giá rẻ(quý khách nào không có nhu cầu mua sắm, xe sẽ đưa về khách sạn tự do tham quan và thử vận may tại các sòng bài, tự túc ăn trưa).Đoàn tự túc ăn trưa tại khu vực mua sắm.Xe hẹn đón và đưa đoàn đi ăn tối tại nhà hàng địa phương và trở vế khách sạn nghỉ ngơi,tự do vui chơi,tìm kiếm vận may tại các casino hoặc tham gia vào các chương trình biểu diễn nghệ thuật đặc sắc chỉ có ở Las Vegas. <h3> NGÀY 6 | LAS VEGAS– SHOPPING OUTLET– LITTLE SAIGON(Ăn ba bữa) </h3>Đoàn trả phòng khách sạn,xe đưa đoàn đi ăn sáng.Đoàn khởi hành về Los Angeles bằng xe(khoảng 5 h xe),Đoàn dừng chân mua sắm tại các Outlet– điểm mua sắm hấp dẫn nhất hành trình.Quý khách có cơ hội sở hữu các món hang hiệu đẳng cấp với giá rẻ bất ngờ,nhiều chính sách khuyến mại,sale off tới 70 % . < br >Đoàn ăn trưa tại nhà hàng và khởi hành về Quận cam thuộc thành phố Los Angeles.Trung tâm thương mại Phước Lộc Thọ - đây được coi là trung tâm văn hoá và kinh doanh buôn bán của kiều bào Việt tại miền tây nước Mỹ.Xe đưa đoàn dùng cơm tối tại nhà hàng Việt Nam,nhận phòng khách sạn và nghỉ ngơi. <h3> NGÀY 7 | LOS ANGELES– SAN DIEGO– WALMART SHOPPING(Ăn ba bữa) </h3>Ăn sáng tại khách sạn.Đoàn khởi hành đi tham quan thành phố San Diego– thành phố lớn thứ 3 và cũng là thành phố du lịch biển nổi tiếng(khoảng 2 h xe ô tô).Tại đây,quý khách sẽ tham quan: San Diego downtown– phố cổ San Diego,nơi ghi dấu ấn của văn hoá và công trình kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico.Đoàn tham quan phố mới hiện đại và bến cảng vui nhộn.Bảo tàng chiến hạm San Diego– nơi đây từng là vị trí đóng quân chiến lược của hạm đội hải quan Hoa Kỳ,quý khách có cơ hội được ngắm nhìn các hạm đội cũng như những tàu chiến còn được lưu trữ vào bảo quản trên vịnh(vé tự túc mua tại quầy). <br>Đoàn ăn trưa tại nhà hàng địa phương,tiếp tục chương trình tham quan thành phố.Trải nghiệm văn hóa Mỹ Latin tại vùng ven Mexico: Quý khách sẽ nhập cảnh Mexico bằng visa Mỹ để thăm quan bức tường biên giới Mỹ - Mexico đang trở thành chủ đề nóng,tìm hiểu văn hóa,kiến trúc của Tây Ban Nha trong những năm đô hộ và đồng hoá văn hoá Mexico(phụ thu 100 USD / khách, những quý khách không tham gia sẽ ở lại mua sắm hàng hóa miễn thuế ở biên giới Mỹ) và xe đưa đoàn quay trở lại Mỹ. <br>Ăn tối tại nhà hàng. <br> Sau bữa tối,xe đưa đoàn về khách sạn nghỉ ngơi,sắp xếp dọn dẹp đồ đạc,hành lí… <h3> NGÀY 8 | HOLLYWOOD– SANTA MONICA– S N BAY(Ăn ba bữa) </h3>Đoàn ăn sáng và trả phòng khách sạn.Sau đó khởi hành tham quan: Bãi biển Huntington Beach– một trong những bãi biển đẹp có nhiều các công trình kiến trúc mang đậm dấu ấn của văn hóa Tây Ban Nha thời kì thực dân đô hộ vùng.Mua sắm tại siêu thị Walmart với các loại thực phẩm chức năng giá rẻ,bình dân,bánh kẹo chocolate,kem đánh răng sữa tắm Mỹ… <br>Đoàn ăn trưa và khởi hành tham quan tham quan Hollywood: Đại Lộ Danh Vọng(Hollywood Walk of Fame)– nơi lưu danh những ngôi sao nổi tiếng có đóng góp lớn trong làng điện ảnh giải trí.Nhà hát Dolby– nơi diễn ra lễ trao giải Oscar danh giá hàng năm của làng điện ảnh Mỹ.Nhà hát Trung Hoa– nơi công chiếu giới thiệu những bộ phim Hollywood trước khi tung ra thị trường.Xe đón đoàn ăn tối tại nhà hàng địa phương trên đường ra sân bay.Sau bữa tối,xe đưa đoàn ra sân bay đáp chuyến bay đêm về Việt Nam.Đoàn đáp chuyến bay về Quảng Châu(Trung Quốc, thời gian bay là hơn 11 h bay) <h3> NGÀY 9 | LOS ANGELES - TRANSIT QUẢNG CH U(Ăn uống và nghỉ ngơi trên máy bay) </h3>Máy bay cất cánh.Ăn uống,nghỉ ngơi trên máy bay. <h3> NGÀY 10 | QUẢNG CH U - HÀ NỘI / TP.HCM </h3>Đến sân bay Quảng Châu,đoàn làm thủ tục nối chuyến và mua sắm hàng miễn thuế tại sân bay.",
         "giatiennguoilon": "40900000",
         "giatientrevithanhnien": "32900000",
         "giatientreem": "10900000",
         "giatienembe": "0",
         "giamgia": "8",
         "phuthu": "0",
-        "quocgia":"Tour du lịch nước ngoài",
-        "khuvuc":"Châu Mỹ"
-      }
-    ]
+        "quocgia": "Tour du lịch nước ngoài",
+        "khuvuc": "Châu Mỹ"
+    }
+]
