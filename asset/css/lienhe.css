@@ -46,6 +46,10 @@
     margin: 5px auto;
 }
 
+.lienhe--admin:hover{
+    transform: scale(1.09);
+}
+
 .lienhe--contact-box {
     background-color: var( --item_background-color);
     border-radius: 10px;
@@ -107,7 +111,9 @@
     line-height: 46px;
     text-align: center;
 }
-
+.lienhe__button:hover{
+    cursor: pointer;
+}
 
 /*Phần intro*/
 

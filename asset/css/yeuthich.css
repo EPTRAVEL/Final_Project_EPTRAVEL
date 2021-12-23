@@ -56,6 +56,9 @@
     width: 100%;
     margin: 20px 0 ; 
 }
+.yeuthich-tourbox:hover{
+    transform: scale(1.03);
+}
 /* .yeuthich-tour-checkbox{
     flex: 1;
     position: relative;
@@ -75,6 +78,9 @@
 .yeuthich-tour-img img{
     width: 100%;
 }
+.yeuthich-tour-img:hover{
+    cursor: pointer;
+}
 .yeuthich-tour-thongtin{
     flex: 3;
     font-family: text-regular;
@@ -90,10 +96,17 @@
     font-size: 25px;
     color: #064682;
 }
+#yeuthich-tentour:hover{
+    cursor: pointer;
+}
 #yeuthich-chitiet-color{
     color: #064682;
 }
 #yeuthich-chitiet-gia{
+    font-family: Fester_Bold;
+    font-size: 25px;
+}
+#yeuthich-chitiet-giamgia{
     font-family: Fester_Bold;
     font-size: 25px;
     color: red;
@@ -124,6 +137,10 @@
     margin-right: 5px;
     vertical-align: middle;
 }
+.yeuthich-datngay:hover{
+    cursor: pointer;
+    background-color: #8a1d1d;
+}
 .yeuthich-xem{
     border-radius: 10px;
     font-family: text-regular;
@@ -136,6 +153,10 @@
     bottom: 0;
     transform: translateY(-75%);
 }
+.yeuthich-xem:hover{
+    cursor: pointer;
+    background-color: rgb(182, 180, 177);
+}
 .yeuthich-xoaitem{
     border-radius: 10px;
     font-family: text-regular;
@@ -147,6 +168,10 @@
     position: absolute;
     bottom: 0;
     transform: translateY(50%);
+}
+.yeuthich-xoaitem:hover{
+    cursor: pointer;
+    background-color:  rgb(182, 180, 177);
 }
 .yeuthich-phuongtien{
     text-align: right;
