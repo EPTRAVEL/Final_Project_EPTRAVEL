@@ -63,11 +63,12 @@ html,body
 .khuyenmai_item--img{
 width: 400px;
 height: 250px;
+position: relative;
 }
 .khuyenmai_img{
     width: 100%;
     height: 100%;
-    position: relative;
+    
 }
 .khuyenmai_lbl--chitiet{
     position: absolute;
@@ -75,7 +76,7 @@ height: 250px;
     border: 0;
     font-family: Fester_Bold;
     font-size: 18px; 
-    top: 40%;
+    bottom: 5%;
     right: 2%;
     color: #ffffff;
 }
@@ -341,8 +342,15 @@ display: flex;
             border-radius: 10px;
       }
       .khuyenmai_item--img{
-          width: 400px;
+          width: 700px;
           height: 280px;
+      }
+      .khuyenmai_img{
+        height: 270px;
+      }
+      .khuyenmai_lbl--chitiet{
+          bottom: 2%;
+          right: 1px;
       }
       .khuyenmai_sp--content{
           margin-left: 20px;
@@ -350,8 +358,6 @@ display: flex;
       .khuyenmai_img{
           margin-left: 5%;
           margin-top: 3%;
-          height: 270px;
-          width: 400px;
       }
       .khuyenmai_text{
           text-align: left;
@@ -405,21 +411,19 @@ display: flex;
     left: 54%;
 }
     }
-@media screen and (max-width:1000px){
-  
-    .khuyenmai_item--img{
-        width: 50%;
-    }
+@media screen and (max-width:1001px){
+
    .khuyenmai_img{
-       width: 320px;
+       width:100%;
+   }
+   .khuyenmai_lbl--chitiet{
+       right: 6%;
    }
     }
-    @media screen and (max-width:800px){
-        .khuyenmai_img{
-            width: 280px;
-        }
+    @media screen and (max-width:890px){
+
     }
-    @media screen and (max-width:770px){
+    @media screen and (max-width:820px){
         .kmslider{
             display: none;
         }
@@ -436,20 +440,21 @@ display: flex;
         }
 
         .khuyenmai_sp{
-            width: 90%;
+            width: 100%;
             height: 480px;
            margin-top: 20px;
            margin-bottom: 20px;
            flex-direction: column;
+           margin-left: 3px;
         }
         .khuyenmai_item--img{
-            width: 100%;
+            width: 90%;
             height: 65%;
+
         }
         .khuyenmai_img{
-            width: 95%;
-            height: 300px;
-            margin: 15px;
+            width: 100%;
+            height: 100%;
         }
         .khuyenmai-sp--content{
             width: 100%;
@@ -476,8 +481,12 @@ display: flex;
     .khuyenmai_imagecard{
         background-color: inherit;
     }
-      .khuyenmai_imagecard:hover{
-        display: none;
+    .khuyenmai_imagecard:hover{
+        background-color: inherit;
+      
+        cursor: pointer; 
+        
+        cursor: pointer; 
     }
     .khuyenmai_percent{ 
         right: 80px;
@@ -488,9 +497,8 @@ display: flex;
     }
     .khuyenmai_percent--text{
         right: 1px;
-        bottom: 20%;
-        font-size: 20px; 
-      
+        bottom: 30%;
+        font-size: 15px; 
     }
     .phuongtien_item1{
         right:45px; 
@@ -508,9 +516,6 @@ display: flex;
     }
 }
 @media screen and (max-width:624px){
-    .khuyenmai_img{
-        width: 91%;
-    }
     .khuyenmai_button_yeuthich{
        bottom: 1%;
         left: 35%;
@@ -518,18 +523,22 @@ display: flex;
     .khuyenmai_text{
         text-align: center;
         width: 80%;
-        margin-top: 2%;
+        margin-top: 3%;
+        font-size: 15px;
     }
     .khuyenmai_matour{
-        font-size: 15px;
-        margin: 8% 4% 0px;
+       font-size: 12px;
     }
     .khuyenmai_percent{
         right: 20%;
     }
     .khuyenmai_percent--text{
-        top: 19%;
+        top: 20%;
         font-size: 18px;
+        right: 0px;
+    }
+    .khuyenmai_imagecard:hover{
+        font-size: 0;
     }
   }
 @media screen and (max-width:480px){
@@ -537,10 +546,11 @@ display: flex;
         text-align: center;
         width: 80%;
         margin-top: 4%;
+        font-size: 12px;
     }
     .khuyenmai_button_yeuthich{
         left: 30%;
-        font-size: 15px;
+        font-size: 12px;
     }
     .khuyenmai_percent{
         right: 20%;
