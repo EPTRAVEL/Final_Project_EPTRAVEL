@@ -12,7 +12,7 @@ h1, h3, h2{
     margin: 10px;
 }
 #tour-item__price--current__number{
-    color: #D74848;
+    color: #ff0000;
     font-weight: bold;
 }
 .btn{
@@ -26,7 +26,7 @@ h1, h3, h2{
     color: white;
     border: 0;
 }
-.btn-block, .btn-book{
+.btn-block, .btn-book,.yeuthich{
     font-family: Fester_Bold;
 }
 .btn-book a{

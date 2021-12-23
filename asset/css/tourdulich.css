@@ -55,7 +55,7 @@
   height: 450px;
   border-radius: 5px;
   min-width: 250px;
-  margin: 10px;
+  margin: 15px 10px;
 }
 .tour-item:hover {
   transform: scale(1.05);
@@ -79,7 +79,7 @@ p {
   margin: 5px;
 }
 .tour-item__title {
-  height: 60px;
+  height: 70px;
 }
 .tour-item__title h3 {
   margin-top: 3px;
@@ -88,6 +88,9 @@ p {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+.detail-content{
+  height: 120px;
 }
 div#locSanPham {
   height: 370px;
