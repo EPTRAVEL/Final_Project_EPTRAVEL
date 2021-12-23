@@ -97,7 +97,7 @@ a:hover{
     font-family: Fester_Bold;
     font-size: 20px;
     margin: 0px 10%;
-    color: #868686;
+    color: #000000;
     text-decoration:line-through;
 }
 .chitietkhuyenmai_percent{
@@ -281,7 +281,10 @@ opacity: 0.6;
         background-color:initial;
     }
     .chitietkhuyenmai_imagecard:hover{
-        display: none;
+            width: 20px;
+            font-size: 0;
+            background-color: inherit;
+            cursor: pointer; 
     }
     .chitietkhuyenmai_thoigian{
         display: none;
@@ -354,5 +357,10 @@ opacity: 0.6;
     .chitietkhuyenmai_percent--text{
         top: 20%;
         font-size: 14px;
+    }
+    .chitietkhuyenmai_lbl--chitiet{
+        right: 15px;
+        bottom: 0px;
+        font-size: 12px;
     }
   }
