@@ -123,7 +123,7 @@ p{
     font-family: Fester_Bold;
     font-size: 20px;
     margin: 10px 10%;
-    color: #868686;
+    color: #000000;
     text-decoration:line-through;
 }
 .khuyenmai_imagecard{
@@ -482,10 +482,9 @@ display: flex;
         background-color: inherit;
     }
     .khuyenmai_imagecard:hover{
+        width: 20px;
+        font-size: 0;
         background-color: inherit;
-      
-        cursor: pointer; 
-        
         cursor: pointer; 
     }
     .khuyenmai_percent{ 
