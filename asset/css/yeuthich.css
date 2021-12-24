@@ -538,6 +538,9 @@
         color: red; */
         text-align: left;
     }
+    #yeuthich-chitiet-giamgia{
+        text-align: left;
+    }
     #yeuthich-chitiet-ma, #yeuthich-chitiet-thoigian, #yeuthich-chitiet-noikh, #yeuthich-chitiet-ngay{
         display: none;
     }

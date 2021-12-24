@@ -88,7 +88,7 @@ function myFunction(arr) {
       '"' +
       arr[i].ma_tour +
       '"' +
-      ")'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themyeuthich_tour(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></div>";
+      ")'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themvaoyeuthich(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></div>";
     // div += "<div class='tour-item'><a href='chitiettour.html?matour=" +
     //     arr[i].ma_tour + "' title='" +
     //     arr[i].ten_tour + "'><div class='tour-item__image'><img src='" +
@@ -105,23 +105,6 @@ function myFunction(arr) {
   }
   div += "</div>";
   document.getElementById("category").innerHTML = div;
-}
-function themyeuthich_tour(x) {
-  //Lấy ID bằng click  -> DOM
-  var id = x.parentElement.children[1].children[0].innerText;
-  //alert(id);
-  var yt = new Array(id);
-  var title = x.parentElement.children[0].innerText; //Lấy title
-  for (var i = 0; i < yeuthich.length; i++) {
-      if (yeuthich[i][0] == id) {
-          return alert("Tour" + title + " đã có sẵn trong danh mục yêu thích");
-      }
-  }
-  yeuthich.push(yt);
-  alert(title + " đã được thêm vào yêu thích");
-
-  //Lưu giỏ hàng
-  sessionStorage.setItem("yeuthich", JSON.stringify(yeuthich));
 }
 //sắp xếp tour
 

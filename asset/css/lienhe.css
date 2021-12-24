@@ -113,6 +113,7 @@
 }
 .lienhe__button:hover{
     cursor: pointer;
+    background-color:#0C4A6D;
 }
 
 /*Phần intro*/

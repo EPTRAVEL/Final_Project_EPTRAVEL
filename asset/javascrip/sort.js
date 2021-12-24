@@ -14,11 +14,11 @@ function ascending() {
     let i = document.getElementById("sapxep-select").value;
     arr = arr.sort(function (a, b) {
       if (i == "thap-cao") {
-        return a.giatiennguoilon - b.giatiennguoilon;
+        return a.giatiennguoilon*(100-a.giamgia)/100 - b.giatiennguoilon*(100-b.giamgia)/100;
       } else if (i == "cao-thap") {
-        return b.giatiennguoilon - a.giatiennguoilon;
+        return b.giatiennguoilon*(100-b.giamgia)/100 - a.giatiennguoilon*(100-a.giamgia)/100;
       } else if(i =='theogiamgia') {
-        return b.giamgia - a.giamgia
+        return b.giamgia*b.giatiennguoilon/100 - a.giamgia*a.giatiennguoilon/100
       }
     });
     // document.getElementById("category").innerHTML = "";
