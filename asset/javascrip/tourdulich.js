@@ -61,7 +61,7 @@ function myFunction(arr) {
 
     div +=
       "<div class='tour-item'><div class='tour-item__image'><img src='" +
-      arr[i].images[1] +
+      arr[i].images[0] +
       "'alt='" +
       arr[i].ten_tour +
       "'></div><div class='card-body'><div  class='tour-item__title'><h3>" +
