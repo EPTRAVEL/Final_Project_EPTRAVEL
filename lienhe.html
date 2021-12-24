@@ -123,9 +123,9 @@
             <div class="lienhe--title">
                 Về chúng tôi
             </div>
-
-            <div class="lienhe--introduction">
-                <button class="drop-down__button"><img class="drop-down__img" src="./asset/images/ICON/down.png"></button>
+            <button class="drop-down__button" onclick="openNav()"><img class="drop-down__img" src="./asset/images/ICON/down.png"></button>
+            <div class="lienhe--introduction" id="myNav">
+                <a href="javascript:void(1)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="drop-down">
                     <div class="drop-down__content">
                         <div class="drop-down-content__left">
@@ -133,29 +133,44 @@
                         </div>
                         <div class="drop-down-content__right">
                             <h1>Tầm nhìn</h1>
-                            <p>Trở thành top doanh nghiệp được vinh danh có dịch vụ hàng đầu VN</p>
+                            <p>Trở thành top những doanh nghiệp về du lịch có chất lượng dịch vụ tốt nhất tại Việt Nam</p>
+                            <p>Nằm trong top 5 công ty lữ hành uy tính tại Việt Nam</p>
                         </div>
 
                     </div>
-                    <div class="drop-down__content">
-                        <div class="drop-down-content__left">
-                            <img class="drop-down--content__img" src="./asset/images/IMAGE/Vision.jpg">
-                        </div>
+                    <div class="drop-down__content" style="display: flex;flex-direction: row;">
+
                         <div class="drop-down-content__right">
-                            <h1>Tầm nhìn</h1>
-                            <p>Trở thành top doanh nghiệp được vinh danh có dịch vụ hàng đầu VN</p>
+                            <h1>Sứ mệnh</h1>
+                            <p>Mang đến cho khách hàng sự trải nghiệm du lịch mới mẽ với giá cả phải chăng</p>
+                            <p>Nâng tầm du lịch Việt Nam ra quốc tế</p>
+                        </div>
+                        <div class="drop-down-content__left">
+                            <img class="drop-down--content__img" src="./asset/images/IMAGE/Mission.jpg">
                         </div>
                     </div>
                     <div class="drop-down__content">
                         <div class="drop-down-content__left">
-                            <img class="drop-down--content__img" src="./asset/images/IMAGE/Vision.jpg">
+                            <img class="drop-down--content__img" src="./asset/images/IMAGE/CoreValue.jpg">
                         </div>
                         <div class="drop-down-content__right">
-                            <h1>Tầm nhìn</h1>
-                            <p>Trở thành top doanh nghiệp được vinh danh có dịch vụ hàng đầu VN</p>
+                            <h1>Giá trị cốt lõi</h1>
+                            <p>Sự hài lòng của khách hàng là mục tiêu trung tâm của doanh nghiệp</p>
+                            <p>Thái độ hơn trình độ</p>
+                            <p>Đổi mới không ngừng</p>
                         </div>
                     </div>
+
                 </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
 
             </div>
             <!--  backtop2 -->
@@ -171,6 +186,8 @@
             <script>
                 w3.includeHTML();
             </script>
+            <!--Search-->
+            <script src="./asset/javascrip/search.js"></script>
         </div>
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
