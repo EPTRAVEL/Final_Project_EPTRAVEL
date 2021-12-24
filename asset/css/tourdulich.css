@@ -110,12 +110,20 @@ div#locSanPham {
       height: fit-content;
       margin-left: 4%;
   }
+  .tour-item{
+    width: 40%;
+  }
 }
 @media screen and (max-width:1000px){
   .locsanpham{
       display: flex;
       flex-direction: column;
       margin-top: 10px;
+  }
+  
+  div#locSanPham{
+    position: relative;
+    top: 0;
   }
   .locsanpham-select{
       display: flex;
