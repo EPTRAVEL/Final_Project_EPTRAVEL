@@ -79,7 +79,7 @@
                 <!-- image slider end -->
                 <script type="text/javascript">
                     var counter = 1;
-                    setInterval(function() {
+                    setInterval(function () {
                         document.getElementById('kmradio' + counter).checked = true;
                         counter++;
                         if (counter > 3) {
@@ -113,7 +113,7 @@
         var xmlhttp = new XMLHttpRequest();
         var url = "../asset/data/tour.json";
 
-        xmlhttp.onreadystatechange = function() {
+        xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr = JSON.parse(this.responseText);
                 myFunction(myArr);
@@ -123,7 +123,15 @@
         xmlhttp.send(); //Thực hiên thực sự
 
         function goThongtin(id) {
-            window.location.href = 'thongtin.html?matour=' + id;
+
+            if (localStorage.getItem("User_login") === null) {
+                alert('Cần phải đăng nhập trước khi đặt Tour')
+                document.getElementById('modal__container').style.display = 'flex';
+            } else {
+                window.location.href = "thongtin.html?matour=" + id;
+
+            }
+
         }
 
         function goChiTiet(id) {
@@ -167,21 +175,27 @@
     <script>
         // var yeuthich = new Array();
         function themyeuthich_km(x) {
-            //Lấy ID bằng click  -> DOM
-            var id = x.parentElement.children[1].children[0].innerText;
-            //alert(id);
-            var yt = new Array(id);
-            var title = x.parentElement.children[0].innerText; //Lấy title
-            for (var i = 0; i < yeuthich.length; i++) {
-                if (yeuthich[i][0] == id) {
-                    return alert("Tour" + title + " đã có sẵn trong danh mục yêu thích");
-                }
-            }
-            yeuthich.push(yt);
-            alert(title + " đã được thêm vào yêu thích");
 
-            //Lưu giỏ hàng
-            sessionStorage.setItem("yeuthich", JSON.stringify(yeuthich));
+            if (localStorage.getItem("User_login") === null) {
+                alert("Cần phải đăng nhập trước khi thêm vào Yêu Thích");
+                document.getElementById("modal__container").style.display = "flex";
+            } else {
+                //Lấy ID bằng click  -> DOM
+                var id = x.parentElement.children[1].children[0].innerText;
+                //alert(id);
+                var yt = new Array(id);
+                var title = x.parentElement.children[0].innerText; //Lấy title
+                for (var i = 0; i < yeuthich.length; i++) {
+                    if (yeuthich[i][0] == id) {
+                        return alert("Tour" + title + " đã có sẵn trong danh mục yêu thích");
+                    }
+                }
+                yeuthich.push(yt);
+                alert(title + " đã được thêm vào yêu thích");
+
+                //Lưu giỏ hàng
+                sessionStorage.setItem("yeuthich", JSON.stringify(yeuthich));
+            }
         }
     </script>
 
@@ -189,9 +203,12 @@
 
 </body>
 <!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
 <script src="./asset/javascrip/search.js"></script>
+<script src="./asset/javascrip/dangnhap.js"></script>
+<script src="./asset/javascrip/onload_avar.js"></script>
 
 </html>

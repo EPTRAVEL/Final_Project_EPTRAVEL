@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="asset/css/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="asset/javascrip/header.js"></script>
+    <!-- <script src="./asset/javascrip/onload_avar.js"></script> -->
 </head>
 
 <body>
@@ -29,7 +30,8 @@
                 </div>
                 <div class=" search-icon main-icon">
                     <form>
-                        <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search" name="search" placeholder="Search..">
+                        <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search"
+                            name="search" placeholder="Search..">
                         <ul id="search__list">
                             <!-- <li class="menu__item">
                                 <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
@@ -53,6 +55,7 @@
                 </div>
                 <div class="like-icon main-icon">
                     <input type="button" onclick='window.location.href = "yeuthich.html"'>
+                    <div id="yeuthich_index"></div>
                 </div>
                 <div class="user-icon main-icon">
                     <ul list-style="none"><input type="button" id="user-icon" onclick="user_block()">
@@ -63,7 +66,7 @@
 
                             <li id="dangnhap" onmouseover="user_block_open()"
                                 onclick="document.getElementById('modal__container').style.display='flex';user_block_close()">
-                                <span>Đăng nhập</span>
+                                <span id="dangnhap__id">Đăng nhập</span>
                                 <i class="fas fa-sign-in-alt"></i>
                             </li>
                             <li onmouseenter="document.getElementById('dk_aa').style.color ='rgb(46, 0, 83)'"
@@ -195,56 +198,8 @@
 
 
         <!-- Lấy User infor -->
-        <script>
-            function login(x) {
-                var xmlhttp_u = new XMLHttpRequest();
-                var url_u = "asset/data/user.json";
+        <script src="./asset/javascrip/dangnhap.js"></script>
 
-                xmlhttp_u.onreadystatechange = function () {
-                    if (this.readyState == 4 && this.status == 200) {
-                        var myArr_u = JSON.parse(this.responseText);
-                        user(myArr_u);
-
-                    }
-                }
-
-                xmlhttp_u.open("GET", url_u, true);//ra lệnh 
-                xmlhttp_u.send();//thực hiênn
-
-                // var getuid = sessionStorage.getItem("User_login");
-                //     var getUserID = JSON.parse(getuid);
-                function user(arr) {
-                    var div = "";
-                    var i;
-                    var eMail = x.parentElement.children[2].value
-                    var mk = x.parentElement.children[8].value
-
-                    
-                        // alert(getUserID);
-
-                    for (i = 0; i < arr.length; i++) {
-                        if (arr[i].eMail == eMail && arr[i].matKhau == mk) {
-                            alert("Đăng nhập thành công :v")
-                            document.getElementsByClassName('modal')[0].style.display = 'none';
-
-                            var user = new Array();
-                            var u = new Array(arr[i].userID, arr[i].hoTen);
-
-                            user.push(u);
-
-                            localStorage.setItem("User_login", JSON.stringify(user));
-                            break;
-
-                        } else {
-                            alert('Tài khoản hoặc mật khẩu không đúng')
-                        }
-                    }
-                }
-            }
-
-
-        </script>
-        
     </div>
 
 

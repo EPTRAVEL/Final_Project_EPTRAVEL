@@ -2,6 +2,15 @@
   margin: 0 3%;
 }
 
+/* Lọc */
+.showTour{
+  display: block !important;
+}
+.tour-item{
+  display: none;
+}
+
+
 .sapxep-select {
   text-align: right;
 }

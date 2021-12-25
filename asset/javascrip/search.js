@@ -1,3 +1,8 @@
+function formatNumber(num) {
+  var n = Number(num);
+  return n.toLocaleString("vi");
+}
+
 function searchFunc() {
   let menusearch = document.querySelector("#menu__search");
 
@@ -36,7 +41,7 @@ function loadSearch(arr) {
   var i;
   var div = '';
   for (i = 0; i < arr.length; i++) {
-    div +='<li onclick="gotoChiTiet('+ "'" +arr[i].ma_tour + "'" +')" class="menu__item"><img src="'+ arr[i].images[3] +'" width="150px" alt="Error"><span><span>'+ arr[i].ten_tour +'</span></br><span id="giatien">'+ arr[i].giatiennguoilon +'đ</span><span>Mã tour: '+ arr[i].ma_tour +'</span></span></span></li>'
+    div +='<li onclick="gotoChiTiet('+ "'" +arr[i].ma_tour + "'" +')" class="menu__item"><img src="'+ arr[i].images[3] +'" width="150px" alt="Error"><span><span>'+ arr[i].ten_tour +'</span></br><span id="giatien">'+ formatNumber(arr[i].giatiennguoilon) +'đ</span><span>Mã tour: '+ arr[i].ma_tour +'</span></span></span></li>'
       
   }
 

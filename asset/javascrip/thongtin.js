@@ -53,6 +53,11 @@ function trove() {
 }
 
 
+
+
+
+
+
 //Xử lý thanh toán
 var thongtin = new Array();
 

@@ -26,6 +26,8 @@
     <!--  backtop1 -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="asset/css/backtop.css">
+
+    
 </head>
 
 <body>
@@ -110,7 +112,7 @@
                             <label class="lienhe__label" for="noidung">Nội dung<span>*</span> </label>
                         </div>
                         <div class="lienhe--item-right">
-                            <textarea class="lienhe__input" id="noidung" style="height: 150px;"></textarea>
+                            <textarea autofocus class="lienhe__input" id="noidung" style="height: 150px;"></textarea>
                         </div>
                     </div>
                     <div class="lienhe__button-box">
@@ -123,7 +125,8 @@
             <div class="lienhe--title">
                 Về chúng tôi
             </div>
-            <button class="drop-down__button" onclick="openNav()"><img class="drop-down__img" src="./asset/images/ICON/arrow-right.png"></button>
+            <button class="drop-down__button" onclick="openNav()"><img class="drop-down__img"
+                    src="./asset/images/ICON/arrow-right.png"></button>
             <div class="lienhe--introduction" id="myNav">
                 <a href="javascript:void(1)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="drop-down">
@@ -133,7 +136,8 @@
                         </div>
                         <div class="drop-down-content__right">
                             <h1>Tầm nhìn</h1>
-                            <p>Trở thành top những doanh nghiệp về du lịch có chất lượng dịch vụ tốt nhất tại Việt Nam</p>
+                            <p>Trở thành top những doanh nghiệp về du lịch có chất lượng dịch vụ tốt nhất tại Việt Nam
+                            </p>
                             <p>Nằm trong top 5 công ty lữ hành uy tính tại Việt Nam</p>
                         </div>
 
@@ -192,9 +196,23 @@
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
+        <script>
+            // auto import customer information
+            var us = localStorage.getItem("User_login");
+            var user = JSON.parse(us);
+            document.getElementById('ten').value = user[0][1];
+            document.getElementById('email').value = user[0][2];
+            document.getElementById('sdt').value = user[0][3];
+          
+        </script>
+
+        <script src="./asset/javascrip/dangnhap.js"></script>
+        <script src="./asset/javascrip/onload_avar.js"></script>
+
 </body>
 <!-- backtop3 -->
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 <script src="./asset/javascrip/backtop.js">
 </script>
 
