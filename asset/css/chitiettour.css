@@ -134,9 +134,15 @@
     .row--tour__right{
         flex-direction: column;
     }
+    .tour--img{
+        height: 50%;
+   }
     .tour-item__price--current__number{
-        right: 0;
-    }
+    margin-right: 100%;  
+  }
+  .row--tour{
+      height: 100%;
+  }
     .tour-item__price--addcart{
         flex-direction: row;
         justify-content: space-around;
@@ -149,23 +155,10 @@
     .tour--img{
         flex-direction: column;
     }
+
   }
   @media screen and (max-width:480px){
-    .locsanpham-select{
-        display: flex;
-        flex-direction: column;
-         margin-top:0;
-  
-     }
-     .tour-item{
-        width: 100%;
-        min-width: 250px;
-        height: 450px;
-        border-radius: 5px;
-    }
-    #category{
-        margin: 0;
-    }
+    
   }
   
   
