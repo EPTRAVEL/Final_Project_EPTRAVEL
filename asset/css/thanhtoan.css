@@ -3,6 +3,10 @@ body {
     font-family: text-regular;
 }
 
+.container {
+    position: relative;
+}
+
 .thanhtoan-content {
     height: 100%;
     width: 700px;
@@ -204,6 +208,45 @@ a {
     border-right: 1px solid grey;
     border-bottom: 1px solid grey;
     margin: 20px auto;
+}
+
+.dttc-img img {
+    width: 15%;
+    height: 15%;
+}
+
+.dttc-img,
+.dttc-text {
+    text-align: center;
+}
+
+.closebtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.dathangthanhcong {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+#tttc-body {
+    overflow-x: hidden;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(31, 28, 28, 0.4);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 @media screen and (max-width:700px) {
