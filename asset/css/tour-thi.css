@@ -1,6 +1,9 @@
 .heigh-top{
     height: 130px;
 }
+button:hover{
+    cursor: pointer;
+}
 p, label, div{
     font-family: text-regular;
 }

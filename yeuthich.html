@@ -107,19 +107,6 @@
         <!-- load footer -->
         <div w3-include-html="footer.html"></div>
 
-
-        <!-- <div class="yeuthich__chucnang-footer">
-            <form class="yeuthich__button-footer-layout">
-                <div class="yeuthich_btnchontatca ">
-                    <input type="checkbox" name="chontatca" id="btnchontatca" value="chontatca"> Chọn tất cả
-                </div>
-                <input class="yeuthich-button" type="button" id="btnxoatatca" value="Xóa tất cả">
-                <input class="yeuthich-button" type="button" id="btnxoa" value="Xóa ">
-                <input class="yeuthich-button" type="button" id="btnchonvoucher" value="Chọn voucher">
-                <input class="yeuthich-button" type="button" id="btnthanhtoan" value="Thanh toán ngay">
-            </form>
-        </div> -->
-
         <!-- gọi thư viện -->
         <script>
             var xmlhttp = new XMLHttpRequest();
@@ -186,16 +173,11 @@
             // }
 
 
-
-
-
-
             function threeFamous(arr) {
                 var i, j;
                 var div = '';
                 var yt = sessionStorage.getItem("yeuthich");
                 var yeuthich = JSON.parse(yt);
-
 
                 for (i = 0; i < arr.length; i++) {
                     for (j = 0; j < yeuthich.length; j++) {

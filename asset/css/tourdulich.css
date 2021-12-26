@@ -10,7 +10,12 @@
   display: none;
 }
 
-
+.tour-item__price--current__number--old{
+  font-size: larger;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
 .sapxep-select {
   text-align: right;
 }
