@@ -58,6 +58,7 @@ function myFunction(arr) {
     var open_del = "";
     var giaSauKM = 0;
     var giaSauKM_element = "";
+    var red_style = "";
 
     // Quốc gia
     var quocgia = "";
@@ -72,19 +73,7 @@ function myFunction(arr) {
     khuvuc = removeVietnameseTones(arr[i].khuvuc)
       .replace(/\s/g, "")
       .toLowerCase();
-    // if (arr[i].khuvuc == "Miền Nam") {
-    //   khuvuc = "miennam";
-    // } else if (arr[i].khuvuc == "Miền Bắc") {
-    //   khuvuc = "mienbac";
-    // } else if (arr[i].khuvuc == "Miền Trung") {
-    //   khuvuc = "mientrung";
-    // } else if (arr[i].khuvuc == "Châu Á") {
-    //   khuvuc = "chaua";
-    // } else if (arr[i].khuvuc == "Châu Âu") {
-    //   khuvuc = "chauau";
-    // } else if (arr[i].khuvuc == "Châu Mỹ") {
-    //   khuvuc = "chaumy";
-    // }
+    
 
     //Điểm đi
     var diemdi = "";
@@ -110,7 +99,10 @@ function myFunction(arr) {
       close_del = "</del>";
       giaSauKM = (arr[i].giatiennguoilon * (100 - arr[i].giamgia)) / 100;
       var giaSauKM_element = "<span>" + formatNumber(giaSauKM) + "đ</span>";
+    }else{
+      red_style = 'style="color: #ff0000;"'
     }
+    
     if (arr[i].giamgia != 0) {
     }
 
@@ -137,7 +129,7 @@ function myFunction(arr) {
       arr[i].noikhoihanh +
       "</span></p><div class='tour-item__price--current__number--old'>Giá " +
       open_del +
-      "<span>" +
+      '<span ' + red_style  +'>' +
       formatNumber(arr[i].giatiennguoilon) +
       "đ" +
       close_del +
@@ -447,11 +439,11 @@ function locDiemDi() {
       filterSelection(khuvuc + " tour-item");
     }
     if (value === "Hà Nội") {
-      alert(khuvuc + " hanoi");
+      // alert(khuvuc + " hanoi");
       filterSelection(khuvuc + " hanoi");
     }
     if (value === "TP. Hồ Chí Minh") {
-      alert(khuvuc + " hcm");
+      // alert(khuvuc + " hcm");
       filterSelection(khuvuc + " hcm");
     }
   }
