@@ -438,11 +438,11 @@
 }
 
 .slider-three .img img:hover {
-    width: 440px;
+    width: 420px;
 }
 
 .home__hot-tour .img img:hover {
-    width: 440px;
+    width: 420px;
 }
 
 .home__tintuc-dulich .img img:hover {
@@ -494,7 +494,7 @@
     }
     .slider-three .slider-item .img img {
         margin: 0 auto;
-        width: 450px;
+        width: 420px;
     }
     .home__hot-tour--item .slider-item .img img {
         margin: 0 auto;
