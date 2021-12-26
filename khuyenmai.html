@@ -123,17 +123,8 @@
         xmlhttp.send(); //Thực hiên thực sự
 
         function goThongtin(id) {
-
-            if (localStorage.getItem("User_login") === null) {
-                alert('Cần phải đăng nhập trước khi đặt Tour')
-                document.getElementById('modal__container').style.display = 'flex';
-            } else {
-                window.location.href = "thongtin.html?matour=" + id;
-
-            }
-
+                window.location.href = 'thongtin.html?matour=' + id;
         }
-
         function goChiTiet(id) {
             window.location.href = 'chitiettour.html?matour=' + id;
         }
@@ -198,8 +189,6 @@
             }
         }
     </script>
-
-
 
 </body>
 <!-- backtop3 -->

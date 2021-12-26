@@ -1,4 +1,3 @@
-
 html,body
 {
     width: 100%;
@@ -9,7 +8,6 @@ html,body
     margin: 0 auto;
     padding: 10px 0 ;
 }
-
 .khuyenmai_tour--item{
     display: flex;
     flex-direction: row;
@@ -28,9 +26,7 @@ html,body
     margin-left: 10px;
     line-height: 0px;
     font-size: 18px;
-    font-family: text-italic;
-
-    
+    font-family: text-italic;  
 }
 .khuyenmai_tittle{
     display: flex;
@@ -45,10 +41,9 @@ html,body
 .khuyenmai_row{
     display: flex;
     justify-content: center;
-   flex-direction: row;
+    flex-direction: row;
     margin-top: 10px;
     margin-bottom: 50px;
-    
 }
 .khuyenmai_sp{
     background-color: var(--item_background-color);
@@ -61,14 +56,13 @@ html,body
     flex-direction: column;
 }
 .khuyenmai_item--img{
-width: 400px;
-height: 250px;
-position: relative;
+    width: 400px;
+    height: 250px;
+    position: relative;
 }
 .khuyenmai_img{
     width: 100%;
     height: 100%;
-    
 }
 .khuyenmai_lbl--chitiet{
     position: absolute;
@@ -128,8 +122,7 @@ p{
 }
 .khuyenmai_imagecard{
     width:28px;
-    margin-right:3px ;
-    
+    margin-right:3px ;  
 }
 .khuyenmai_imagecard{
     width: 20px;
@@ -150,10 +143,8 @@ p{
     transition: width 0.4s ease-in-out;
     font-family: Fester_Bold;
       font-size: 0; 
-      
-    
-  }
-  a{
+}
+a{
     text-decoration: none;
     color: black;
 }
@@ -177,7 +168,6 @@ a:hover{
     font-size: 20px; 
     color: #ffffff;
 }
-
 .khuyenmai_sp:hover{
     transform: scale(1.03);
 }
@@ -185,16 +175,16 @@ a:hover{
     cursor: pointer;
     font-size: 22px;
 }
-    .khuyenmai_imagecard:hover{
-        width: 110px;
-        background-color: #D74848;
-        background-image: url("../images/ICON/cart.png");
-        color: white;
-        cursor: pointer;  
-        font-size: 15px; 
-        margin-top: 20px;
-        line-height: 12px;
-    }
+.khuyenmai_imagecard:hover{
+    width: 110px;
+    background-color: #D74848;
+    background-image: url("../images/ICON/cart.png");
+    color: white;
+    cursor: pointer;  
+    font-size: 15px; 
+    margin-top: 20px;
+    line-height: 12px;
+}
 .phuongtien_item1{
     width: 20px;
     position: absolute;
@@ -235,20 +225,20 @@ a:hover{
     color: #ffffff;
     text-decoration: underline;
 }
+
 .kmslider{
-height: 400px;
-border-radius: 10px;
-margin-left: 0px;
-margin-right: 0px;
-overflow: hidden;
-margin-top:20px;
-width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    margin-top:20px;
+    width: 100%;
 }
 .kmslides{
-width: 500%;
-height: 400px;
-display: flex;
-
+    width: 500%;
+    height: 400px;
+    display: flex;
 }
 .kmslides input{
     display: none;
@@ -270,18 +260,18 @@ display: flex;
     justify-content: center;
     }
 .km_manual-btn{
-        background-color: rgba(255, 255, 255, 0.301) ;
-        padding: 6.5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 1s;
-    }
+    background-color: rgba(255, 255, 255, 0.301) ;
+    padding: 6.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
 .km_manual-btn:not(:last-child){
-        margin-right: 40px;
-    }
+    margin-right: 40px;
+}
 .km_manual-btn:hover{
-        background-color: #00A3FF;
-    }
+    background-color: #00A3FF;
+}
 #kmradio1:checked ~ .km_first{
     margin-left: 0;
 }
@@ -298,178 +288,178 @@ display: flex;
     width: 90%;
     justify-content: center;
     margin-top: 360px;
-    }
-    .km_navigation-auto div{
-        background-color: #ffffff;
-        padding: 6.5px;
-        border-radius: 10px;
-        transition: 1s;
-    }
-    .km_navigation-auto div:not(:last-child){
-        margin-right: 40px;
-    }
-    #kmradio1:checked ~ .km_navigation-auto .km_auto-btn1 {
-        background: #00A3FF;
-    }
-    #kmradio2:checked ~ .km_navigation-auto .km_auto-btn2 {
-        background:#00A3FF;
-    }
-    #kmradio3:checked ~ .km_navigation-auto .km_auto-btn3 {
-        background: #00A3FF;
-    }
-    @media screen and (max-width:1800px){
-        .khuyenmai_sp{
-            margin-left: 2%;
-            margin-right: 2%;    
-        }
-      }
-      @media screen and (max-width:1450px){
-        .khuyenmai_sp{
-            margin-left: 1%;
-            margin-right: 1%;    
-        }
-      }
-      @media screen and (max-width:1250px){
-          .khuyenmai_row{
-              flex-direction: column;
-          }
-        .khuyenmai_sp{
-            margin: auto;
-            margin-top: 20px;
-            flex-direction: row;
-            height: 300px;
-            width: 90%;
-            border-radius: 10px;
-      }
-      .khuyenmai_item--img{
-          width: 700px;
-          height: 280px;
-      }
-      .khuyenmai_img{
-        height: 270px;
-      }
-      .khuyenmai_lbl--chitiet{
-          bottom: 2%;
-          right: 1px;
-      }
-      .khuyenmai_sp--content{
-          margin-left: 20px;
-      }
-      .khuyenmai_img{
-          margin-left: 5%;
-          margin-top: 3%;
-      }
-      .khuyenmai_text{
-          text-align: left;
-          margin-left: 25px;
-          height: 30px;
-          margin-top: 30px;
-      }
-.khuyenmai_matour{
-    margin-top: 25px;
 }
-.khuyenmai_time{
-    margin-top: 10px; 
+.km_navigation-auto div{
+    background-color: #ffffff;
+    padding: 6.5px;
+    border-radius: 10px;
+    transition: 1s;
 }
-.khuyenmai_diadiem{
-    margin-top: 10px;
+.km_navigation-auto div:not(:last-child){
+    margin-right: 40px;
 }
-.khuyenmai_gia{
-    margin: 5% 10% 0;
+#kmradio1:checked ~ .km_navigation-auto .km_auto-btn1 {
+    background: #00A3FF;
 }
-.khuyenmai_giacu{
-    margin: 3px 12%;
+#kmradio2:checked ~ .km_navigation-auto .km_auto-btn2 {
+    background:#00A3FF;
 }
-.khuyenmai_percent{ 
-    right: 10%;
-    bottom: 20%;
+#kmradio3:checked ~ .km_navigation-auto .km_auto-btn3 {
+    background: #00A3FF;
 }
-.khuyenmai_percent--tag{
-    width: 40px;
-}
-.khuyenmai_percent--text{
-    right: -2px;
-    bottom: 20%;
-}
-.phuongtien_item1{
-    right:50px; 
-    top: 30%;
-}
-.phuongtien_item2{
-   right: 20px; 
-   top: 30%;
-}
-.khuyenmai_button_yeuthich{
-    left: 50%;
-}
-    }
-    @media screen and (max-width:1060px){
-.khuyenmai_tour--item{
-    width: 75%;
-}
-.khuyenmai_button_yeuthich{
-    left: 54%;
-}
-    }
-@media screen and (max-width:1001px){
 
+@media screen and (max-width:1800px){
+    .khuyenmai_sp{
+        margin-left: 2%;
+        margin-right: 2%;    
+    }
+}
+
+@media screen and (max-width:1450px){
+    .khuyenmai_sp{
+        margin-left: 1%;
+        margin-right: 1%;    
+    }
+}
+
+@media screen and (max-width:1250px){
+    .khuyenmai_row{
+        flex-direction: column;
+    }
+    .khuyenmai_sp{
+        margin: auto;
+        margin-top: 20px;
+        flex-direction: row;
+        height: 300px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .khuyenmai_item--img{
+        width: 700px;
+        height: 280px;
+    }
+    .khuyenmai_img{
+        height: 270px;
+    }
+    .khuyenmai_lbl--chitiet{
+        bottom: 2%;
+        right: 1px;
+    }
+    .khuyenmai_sp--content{
+        margin-left: 20px;
+    }
+    .khuyenmai_img{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .khuyenmai_text{
+        text-align: left;
+        margin-left: 25px;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .khuyenmai_matour{
+        margin-top: 25px;
+    }
+    .khuyenmai_time{
+        margin-top: 10px; 
+    }
+    .khuyenmai_diadiem{
+        margin-top: 10px;
+    }
+    .khuyenmai_gia{
+        margin: 5% 10% 0;
+    }
+    .khuyenmai_giacu{
+        margin: 3px 12%;
+    }
+    .khuyenmai_percent{ 
+        right: 10%;
+        bottom: 20%;
+    }
+    .khuyenmai_percent--tag{
+        width: 40px;    
+    }
+    .khuyenmai_percent--text{
+        right: -2px;
+        bottom: 20%;
+    }
+    .phuongtien_item1{
+        right:50px; 
+        top: 30%;
+    }
+    .phuongtien_item2{
+        right: 20px; 
+        top: 30%;
+    }
+    .khuyenmai_button_yeuthich{
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:1060px){
+    .khuyenmai_tour--item{
+        width: 75%;
+    }
+    .khuyenmai_button_yeuthich{
+        left: 54%;
+    }
+}
+
+@media screen and (max-width:1001px){
    .khuyenmai_img{
        width:100%;
    }
    .khuyenmai_lbl--chitiet{
        right: 6%;
    }
-    }
-    @media screen and (max-width:890px){
+}
 
+@media screen and (max-width:820px){
+    .kmslider{
+        display: none;
     }
-    @media screen and (max-width:820px){
-        .kmslider{
-            display: none;
-        }
-        .khuyenmai_tour--item{
-            Width: 68%;
+    .khuyenmai_tour--item{
+        Width: 68%;
            
-         }
-         .khuyenmai_button_yeuthich{
-            left: 35%;
-            opacity: 1;
-        }
-        .khuyenmai_tour--show{
-            font-size: 15px;
-        }
-
-        .khuyenmai_sp{
-            width: 100%;
-            height: 480px;
-           margin-top: 20px;
-           margin-bottom: 20px;
-           flex-direction: column;
-           margin-left: 3px;
-        }
-        .khuyenmai_item--img{
-            width: 90%;
-            height: 65%;
-
-        }
-        .khuyenmai_img{
-            width: 100%;
-            height: 100%;
-        }
-        .khuyenmai-sp--content{
-            width: 100%;
-        }
-        .khuyenmai_text{
+    }
+    .khuyenmai_button_yeuthich{
+        left: 35%;
+        opacity: 1;
+    }
+    .khuyenmai_tour--show{
+        font-size: 15px;
+    }
+    .khuyenmai_sp{
+        width: 100%;
+        height: 480px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+    .khuyenmai_item--img{
+        width: 90%;
+        height: 65%;
+    }
+    .khuyenmai_img{
+        width: 100%;
+        height: 100%;
+    }
+    .khuyenmai-sp--content{
+        width: 100%;
+    }
+    .khuyenmai_text{
         font-size: 18px;
         height: 22px;
         margin-top: 20px;
         text-align: center;
-        }
-.khuyenmai_matour{
-    font-family: text-regular;
-    font-size: 15px;
-    margin: 3% 8% 0px;
-}
+    }
+    .khuyenmai_matour{
+        font-family: text-regular;
+        font-size: 15px;
+        margin: 3% 8% 0px;
+    }
     .khuyenmai_gia{
         font-size: 20px;
         margin: 2% 8% 0;
@@ -514,6 +504,7 @@ display: flex;
         display: none;
     }
 }
+
 @media screen and (max-width:624px){
     .khuyenmai_button_yeuthich{
        bottom: 1%;
@@ -522,11 +513,11 @@ display: flex;
     .khuyenmai_text{
         text-align: center;
         width: 80%;
-        margin-top: 3%;
-        font-size: 15px;
+        margin-top: 5%;
+        font-size: 17px;
     }
     .khuyenmai_matour{
-       font-size: 12px;
+       font-size: 15px;
     }
     .khuyenmai_percent{
         right: 20%;
@@ -539,14 +530,18 @@ display: flex;
     .khuyenmai_imagecard:hover{
         font-size: 0;
     }
-  }
+}
+
 @media screen and (max-width:480px){
     .khuyenmai_text{
         text-align: center;
         width: 80%;
         margin-top: 4%;
-        font-size: 12px;
+        font-size: 15px;
     }
+    .khuyenmai_matour{
+        font-size: 13px;
+     }
     .khuyenmai_button_yeuthich{
         left: 30%;
         font-size: 12px;
@@ -561,4 +556,4 @@ display: flex;
         top: 20%;
         font-size: 12px;
     }
-  }
+}

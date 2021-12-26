@@ -26,7 +26,6 @@ html,body
     margin-top: -20px;
     justify-content: center;
 }
-
 .chitietkhuyenmai_row{
     margin: 10px 0;
     display: flex;
@@ -48,7 +47,6 @@ html,body
     position: relative; 
     text-align: center;
 }
-
 .chitietkhuyenmai_img{
 width: 400px;
 height: 280px;
@@ -134,8 +132,7 @@ a:hover{
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: Fester_Bold;
-      font-size: 0; 
-      
+    font-size: 0;   
 }
 .chitietkhuyenmai_imagecard:hover{
     width: 110px;
@@ -160,7 +157,7 @@ a:hover{
     opacity: 0.6;
     position: absolute;
     left: 480px;
-   bottom: 10px;
+    bottom: 10px;
     background-color:initial;
     width: 150px;
 }
@@ -169,18 +166,18 @@ a:hover{
     opacity: 1;
 }
 .chitietphuongtien_item1{
-width: 20px;
-position: absolute;
-right:45px; 
-top: 30%;
-opacity: 0.6;
+    width: 20px;
+    position: absolute;
+    right:45px; 
+    top: 30%;
+    opacity: 0.6;
 }
 .chitietphuongtien_item2{
-width: 20px;
-position: absolute;
-right: 15px; 
-top: 30%;
-opacity: 0.6;
+    width: 20px;
+    position: absolute;
+    right: 15px; 
+    top: 30%;
+    opacity: 0.6;
 }
 .chitietkhuyenmai_lbl--chitiet{
     position: absolute;
@@ -198,7 +195,6 @@ opacity: 0.6;
     font-size: 22px;
 }
 @media screen and (max-width:1450px){
-    
     .chitietkhuyenmai_tour--item{
         width: 80%;
     }
@@ -210,7 +206,6 @@ opacity: 0.6;
     }
 }
 @media screen and (max-width:1350px){
-
     .chitietkhuyenmai_sp{
         width: 45%;
     }
@@ -230,7 +225,6 @@ opacity: 0.6;
     .chitietkhuyenmai_button_yeuthich{
         left: 380px;
     }
-    
 }
 
 @media screen and (max-width:1100px){
@@ -266,7 +260,7 @@ opacity: 0.6;
         font-size: 13px;
         margin-top: 25px;
     }
- .chitietkhuyenmai_gia{
+    .chitietkhuyenmai_gia{
         font-size: 20px;
         
     }
@@ -281,10 +275,10 @@ opacity: 0.6;
         background-color:initial;
     }
     .chitietkhuyenmai_imagecard:hover{
-            width: 20px;
-            font-size: 0;
-            background-color: inherit;
-            cursor: pointer; 
+        width: 20px;
+        font-size: 0;
+        background-color: inherit;
+        cursor: pointer; 
     }
     .chitietkhuyenmai_thoigian{
         display: none;
@@ -295,16 +289,16 @@ opacity: 0.6;
     .chitietphuongtien_item1{
         right:45px; 
         top: 70%;
-        }
-        .chitietphuongtien_item2{
+    }
+    .chitietphuongtien_item2{
         right: 15px; 
         top: 70%;
-        }
-        .chitietkhuyenmai_button_yeuthich{
-           left:180px;
-           font-size: 15px;
-           opacity: 1;
-        }
+    }
+    .chitietkhuyenmai_button_yeuthich{
+        left:180px;
+        font-size: 15px;
+        opacity: 1;
+    }
     .chitietkhuyenmai_button_yeuthich:hover{
         display: none;
     }
@@ -313,14 +307,13 @@ opacity: 0.6;
         bottom: -2px;
         font: 10px;
     }
-
 }
 @media screen and (max-width:580px){
     .chitietkhuyenmai_button_yeuthich{
         left:50px;
         font-size: 15px;
         opacity: 1;
-     }
+    }
 }
 @media screen and (max-width:480px){
     .chitietkhuyenmai_text{
