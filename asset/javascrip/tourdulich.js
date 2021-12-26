@@ -1,3 +1,4 @@
+
 // $(document).on("change", ".sapxep[0]", function () {
 
 //     var sortingMethod = $(this).val();
@@ -134,9 +135,9 @@ function myFunction(arr) {
       arr[i].ma_tour +
       "</span></p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
       arr[i].noikhoihanh +
-      "</span></p><div class='tour-item__price--current__number'>Giá " +
+      "</span></p><div class='tour-item__price--current__number--old'>Giá " +
       open_del +
-      "<span id='tour-item__price--current__number'>" +
+      "<span>" +
       formatNumber(arr[i].giatiennguoilon) +
       "đ" +
       close_del +
