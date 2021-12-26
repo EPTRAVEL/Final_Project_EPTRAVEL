@@ -28,7 +28,7 @@ function myFunction(arr) {
                 arr[i].ma_tour +
                 "'" +
                 ")" +
-                "><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span>   Đặt ngay</button><button class='btn btn-block' onclick='lienhe.html'>Liên hệ tư vấn</button></div></div></div></div><div class='tour--detail'><div class='row--tour--img'><div class='tour--img__first'><img id='img-tour' src='" +
+                "><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span>   Đặt ngay</button><button class='btn btn-block' onclick='window.location.href="+'"lienhe.html"'+"'>Liên hệ tư vấn</button></div></div></div></div><div class='tour--detail'><div class='row--tour--img'><div class='tour--img__first'><img id='img-tour' src='" +
                 arr[i].images[1] + "' alt='YT'></div><div class='tour--img__last'><div class='tour--img'><div class='img margin-img' style='margin-right: 10px;'><img id='img-tour' src='" +
                 arr[i].images[2] + "' alt='BD'></div><div class='img'><img id='img-tour' src='" +
                 arr[i].images[3] + "' alt='VHL'></div></div><div class='tour--img' style='margin-top:10px'><img id='img-tour' src='" +
