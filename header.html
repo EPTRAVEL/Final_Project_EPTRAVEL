@@ -30,8 +30,7 @@
                 </div>
                 <div class=" search-icon main-icon">
                     <form>
-                        <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search"
-                            name="search" placeholder="Search..">
+                        <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search" name="search" placeholder="Search..">
                         <ul id="search__list">
                             <!-- <li class="menu__item">
                                 <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
@@ -64,14 +63,11 @@
                             <!-- onmouseleave="user_block_close()"
                             onmouseover="user_block_open()" -->
 
-                            <li id="dangnhap" onmouseover="user_block_open()"
-                                onclick="document.getElementById('modal__container').style.display='flex';user_block_close()">
+                            <li id="dangnhap" onmouseover="user_block_open()" onclick="document.getElementById('modal__container').style.display='flex';user_block_close()">
                                 <span id="dangnhap__id">Đăng nhập</span>
                                 <i class="fas fa-sign-in-alt"></i>
                             </li>
-                            <li onmouseenter="document.getElementById('dk_aa').style.color ='rgb(46, 0, 83)'"
-                                onmouseleave="document.getElementById('dk_aa').style.color ='rgb(255,255,255)'"
-                                onmouseover="user_block_open()" id="dangki">
+                            <li onmouseenter="document.getElementById('dk_aa').style.color ='rgb(46, 0, 83)'" onmouseleave="document.getElementById('dk_aa').style.color ='rgb(255,255,255)'" onmouseover="user_block_open()" id="dangki">
                                 <a id="dk_aa" href="Dangky.html">Đăng ký</a>
                                 <i class="fas fa-users"></i>
                             </li>
@@ -93,18 +89,14 @@
                 <li> <a class="nav_text-style" href="index.html">Trang chủ</a></li>
                 <li> <a class="nav_text-style" href="tourdulich.html">Tour du lịch</a>
                     <ul>
-                        <li onmouseenter="document.getElementById('nav_trongnuoc').style.display='block';"
-                            onmouseleave="close_narHover('nav_trongnuoc')"> <a class="nav_text-style"
-                                href="tourdulich.html?quocgia=Trong Nước">Tour trong nước</a>
+                        <li onmouseenter="document.getElementById('nav_trongnuoc').style.display='block';" onmouseleave="close_narHover('nav_trongnuoc')"> <a class="nav_text-style" href="tourdulich.html?quocgia=Trong Nước">Tour trong nước</a>
                             <ul id="nav_trongnuoc">
                                 <li><a href="tourdulich.html?quocgia=Trong Nước&khuvuc=Miền Bắc">Miền Bắc</a> </li>
                                 <li><a href="tourdulich.html?quocgia=Trong Nước&khuvuc=Miền Trung">Miền Trung</a> </li>
                                 <li><a href="tourdulich.html?quocgia=Trong Nước&khuvuc=Miền Nam">Miền Nam</a> </li>
                             </ul>
                         </li>
-                        <li onmouseenter="document.getElementById('nav_ngoainuoc').style.display='block';"
-                            onmouseleave="close_narHover('nav_ngoainuoc')"> <a class="nav_text-style"
-                                href="tourdulich.html?quocgia=NgoaiNuoc">Tour ngoài nước</a>
+                        <li onmouseenter="document.getElementById('nav_ngoainuoc').style.display='block';" onmouseleave="close_narHover('nav_ngoainuoc')"> <a class="nav_text-style" href="tourdulich.html?quocgia=NgoaiNuoc">Tour ngoài nước</a>
                             <ul id="nav_ngoainuoc">
                                 <li><a href="tourdulich.html?quocgia=NgoaiNuoc&khuvuc=ChauA">Châu Á</a> </li>
                                 <li><a href="tourdulich.html?quocgia=NgoaiNuoc&khuvuc=ChauAu">Châu Âu</a> </li>
@@ -129,10 +121,8 @@
                 <div class="modal__inner">
                     <!-- login  -->
                     <div class="login">
-                        <input type="button" value="X"
-                            onclick="document.getElementById('modal__container').style.display='none'" id="close">
-                        <div style="text-align: center;padding-left: 50px;"><img style=""
-                                src="asset/images/logo/logo.png" width="250px" alt="
+                        <input type="button" value="X" onclick="document.getElementById('modal__container').style.display='none'" id="close">
+                        <div style="text-align: center;padding-left: 50px;"><img style="" src="asset/images/logo/logo.png" width="250px" alt="
                             error"></div>
                         <h3 style="font-family: Fester_Bold; font-size: 25px;">Đăng nhập</h3>
                         <form action="" method="get">
@@ -155,9 +145,7 @@
                             <label for=""><a id="linktoQuenmk" href="">Quên mật khẩu</a></label>
                             <br>
                             <br>
-                            <input onclick="login(this)" type="button"
-                                style="font-family: sans-serif; font-weight: normal;" value="Đăng nhập"
-                                id="btnDangnhap">
+                            <input onclick="login(this)" type="button" style="font-family: sans-serif; font-weight: normal;" value="Đăng nhập" id="btnDangnhap">
                             <br>
                             <br>
                             <label for=""><a id="linktoDangki" href="Dangky.html">Tạo tài khoản mới</a></label>
@@ -171,7 +159,7 @@
                             <input type="button" id="tw_link-icon">
                             <br>
 
-                            <label for=""><a id="linktoHelp" href="">help</a></label>
+                            <label for=""><a id="linktoHelp" href="">Help</a></label>
                         </form>
                     </div>
 
