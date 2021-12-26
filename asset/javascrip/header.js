@@ -14,9 +14,6 @@ function user_block_open() {
 }
 function user_block_close(){
     document.getElementById('user-block').style.display = 'none';
-    // setTimeout(function(){
-        
-    // }, 5000);
 }
 
 function hamburger_o() {

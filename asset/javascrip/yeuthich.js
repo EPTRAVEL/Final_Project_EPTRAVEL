@@ -6,7 +6,6 @@ function themvaoyeuthich(x) {
   //Lấy ID bằng click  -> DOM
   var getID = x.parentElement.children;
   var id = getID[1].children[0].innerText;
-  // alert(id);
   var yt = new Array(id);
   var title = getID[0].children[0].innerText; //Lấy title
   for (var i = 0; i < yeuthich.length; i++) {
@@ -26,11 +25,10 @@ function xoayeuthich_store(x) {
   var mt = x.parentElement;
   var matour = mt.parentElement.children[1].children[1].children[1].innerText;
 
-  // mt.remove();
   alert("Đã xóa Tour: " + matour + " ra khỏi danh sách yêu thích");
 
-  //Xóa sp trong mảng
 
+  //Xóa sp trong mảng
   var yt = sessionStorage.getItem("yeuthich");
   var yeuthich = JSON.parse(yt);
 
@@ -82,7 +80,6 @@ function ascending_yeuthich() {
         );
       }
     });
-    // document.getElementById("category").innerHTML = "";
     threeFamous(arr);
   }
 }

@@ -21,7 +21,6 @@ function ascending() {
         return b.giamgia*b.giatiennguoilon/100 - a.giamgia*a.giatiennguoilon/100
       }
     });
-    // document.getElementById("category").innerHTML = "";
     myFunction(arr);
   }
 }

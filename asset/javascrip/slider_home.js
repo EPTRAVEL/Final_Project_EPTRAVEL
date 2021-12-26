@@ -36,7 +36,6 @@ window.onload= function(){
           }
         }
       ],
-      // arrows: false,
       prevArrow:
         '<button type="button" class="slick-prev pull-left"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>',
       nextArrow:
@@ -49,10 +48,8 @@ window.onload= function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       infinite: true,
-      // dots: true,
       autoplay: true,
       autoplaySpeed: 10000,
-      // arrows: false,
       responsive: [
         {
           breakpoint: 1242,
@@ -100,10 +97,8 @@ var user = JSON.parse(us);
    var yt_index = sessionStorage.getItem("yeuthich");
    var yeuthich_index = JSON.parse(yt_index);
    if (sessionStorage.getItem("yeuthich") === null||yeuthich_index.length == 0) {
-     // alert('ko có');
      document.getElementById("yeuthich_index").style.display = "none";
    } else {
-     // alert('co');
      document.getElementById("yeuthich_index").style.display = "block";
      document.getElementById("yeuthich_index").innerHTML = yeuthich_index.length;
    }

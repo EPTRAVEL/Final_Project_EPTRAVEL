@@ -1,32 +1,3 @@
-
-// $(document).on("change", ".sapxep[0]", function () {
-
-//     var sortingMethod = $(this).val();
-
-//     if (sortingMethod == 'thap-cao') {
-//         tangdan();
-//     }
-//     else if (sortingMethod == 'cao-thap') {
-//         giamdan();
-//     }
-
-// });
-// function tangdan() {
-//     var touritem = $('.tour-item');
-//     touritem.sort(function (a, b) {
-//         return $(a).data("giatiennguoilon") - $(b).data("giatiennguoilon")
-//     });
-//     $(".locsanpham-tour").html(touritem);
-// }
-
-// function giamdan() {
-//     var touritem = $('.tour-item');
-//     touritem.sort(function (a, b) { return $(b).data("giatiennguoilon") - $(a).data("giatiennguoilon") });
-//     $(".locsanpham-tour").html(touritem);
-// }
-
-//Decode utf8
-
 var xmlhttp = new XMLHttpRequest();
 var url = "asset/data/tour.json";
 xmlhttp.onreadystatechange = function () {
@@ -40,12 +11,7 @@ xmlhttp.open("GET", url, true);
 xmlhttp.send();
 
 function goThongtin(id) {
-  // if (localStorage.getItem("User_login") === null) {
-  //   alert("Cần phải đăng nhập trước khi đặt Tour");
-  //   document.getElementById("modal__container").style.display = "flex";
-  // } else {
     window.location.href = "thongtin.html?matour=" + id;
-  // }
 }
 function goChiTiet(id) {
   window.location.href = "chitiettour.html?matour=" + id;
@@ -146,19 +112,6 @@ function myFunction(arr) {
       arr[i].ma_tour +
       '"' +
       ")'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themyeuthich_tour(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></div>";
-    // div += "<div class='tour-item'><a href='chitiettour.html?matour=" +
-    //     arr[i].ma_tour + "' title='" +
-    //     arr[i].ten_tour + "'><div class='tour-item__image'><img src='" +
-    //     arr[i].images[1] + "'alt='" +
-    //     arr[i].ten_tour + "'></div><div class='card-body'><div  class='tour-item__title'><h3>" +
-    //     arr[i].ten_tour + "</h3></div><p class='tour-item__code'> Mã Tour: <span>" +
-    //     arr[i].ma_tour + "</span></p><p class='tour-item__departure'>Nơi khởi hành: <span>" +
-    //     arr[i].noikhoihanh + "</span></p><div class='tour-item__price--current__number'>Giá <span id='tour-item__price--current__number'>" +
-    //     formatNumber(arr[i].giatiennguoilon) + "đ</span>/Khách</div><div class='tour-item__price--current'><button  class='btn btn-book' onclick='window.location.href='chitiettour.html?matour='" +
-    //     arr[i].ma_tour + "'><span id='icon'><img src='./asset/images/ICON/cart.png' alt='Đặt hàng'></span> Đặt ngay</button><button class='btn btn-block' onclick='window.location.href='chitiettour.html?matour='" +
-    //     arr[i].ma_tour + "'>Xem chi tiết</button></div><button style='z-index: 10;' onclick='themvaoyeuthich(this)' class='yeuthich'><span id='icon'><img src='./asset/images/ICON/plus.png'alt='plus'></span> Thêm vào yêu thích</button></div></a></div>"
-
-    // onclick='goThongTin("+arr[i].ma_tour+")'
   }
   div += "</div>";
   document.getElementById("category").innerHTML = div;
@@ -193,9 +146,6 @@ function themyeuthich_tour(x) {
 //sắp xếp tour
 
 function myFunction_loc(arr) {
-  // arrKhuVuc = [a,b];
-  // arrDiemDen = [];
-  // arrSoNgayTour = [];
   var arrKhuVuc_tn = new Array();
   var arrKhuVuc_nn = new Array();
 
@@ -203,13 +153,6 @@ function myFunction_loc(arr) {
   var arrDiemDen_nn = new Array();
 
   var arrSoNgayTour = new Array();
-
-  // add từ data thành arr
-  // for (i = 0; i < arr.length; i++) {
-  //     arrKhuVuc.push(arr[i].khuvuc);
-  //     arrDiemDen.push(arr[i].diemden);
-  //     arrSoNgayTour.push(arr[i].thoigian);
-  // }
   for (i = 0; i < arr.length; i++) {
     if (arr[i].quocgia == "Tour du lịch trong nước") {
       arrKhuVuc_tn.push(arr[i].khuvuc);
@@ -239,9 +182,6 @@ function myFunction_loc(arr) {
   arrSoNgayTour = arrSoNgayTour.filter(
     (item, index) => arrSoNgayTour.indexOf(item) === index
   );
-  // arrDiemDen = [...new Set(arrDiemDen)];
-  // arrSoNgayTour = [...new Set(arrSoNgayTour)];
-
   var div =
     '<h2>LỌC KẾT QUẢ</h2><div><select onchange="locQuocGia(); " name="quocgia" id="quocgia" class=" select-item"><option value="0" id="op_none">--Chọn quốc gia--</option><option id="op_trongnuoc" value="1">Tour trong nước</option><option value="2" id="op_ngoainuoc">Tour ngoài nước</option></select></div><div ><select onclick="locKhuVuc()" name="khuvuc" id="khuvuc" class=" select-item"><option value="0">--Chọn khu vực--</option>';
 
@@ -304,7 +244,6 @@ function locQuocGia() {
   var nn = document.getElementsByClassName("NgoaiNuoc-distinguish");
 
   if (value === "0") {
-    // window.location.href = ('tourdulich.html');
     filterSelection("tour-item");
     document.getElementById("title_dich_mien").innerText = "Tour du lịch ";
     for (i = 0; i < tn.length; i++) {
@@ -317,7 +256,6 @@ function locQuocGia() {
     filterSelection("trongnuoc");
     document.getElementById("title_dich_mien").innerText =
       "Tour du lịch trong nước";
-    // window.location.href = ('tourdulich.html?quocgia=Trong Nước');
 
     for (i = 0; i < tn.length; i++) {
       tn[i].style.display = "block";
@@ -329,8 +267,6 @@ function locQuocGia() {
     filterSelection("ngoainuoc");
     document.getElementById("title_dich_mien").innerText =
       "Tour du lịch ngoài nước";
-
-    // window.location.href = ('tourdulich.html?quocgia=NgoaiNuoc');
 
     for (i = 0; i < tn.length; i++) {
       tn[i].style.display = "none";
@@ -414,22 +350,6 @@ function locDiemDi() {
   var value = document.getElementById("diemdi").value;
   var value_quocgia = document.getElementById("quocgia").value;
   var value_khuvuc = document.getElementById("khuvuc").value;
-  // alert(value_quocgia);
-  // alert(value_khuvuc);
-
-  // if (value_quocgia != 0) {
-  //   var quocgia = value_quocgia==1?'trongnuoc':"ngoainuoc"
-  //   if (value === "Hà Nội") {
-  //     filterSelection('hanoi');
-  //     filterSelection(quocgia);
-
-  //   }
-  //   if (value === "TP. Hồ Chí Minh") {
-  //     filterSelection(quocgia);
-  //   }
-  // }
-  // alert(removeVietnameseTones(value_khuvuc).replace(/\s/g, '').toLowerCase())
-
   if (value_khuvuc != 0) {
     var khuvuc = removeVietnameseTones(value_khuvuc)
       .replace(/\s/g, "")

@@ -32,22 +32,6 @@
                     <form>
                         <input onkeyup="searchFunc()" id="menu__search" class="search-bar_text-style" type="search" name="search" placeholder="Search..">
                         <ul id="search__list">
-                            <!-- <li class="menu__item">
-                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
-                                <span>mot</span>
-                            </li>
-                            <li class="menu__item">
-                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
-                                <span>hai</span>
-                            </li>
-                            <li class="menu__item">
-                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
-                                <span>Ba</span>
-                            </li>
-                            <li class="menu__item">
-                                <img src="./asset/images/IMAGE/bien_ho.jpg" width="150px" alt="Error">
-                                <span>Bốn</span>
-                            </li> -->
                         </ul>
                     </form>
                     <script src="./asset/javascrip/search.js"></script>
@@ -59,10 +43,6 @@
                 <div class="user-icon main-icon">
                     <ul list-style="none"><input type="button" id="user-icon" onclick="user_block()">
                         <div class="" id="user-block">
-
-                            <!-- onmouseleave="user_block_close()"
-                            onmouseover="user_block_open()" -->
-
                             <li id="dangnhap" onmouseover="user_block_open()" onclick="document.getElementById('modal__container').style.display='flex';user_block_close()">
                                 <span id="dangnhap__id">Đăng nhập</span>
                                 <i class="fas fa-sign-in-alt"></i>
@@ -166,31 +146,11 @@
                 </div>
             </div>
         </div>
-        <!-- <p id="result">khoa</p>
-        <p id="result_t">khoa</p>
-        <script>
-            function displayWindowSize() {
-                var w = window.outerWidth;
-                var h = window.outerHeight;
-                var txt = "Window size: width=" + w + ", height=" + h;
-                document.getElementById("result").innerHTML = w;
-                if(parseInt(document.getElementById("result").innerHTML)>=750){
-                    document.getElementById("nav_id").style.display='block !important'
-                }
-                
-            }
-            window.onresize = displayWindowSize;
-            
-                document.getElementById("result_t").innerHTML = window.onresize;
-        </script> -->
-
 
         <!-- Lấy User infor -->
         <script src="./asset/javascrip/dangnhap.js"></script>
 
     </div>
-
-
 
 </body>
 

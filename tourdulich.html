@@ -144,20 +144,6 @@
                 }
             }
 
-            // if (user.length == 1) {
-            //     alert("Đăng nhập thành công :v")
-            //     alert(user[0][5])
-            //     for (i = 0; i < arr.length; i++) {
-            //         document.getElementsByClassName('modal')[0].style.display = 'none';
-            //         document.getElementById('user-icon').style.backgroundImage = 'url(' + "'" + user[0][5] + "!important'" + ')';
-            //         document.getElementById('user-icon').style.backgroundPosition = 'center';
-            //         document.getElementById('user-icon').style.backgroundSize = '45px';
-            //         document.getElementById('user-icon').style.borderRadius = '50px';
-            //         document.getElementById('user-icon').style.border = '1px solid white';
-            //         document.getElementById('user-icon').style.width = '36px'
-            //     }
-
-            // }
         }
 
 
@@ -182,56 +168,9 @@
             </div>
 
             <div class="locsanpham">
-                <div class="locsanpham-select" id="locSanPham">
-                    <!-- <h2>LỌC KẾT QUẢ</h2>
-                    <div>
-                        <select name="quocgia" id="quocgia" class=" select-item">
-                            <option value="0">--Chọn quốc gia--</option>
-                            <option value="1">Tour trong nước</option>
-                            <option value="2">Tour ngoài nước</option>
-                        </select>
-                    </div>
-                    <div>
-                        <select name="khuvuc" id="khuvuc" class=" select-item">
-                            <option value="0">--Chọn khu vực--</option>
-                            <option value="1">Tour trong nước</option>
-                            <option value="2">Tour ngoài nước</option>
-                        </select>
-                    </div>
 
-                    <div>
-                        <select name="loaihinhtour" id="loaihinhtour" class=" select-item">
-                            <option value="trongnuoc">--Loại hình tour--</option>
-                            <option value="trongnuoc">Tour trọn gói</option>
-                            <option value="trongnuoc">Tour gia đình</option>
-                        </select>
-                    </div>
-                    <div>
-                        <select name="diemdi" id="diemdi" class=" select-item">
-                            <option value="0">--Điểm đi--</option>
-                            <option value="3">Hà Nội</option>
-                            <option value="4">TP. Hồ Chí Minh</option>
-                        </select>
-                    </div>
-                    <div>
-                        <select name="diemden" id="diemden" class="select-item">
-                            <option value="0">--Điểm đến--</option>
-                            <option value="5">Pháp</option>
-                            <option value="6">Thụy Sĩ</option>
-                            <option value="7">Nhật Bản</option>
-                            <option value="8">Trung Quốc</option>
-                            <option value="9">Canada</option>
-                            <option value="10">Mỹ</option>
-                        </select>
-                    </div>
-                    <div>
-                        <select name="songaytour" id="songaytour" class="select-item">
-                            <option value="0">--Số ngày tour--</option>
-                            <option value="4-7">4-7 ngày</option>
-                            <option value="8-14">8-14 ngày</option>
-                            <option value=">14">Trên 14 ngày</option>
-                        </select>
-                    </div> -->
+                <div class="locsanpham-select" id="locSanPham">
+
                 </div>
                 <div class="locsanpham-right">
                     <div class="sapxep-select">
@@ -244,51 +183,6 @@
                     </div>
                     <div id="category">
 
-                        <!-- <div class="tour-item">
-                            <div class="tour-item__image">
-                                <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
-                                    <img src="asset/images/IMAGE/SanPham/TrongNuoc/MienBac/HaNoi/HN1.jpg"
-                                        alt="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h3 class="tour-item__title">
-                                    <a href="" title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử ">Hà Nội - Bái
-                                        Đính -
-                                        Tràng An - Hạ Long - Yên Tử </a>
-                                </h3>
-                                <p class="tour-item__code">
-                                    Mã tour: abc1234
-                                </p>
-                                <p class="tour-item__departure">Nơi khởi hành: <span>TP. Hồ Chí Minh</span></p>
-                                <div class="tour-item__price--current__number">
-                                    Giá <span id="tour-item__price--current__number">8,390,000₫</span>/Khách
-                                </div>
-                                <div class="tour-item__price--current">
-                                    <div class="btn btn-book">
-                                        <a href="/Booking/TourBooking?tourId=801000d1-2dff-40ab-b45d-101e7bb3a2e6"
-                                            class="btn-primary">
-                                            <span id="icon"><img src="./asset/images/ICON/cart.png" alt=""></span>
-                                            <label>
-                                                Đặt ngay
-                                            </label>
-                                        </a>
-                                    </div>
-                                    <div class="btn btn-block">
-                                        <a href="/tourNDSGN106-085-041221VN-V/ha-noi-bai-dinh-trang-an-ha-long-yen-tu-.aspx"
-                                            title="Hà Nội - Bái Đính - Tràng An - Hạ Long - Yên Tử "
-                                            class="btn product-item__summary__btn-login">
-                                            <label>
-                                                Xem chi tiết
-                                            </label>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="yeuthich"><a href=""><span id="icon"><img src="./asset/images/ICON/plus.png"
-                                                alt=""></span> Thêm vào
-                                        yêu thích</a></div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -299,8 +193,6 @@
         <!-- gọi thư viện -->
 
         <script>
-
-            // window.onload = filterSelection("tour-item");
 
 
             //Xử lý lọc
@@ -328,9 +220,6 @@
 <script>
     var us = localStorage.getItem("User_login");
     var user = JSON.parse(us);
-
-
-
 
 </script>
 

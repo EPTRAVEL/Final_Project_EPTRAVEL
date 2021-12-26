@@ -7,7 +7,6 @@ function searchFunc() {
   let menusearch = document.querySelector("#menu__search");
 
   let menuitems = Array.from(document.querySelectorAll(".menu__item"));
-  // console.log(menuitems);
   menusearch.value = menusearch.value.toLowerCase();
 
   menuitems.forEach(function (el) {
@@ -53,11 +52,6 @@ function gotoChiTiet(id){
     window.location.href = "chitiettour.html?matour=" +  id
 }
 
-// if(document.getElementById("search__list").style.height>10%){
-//   document.getElementById("search__list").style.overflow = 'scroll'
-// }
-// console.log(document.getElementById("search__list").style.height)
-
 
 function searchFunc_yeuthich() {
   let menusearch = document.querySelector("#menusearch");
@@ -77,7 +71,6 @@ function searchFunc_yeuthich() {
     } else se.style.display = "none";
 
     if (menusearch.value == "") {
-      // se.style.display = "none";
     document.getElementById('likelist').style.display = 'block !important'
     }
   });
